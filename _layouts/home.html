@@ -3,16 +3,31 @@ layout: default
 ---
 
 <section class="section main-title">
-    <h1 class="main-title">{{ site.title }}</h1>
+    <img src="/assets/images/logo_navigation.svg">
     <h2 class="main-title">Informaci&oacute;n y nexos para la preservaci&oacute;n del ambiente, el desarrollo sostenible y el bienestar social</h2>
 </section>
-<ul class="posts">
-    {% for post in page.posts %}
-    <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
+<div class="spacer"></div>
+
+<section class="section">
+    <h1>&iquest;Qu&eacute; buscamos?</h1>
+    {{ page.teaser }}
+    <div class="list teaser-data">
+        <a class="list-item">
+            {{ page.teaser_data1 }}
+        </a>
+        <a class="list-item">
+            {{ page.teaser_data2 }}
+        </a>
+        <a class="list-item">
+            {{ page.teaser_data3 }}
+        </a>
+    </div>
+</section>
+
+{% include services.html %}
+
+{% include projects.html %}
+
+{% include team.html %}
 
 {{ content }}
