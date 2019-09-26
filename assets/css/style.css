@@ -225,12 +225,10 @@ div.is-card i {
     font-size: 3.2em;
 }
 
-div.is-card .title:hover {
-    font-size: 2.5em !important;
-    transition: ease-in-out 400ms;
+
+section.team div.tile article:hover {
+    box-shadow: none;
 }
-
-
 
 .services-1 {
     background-image: linear-gradient(45deg, #00CC66, #00CC99);
@@ -301,6 +299,10 @@ section.team .tile {
 
     .team-7 {
         background-image: linear-gradient(90deg, #9999FF, #99FFCC);
+    }
+
+    .team-1:hover, .team-2:hover, .team-3:hover, .team-7:hover {
+        box-shadow: 0 0 3px 1px #333 !important;
     }
 }
 
