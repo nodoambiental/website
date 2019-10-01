@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<section class="section main-title">
+    <img src="/assets/images/logo_navigation.svg">
+    <h2 class="main-title">{{ page.title }}</h2>
+</section>
+<div class="spacer"></div>
+
+<section class="section services">
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+            <div class="tile">
+                <div class="tile is-parent">
+                    <article class="tile is-child services-1">
+                        <div class="is-card">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure>
+                                        <i class="fas fa-{{ page.icon }}"></i>
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-12">{{ page.title }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section content">
+    {{ content }}
+</section>
+

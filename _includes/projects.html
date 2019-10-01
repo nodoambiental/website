@@ -36,29 +36,31 @@
                 </div>
                 <div class="tile is-parent is-vertical">
                     <article class="tile is-child projects-1">
-                        <div class="is-card">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure>
-                                        <i class="fas fa-{{ page.projects_1_icon }}"></i>
-                                    </figure>
+                        <a href="./project1.html">
+                            <div class="is-card">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure>
+                                            <i class="fas fa-{{ page.projects_1_icon }}"></i>
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <a>
+                                            <p class="title is-12">{{ page.projects_1_name }}</p>
+                                        </a>
+                                        <p class="subtitle is-6">{{ page.projects_1_teaser }}</p>
+                                    </div>
                                 </div>
-                                <div class="media-content">
-                                    <a>
-                                        <p class="title is-12">{{ page.projects_1_name }}</p>
-                                    </a>
-                                    <p class="subtitle is-6">{{ page.projects_1_teaser }}</p>
+                                <div class="content">
+                                    {{ page.projects_1_content }}
+                                    <br />
+                                    <h2 style="text-align:left;" class="is-6">Objetivos</h2>
+                                    {{ page.projects_1_target_1 }}
+                                    <hr />
+                                    {{ page.projects_1_target_2 }}
                                 </div>
                             </div>
-                            <div class="content">
-                                {{ page.projects_1_content }}
-                                <br />
-                                <h2 style="text-align:left;" class="is-6">Objetivos</h2>
-                                {{ page.projects_1_target_1 }}
-                                <hr />
-                                {{ page.projects_1_target_2 }}
-                            </div>
-                        </div>
+                        </a>
                     </article>
                     <article class="tile is-child projects-3">
                         <div class="is-card">
