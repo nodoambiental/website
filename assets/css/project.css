@@ -1,0 +1,11 @@
+@media only screen and (min-width: 780px) {
+    .content {
+        padding: 10%;
+    }
+}
+
+
+
+p, ul, li, h2, h3, h4 {
+    text-align: left;
+}
