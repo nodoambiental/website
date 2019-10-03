@@ -6,54 +6,54 @@ icon: battery-quarter
 
 # Pilas Usadas
 
-## øPor quÈ manejar desechos contaminantes?
-- Las pilas son ˙tiles en muchas situaciones. Sin embargo, su fabricaciÛn implica el uso de materiales contaminantes. 
+## ¬øPor qu√© manejar desechos contaminantes?
+- Las pilas son √∫tiles en muchas situaciones. Sin embargo, su fabricaci√≥n implica el uso de materiales contaminantes. 
 - De manera invisible, estos materiales contaminantes terminan en la tierra y el agua, cuando no son tratados adecuadamente. Impactan negativamente en la salud ambiental y humana. 
-- La mayorÌa de las pilas tienen compuestos que contaminan el suelo, el agua y los alimentos, y deben ser desechadas y depositadas en lugares especiales.
-- El manejo de desechos y la b˙squeda de alternativas son vitales para reducir la contaminaciÛn ambiental y mejorar el bienestar social.
+- La mayor√≠a de las pilas tienen compuestos que contaminan el suelo, el agua y los alimentos, y deben ser desechadas y depositadas en lugares especiales.
+- El manejo de desechos y la b√∫squeda de alternativas son vitales para reducir la contaminaci√≥n ambiental y mejorar el bienestar social.
 
 
-![difusiÛn](/home/nodo/nodo/images/pilas.jpg)
+![difusi√≥n](/home/nodo/nodo/images/pilas.jpg)
 
 
 ### Objetivos
-- Ayudar a reducir la acumulaciÛn de materiales contaminantes y su impacto sobre la salud humana y ambiental.
+- Ayudar a reducir la acumulaci√≥n de materiales contaminantes y su impacto sobre la salud humana y ambiental.
 - Acopiar desechos y cooperar con plantas de tratamiento.
-- Difundir informaciÛn sobre manejo de desechos y desarrollo de fuentes de energÌa alternativas.
+- Difundir informaci√≥n sobre manejo de desechos y desarrollo de fuentes de energ√≠a alternativas.
 
 
 ## Materiales
-- recipientes pl·sticos especiales
+- recipientes pl√°sticos especiales
 - cinta adhesiva
-- cartelerÌa
-- sistema de recolecciÛn y depÛsitos especiales
+- carteler√≠a
+- sistema de recolecci√≥n y dep√≥sitos especiales
 
 
 ### A futuro
-- CoordinaciÛn y organizaciÛn en Rosario de la Frontera (Salta), en San Miguel de Tucum·n y Yerba Buena (Tucum·n). 
-- GestiÛn de depÛsitos.
-- CoordinaciÛn CÛrdoba, Santa Fe, Paran·, La Plata, Buenos Aires.
+- Coordinaci√≥n y organizaci√≥n en Rosario de la Frontera (Salta), en San Miguel de Tucum√°n y Yerba Buena (Tucum√°n). 
+- Gesti√≥n de dep√≥sitos.
+- Coordinaci√≥n C√≥rdoba, Santa Fe, Paran√°, La Plata, Buenos Aires.
 - Comentarios Antonio Elio Brailovsky
 
 
-![gestiÛn](/home/nodo/nodo/images/flujo-pilas.svg)
+![gesti√≥n](/home/nodo/nodo/images/flujo-pilas.svg)
 
 
-## LÌnea de tiempo
+## L√≠nea de tiempo
 - enero - propuesta por Renzo y Facundo Bernacki.
-- enero-julio - b˙squeda de informaciÛn.
-- 18 de agosto - DifusiÛn por redes sociales. Lanzamiento de recolecciÛn en Rosario de la Frontera.
+- enero-julio - b√∫squeda de informaci√≥n.
+- 18 de agosto - Difusi√≥n por redes sociales. Lanzamiento de recolecci√≥n en Rosario de la Frontera.
 
 
 ### Referencias
-- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwiundW5m5DkAhUJHbkGHb_nDfsQFjAAegQIARAC&url=https%3A%2F%2Fwww.inti.gob.ar%2Fpublicaciones%2Fdescargac%2F20&usg=AOvVaw3FNtWpCvKoDIO683jvm7T4">GestiÛn de pilas y baterÌas en Argentina - Instituto Nacional de TecnologÌa Industrial</a>
+- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwiundW5m5DkAhUJHbkGHb_nDfsQFjAAegQIARAC&url=https%3A%2F%2Fwww.inti.gob.ar%2Fpublicaciones%2Fdescargac%2F20&usg=AOvVaw3FNtWpCvKoDIO683jvm7T4">Gesti√≥n de pilas y bater√≠as en Argentina - Instituto Nacional de Tecnolog√≠a Industrial</a>
 - <a href="https://www.foroambiental.net/pilas-en-desuso">Pilas en desuso - foroambiental</a>
 
 
 ### Palabras clave - etiquetas
 - desechos contaminantes
-- baterÌas
-- contaminaciÛn ecosistÈmica
+- bater√≠as
+- contaminaci√≥n ecosist√©mica
 
 
 ### Idea
@@ -72,25 +72,25 @@ icon: battery-quarter
 
 
 ### Desarrollo Web
-- Laura Gonz·lez
-- ¡gata Ordano
+- Laura Gonz√°lez
+- √Ågata Ordano
 - Mariano Ordano
 
 
-### Textos e im·genes
+### Textos e im√°genes
 - Renzo Bernacki
 - Facundo Bernacki
-- Laura Gonz·lez
-- ¡gata Ordano
+- Laura Gonz√°lez
+- √Ågata Ordano
 - Cecilia Ordano
 - Mariano Ordano
 
 
 ### Dudas? Aportes? Inquietudes?
-- EscrÌbenos a correonodoambiental@gmail.com, si quieres contribuir con esta p·gina.
+- Escr√≠benos a correonodoambiental@gmail.com, si quieres contribuir con esta p√°gina.
 
 
-### VinculaciÛn Nodo Ambiental
+### Vinculaci√≥n Nodo Ambiental
 - Proyecto Pilas Usadas, <a href="https://nodoambiental.org">Nodo Ambiental</a>
 
 
@@ -99,11 +99,11 @@ Nodo Ambiental (2019) Pilas Usadas. Rosario de la Frontera, Salta, Argentina. Re
 
 
 ### Licencia
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra est· bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra est√° bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
 
 Usted es libre de:
 
-+ Compartir ó copiar y redistribuir el material en cualquier medio o formato
++ Compartir ‚Äî copiar y redistribuir el material en cualquier medio o formato
 
-+ Adaptar ó remezclar, transformar y crear a partir del material
++ Adaptar ‚Äî remezclar, transformar y crear a partir del material
 
