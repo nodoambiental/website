@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-mentions"
   gem "liquid_reading_time"
   gem "jekyll-minifier"
+  gem 'jekyll-commonmark'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
