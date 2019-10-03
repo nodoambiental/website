@@ -18,8 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-encoding: utf-8
-markdown: CommonMark
+encoding: UTF-8
 excerpt_separator: <!--section-->
 title: Nodo Ambiental
 email: correonodoambiental@gmail.com
@@ -29,10 +28,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: twitter
 github_username:  github
-
-commonmark:
-  options: ["SMART","FOOTNOTES","VALIDATE_UTF8"]
-  extensions: ["strikethrough", "autolink", "table", "tasklist"]
 
 # Build settings
 theme: minima
