@@ -1,5 +1,3 @@
-
-
 ---
 layout: project
 title: Pilas Usadas
