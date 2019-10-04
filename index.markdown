@@ -28,16 +28,20 @@ services_3_content: Ofrecemos servicios con cargo a organizaciones gubernamental
 projects_text: Texto de los proyectos.
 
 projects_1_name: Pilas usadas
-projects_1_teaser: Slogan va aqui.
+projects_1_teaser:
 projects_1_icon: battery-quarter
 projects_1_content: Las pilas son &uacute;tiles en muchas situaciones. Sin embargo, su fabricaci&oacute;n implica el uso de materiales contaminantes. De manera invisible, estos materiales contaminantes terminan en la tierra y el agua, cuando no son tratados adecuadamente. Impactan negativamente en la salud ambiental y humana. El manejo de desechos y la b&uacute;squeda de alternativas son vitales para reducir la contaminaci&oacute;n ambiental y mejorar el bienestar social.
-projects_1_target_1: Reducir la acumulaci&oacute;n de materiales contaminantes y su impacto sobre la salud humana y ambiental.
-projects_1_target_2: Difundir informaci&oacute;n sobre manejo de desechos y desarrollo de fuentes de energ&iacute;a alternativas.
+projects_1_target_1: Ayudar a reducir la acumulación de materiales contaminantes y su impacto sobre la salud humana y ambiental.
+projects_1_target_2: Acopiar desechos y cooperar con plantas de tratamiento.
+projects_1_target_3: Difundir informaci&oacute;n sobre manejo de desechos y desarrollo de fuentes de energ&iacute;a alternativas.
 
-projects_2_name: Salud alimentaria
-projects_2_teaser: Slogan va aqui.
+projects_2_name: Salud, Seguridad e Inocuidad Alimentaria
+projects_2_teaser:
 projects_2_icon: medkit
-projects_2_content: Los venenos se fabrican en general para controlar plagas u organismos que reducen la producci&oacute;n agr&iacute;cola. Sin embargo, la mayor&iacute;a de estos venenos tienen impactos negativos, persistentes y muy dif&iacute;ciles de erradicar. Excepto en condiciones de exclusi&oacute;n (islas o zonas rodeadas de barreras geogr&aacute;ficas), es casi imposible la erradicaci&oacute;n de plagas. Esta situaci&oacute;n ha llevado al uso masivo de venenos, con dos consecuencias indeseables; generan resistencia en las plagas, e incorporan sustancias venenosas en nuestro cuerpo y en el ambiente a trav&eacute;s de alimentos y desechos.
+projects_2_content: 
+Objetivos</b><br><li>Difundir información sobre salud, seguridad e inocuidad alimentaria.<br><li>Ayudar a reducir el uso de venenos y su impacto sobre la salud humana y ambiental.<br><li>Colaborar con proyectos de seguridad alimentaria y emprendimientos de producción orgánica y agroecológica de alimentos.
+
+Los venenos se fabrican en general para controlar plagas u organismos que reducen la producci&oacute;n agr&iacute;cola. Sin embargo, la mayor&iacute;a de estos venenos tienen impactos negativos, persistentes y muy dif&iacute;ciles de erradicar. Excepto en condiciones de exclusi&oacute;n (islas o zonas rodeadas de barreras geogr&aacute;ficas), es casi imposible la erradicaci&oacute;n de plagas. Esta situaci&oacute;n ha llevado al uso masivo de venenos, con dos consecuencias indeseables; generan resistencia en las plagas, e incorporan sustancias venenosas en nuestro cuerpo y en el ambiente a trav&eacute;s de alimentos y desechos.
 projects_2_target_1: Reducir el uso de venenos y su impacto sobre la salud humana y ambiental.
 projects_2_target_2: Difundir informaci&oacute;n sobre salud y seguridad agro-alimentaria.
 projects_2_target_3: Colaborar con proyectos y emprendimientos de producci&oacute;n org&aacute;nica y agroecol&oacute;gica de alimentos.
