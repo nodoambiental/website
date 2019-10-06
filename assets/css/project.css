@@ -9,3 +9,15 @@
 p, ul, li, h2, h3, h4 {
     text-align: left;
 }
+
+
+.project-subtitle {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+}
+
+h1.main-title {
+    position: relative;
+    top: 10%;
+}

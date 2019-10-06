@@ -129,28 +129,19 @@ anime({
     easing: 'easeOutQuad'
 });
 
+var accordion = document.getElementsByClassName("accordion");
+var i;
 
-for (element of document.querySelectorAll('.main-subtitle')) {
+for (i = 0; i < accordion.length; i++) {
+    accordion[i].addEventListener("click", function () {
+        this.classList.toggle("active");
 
-    element.style.opacity = 0;
-    anime({
-        targets: ".main-subtitle *",
-        translateX: 50
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
     });
-};
-
-let upperTextWaypoint = new Waypoint({
-    element: '.main-subtitle',
-    handler: function (direction) {
-        element.style.transitionDuration = '1000ms';
-        element.style.opacity = 1;
-        anime({
-            targets: ".main-subtitle *",
-            translateX: 0,
-            easing: 'easeOutQuad',
-            delay: anime.stagger(100)
-        });
-    },
-    offset: '50%'
-});
+} 
 

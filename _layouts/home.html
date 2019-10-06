@@ -9,21 +9,7 @@ layout: default
 </section>
 <div class="spacer"></div>
 
-<section class="section main-subtitle">
-    <h1>&iquest;Qu&eacute; buscamos?</h1>
-    <p>{{ page.teaser }}</p>
-    <div class="list teaser-data">
-        <a class="list-item">
-            {{ page.teaser_data1 }}
-        </a>
-        <a class="list-item">
-            {{ page.teaser_data2 }}
-        </a>
-        <a class="list-item">
-            {{ page.teaser_data3 }}
-        </a>
-    </div>
-</section>
+{% include about.html %}
 
 {% include services.html %}
 
@@ -31,4 +17,7 @@ layout: default
 
 {% include team.html %}
 
-{{ content }}
+<section class="tos">
+    <h1>Términos y Condiciones</h1>
+    {% include content/tos.html %}
+</section>
