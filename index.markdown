@@ -28,7 +28,7 @@ services_3_content: Para organizaciones no gubernamentales y escuelas, ofrecemos
 projects_text: Texto de los proyectos.
 
 projects_1_name: Pilas usadas
-projects_1_teaser: 
+projects_1_teaser: .
 projects_1_icon: battery-quarter
 projects_1_content: Las pilas son &uacute;tiles en muchas situaciones. Sin embargo, su fabricaci&oacute;n implica el uso de materiales contaminantes. De manera invisible, estos materiales contaminantes terminan en la tierra y el agua, cuando no son tratados adecuadamente. Impactan negativamente en la salud ambiental y humana. El manejo de desechos y la b&uacute;squeda de alternativas son vitales para reducir la contaminaci&oacute;n ambiental y mejorar el bienestar social.
 projects_1_target_1: Ayudar a reducir la acumulación de materiales contaminantes y su impacto sobre la salud humana y ambiental.
@@ -36,7 +36,7 @@ projects_1_target_2: Acopiar desechos y cooperar con plantas de tratamiento.
 projects_1_target_3: Difundir informaci&oacute;n sobre manejo de desechos y desarrollo de fuentes de energ&iacute;a alternativas.
 
 projects_2_name: Salud, Seguridad e Inocuidad Alimentaria
-projects_2_teaser: 
+projects_2_teaser: .
 projects_2_icon: medkit
 projects_2_content: Objetivos Difundir información sobre salud, seguridad e inocuidad alimentaria.Ayudar a reducir el uso de venenos y su impacto sobre la salud humana y ambiental.Colaborar con proyectos de seguridad alimentaria y emprendimientos de producción orgánica y agroecológica de alimentos.
 
@@ -46,7 +46,7 @@ projects_2_target_2: Difundir informaci&oacute;n sobre salud y seguridad agro-al
 projects_2_target_3: Colaborar con proyectos y emprendimientos de producci&oacute;n org&aacute;nica y agroecol&oacute;gica de alimentos.
 
 projects_3_name: Huella viva
-projects_3_teaser: 
+projects_3_teaser: .
 projects_3_icon: paw
 projects_3_content: La fauna silvestre ayuda en el mantenimiento de la salud del ambiente, mediante la regulaci&oacute;n de plagas, la dispersi&oacute;n de semillas de especies de plantas &uacute;tiles, los ciclos de nutrientes que mantienen la salud del suelo, entre otras funciones que ayudan a mantener recursos naturales que utilizamos. Sin embargo, actualmente la mortalidad de fauna silvestre por tr&aacute;fico vehicular es un problema para la conservaci&oacute;n de la fauna y en consecuencia, de los recursos &uacute;tiles.
 projects_3_target_1: Reducir la mortalidad de fauna silvestre en rutas y caminos.
