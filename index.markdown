@@ -38,12 +38,11 @@ projects_1_target_3: Difundir informaci&oacute;n sobre manejo de desechos y desa
 projects_2_name: Salud, Seguridad e Inocuidad Alimentaria
 projects_2_teaser: .
 projects_2_icon: medkit
-projects_2_content: Objetivos Difundir información sobre salud, seguridad e inocuidad alimentaria.Ayudar a reducir el uso de venenos y su impacto sobre la salud humana y ambiental.Colaborar con proyectos de seguridad alimentaria y emprendimientos de producción orgánica y agroecológica de alimentos.
+projects_2_content: Los venenos se fabrican en general para controlar plagas u organismos que reducen la producci&oacute;n agr&iacute;cola. Sin embargo, la mayor&iacute;a de estos venenos tienen impactos negativos, persistentes y muy dif&iacute;ciles de erradicar. Excepto en condiciones de exclusi&oacute;n (islas o zonas rodeadas de barreras geogr&aacute;ficas), es casi imposible la erradicaci&oacute;n de plagas. Esta situaci&oacute;n ha llevado al uso masivo de venenos, con dos consecuencias indeseables; generan resistencia en las plagas, e incorporan sustancias venenosas en nuestro cuerpo y en el ambiente a trav&eacute;s de alimentos y desechos.
 
-Los venenos se fabrican en general para controlar plagas u organismos que reducen la producci&oacute;n agr&iacute;cola. Sin embargo, la mayor&iacute;a de estos venenos tienen impactos negativos, persistentes y muy dif&iacute;ciles de erradicar. Excepto en condiciones de exclusi&oacute;n (islas o zonas rodeadas de barreras geogr&aacute;ficas), es casi imposible la erradicaci&oacute;n de plagas. Esta situaci&oacute;n ha llevado al uso masivo de venenos, con dos consecuencias indeseables; generan resistencia en las plagas, e incorporan sustancias venenosas en nuestro cuerpo y en el ambiente a trav&eacute;s de alimentos y desechos.
-projects_2_target_1: Reducir el uso de venenos y su impacto sobre la salud humana y ambiental.
-projects_2_target_2: Difundir informaci&oacute;n sobre salud y seguridad agro-alimentaria.
-projects_2_target_3: Colaborar con proyectos y emprendimientos de producci&oacute;n org&aacute;nica y agroecol&oacute;gica de alimentos.
+projects_2_target_1: Difundir información sobre salud, seguridad e inocuidad alimentaria.
+projects_2_target_2: Ayudar a reducir el uso de venenos y su impacto sobre la salud humana y ambiental.
+projects_2_target_3: Colaborar con proyectos de seguridad alimentaria y emprendimientos de producción orgánica y agroecológica de alimentos.
 
 projects_3_name: Huella viva
 projects_3_teaser: .
