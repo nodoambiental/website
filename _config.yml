@@ -26,7 +26,7 @@ email: correonodoambiental@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Descripcion Breve de Nodo Ambiental
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "nodoambiental.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: twitter
 github_username:  github
 

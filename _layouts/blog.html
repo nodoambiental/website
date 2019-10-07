@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<style type="text/css">
+    @import url("/assets/css/blog.css");
+</style>
+
+<section class="section main-title">
+    <img src="/assets/images/logo_navigation.svg">
+    <h2 class="main-title">InfoBlog</h2>
+</section>
+<div class="spacer"></div>
+
+<section class="section services">
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+            {% for post in site.posts %}
+            <div class="tile">
+                <div class="tile is-parent">
+                    <article class="tile is-child services-1 blog-post">
+                        <a href="{{post.url}}">
+                            <div class="is-card">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-12">{{post.title}}</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    {{ post.excerpt }}
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

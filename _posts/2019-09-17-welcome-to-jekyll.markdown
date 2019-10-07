@@ -1,29 +1,41 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Bienvenido a Jekyll"
 date:   2019-09-17 00:17:39 -0300
-categories: proyectos servicios
+categories: bienvenido post 
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Esto es el texto que figura en la tarjeta del post. No figurará en el texto completo de la pagina del post. Para tener mas información de como crear un post, entra a este.
+<!--section-->
 
-Jekyll requires blog post files to be named according to the following format:
+Para agregar un post debes crear un archivo `.markdown` en la carpeta `_posts` que tenga el siguiente formato en el nombre:
 
-`YEAR-MONTH-DAY-title.MARKUP`
+`AÑO-MES-DIA-TITULO.markdown`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Donde Año es un número de cuatro cifras, mes y dia de dos cifras y titulo es el nombre al que referencia el post, sin espacios.
 
-Jekyll also offers powerful support for code snippets:
+Adentro del post debes agregar al principio la parte frontal del archivo. Esta va antes que nada y se delimita por tres guiones.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Dentro de la parte frontal incluirás variables que definirán el comportamiento del post:
 
-Check out the [Jekyll docs][jekyll-docs] for móre info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+```
+---
+layout: post
+title: título
+date: fecha del psot
+categories: categorías
+---
+```
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Por ejemplo, en este post la parte frontal es así:
+
+```
+---
+layout: post
+title:  "Bienvenido a Jekyll"
+date:   2019-09-17 00:17:39 -0300
+categories: bienvenido post 
+---
+```
+
+Para que los demás posts se vean con el formato de éste deberás incluir la variable `layout: post` tal cual está, indicando que usarás el formato `post` para representar el contenido.
+Las otras variables sirven para definir mejor la metadata del post.

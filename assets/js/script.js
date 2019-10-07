@@ -1,19 +1,13 @@
 // Navigation
 
 let burger_menu = document.querySelector("a.navbar-burger");
-let projects_dropdown = document.querySelector("div.navbar-item.has-dropdown");
 
 function toggleMenu() {
     document.querySelector(".burger").classList.toggle("is-active");
     document.querySelector(".navbar-menu").classList.toggle("is-active");
 };
 
-function toggleNavbarDropdown() {
-    document.querySelector(".navbar-item.has-dropdown").classList.toggle("is-active");
-};
-
 burger_menu.addEventListener("click", toggleMenu, false);
-projects_dropdown.addEventListener("click", toggleNavbarDropdown, false);
 
 // Animations
 
@@ -129,8 +123,8 @@ anime({
     easing: 'easeOutQuad'
 });
 
-var accordion = document.getElementsByClassName("accordion");
-var i;
+let accordion = document.getElementsByClassName("accordion");
+let i;
 
 for (i = 0; i < accordion.length; i++) {
     accordion[i].addEventListener("click", function () {
