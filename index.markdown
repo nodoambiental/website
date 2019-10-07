@@ -66,7 +66,7 @@ team_2_brief: Licenciada en Historia, Especialista en Recursos Humanos.
 
 team_3_image: laura.png
 team_3_name: Laura Gonz&aacute;lez
-team_3_brief: Licenciada en Antropolog&iacute;a Social, Artista Pl&aacute;stica.
+team_3_brief: Licenciada en Antropolog&iacute;a Social.
 
 team_4_image: facundo.jpg
 team_4_name: Facundo Bernacki
