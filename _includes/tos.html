@@ -1,0 +1,17 @@
+{% assign tos = site.data.tos %}
+<section id="tos" class="section tos">
+    <h1>{{page.tos_title}}</h1>
+    <br />
+    <ul>
+        {% for element in tos %}
+            <li>
+                {{element.item}}
+            </li>
+            {% for description in element.content %}
+                <p>
+                    {{description.data}}
+                </p>
+            {% endfor %}
+        {% endfor %}
+    </ul>
+</section>

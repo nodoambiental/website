@@ -1,3 +1,4 @@
+{% assign services = site.data.services %}
 <section id="services" class="section services">
     <h1>Nuestros servicios</h1>
     <h2>{{ page.services_text }}</h2>
@@ -5,65 +6,27 @@
         <div class="tile is-vertical is-12">
             <div class="tile">
                 <div class="tile is-parent is-vertical">
-                    <article class="tile is-child services-1">
-                        <a href="./pages/services/services3.html">
+                    {% for service in services %}
+                    <article class="tile is-child services-{{forloop.index}}">
+                        <a href="./pages/services/{{service.name}}.html">
                             <div class="is-card">
                                 <div class="media">
                                     <div class="media-left">
                                         <figure>
-                                            <i class="fas fa-{{ page.services_1_icon }}"></i>
+                                            <i class="fas fa-{{ service.icon }}"></i>
                                         </figure>
                                     </div>
                                     <div class="media-content">
-                                        <p class="title is-12">{{ page.services_1_name }}</p>
+                                        <p class="title is-12">{{ service.name }}</p>
                                     </div>
                                 </div>
                                 <div class="content">
-                                    {{ page.services_1_content }}
+                                    {{ service.content }}
                                 </div>
                             </div>
                         </a>
                     </article>
-                    <article class="tile is-child services-2">
-                        <a href="./pages/services/services2.html">
-                            <div class="is-card">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <figure>
-                                            <i class="fas fa-{{ page.services_2_icon }}"></i>
-                                        </figure>
-                                    </div>
-                                    <div class="media-content">
-                                        <p class="title is-12">{{ page.services_2_name }}</p>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    {{ page.services_2_content }}
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child services-3">
-                        <a href="./pages/services/services1.html">
-                            <div class="is-card">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <figure>
-                                            <i class="fas fa-{{ page.services_3_icon }}"></i>
-                                        </figure>
-                                    </div>
-                                    <div class="media-content">
-                                        <p class="title is-12">{{ page.services_3_name }}</p>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    {{ page.services_3_content }}
-                                </div>
-                            </div>
-                        </a>
-                    </article>
+                    {% endfor %}
                 </div>
             </div>
         </div>

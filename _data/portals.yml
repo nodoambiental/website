@@ -1,0 +1,12 @@
+#  Para modificar el orden de aparición simplemente reorganizarlos, el orden en la página refleja el presente en este archivo
+#  Caracteres unicode son aceptados sin inconvenientes, por lo que agregar acentos o caracteres especiales no representa inconvenientes.
+#  El ícono corresponde a la librería de íconos de Font Awesome 5 Free Solid, puede encontrarse la lista completa en https://fontawesome.com/icons?s=solid
+#  El archivo al que vincula cada tarjeta debe tener el mismo nombre que figura en la tarjeta, en formato .markdown y encontrarse en /pages/portals/
+#  
+- name: Sembradores | Club Fukuoka
+  icon: book-open
+  content: lorem ipsum dolor sit amet etcétera.
+
+- name: Coalition for Potato Supremacy Worldwidw
+  icon: book-open
+  content: Our mission is to prove and impose Potato Supremacy over all other staple foods and increase awareness of the importance of our oh beloved potatoes.

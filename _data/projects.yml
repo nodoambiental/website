@@ -1,0 +1,31 @@
+#  Para modificar el orden de aparición simplemente reorganizarlos, el orden en la página refleja el presente en este archivo
+#  Caracteres unicode son aceptados sin inconvenientes, por lo que agregar acentos o caracteres especiales no representa inconvenientes.
+#  El ícono corresponde a la librería de íconos de Font Awesome 5 Free Solid, puede encontrarse la lista completa en https://fontawesome.com/icons?s=solid
+#  El archivo al que vincula cada tarjeta debe tener el mismo nombre que figura en la tarjeta, en formato .markdown y encontrarse en /pages/projects/
+#  Para agregar objetivos adicionar un ítem a la lista llamada "target", llamado "content", tal como figura en los proyectos presentes
+#  Para eliminar objetivos simplemente removerlos de la lista llamada "target"
+- name: Salud, Seguridad e Inocuidad Alimentaria
+  icon: medkit
+  teaser: 
+  description: Los venenos se fabrican en general para controlar plagas u organismos que reducen la producci&oacute;n agr&iacute;cola. Sin embargo, la mayor&iacute;a de estos venenos tienen impactos negativos, persistentes y muy dif&iacute;ciles de erradicar. Excepto en condiciones de exclusi&oacute;n (islas o zonas rodeadas de barreras geogr&aacute;ficas), es casi imposible la erradicaci&oacute;n de plagas. Esta situaci&oacute;n ha llevado al uso masivo de venenos, con dos consecuencias indeseables; generan resistencia en las plagas, e incorporan sustancias venenosas en nuestro cuerpo y en el ambiente a trav&eacute;s de alimentos y desechos.
+  target:
+  - content: Difundir información sobre salud, seguridad e inocuidad alimentaria.
+  - content: Ayudar a reducir el uso de venenos y su impacto sobre la salud humana y ambiental.
+  - content: Colaborar con proyectos de seguridad alimentaria y emprendimientos de producción orgánica y agroecológica de alimentos.
+
+- name: Pilas Usadas
+  icon: battery-quarter
+  teaser: 
+  description: Las pilas son útiles en muchas situaciones. Sin embargo, su fabricación implica el uso de materiales contaminantes. De manera invisible, estos materiales contaminantes terminan en la tierra y el agua, cuando no son tratados adecuadamente. Impactan negativamente en la salud ambiental y humana. El manejo de desechos y la búsqueda de alternativas son vitales para reducir la contaminación ambiental y mejorar el bienestar social.
+  target:
+  - content: Ayudar a reducir la acumulación de materiales contaminantes y su impacto sobre la salud humana y ambiental.
+  - content: Acopiar desechos y cooperar con plantas de tratamiento.
+  - content: Difundir información sobre manejo de desechos y desarrollo de fuentes de energía alternativas.
+
+- name: Huella viva
+  icon: paw
+  teaser: 
+  description: La fauna silvestre ayuda en el mantenimiento de la salud del ambiente, mediante la regulaci&oacute;n de plagas, la dispersi&oacute;n de semillas de especies de plantas &uacute;tiles, los ciclos de nutrientes que mantienen la salud del suelo, entre otras funciones que ayudan a mantener recursos naturales que utilizamos. Sin embargo, actualmente la mortalidad de fauna silvestre por tr&aacute;fico vehicular es un problema para la conservaci&oacute;n de la fauna y en consecuencia, de los recursos &uacute;tiles.
+  target:
+  - content: Reducir la mortalidad de fauna silvestre en rutas y caminos.
+  - content: Difundir informaci&oacute;n sobre las funciones de la fauna silvestre que mantienen recursos &uacute;tiles para el hombre.

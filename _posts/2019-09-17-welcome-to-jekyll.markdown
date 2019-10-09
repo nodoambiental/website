@@ -4,7 +4,7 @@ title:  "Bienvenido a Jekyll"
 date:   2019-09-17 00:17:39 -0300
 categories: bienvenido post 
 ---
-Esto es el texto que figura en la tarjeta del post. No figurará en el texto completo de la pagina del post. Para tener mas información de como crear un post, entra a este.
+Esto es el texto que figura en la tarjeta del post.  Para tener mas información de como crear un post, entra a este.
 <!--section-->
 
 Para agregar un post debes crear un archivo `.markdown` en la carpeta `_posts` que tenga el siguiente formato en el nombre:

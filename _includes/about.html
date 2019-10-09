@@ -1,18 +1,14 @@
+{% assign about = site.data.about %}
 <section id="about" class="section second-subtitle">
     <h1>¿Quienes somos?</h1>
     <br />
-    <button class="accordion">¿Qué buscamos?</button>
+    {% for element in about %}
+    <button class="accordion">{{element.name}}</button>
     <div class="panel">
-        <p>{% include content/que-buscamos.html %}</p>
+        {% for item in element.content %}
+        <p>{{item.data}}</p>
+        {% endfor %}
     </div>
     <br />
-    <button class="accordion">Nuestra Visión</button>
-    <div class="panel">
-        <p>{% include content/vision.html %}</p>
-    </div>
-    <br />
-    <button class="accordion">Nuestra Misión</button>
-    <div class="panel">
-        <p>{% include content/mission.html %}</p>
-    </div>
+    {% endfor %}
 </section>

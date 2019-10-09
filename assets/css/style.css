@@ -226,7 +226,7 @@ section.team div.tile article:hover {
 
 article.is-child img {
     width: 200px;
-    border-radius: 10%;
+    border-radius: 6%;
 }
 
 section.team .media-left {
@@ -234,8 +234,7 @@ section.team .media-left {
 }
 
 section.team figure {
-    margin: 0;
-    width: 80%;
+    margin: 5px;
 }
 
 .media-content {
@@ -254,6 +253,26 @@ section.team article {
     border-radius: 20px;
 }
 
+.team .title {
+    text-align: left;
+    position: relative;
+    top: -80px;
+    left: 200px;
+}
+
+.team-subtitle {
+    text-align: left;
+    position: relative;
+    top: -100px;
+    left: 200px;
+    margin: 0;
+}
+
+.team .is-card {
+    padding: 0;
+    margin: 0;
+    height: 250px;
+}
 
 footer {
     background-color: #363636;
@@ -272,11 +291,15 @@ section.tos {
     padding: 10%;
 }
 
-section.tos li {
-    list-style: circle;
-    font-size: 120%;
-    padding: 20px;
-}
+    section.tos li {
+        list-style: circle;
+        font-size: 120%;
+        padding: 20px;
+    }
+
+    section.tos p {
+        padding: 10px;
+    }
 
 .accordion {
     background-color: #eee;
@@ -318,6 +341,13 @@ section.tos li {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f077";
+}
+
+section.second-subtitle p {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
 }
 
 @media only screen and (min-width: 780px) {

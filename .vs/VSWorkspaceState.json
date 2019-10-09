@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\assets",
     "\\assets\\css",
-    "\\_includes",
-    "\\_layouts"
+    "\\assets\\js",
+    "\\pages",
+    "\\pages\\blog",
+    "\\_includes"
   ],
-  "SelectedNode": "\\assets\\css\\style.css",
   "PreviewInSolutionExplorer": false
 }

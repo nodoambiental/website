@@ -1,0 +1,23 @@
+#  Las imágenes deberán tener el mismo nombre que figure aquí, y estar en formato .png, ubicadas en /assets/images/team/
+#  Para modificar el orden de aparición simplemente reorganizarlos, el orden en la página refleja el presente en este archivo
+#  Caracteres unicode son aceptados sin inconvenientes, por lo que agregar acentos o caracteres especiales no representa inconvenientes.
+- name: Mariano Ordano
+  description: Biólogo, Doctor en Ciencias en Ecología y Manejo de Recursos Naturales.
+
+- name: Cecilia Ordano
+  description: Licenciada en Historia, Especialista en Recursos Humanos.
+
+- name: Laura González
+  description: Licenciada en Antropología Social.
+
+- name: Facundo Bernacki
+  description: Licenciado en Ciencias Biológicas.
+
+- name: Renzo Bernacki 
+  description: Licenciado en Ciencias Biológicas.
+
+- name: Carmen Reguilón
+  description: No encontre su texto despues le cambias.
+
+- name: Ágata Ordano
+  description: Diseñadora, desarrolladora e investigadora independiente.
