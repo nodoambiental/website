@@ -4,15 +4,15 @@
 #  El archivo al que vincula cada tarjeta debe tener el mismo nombre que figura en la tarjeta, en formato .markdown y encontrarse en /pages/portals/
 #  
 - name: Plantación Comunitaria La Hoya
-  icon: tree-alt
+  icon: tree
   content: Club Fukuoka
 
 - name: Semilloteca
-  icon: hand-holding-seedling
+  icon: seedling
   content: Club Fukuoka
 
 - name: Mercadito Agroecológico
-  icon: pumpkin
+  icon: carrot
   content: Bioferia los primeros sábados de cada mes. Desde abril 2019
 
 - name: Punto Verde Lillo
