@@ -149,12 +149,15 @@ function getRandomColorPair() {
             parseInt(Math.random() * 255),
             parseInt(Math.random() * 255)];
 
-        if (firstColor[0] > 140 && firstColor[1] > 160 && firstColor[2] > 120) { break }
+        if (
+            firstColor[0] > 130 && Math.abs(firstColor[0] - firstColor[2]) > 20 &&
+            firstColor[1] > 150 && Math.abs(firstColor[1] - firstColor[0]) > 40 &&
+            firstColor[2] > 160 && Math.abs(firstColor[2] - firstColor[1]) > 30) { break }
     }
     while (true) {
         var secondColor = [
             (firstColor[0] + parseInt(Math.random() * 55)),
-            (firstColor[1] + parseInt(Math.random() * 45)),
+            (firstColor[1] - parseInt(Math.random() * 35)),
             (firstColor[2] + parseInt(Math.random() * 65))];
         if (secondColor[0] < 256 && secondColor[1] < 256 && secondColor[2] < 256) { break }
     }
@@ -183,7 +186,7 @@ for (i = 1; i <= services.length; i++) {
     var colors = getRandomColorPair();
     var tile = document.querySelector(".services-" + String(i));
     tile.style.backgroundImage =
-        "linear-gradient(45deg, rgb(" +
+        "linear-gradient(90deg, rgb(" +
         colors[0][0] + ", " +
         colors[0][1] + ", " +
         colors[0][2] + "), rgb(" +

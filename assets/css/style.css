@@ -130,8 +130,13 @@ section.services h2 {
     padding-bottom: 40px;
 }
 
+section.projects .tile article {
+    border-radius: 20px;
+}
+
 section.services .tile article {
     padding-right: 15px;
+    border-radius: 20px;
 }
 
 section.services .tile p.title {
@@ -192,36 +197,6 @@ div.is-card i {
 
 section.team div.tile article:hover {
     box-shadow: none;
-}
-
-.services-1 {
-    background-image: linear-gradient(45deg, #00CC66, #00CC99);
-    border-radius: 20px;
-}
-
-.services-2 {
-    background-image: linear-gradient(45deg, #CC99FF, #99CCFF);
-    border-radius: 20px;
-}
-
-.services-3 {
-    background-image: linear-gradient(45deg, #CCFF99, #FFCC99);
-    border-radius: 20px;
-}
-
-.projects-1 {
-    background-image: linear-gradient(45deg, #99CCFF, #FF99CC);
-    border-radius: 20px;
-}
-
-.projects-2 {
-    background-image: linear-gradient(45deg, #FF9999, #99FFFF);
-    border-radius: 20px;
-}
-
-.projects-3 {
-    background-image: linear-gradient(45deg, #99FF99, #CC99FF);
-    border-radius: 20px;
 }
 
 article.is-child img {
