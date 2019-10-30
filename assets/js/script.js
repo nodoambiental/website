@@ -139,3 +139,70 @@ for (i = 0; i < accordion.length; i++) {
     });
 } 
 
+
+// Random colors on cards
+
+function getRandomColorPair() {
+    while (true) {
+        var firstColor = [
+            parseInt(Math.random() * 255),
+            parseInt(Math.random() * 255),
+            parseInt(Math.random() * 255)];
+
+        if (firstColor[0] > 140 && firstColor[1] > 160 && firstColor[2] > 120) { break }
+    }
+    while (true) {
+        var secondColor = [
+            (firstColor[0] + parseInt(Math.random() * 55)),
+            (firstColor[1] + parseInt(Math.random() * 45)),
+            (firstColor[2] + parseInt(Math.random() * 65))];
+        if (secondColor[0] < 256 && secondColor[1] < 256 && secondColor[2] < 256) { break }
+    }
+
+    return [firstColor, secondColor];
+}
+
+let team = document.querySelectorAll("section.team .tile.is-vertical > div.tile");
+
+for (i = 1; i <= team.length; i++) {
+    var colors = getRandomColorPair();
+    var tile = document.querySelector(".team-" + String(i));
+    tile.style.backgroundImage =
+        "linear-gradient(90deg, rgb(" +
+        colors[0][0] + ", " +
+        colors[0][1] + ", " +
+        colors[0][2] + "), rgb(" +
+        colors[1][0] + ", " +
+        colors[1][1] + ", " +
+        colors[1][2] + "))";
+}
+
+let services = document.querySelectorAll("section.services .tile.is-vertical > article");
+
+for (i = 1; i <= services.length; i++) {
+    var colors = getRandomColorPair();
+    var tile = document.querySelector(".services-" + String(i));
+    tile.style.backgroundImage =
+        "linear-gradient(45deg, rgb(" +
+        colors[0][0] + ", " +
+        colors[0][1] + ", " +
+        colors[0][2] + "), rgb(" +
+        colors[1][0] + ", " +
+        colors[1][1] + ", " +
+        colors[1][2] + "))";
+}
+
+let projects = document.querySelectorAll("section.projects .tile.is-vertical > article");
+
+for (i = 1; i <= projects.length; i++) {
+    var colors = getRandomColorPair();
+    var tile = document.querySelector(".projects-" + String(i));
+    tile.style.backgroundImage =
+        "linear-gradient(45deg, rgb(" +
+        colors[0][0] + ", " +
+        colors[0][1] + ", " +
+        colors[0][2] + "), rgb(" +
+        colors[1][0] + ", " +
+        colors[1][1] + ", " +
+        colors[1][2] + "))";
+}

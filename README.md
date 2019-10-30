@@ -19,3 +19,9 @@ Para agregar subpáginas, referir a los detalles específicos en los comentarios p
 
 En el futuro hay que agregar una barrá de búsqueda y activar los sistemas de etiquetas y categorías que están instalados pero no implementados todavía.
 
+## TODO
+
+* Cargar los contenidos; portales, proyectos, blog, etc.
+* Agregar script para dotar de gradientes variables a los elementos generados por jekyll.
+* Agregar media queries para que el sitio sea amigable para móvil.
+* Ver cómo agregar las imágenes, si en parallax o de otro modo.
