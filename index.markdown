@@ -5,7 +5,7 @@
 layout: home
 title: Inicio
 
-about_text: Qui&eacute;nes somos
+about_text: Quiénes somos
 
 services_text: Nuestros servicios buscan promover la preservaci&oacute;n del ambiente, el desarrollo sostenible y el bienestar social.
 
