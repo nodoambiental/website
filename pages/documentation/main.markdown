@@ -4,18 +4,49 @@ title: Documentación
 icon: book-open
 ---
 
-# titulo
+## Terminos de servicio
 
-## Sed ut perspiciatis unde omnis
+*  Nodo Ambiental es una organización que colabora con la elaboración y ejecución de proyectos de pertinencia ambiental y social, para la preservación del ambiente, el desarrollo sostenible, la seguridad e inocuidad alimentaria y el bienestar social.
 
-iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+*  Nodo Ambiental es una Organización de la Sociedad Civil (OSC, fundación en formación), sin fines de lucro, no gubernamental (ONG), dirigida a otras organizaciones públicas y privadas, escuelas, profesionales, empresas.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+*  Proponemos un esquema de trabajo mutuamente verificable. A un primer proceso de contacto y formulación de objetivos, prosigue un esquema de interacción para el alcance de metas.
 
+*  Licencia e información para difusión a disponer bajo licencia MIT y Creative Commons.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+*  Directrices de privacidad
+  
+Cómo registramos, usamos, y compartimos información personal:
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+La información personal que usted brinda a través del registro en nuestro portal o la que nos envía para la realización de servicios o actividades y relaciones específicas queda en un repositorio seguro de Nodo Ambiental.
 
+No compartimos información personal de su registro en Nodo Ambiental sin su consentimiento explícito (correo electrónico o formulario).
 
+En el caso de que usted haya firmado con su nombre entrevistas, o haga comentarios en foros, o participe en la generación de contenidos vinculados a tareas de Nodo Ambiental, su nombre, localidad geográfica y grupo de pertenencia, lo consideramos información pública, la cual usted podrá visualizar en los contenidos que Nodo Ambiental haga públicos o comparta con usted.
+
+Siempre podrá retirar información personal a resguardo en los repositorios, o restringir el uso de información que explícitamente nos comunique, con excepción de la información de su nombre, localidad, o grupo de pertinencia y actividades relacionadas a las tareas de Nodo Ambiental que se consideren públicas.
+
+La información de identificación personal (tales como documentos, pasaportes, u otra información de referencia fiscal o legal) que usted envía para nuestros registros será clasificada a resguardo seguro, en el caso de que usted voluntariamente nos envíe tal información.
+
+La información sobre domicilio postal o de residencia no será pública. Dicha información será accedida solamente por miembros del consejo de Nodo Ambiental, o sólo para usos específicos vinculados con eventos donde dicha información debe figurar y ser compartida con restricciones específicas, nunca de dominio público.
+
+Para la correspondencia o interacción directa en la web (chat, foros) usaremos su primer nombre, el cual usted podrá ver siempre.
+
+*  Cómo protegemos información personal
+
+ En Nodo Ambiental ejecutamos y mantenemos medidas de seguridad y prácticas apropiadas para el registro, repositorio (almacenamiento) y procesamiento para la protección contra accesos no autorizados, alteraciones de información, revelación o destrucción de su información personal, nombre de usuario, contraseña, información de transacciones web y datos almacenados en nuestro sitio.
+
+*  Cambios en estas directrices de privacidad
+
+Nodo Ambiental conserva el criterio de actualizar estas directrices de privacidad en cualquier momento. Cuando hacemos esto, publicamos la fecha de modificación al pie de esta página.
+
+El reconocimiento y aceptación de las actualizaciones de estas directrices de privacidad queda bajo su responsabilidad, por lo que le sugerimos revisarlos periódicamente y estar al tanto de los cambios que realizamos.
+
+Le enviaremos actualizaciones sobre estos cambios y otros anuncios vía correo electrónico. Usted puede dejar de estar suscripto de nuestra lista de correos en cualquier momento que lo desee.
+
+Si no desea recibir mensajes, por favor, indíquelo a nuestro correo, correonodoambiental@gmail.com
+
+*  Lineamientos de autoría
+
+Los artículos o post publicados en nodoambiental.org no necesariamente reflejan la opinión consensuada de la organización
 
