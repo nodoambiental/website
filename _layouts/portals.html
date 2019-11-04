@@ -16,7 +16,7 @@ layout: default
                 <div class="tile is-parent is-vertical">
                     {% for portal in portals %}
                     <article class="tile is-child services-{{forloop.index}}">
-                        <a href="./pages/services/{{portal.name}}.html">
+                        <a href="{{portal.name}}.html">
                             <div class="is-card">
                                 <div class="media">
                                     <div class="media-left">
@@ -40,4 +40,3 @@ layout: default
         </div>
     </div>
 </section>
-

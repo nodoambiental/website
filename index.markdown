@@ -11,7 +11,7 @@ services_text: Nuestros servicios buscan promover la preservaci&oacute;n del amb
 
 team_text: Nodo Ambiental se forma como un equipo multidisciplinario
 
-projects_text: Nuestros proyectos trabajan en tres ejes básicos: promoción de la salud, contención de la contaminación y relación con la vida silvestre
+projects_text: Nuestros proyectos trabajan en tres ejes básicos; promoción de la salud, contención de la contaminación y relación con la vida silvestre
 
 tos_title: Términos y Condiciones
 ---
