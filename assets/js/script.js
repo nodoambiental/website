@@ -168,8 +168,8 @@ function getRandomColorPair() {
 let team = document.querySelectorAll("section.team .tile.is-vertical > div.tile");
 
 for (i = 1; i <= team.length; i++) {
-    var colors = getRandomColorPair();
-    var tile = document.querySelector(".team-" + String(i));
+    let colors = getRandomColorPair();
+    let tile = document.querySelector(".team-" + String(i));
     tile.style.backgroundImage =
         "linear-gradient(90deg, rgb(" +
         colors[0][0] + ", " +
@@ -183,8 +183,8 @@ for (i = 1; i <= team.length; i++) {
 let services = document.querySelectorAll("section.services .tile.is-vertical > article");
 
 for (i = 1; i <= services.length; i++) {
-    var colors = getRandomColorPair();
-    var tile = document.querySelector(".services-" + String(i));
+    let colors = getRandomColorPair();
+    let tile = document.querySelector(".services-" + String(i));
     tile.style.backgroundImage =
         "linear-gradient(90deg, rgb(" +
         colors[0][0] + ", " +
@@ -198,8 +198,8 @@ for (i = 1; i <= services.length; i++) {
 let projects = document.querySelectorAll("section.projects .tile.is-vertical > article");
 
 for (i = 1; i <= projects.length; i++) {
-    var colors = getRandomColorPair();
-    var tile = document.querySelector(".projects-" + String(i));
+    let colors = getRandomColorPair();
+    let tile = document.querySelector(".projects-" + String(i));
     tile.style.backgroundImage =
         "linear-gradient(45deg, rgb(" +
         colors[0][0] + ", " +
