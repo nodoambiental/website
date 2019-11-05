@@ -2,13 +2,13 @@
 #  Para modificar el orden de aparición simplemente reorganizarlos, el orden en la página refleja el presente en este archivo
 #  Caracteres unicode son aceptados sin inconvenientes, por lo que agregar acentos o caracteres especiales no representa inconvenientes.
 - name: Mariano Ordano
-  description: Doctor en Ciencias en Ecología y Manejo de Recursos Naturales
+  description: Biólogo, Doctor en Ciencias en Ecología y Manejo de Recursos Naturales
 
 - name: Facundo Bernacki
   description: Licenciado en Ciencias Biológicas
 
 - name: Carmen Reguilón
-  description: Doctora en Ciencias Biológicas
+  description: Licenciada y Doctora en Ciencias Biológicas
 
 - name: Claudia Fernández
   description: Técnica en Gestión Universitaria
@@ -28,8 +28,26 @@
 - name: Ágata Ordano
   description: Diseñadora, desarrolladora e investigadora independiente
 
+- name: Analía Benavidez
+  description: Licenciada y Doctora en Ciencias Biológicas
+
+- name: Leonardo Scarpa
+  description: Licenciado en Biodiversidad
+
+- name: Magalí Guzmán
+  description: Traductora de inglés
+
 - name: Marcela Margagliotti
-  description: Estudiante de Ciencias Biológicas
+  description: Estudiante
+
+- name: Mariángela Margagliotti
+  description: Estudiante
+
+- name: Maximiliano Margagliotti
+  description: Arquitecto
+
+- name: Rocío Barrera
+  description: Estudiante
 
 
 
