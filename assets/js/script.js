@@ -44,14 +44,17 @@ function animateCard(element) {
 
 for (element of document.querySelectorAll('.tile .is-child')) {
 
-    element.style.opacity = 0;
-    element.style.transitionDuration = '1000ms';
-    anime({
-        targets: element,
-        translateY: 50
-    });
+    if (String(element.classList).search("team") == -1) {
+        element.style.opacity = 0;
+        element.style.transitionDuration = '1000ms';
+        anime({
+            targets: element,
+            translateY: 50
+        });
 
-    animateCard(element);
+        animateCard(element);
+    }
+
 };
 
 let footerWaypoint = new Waypoint({
