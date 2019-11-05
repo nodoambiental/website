@@ -8,7 +8,6 @@
 @import url("fontawesome.css");
 @import url("solid.css");
 
-
 /*  Title section */
 h1.main-title {
     text-align: center;
@@ -195,58 +194,31 @@ div.is-card i {
 }
 
 
-section.team div.tile article:hover {
-    box-shadow: none;
-}
-
-article.is-child img {
-    width: 200px;
-    border-radius: 6%;
-}
-
-section.team .media-left {
-    margin: -20px;
-}
-
-section.team figure {
-    margin: 5px;
-}
-
-.media-content {
-    overflow: hidden;
+section.team article {
+    border-radius: 20px;
 }
 
 section.team .tile {
     justify-content: flex-start;
 }
 
-section.team h2 {
-    padding-bottom: 40px;
+
+section.team figure {
+    margin: auto;
 }
 
-section.team article {
-    border-radius: 20px;
-}
-
-.team .title {
-    text-align: left;
-    position: relative;
-    top: -80px;
-    left: 200px;
-}
-
-.team-subtitle {
-    text-align: left;
-    position: relative;
-    top: -100px;
-    left: 200px;
-    margin: 0;
+section.team .media-left {
+    margin: auto;
 }
 
 .team .is-card {
     padding: 0;
-    margin: 0;
-    height: 250px;
+    margin: auto;
+}
+
+article.is-child img {
+    width: 200px;
+    border-radius: 10px;
 }
 
 footer {
@@ -325,28 +297,6 @@ section.second-subtitle p {
     padding: 10px;
 }
 
-@media only screen and (min-width: 780px) {
-
-    .team-1 {
-        background-image: linear-gradient(90deg, #FF9999, #99CCFF);
-    }
-
-    .team-2 {
-        background-image: linear-gradient(90deg, #99FF99, #99FFFF);
-    }
-
-    .team-3 {
-        background-image: linear-gradient(90deg, #FFCC99, #CCFF99);
-    }
-
-    .team-7 {
-        background-image: linear-gradient(90deg, #9999FF, #99FFCC);
-    }
-
-        .team-1:hover, .team-2:hover, .team-3:hover, .team-7:hover {
-            box-shadow: 0 0 3px 1px #333 !important;
-        }
-}
 
 @media only screen and (min-width: 1024px) {
     section.main-title img {
@@ -373,13 +323,52 @@ section.second-subtitle p {
         margin-bottom: 20px;
         width: 70%;
     }
+
+    .media-content {
+        overflow: hidden;
+    }
+
+    section.team .tile {
+        justify-content: flex-start;
+    }
+
+    section.team h2 {
+        padding-bottom: 40px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
+    body {
+        font-size: 0.9em;
+    }
+
+    section.services .tile p.title {
+        font-size: 1.3em;
+        line-height: 1em;
+    }
+
+    section.projects .tile p.title {
+        font-size: 1.3em;
+        line-height: 1em;
+    }
+
+    div.is-card i {
+        font-size: 2.2em;
+        line-height: 1em;
+    }
+
+    article div.content {
+        line-height: 1.3em;
+    }
+
     section.main-title img {
-        width: 60%;
+        width: 70%;
         display: block;
         margin: auto;
+    }
+
+    section#about {
+        margin-top: 40px;
     }
 
     div.spacer {
@@ -388,5 +377,21 @@ section.second-subtitle p {
         margin-top: 35%;
         height: 100px;
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    section.main-title img {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    section.main-title img {
+        width: 100%;
+        display: block;
+        margin: auto;
     }
 }

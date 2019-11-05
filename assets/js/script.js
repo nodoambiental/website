@@ -38,7 +38,7 @@ function animateCard(element) {
                 delay: anime.stagger(300, { easing: 'easeOutQuad' })
             });
         },
-        offset: '90%'
+        offset: '100%'
     });
 };
 
@@ -171,7 +171,7 @@ for (i = 1; i <= team.length; i++) {
     let colors = getRandomColorPair();
     let tile = document.querySelector(".team-" + String(i));
     tile.style.backgroundImage =
-        "linear-gradient(90deg, rgb(" +
+        "linear-gradient(0deg, rgb(" +
         colors[0][0] + ", " +
         colors[0][1] + ", " +
         colors[0][2] + "), rgb(" +
