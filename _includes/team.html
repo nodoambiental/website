@@ -8,7 +8,7 @@
             <div class="tile is-ancestor">
         {% endif %}
 
-        {% assign modulo_check = forloop.index | minus: 1 | modulo: 3 %}
+        {% assign modulo_check = forloop.index0 | modulo: 3 %}
         
         {% if modulo_check == 0 %}
             </div>

@@ -1,16 +1,23 @@
+{% assign text = site.data.footer %}
+{% assign social = site.data.social %}
 <footer>
     <div class="tile is-ancestor">
         <div class="tile is-parent">
+            {% for element in text %}
             <div class="tile is-child">
-                Fundaci&oacute;n Nodo Ambiental 2019 
+                {{element.content}}
+                {% if forloop.index0 == 0 %}
+                    <br />
+                    {% for item in social %}
+                        <a href="{{item.element[1].link}}"><i class="fas fa-{{item.element[0].icon}}"></i></a>
+                    {% endfor %}
+                {% endif %}
             </div>
-            <div class="tile is-child">
-                Para m&aacute;s informaci&oacute;n cont&aacute;ctanos  en correonodoambiental@gmail.com
-            </div>
+            {% endfor %}
         </div>
     </div>
 </footer>
-    </body>
+</body>
 <script src="/assets/js/jquery-3.4.1.min.js"></script>
 <script src="/assets/js/jquery.waypoints.min.js"></script>
 <script src="/assets/js/anime.min.js"></script>

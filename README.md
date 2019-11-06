@@ -15,6 +15,8 @@ Por lo tanto lo ?nico directamente relacionado a los contenidos se encuentra en 
 
 Para agregar subp?ginas, referir a los detalles espec?ficos en los comentarios presentes en el archivo de contenidos referido a cada subp?gina. Por ejemplo, para saber como agregar un portal, en t?rminos de formato y disposici?n del archivo, `portals.yml` indica c?mo hacerlo.
 
+Para modificar los textos del footer, editar el archivo `footer.yml` encontrado en `_data`. Para modificar los vinculos sociales, editar el archivo `social.yml` encontrado tambien en `_data`
+
 ## Hacia delante
 
 ## TODO
