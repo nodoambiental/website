@@ -2,6 +2,14 @@
     .content {
         padding: 10%;
     }
+    .info {
+        background-color: #eee;
+        width: 80%;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
 }
 
 
@@ -21,3 +29,22 @@ h1.main-title {
     position: relative;
     top: 10%;
 }
+
+.divider {
+    border-bottom: 3px solid #ccc;
+    width: 80%;
+    margin: auto;
+}
+
+.infograph img{
+    border-radius: 20px;
+    box-shadow: 0 0 0 0.5em #bbb;
+    width: 100%;
+}
+
+.infograph-text p{
+    padding: 30px;
+}
+
+
+

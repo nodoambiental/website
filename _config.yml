@@ -31,7 +31,7 @@ twitter_username: twitter
 github_username:  github
 
 commonmark:
-  options: ["SMART","FOOTNOTES","VALIDATE_UTF8"]
+  options: ["SMART","FOOTNOTES","VALIDATE_UTF8","UNSAFE"]
   extensions: ["strikethrough", "autolink", "table", "tasklist"]
 
 # Build settings

@@ -298,6 +298,49 @@ section.second-subtitle p {
 }
 
 
+
+.references {
+    border-top: 3px solid #ccc;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+    .references::before {
+        content: "Referencias";
+        text-align: left;
+        font-size: 1.4em;
+        position: relative;
+        bottom: 32px;
+        right: 35%;
+    }
+
+.bibliography {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+    .bibliography li::marker {
+        color: #EB6113;
+    }
+
+.citation {
+    color: #EB6113;
+    font-size: 0.9em;
+    font-variant: small-caps;
+    transition-duration: 1s;
+}
+
+    .citation:hover {
+        font-style: italic;
+        color: #EB6113;
+        font-size: 0.95em;
+        border-bottom: 1px dashed #999;
+    }
+
+
 @media only screen and (min-width: 1024px) {
     section.main-title img {
         width: 40%;

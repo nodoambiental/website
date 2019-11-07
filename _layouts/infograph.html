@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<style type="text/css">
+    @import url("/assets/css/project.css");
+</style>
+
+<section class="section main-title">
+    <img src="/assets/images/logo_navigation.svg"><h1 class="project-subtitle">InfoBlog</h1>
+    <h1 class="main-title">{{ page.title }}</h1>
+</section>
+<div class="spacer"></div>
+
+<section class="section info">
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <div class="tile is-child">
+                <a href="https://nodoambiental.org/assets/images/infograph/{{page.title}}.png">
+                    <figure class="infograph">
+                        <img src="/assets/images/infograph/{{page.title | uri_escape}}.png" />
+                    </figure>
+                </a>
+            </div>
+            <div class="tile is-child infograph-text">
+                <p>{{page.img_text}}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="divider"/>
+
+<section class="section content">
+    {{ content | remove: page.excerpt }}
+</section>
+
+<section class="references">
+    {% bibliography --cited_in_order %}
+</section>
+

@@ -39,3 +39,5 @@ categories: bienvenido post
 
 Para que los demás posts se vean con el formato de éste deberás incluir la variable `layout: post` tal cual está, indicando que usarás el formato `post` para representar el contenido.
 Las otras variables sirven para definir mejor la metadata del post.
+
+
