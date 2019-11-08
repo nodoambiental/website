@@ -8,7 +8,50 @@
 @import url("fontawesome.css");
 @import url("solid.css");
 
+/* General Styling */
+
+body {
+    text-align: center;
+    background: repeating-linear-gradient( -45deg, #eee, #eee 2px, #fff 2px, #fff 10px );
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+div.tile a {
+    text-decoration: none !important;
+}
+
+div.tile article:hover {
+    border-radius: 20px;
+    border: 10px solid rgba(255,255,255,0.5);
+}
+
+article.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+article {
+    border: 3px solid #ccc;
+    transition-duration: 2s;
+}
+
+div.is-card figure {
+    margin: 15%;
+    margin-left: 40%;
+}
+
+div.is-card i {
+    font-size: 3.2em;
+}
+
 /*  Title section */
+
 h1.main-title {
     text-align: center;
     font-size: 2.2em;
@@ -22,7 +65,6 @@ h2.main-title {
     padding-left: 10%;
     padding-right: 10%;
 }
-
 
 /*Alternating gradient and shadow */
 
@@ -51,7 +93,6 @@ section.main-title {
         top: 0;
     }
 
-
 .main-title {
     color: black;
 }
@@ -65,7 +106,6 @@ section.main-title {
         opacity: 1;
     }
 }
-
 
 /* Navbar */
 
@@ -91,6 +131,8 @@ a.navbar-link {
         border-radius: 10px;
     }
 
+/* Accordion */
+
 section.second {
     position: relative;
     display: block;
@@ -104,33 +146,64 @@ section h1 {
     padding-top: 0;
 }
 
-body {
-    text-align: center;
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 140%;
 }
 
-div.teaser-data {
-    box-shadow: none;
-    margin: auto;
-    margin-top: 20px;
-    width: 80%
-}
-
-    div.teaser-data a {
-        padding: 20px;
-        background-color: white;
-        border: none;
-        color: #339966;
-        cursor: default;
+    .active, .accordion:hover {
+        background-color: #ccc;
     }
+
+.panel {
+    display: none;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    border: 2px solid #eee;
+}
+
+.accordion:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f078';
+    font-size: 30px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f077";
+}
+
+section.second-subtitle p {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Services */
 
 section.services h2 {
     padding: 20px;
     padding-top: 0;
     padding-bottom: 40px;
-}
-
-section.projects .tile article {
-    border-radius: 20px;
 }
 
 section.services .tile article {
@@ -155,13 +228,10 @@ section.services .tile p.subtitle {
     padding: 10px;
 }
 
-div.tile a {
-    text-decoration: none !important;
-}
+/* Projects */
 
-div.tile article:hover {
+section.projects .tile article {
     border-radius: 20px;
-    box-shadow: 0 0 3px 1px #333;
 }
 
 section.projects div.tile .title {
@@ -177,22 +247,21 @@ section.projects div.tile .content {
     text-align: left;
 }
 
-article.tile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+section.projects article.tile {
+    margin: 10px !important;
+}
+
+section.projects > h2 {
     padding: 30px;
+    padding-top: 0px;
 }
 
-div.is-card figure {
-    margin: 15%;
-    margin-left: 40%;
-}
+/* Team */
 
-div.is-card i {
-    font-size: 3.2em;
+.team div.tile article:hover {
+    border-radius: 20px;
+    border: 3px solid #eee;
 }
-
 
 section.team article {
     border-radius: 20px;
@@ -201,7 +270,6 @@ section.team article {
 section.team .tile {
     justify-content: flex-start;
 }
-
 
 section.team figure {
     margin: auto;
@@ -221,6 +289,8 @@ article.is-child img {
     border-radius: 10px;
 }
 
+/* Footer */
+
 footer {
     background-color: #363636;
     color: white;
@@ -228,76 +298,7 @@ footer {
     padding-bottom: 60px;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-section.tos {
-    text-align: left;
-    padding: 10%;
-}
-
-    section.tos li {
-        list-style: circle;
-        font-size: 120%;
-        padding: 20px;
-    }
-
-    section.tos p {
-        padding: 10px;
-    }
-
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    font-size: 140%;
-}
-
-    .active, .accordion:hover {
-        background-color: #ccc;
-    }
-
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-}
-
-.accordion:after {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: '\f078';
-    font-size: 30px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f077";
-}
-
-section.second-subtitle p {
-    text-align: left;
-    width: 80%;
-    margin: auto;
-    padding: 10px;
-}
-
-
+/* References */
 
 .references {
     border-top: 3px solid #ccc;
@@ -340,6 +341,7 @@ section.second-subtitle p {
         border-bottom: 1px dashed #999;
     }
 
+/* Media Queries */
 
 @media only screen and (min-width: 1024px) {
     section.main-title img {

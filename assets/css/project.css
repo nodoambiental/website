@@ -1,23 +1,8 @@
-@media only screen and (min-width: 780px) {
-    .content {
-        padding: 10%;
-    }
-    .info {
-        background-color: #eee;
-        width: 80%;
-        border-radius: 20px;
-        margin: auto;
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-}
-
-
+/* General Styling */
 
 p, ul, li, h2, h3, h4 {
     text-align: left;
 }
-
 
 .project-subtitle {
     position: absolute;
@@ -36,6 +21,8 @@ h1.main-title {
     margin: auto;
 }
 
+/* Infograph */
+
 .infograph img{
     border-radius: 20px;
     box-shadow: 0 0 0 0.5em #bbb;
@@ -46,5 +33,34 @@ h1.main-title {
     padding: 30px;
 }
 
+/* TOS */
 
+section.tos {
+    text-align: left;
+    padding: 10%;
+}
 
+    section.tos li {
+        list-style: circle;
+        font-size: 120%;
+        padding: 20px;
+    }
+
+    section.tos p {
+        padding: 10px;
+    }
+
+@media only screen and (min-width: 780px) {
+    .content {
+        padding: 10%;
+    }
+
+    .info {
+        background-color: #eee;
+        width: 80%;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}

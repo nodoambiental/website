@@ -11,13 +11,28 @@ layout: default
 </section>
 <div class="spacer"></div>
 
+<section class="blog-nav">
+    <nav class="navbar-blog" role="navigation" aria-label="blog navigation">
+        <div class="navbar-start">
+
+            <a href="/categories" class="navbar-item">
+                categor&iacute;as
+            </a>
+
+            <a href=/tags" class="navbar-item">
+                Etiquetas
+            </a>
+        </div>
+    </nav>
+</section>
+
 <section class="section services">
     <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
             {% for post in site.posts %}
             <div class="tile">
                 <div class="tile is-parent">
-                    <article class="tile is-child services-1 blog-post">
+                    <article class="tile is-child services-{{forloop.index}} blog-post">
                         <a href="{{post.url}}">
                             <div class="is-card">
                                 <div class="media">
