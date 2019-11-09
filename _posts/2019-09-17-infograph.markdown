@@ -1,6 +1,6 @@
 ---
 layout: infograph
-title:  "Infografias"
+title:  "Relaciones con animales domésticos"
 date:   2019-09-17 00:17:39 -0300
 categories: bienvenido post 
 
@@ -10,8 +10,10 @@ img_text: |
   Puede tener varias lineas sin inconveniente y utilizar cualquier caracter :;'"@
 
 ---
-Este es un post con formato de infografias. Esta etiqueta solo figurara en el listado de posts, no en el post en si.
 
+![](/assets/images/infograph/Relaciones con animales domésticos.png)
+
+Relaciones con animales domésticos
 
 <!--section-->
 
