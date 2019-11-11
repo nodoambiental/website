@@ -9,10 +9,10 @@
 .navbar-blog {
     border-bottom: 3px solid #ccc;
     padding-bottom: 10px;
-    position: relative;
     background-color: #fff;
     padding-top: 20px;
-    bottom: 20px;
+    position: relative;
+    top: -2.5vw;
 }
 
     .navbar-blog a {
@@ -23,10 +23,45 @@
             font-size: 1.2em;
         }
 
+/* Categories */
+
+.category-name {
+    font-size: 1.5em;
+    font-variant: small-caps;
+    color: #000;
+    text-align: left;
+}
+
+.services .tile.is-child { /* This also works in the tag page */
+    margin: 10px!important;
+    
+}
+
+/* Tags */
+
+.tag-name {
+    font-size: 2em;
+    font-variant: small-caps;
+    color: #000;
+    text-align: left;
+}
+
+    .tag-name::before {
+        content: "#";
+        font-size: 1em;
+        color: #EB6113;
+    }
+
 /* Media queries */
 
 @media only screen and (min-width: 780px) {
     .content {
         padding: 10%;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 610px) {
+    .navbar-blog {
+        top: -7vw;
     }
 }

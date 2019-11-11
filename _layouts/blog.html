@@ -15,11 +15,11 @@ layout: default
     <nav class="navbar-blog" role="navigation" aria-label="blog navigation">
         <div class="navbar-start">
 
-            <a href="/categories" class="navbar-item">
-                categor&iacute;as
+            <a href="/pages/blog/categories.html" class="navbar-item">
+                Categor&iacute;as
             </a>
 
-            <a href=/tags" class="navbar-item">
+            <a href="/pages/blog/tags.html" class="navbar-item">
                 Etiquetas
             </a>
         </div>
@@ -27,28 +27,26 @@ layout: default
 </section>
 
 <section class="section services">
+    {% for post in site.posts %}
     <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12">
-            {% for post in site.posts %}
-            <div class="tile">
-                <div class="tile is-parent">
-                    <article class="tile is-child services-{{forloop.index}} blog-post">
-                        <a href="{{post.url}}">
-                            <div class="is-card">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <p class="title is-12">{{post.title}}</p>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    {{ post.excerpt }}
+        <div class="tile is-parent is-12">
+            <div class="tile is-vertical">
+                <article class="tile is-child services-{{forloop.index}} blog-post">
+                    <a href="{{post.url}}">
+                        <div class="is-card">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-12">{{post.title}}</p>
                                 </div>
                             </div>
-                        </a>
-                    </article>
-                </div>
+                            <div class="content">
+                                {{ post.excerpt }}
+                            </div>
+                        </div>
+                    </a>
+                </article>
             </div>
-            {% endfor %}
         </div>
     </div>
+    {% endfor %}
 </section>

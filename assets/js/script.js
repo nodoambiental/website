@@ -9,9 +9,37 @@ function toggleMenu() {
 
 burger_menu.addEventListener("click", toggleMenu, false);
 
+// Hastag support
+
+let text_elements = document.querySelectorAll("p");
+
+for (let i = 0; i < text_elements.length; i++) {
+    let hashtags = text_elements[i].innerHTML.match(/(#\w*)\b/g);
+
+    if (hashtags === null) {
+        continue;
+    }
+    else {
+        for (let j = 0; j < hashtags.length; j++) {
+            text_elements[i].innerHTML =
+                text_elements[i].innerHTML.slice(
+                    0, text_elements[i].innerHTML.indexOf(
+                        hashtags[j]
+                    )
+                )
+                + "<a class='hashtag' href='https://nodoambiental.org/pages/blog/tags" +
+                hashtags[j] + "'>" + hashtags[j]
+                + "</a>" +
+                text_elements[i].innerHTML.slice(
+                    text_elements[i].innerHTML.indexOf(
+                        hashtags[j]
+                    ) + hashtags[j].length, text_elements[i].innerHTML.length
+                )
+        }
+    }
+}
+
 // Animations
-
-
 
 function animateCard(element) {
     $(element).hover(function () {
@@ -44,7 +72,7 @@ function animateCard(element) {
 
 for (element of document.querySelectorAll('.tile .is-child')) {
 
-    if (String(element.classList).search("team") == -1) {
+    if (String(element.classList).search("team") == -1 || String(element.classList).search("footer") == -1) {
         element.style.opacity = 0;
         element.style.transitionDuration = '1000ms';
         anime({
@@ -57,28 +85,7 @@ for (element of document.querySelectorAll('.tile .is-child')) {
 
 };
 
-let footerWaypoint = new Waypoint({
-    element: 'footer',
-    handler: function (direction) {
-        element.style.opacity = 1;
-        anime({
-            targets: element,
-            translateY: 0,
-            easing: 'easeOutBounce',
-            delay: anime.stagger(300, { easing: 'easeOutQuad' })
-        });
-    },
-    offset: '60%'
-});
-
-
-for (element of document.querySelectorAll("section.services h1, section.services h2")) {
-    element.style.opacity = 0;
-    anime({
-        targets: element,
-        translateX: -50
-    });
-};
+// Animations: Waypoints
 
 let servicesWaypoint = new Waypoint({
     element: '.services',
@@ -101,6 +108,14 @@ let servicesWaypoint = new Waypoint({
     offset: '70%'
 });
 
+
+for (element of document.querySelectorAll("section.services h1, section.services h2")) {
+    element.style.opacity = 0;
+    anime({
+        targets: element,
+        translateX: -50
+    });
+};
 
 document.querySelector("section.main-title img").style.opacity = 0;
 document.querySelector("section.main-title img").style.transform = "translateY(50px)";
@@ -126,10 +141,11 @@ anime({
     easing: 'easeOutQuad'
 });
 
-let accordion = document.getElementsByClassName("accordion");
-let i;
+// Accordion
 
-for (i = 0; i < accordion.length; i++) {
+let accordion = document.getElementsByClassName("accordion");
+
+for (let i = 0; i < accordion.length; i++) {
     accordion[i].addEventListener("click", function () {
         this.classList.toggle("active");
 
@@ -141,7 +157,6 @@ for (i = 0; i < accordion.length; i++) {
         }
     });
 } 
-
 
 // Random colors on cards
 
@@ -170,7 +185,7 @@ function getRandomColorPair() {
 
 let team = document.querySelectorAll("section.team .tile.is-vertical > div.tile");
 
-for (i = 1; i <= team.length; i++) {
+for (let i = 1; i <= team.length; i++) {
     let colors = getRandomColorPair();
     let tile = document.querySelector(".team-" + String(i));
     tile.style.backgroundImage =
@@ -185,22 +200,24 @@ for (i = 1; i <= team.length; i++) {
 
 let services = document.querySelectorAll("section.services .tile.is-vertical > article");
 
-for (i = 1; i <= services.length; i++) {
+for (let i = 1; i <= services.length; i++) {
     let colors = getRandomColorPair();
-    let tile = document.querySelector(".services-" + String(i));
-    tile.style.backgroundImage =
-        "linear-gradient(90deg, rgb(" +
-        colors[0][0] + ", " +
-        colors[0][1] + ", " +
-        colors[0][2] + "), rgb(" +
-        colors[1][0] + ", " +
-        colors[1][1] + ", " +
-        colors[1][2] + "))";
+    let tile = document.querySelectorAll(".services-" + String(i));
+    for (let j = 0; j < tile.length; j++) { //Services is used as a general tile (i should change that) for other areas of the website. This iterator is there to ensure that in repeating sections, like categories, every tile is grabbed and colored.
+        tile[j].style.backgroundImage =
+            "linear-gradient(90deg, rgb(" +
+            colors[0][0] + ", " +
+            colors[0][1] + ", " +
+            colors[0][2] + "), rgb(" +
+            colors[1][0] + ", " +
+            colors[1][1] + ", " +
+            colors[1][2] + "))";
+    }
 }
 
 let projects = document.querySelectorAll("section.projects .tile.is-vertical > article");
 
-for (i = 1; i <= projects.length; i++) {
+for (let i = 1; i <= projects.length; i++) {
     let colors = getRandomColorPair();
     let tile = document.querySelector(".projects-" + String(i));
     tile.style.backgroundImage =
@@ -212,3 +229,4 @@ for (i = 1; i <= projects.length; i++) {
         colors[1][1] + ", " +
         colors[1][2] + "))";
 }
+

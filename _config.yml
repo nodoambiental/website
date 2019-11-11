@@ -40,7 +40,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-archives
-  - jekyll-mentions
   - liquid_reading_time
   - jekyll-minifier
 
@@ -66,7 +65,7 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 
 sass:
-    style: compressed
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

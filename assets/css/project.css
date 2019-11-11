@@ -23,13 +23,13 @@ h1.main-title {
 
 /* Infograph */
 
-.infograph img{
+.infograph img {
     border-radius: 20px;
     box-shadow: 0 0 0 0.5em #bbb;
     width: 100%;
 }
 
-.infograph-text p{
+.infograph-text p {
     padding: 30px;
 }
 
@@ -50,6 +50,8 @@ section.tos {
         padding: 10px;
     }
 
+/* Media Queries */
+
 @media only screen and (min-width: 780px) {
     .content {
         padding: 10%;
@@ -57,10 +59,37 @@ section.tos {
 
     .info {
         background-color: #eee;
-        width: 80%;
+        width: 90%;
         border-radius: 20px;
         margin: auto;
         margin-top: 60px;
         margin-bottom: 60px;
     }
 }
+
+
+@media only screen and (min-width: 780px) {
+    .info {
+        width: 80%;
+    }
+}
+
+    @media only screen and (max-width: 720px) {
+        .infograph {
+            margin-top: 40px;
+        }
+    }
+
+
+    @media only screen and (max-width: 400px) {
+        .project-subtitle {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+        }
+
+        h1.main-title {
+            position: relative;
+            top: 15%;
+        }
+    }

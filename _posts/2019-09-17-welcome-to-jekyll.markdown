@@ -3,6 +3,7 @@ layout: post
 title:  "Bienvenido a Jekyll"
 date:   2019-09-17 00:17:39 -0300
 categories: bienvenido post 
+tags: Jekyll
 ---
 Esto es el texto que figura en la tarjeta del post.  Para tener mas información de como crear un post, entra a este.
 <!--section-->
@@ -39,5 +40,9 @@ categories: bienvenido post
 
 Para que los demás posts se vean con el formato de éste deberás incluir la variable `layout: post` tal cual está, indicando que usarás el formato `post` para representar el contenido.
 Las otras variables sirven para definir mejor la metadata del post.
+
+## Hashtags
+
+bla bla testing testing #Jekyll #Caca
 
 
