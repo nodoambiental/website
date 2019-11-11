@@ -11,7 +11,7 @@ img_text: |
 
 ---
 
-![sari](/assets/images/infograph/relacionesconanimalesdomesticos.png)
+![sari](/assets/images/infograph/Relacionesconanimalesdomesticos.png)
 
 <!--section-->
 
