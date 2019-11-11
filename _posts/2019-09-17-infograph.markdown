@@ -11,13 +11,16 @@ img_text: |
 
 ---
 
-![](/assets/images/infograph/Relaciones con animales domésticos.png)
-
-Relaciones con animales domésticos
+![sari](/assets/images/infograph/relacionesconanimalesdomesticos.png)
 
 <!--section-->
 
 Este es el contenido en si del post.
+
+Las imagenes deben tener el mismo nombre que el titulo del post, pero sin los espacios, los acentos y reemplazando la `ñ` con la `n`
+
+Por ej: "Temática de los ñus" -> "Tematicadelosnus"
+
 
 bla bla bla
 bla bla bla

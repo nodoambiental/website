@@ -61,6 +61,10 @@ div.is-card i {
         font-size: 1.8em;
     }
 
+article.is-child img {
+    border-radius: 20px;
+}
+
 
 /*  Title section */
 
@@ -296,9 +300,8 @@ section.team .media-left {
     margin: auto;
 }
 
-article.is-child img {
+.team article.is-child img {
     width: 200px;
-    border-radius: 10px;
 }
 
 /* Footer */

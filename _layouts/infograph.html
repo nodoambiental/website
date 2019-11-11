@@ -15,9 +15,9 @@ layout: default
     <div class="tile is-ancestor">
         <div class="tile is-parent">
             <div class="tile is-child">
-                <a href="https://nodoambiental.org/assets/images/infograph/{{page.title}}.png">
+                <a href="/assets/images/infograph/{{page.title | remove: " " | replace: "á","a" | replace: "é","e" | replace: "í","i" | replace: "ó","o" | replace: "ú","u" | replace: "ñ","n"}}.png">
                     <figure class="infograph">
-                        <img src="/assets/images/infograph/{{page.title | uri_escape}}.png" />
+                        <img src="/assets/images/infograph/{{page.title | remove: " " | replace: "á","a" | replace: "é","e" | replace: "í","i" | replace: "ó","o" | replace: "ú","u" | replace: "ñ","n"}}.png" />
                     </figure>
                 </a>
             </div>
