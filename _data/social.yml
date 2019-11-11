@@ -5,17 +5,17 @@
 #  El link debe figurar con la ruta completa; de la forma "https://bla.ble.com"
 
 - element:
-  - icon: medkit
-  - link: ble
+  - icon: facebook-square
+  - link: https://www.facebook.com/fnodoambiental/
 
 - element:
-  - icon: medkit
-  - link: ble
+  - icon: instagram
+  - link: https://instagram.com/nodonexo
 
 - element:
-  - icon: medkit
-  - link: ble
+  - icon: twitter-square
+  - link: https://twitter.com/AmbientalNodo
 
 - element:
-  - icon: medkit
-  - link: ble
+  - icon: github-square
+  - link: https://github.com/nodoambiental
