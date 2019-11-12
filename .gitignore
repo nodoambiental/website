@@ -1,6 +1,7 @@
-_site
+node_modules
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
 .vs
+_site
