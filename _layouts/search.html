@@ -22,6 +22,7 @@ layout: default
 </section>
 
 
+
 <script src="/assets/js/lunr.js"></script>
 <script>
   window.store = {
@@ -35,6 +36,19 @@ layout: default
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
+
+    {% assign projects = site.pages.projects %}
+    {% for element in projects %}
+      "{{ location | slugify }}": {
+        "title": "{{ pages/projects/{{element.name}}.title | xml_escape }}",
+        "author": "{{ pages/projects/{{element.name}}.author | xml_escape }}",
+        "category": "{{ pages/projects/{{element.name}}.category | xml_escape }}",
+        "content": {{ pages/projects/{{element.name}}.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ {% link pages/projects/{{element.name}}.markdown %} | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
   };
 </script>
 <script src="/assets/js/search.js"></script>
+

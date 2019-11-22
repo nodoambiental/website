@@ -35,18 +35,19 @@ h1.main-title {
 
 /* TOS */
 
-section.tos {
+section.content {
     text-align: left;
     padding: 10%;
+    margin-top: calc(200px - 15vw);
 }
 
-    section.tos li {
+    section.content li {
         list-style: circle;
         font-size: 120%;
-        padding: 20px;
+        padding: 10px;
     }
 
-    section.tos p {
+    section.content p {
         padding: 10px;
     }
 
@@ -74,22 +75,32 @@ section.tos {
     }
 }
 
-    @media only screen and (max-width: 720px) {
-        .infograph {
-            margin-top: 40px;
-        }
+@media only screen and (max-width: 720px) {
+    .infograph {
+        margin-top: 140px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .project-subtitle {
+        position: absolute;
+        top: 40%;
+        left: 50%;
     }
 
-
-    @media only screen and (max-width: 400px) {
-        .project-subtitle {
-            position: absolute;
-            top: 40%;
-            left: 50%;
-        }
-
-        h1.main-title {
-            position: relative;
-            top: 15%;
-        }
+    h1.main-title {
+        position: relative;
+        top: 15%;
     }
+
+    .infograph {
+        margin-top: 160px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .infograph {
+        margin-top: 200px;
+    }
+}
