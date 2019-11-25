@@ -46,15 +46,18 @@
                 <i class="fas fa-search"></i>
             </a>
         </div>
+        {% if {{page.path}} == "contact.markdown" %}
 
+        {% else %}
         <div class="navbar-end">
             <div class="navbar-item">
                 <div class="buttons">
-                    <a href="mailto:correonodoambiental@gmail.com" class="button is-primary">
+                    <a href="/contact.html" class="button is-primary">
                         <strong>Contactanos</strong>
                     </a>
                 </div>
             </div>
         </div>
+        {% endif %}
     </div>
 </nav>
