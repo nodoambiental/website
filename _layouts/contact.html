@@ -8,5 +8,41 @@ layout: default
 </section>
 <div class="spacer"></div>
 
-pagina de contacto va aqui
+<section class="section form">
+    <Form action="https://contactform.nodoambiental.org" method="post">
+        <div>
+            <label for="email">e-mail</label>
+            <input type="email" name="email" id="form-email" value="Ingrese su e-mail" />
+        </div>
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="form-name" value="Nombre" />
+        </div>
+        <div>
+            <label for="surname">Apellido</label>
+            <input type="text" name="surname" id="form-surname" value="Apellido" />
+        </div>
+        <div>
+            <label for="organization">Organizaci&oacute;n o empresa</label>
+            <input type="text" name="organization" id="form-organization" value="Organizaci&oacute;n" />
+        </div>
+        <div>
+            <label for="position">Cargo que ocupa</label>
+            <input type="text" name="position" id="form-position" value="Cargo" />
+        </div>
+        <div>
+            <label for="composed_text">Mensaje</label>
+            <textarea name="composed_text" id="form-compoed_text" rows="10" cols="50">
+                Ingrese su mensaje aqu&iacute;.
+            </textarea>
+        </div>
+        <div>
+            <label for="subscribe">Suscribirme a noticias y mensajes informativos de Nodo Ambiental.</label>
+            <input type="checkbox" name="subscribe" id="form-subscribe"/>
+        </div>
+        <div>
+            <input type="submit" value="Enviar datos">
+        </div>
+    </Form>
+</section>
 
