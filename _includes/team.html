@@ -1,38 +1,40 @@
 {% assign team = site.data.team %}
+{% assign columns = 3 %}
+{% assign column_sizing = 12 | divided_by: columns %}
 
 <section id="team" class="section team">
     <h1>Nuestro equipo</h1>
     <h2>{{ page.team_text }}</h2>
     {% for person in team %}
-        {% if forloop.index == 0 %}
-            <div class="tile is-ancestor">
+    {% if forloop.index == 0 %}
+    <div class="tile is-ancestor">
         {% endif %}
 
-        {% assign modulo_check = forloop.index0 | modulo: 3 %}
-        
+        {% assign modulo_check = forloop.index0 | modulo: columns %}
+
         {% if modulo_check == 0 %}
-            </div>
-            <div class="tile is-ancestor">
+    </div>
+    <div class="tile is-ancestor">
         {% endif %}
-            <div class="tile is-vertical is-4">
-                <div class="tile">
-                    <div class="tile is-parent">
-                        <article class="tile is-child team-{{forloop.index}}">
-                            <div class="is-card">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <figure class="team">
-                                            <img src="/assets/images/team/{{person.name}}.png" />
-                                        </figure>
-                                    </div>
+        <div class="tile is-vertical is-{{column_sizing}}">
+            <div class="tile">
+                <div class="tile is-parent">
+                    <article class="non-selectable tile is-child team-{{forloop.index}}">
+                        <div class="is-card">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="team">
+                                        <img src="/assets/images/team/{{person.name}}.png" />
+                                    </figure>
                                 </div>
-                                <p class="title is-12">{{person.name}}</p>
-                                <h2 class="team-subtitle">{{ person.description }}</h2>
                             </div>
-                        </article>
-                    </div>
+                            <p class="title is-12">{{person.name}}</p>
+                            <h2 class="team-subtitle">{{ person.description }}</h2>
+                        </div>
+                    </article>
                 </div>
             </div>
-    {% endfor %}
+        </div>
+        {% endfor %}
     </div>
 </section>

@@ -28,25 +28,36 @@ layout: default
 
 <section class="section services">
     {% for post in site.posts %}
+    {% if forloop.index == 0 %}
     <div class="tile is-ancestor">
-        <div class="tile is-parent is-12">
-            <div class="tile is-vertical">
-                <article class="tile is-child services-{{forloop.index}} blog-post">
-                    <a href="{{post.url}}">
-                        <div class="is-card">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-12">{{post.title}}</p>
+        {% endif %}
+
+        {% assign modulo_check = forloop.index0 | modulo: 3 %}
+
+        {% if modulo_check == 0 %}
+    </div>
+    <div class="tile is-ancestor">
+        {% endif %}
+        <div class="tile is-parent is-4">
+            <div class="tile">
+                <div class="tile is-vertical">
+                    <article class="blog-post tile is-child services-{{forloop.index}}">
+                        <a href="{{post.url}}">
+                            <div class="is-card">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-12">{{post.title}}</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    {{ post.excerpt }}
                                 </div>
                             </div>
-                            <div class="content">
-                                {{ post.excerpt }}
-                            </div>
-                        </div>
-                    </a>
-                </article>
+                        </a>
+                    </article>
+                </div>
             </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </section>

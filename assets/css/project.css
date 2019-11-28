@@ -79,19 +79,26 @@ section.content {
     .infograph {
         margin-top: 140px;
     }
+
+    .project-subtitle {
+        position: absolute;
+        top: 45%;
+        left: 55%;
+    }
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .project-subtitle {
         position: absolute;
         top: 40%;
-        left: 50%;
+        left: 40%;
     }
 
     h1.main-title {
         position: relative;
         top: 15%;
+        font-size: 1.6em;
     }
 
     .infograph {
@@ -102,5 +109,24 @@ section.content {
 @media only screen and (max-width: 330px) {
     .infograph {
         margin-top: 200px;
+    }
+
+    .project-subtitle {
+        position: absolute;
+        top: 40%;
+        font-size: 1.6em;
+    }
+
+    h1.main-title {
+        font-size: 2em;
+        margin-left: -10px;
+    }
+
+        h1.main-title i {
+            display: none;
+        }
+
+    body {
+        font-size: 0.7em;
     }
 }

@@ -16,6 +16,11 @@ body {
     background: repeating-linear-gradient( -45deg, #eee, #eee 2px, #fff 2px, #fff 10px );
 }
 
+
+.title {
+    word-break: normal;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -278,17 +283,16 @@ section.projects > h2 {
 
 /* Team */
 
-.team div.tile article:hover {
-    border-radius: 20px;
-    border: 3px solid #eee;
-}
-
 section.team article {
     border-radius: 20px;
 }
 
 section.team .tile {
     justify-content: flex-start;
+}
+
+section.team .title {
+    font-size: 1.5em;
 }
 
 section.team figure {
@@ -305,7 +309,7 @@ section.team .media-left {
 }
 
 .team article.is-child img {
-    width: 200px;
+    width: 150px;
 }
 
 /* Footer */
@@ -468,5 +472,13 @@ a.hashtag {
         width: 100%;
         display: block;
         margin: auto;
+    }
+
+    .section {
+        padding: 10px;
+    }
+
+    body {
+        font-size: 0.8em;
     }
 }

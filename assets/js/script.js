@@ -71,8 +71,7 @@ function animateCard(element) {
 };
 
 for (element of document.querySelectorAll('.tile .is-child')) {
-
-    if (String(element.classList).search("team") == -1 || String(element.classList).search("footer") == -1) {
+    if (String(element.classList).search("non-selectable") == -1) {
         element.style.opacity = 0;
         element.style.transitionDuration = '1000ms';
         anime({

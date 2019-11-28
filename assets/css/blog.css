@@ -1,7 +1,7 @@
 /* General Styling */
 
-.blog-post {
-    background-image: linear-gradient(45deg, #9ad93f, #41d15a);
+section.services .tile article {
+    padding: 10px;
 }
 
 /* Mini Nav Bar */
@@ -33,8 +33,7 @@
 }
 
 .services .tile.is-child { /* This also works in the tag page */
-    margin: 10px!important;
-    
+    margin: 10px !important;
 }
 
 /* Tags */
@@ -63,5 +62,11 @@
 @media only screen and (max-width: 1024px) and (min-width: 610px) {
     .navbar-blog {
         top: -7vw;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    section.services .tile article {
+        padding: 5vw;
     }
 }

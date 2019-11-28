@@ -4,7 +4,7 @@
     <div class="tile is-ancestor">
         <div class="tile is-parent">
             {% for element in text %}
-            <div class="tile is-child">
+            <div class="non-selectable tile is-child">
                 {{element.content}}
                 {% if forloop.index0 == 0 %}
                     <br />
