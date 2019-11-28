@@ -8,54 +8,60 @@ layout: default
 </section>
 <div class="spacer"></div>
 
+<section class="section">
+    {{ page.content | markdownify }}
+</section>
+
 <section class="section services">
     <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
             <div class="tile">
-                <div class="tile is-parent">
+                <div class="tile is-parent is-vertical">
                     <article class="tile is-child services-1">
-                        <div class="is-card">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure>
-                                        <i class="fas fa-{{ page.empresas_icon }}"></i>
-                                    </figure>
+                        <a class="expandable_card">
+                            <div class="is-card">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure>
+                                            <i class="fas fa-{{ page.empresas_icon }}"></i>
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-12">Empresas</p>
+                                    </div>
                                 </div>
-                                <div class="media-content">
-                                    <p class="title is-12">Empresas</p>
+                                <div class="content contracted">
+                                    {{ page.empresas }}
                                 </div>
                             </div>
-                            <div class="content">
-                                {{ page.empresas }}
-                            </div>
-                        </div>
+                        </a>
                     </article>
                 </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child services-3">
-                        <div class="is-card">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure>
-                                        <i class="fas fa-{{ page.gobierno_icon }}"></i>
-                                    </figure>
+                <div class="tile is-parent is-vertical">
+                    <article class="tile is-child services-2">
+                        <a class="expandable_card">
+                            <div class="is-card">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure>
+                                            <i class="fas fa-{{ page.gobierno_icon }}"></i>
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-12">Gobierno</p>
+                                    </div>
                                 </div>
-                                <div class="media-content">
-                                    <p class="title is-12">Gobierno</p>
+                                <div class="content contracted">
+                                    {{ page.gobierno }}
                                 </div>
                             </div>
-                            <div class="content">
-                                {{ page.gobierno }}
-                            </div>
-                        </div>
+                        </a>
                     </article>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<script src="/assets/js/services.js"></script>
 
-<section class="section">
-    {{ page.content | markdownify }}
-</section>
 

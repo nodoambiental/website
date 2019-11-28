@@ -17,6 +17,17 @@ body {
     background-attachment: fixed;
 }
 
+.expanded {
+    opacity: 1;
+    height: inherit;
+    transition-duration: 400ms;
+}
+
+.contracted {
+    opacity: 0;
+    height: 0px;
+    transition-duration: 400ms;
+}
 
 .title {
     word-break: normal;

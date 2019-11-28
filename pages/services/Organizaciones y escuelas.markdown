@@ -2,7 +2,17 @@
 layout: services
 title: Servicios a Organizaciones y Escuelas
 organizaciones_icon: users-cog
+organizaciones: |
+  bla bla bla
+  bla bla bla
+  lorem ipsum dolor
+  sit amet et doraem denestratum.
 escuelas_icon: graduation-cap
+escuelas: |
+  bla bla bla
+  bla bla bla
+  lorem ipsum dolor
+  sit amet et doraem denestratum.
 ---
 
 #### A tu organización o escuela le hace falta...
