@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
+    "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\css\\fonts\\fa",
-    "\\assets\\images\\infograph",
-    "\\assets\\images\\team",
     "\\assets\\js",
     "\\pages",
     "\\pages\\projects",
+    "\\pages\\services",
     "\\_data",
-    "\\_sass\\base"
+    "\\_includes",
+    "\\_layouts"
   ],
+  "SelectedNode": "\\assets\\js\\script.js",
   "PreviewInSolutionExplorer": false
 }

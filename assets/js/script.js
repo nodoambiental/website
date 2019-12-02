@@ -9,6 +9,8 @@ function toggleMenu() {
 
 burger_menu.addEventListener("click", toggleMenu, false);
 
+toggleMenu();      // Needed as it initializes expanded to support no-js
+
 // Hastag support
 
 let text_elements = document.querySelectorAll("p");

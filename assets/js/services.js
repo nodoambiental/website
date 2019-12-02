@@ -1,4 +1,4 @@
-// Navigation
+// Expandable cards on service subpages
 
 let expandable_cards = document.querySelectorAll("a.expandable_card");
 let expandable_content = document.querySelectorAll("a.expandable_card .content");
@@ -13,8 +13,6 @@ function toggleCard(index) {
         expandable_content[index].classList.add("expanded");
     }
 };
-
-//burger_menu.addEventListener("click", toggleMenu, false);
 
 for (let i = 0; i < expandable_cards.length; i++) {
     expandable_cards[i].addEventListener("click", function () {

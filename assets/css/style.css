@@ -17,13 +17,13 @@ body {
     background-attachment: fixed;
 }
 
-.expanded {
+.js .expanded {
     opacity: 1;
     height: inherit;
     transition-duration: 400ms;
 }
 
-.contracted {
+.js .contracted {
     opacity: 0;
     height: 0px;
     transition-duration: 400ms;
@@ -146,24 +146,24 @@ section.main-title {
 
 /* Navbar */
 
-.navbar {
+.js .navbar {
     box-shadow: 1px 0 3px 1px #333;
 }
 
-a.navbar-item {
+.js a.navbar-item {
     transition-duration: 200ms;
 }
 
-    a.navbar-item:hover {
+    .js a.navbar-item:hover {
         background-color: #ddd !important;
         border-radius: 10px;
     }
 
-a.navbar-link {
+.js a.navbar-link {
     transition-duration: 200ms;
 }
 
-    a.navbar-link:hover {
+    .js a.navbar-link:hover {
         background-color: #ddd !important;
         border-radius: 10px;
     }
@@ -183,7 +183,7 @@ section h1 {
     padding-top: 0;
 }
 
-.accordion {
+.js .accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -198,11 +198,11 @@ section h1 {
     font-size: 140%;
 }
 
-    .active, .accordion:hover {
+    .js .active, .accordion:hover {
         background-color: #ccc;
     }
 
-.panel {
+.js .panel {
     display: none;
     overflow: hidden;
     border-radius: 20px;
@@ -212,7 +212,7 @@ section h1 {
     border: 2px solid #eee;
 }
 
-.accordion:after {
+.js .accordion:after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: '\f078';
@@ -222,7 +222,7 @@ section h1 {
     margin-left: 5px;
 }
 
-.active:after {
+.js .active:after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f077";
@@ -378,14 +378,54 @@ footer {
 
 /* Hashtags */
 
-a.hashtag {
+.js a.hashtag {
     color: #cf4b00;
 }
 
-    a.hashtag:hover {
+    .js a.hashtag:hover {
         color: #FF5C00;
         border-bottom: 1px dashed #999;
     }
+
+/* No JS */
+
+.no-js section.main-title::after {
+    content: "Para una mejor experiencia por favor habilite JavaScript o actualice su navegador";
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 2em;
+    text-align: center;
+    display: block;
+}
+
+.no-js button.accordion {
+    width: 100%;
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1em;
+    border: 3px solid #eee;
+}
+
+.no-js div.tile article {
+    background-image: linear-gradient(90deg, rgb(146, 238, 199), rgb(171, 222, 209));
+}
+
+    .no-js div.tile article:hover {
+        transition-duration: 400ms;
+        border: 20px solid rgba(255,255,255,0.5);
+        background-image: linear-gradient(45deg, rgb(214, 165, 240), rgb(230, 140, 247));
+    }
+
+.no-js .team div.tile article:hover {
+    background-image: linear-gradient(90deg, rgb(146, 238, 199), rgb(171, 222, 209));
+    border: 3px solid #eee;
+}
+
+.no-js div.navbar-menu is-active {
+    text-align: left;
+}
 
 /* Media Queries */
 
