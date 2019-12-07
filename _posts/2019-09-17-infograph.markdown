@@ -35,6 +35,9 @@ Esto es una cita: {% cite ruby %}
 
 Para incluir una cita escribir `{% raw %}{% cite NOMBRE %}{% endraw %}` reemplazando `NOMBRE` por el nombre de la entrada correspondiente.
 
+Esto es otra cita: {% cite mezzabotta2018problema %}
+
+
 Las referencias citadas aparecerán automáticamente en la parte inferior del artículo del InfoBlog.
 
 
