@@ -5,7 +5,7 @@ date:   2019-09-17 00:17:39 -0300
 categories: bienvenido post 
 
 img_text: |
-  Este es el texto que figura al costado de la infografía.
+  Este es el texto que figura al costado de la infografía. Es un archivo en la carpeta _posts.
   Cada nueva oración debe ir siempre separada del borde izquierdo por dos espacios en blanco, como aquí. O se rompe todo.
   Puede tener varias líneas, sin inconveniente, y utilizar cualquier caracter :;'"@
 
