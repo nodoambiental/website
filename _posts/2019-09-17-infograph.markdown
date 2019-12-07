@@ -5,7 +5,7 @@ date:   2019-09-17 00:17:39 -0300
 categories: bienvenido post 
 
 img_text: |
-  Este es el texto que figura al costado de la infografia.
+  Este es el texto que figura al costado de la infografía.
   Cada nueva oración debe ir siempre separada del borde izquierdo por dos espacios en blanco, como aquí. O se rompe todo.
   Puede tener varias líneas, sin inconveniente, y utilizar cualquier caracter :;'"@
 
@@ -42,6 +42,9 @@ Desarrollo Web: Ágata Ordano
 
 
 Autores: Ágata Ordano, Laura González, Mariano Ordano
+
+
+
 
 
 
