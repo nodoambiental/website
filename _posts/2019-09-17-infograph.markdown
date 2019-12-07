@@ -35,6 +35,13 @@ Esto es una cita: {% cite ruby %}
 
 Para incluir una cita escribir `{% raw %}{% cite NOMBRE %}{% endraw %}` reemplazando `NOMBRE` por el nombre de la entrada correspondiente.
 
-Las referencias citadas aparecerán en la parte inferior del artículo del InfoBlog:
+Las referencias citadas aparecerán automáticamente en la parte inferior del artículo del InfoBlog.
+
+
+Desarrollo Web: Ágata Ordano
+Autores: Ágata Ordano, Laura González, Mariano Ordano
+
+
+
 
 
