@@ -4,7 +4,7 @@ title: Documentación
 icon: book-open
 ---
 
-## Terminos de servicio
+## Términos de servicio
 
 *  Nodo Ambiental es una organización que colabora con la elaboración y ejecución de proyectos de pertinencia ambiental y social, para la preservación del ambiente, el desarrollo sostenible, la seguridad e inocuidad alimentaria y el bienestar social.
 
@@ -48,5 +48,5 @@ Si no desea recibir mensajes, por favor, indíquelo a nuestro correo, correonodo
 
 *  Lineamientos de autoría
 
-Los artículos o post publicados en nodoambiental.org no necesariamente reflejan la opinión consensuada de la organización
+Los artículos o post publicados en nodoambiental.org no necesariamente reflejan la opinión consensuada de la organización.
 
