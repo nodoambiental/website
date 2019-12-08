@@ -1,6 +1,6 @@
 ---
 layout: infograph
-title:  "InfoBlogAprender"
+title:  "InfoBlog Aprender"
 date:   2019-09-17 00:17:39 -0300
 categories: bienvenido post 
 

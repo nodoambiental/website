@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Bienvenido a Jekyll"
+title:  "InfoBlog Jekyll"
 date:   2019-09-17 00:17:39 -0300
 categories: bienvenido post 
 tags: Jekyll
 ---
+![jekyll](/assets/images/post/InfoBlogJekyll.png)
+
 Esto es el texto que figura en la tarjeta del post.  Para tener mas información de como crear un post, entra a este.
 <!--section-->
 
@@ -12,9 +14,9 @@ Para agregar un post debes crear un archivo `.markdown` en la carpeta `_posts` q
 
 `AÑO-MES-DIA-TITULO.markdown`
 
-Donde Año es un número de cuatro cifras, mes y dia de dos cifras y titulo es el nombre al que referencia el post, sin espacios.
+Donde AÑO es un número de cuatro cifras, MES y DIA se indican con dos cifras y TITULO es el nombre al que referencia el post, sin espacios.
 
-Adentro del post debes agregar al principio la parte frontal del archivo. Esta va antes que nada y se delimita por tres guiones.
+Adentro del post debes agregar al principio la parte frontal del archivo. La parte frontal va antes que nada y se delimita por tres guiones.
 
 Dentro de la parte frontal incluirás variables que definirán el comportamiento del post:
 
@@ -22,7 +24,7 @@ Dentro de la parte frontal incluirás variables que definirán el comportamiento
 ---
 layout: post
 title: título
-date: fecha del psot
+date: fecha del post
 categories: categorías
 ---
 ```
@@ -32,7 +34,7 @@ Por ejemplo, en este post la parte frontal es así:
 ```
 ---
 layout: post
-title:  "Bienvenido a Jekyll"
+title:  "InfoBlog Jekyll"
 date:   2019-09-17 00:17:39 -0300
 categories: bienvenido post 
 ---
@@ -43,6 +45,6 @@ Las otras variables sirven para definir mejor la metadata del post.
 
 ## Hashtags
 
-bla bla testing testing #Jekyll #Caca
+bla bla testing testing #Jekyll #Cosas
 
 
