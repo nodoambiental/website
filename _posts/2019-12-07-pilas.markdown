@@ -10,7 +10,7 @@ img_text: |
 
 ---
 
-![pilas](/assets/images/infograph/pilas.png)
+![pilas](/assets/images/infograph/PilasUsadas.png)
 
 <!--section-->
 
