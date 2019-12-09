@@ -15,30 +15,27 @@ img_text: |
 <!--section-->
 
 Los NO de las pilas usadas
-• Almacenarlas en envases PET con agua, arena, aserrín, cemento o tierra.
-• Tenerlas en un cajón, sueltas.
-• Dejarlas en un aparato sin funcionar por períodos extensos de tiempo. Eso puede producir daños al aparato por derrames.
-• Tenerlas sulfatadas o con un polvo blanco (hidróxido de potasio), muy tóxico.
-• Quemarlas, pueden explotar. Además los vapores producidos son tóxicos.
-• Enterrarlas.
-• Tirarlas al inodoro.
-• Dejarlas en lugares húmedos.
-• Tirarlas a la basura común.
+* Almacenarlas en envases PET con agua, arena, aserrín, cemento o tierra.
+* Tenerlas en un cajón, sueltas.
+* Dejarlas en un aparato sin funcionar por períodos extensos de tiempo. Eso puede producir daños al aparato por derrames.
+* Tenerlas sulfatadas o con un polvo blanco (hidróxido de potasio), muy tóxico.
+* Quemarlas, pueden explotar. Además los vapores producidos son tóxicos.
+* Enterrarlas.
+* Tirarlas al inodoro.
+* Dejarlas en lugares húmedos.
+* Tirarlas a la basura común.
 
 
 Los SI de las pilas usadas
-• Utilizar artefactos conectados a la red eléctrica (con enchufe). Si su uso es inevitable usar pilas recargables, así se reduce el volumen de desechos.
-• Usar pilas recargables libres de cadmio (Cd) como ser las de níquel metal hídrico (NiMH).
-• Si compras pilas desechables FIJATE que sean libres de mercurio (Hg).
-• Para los aparatos que usas muy seguido conviene comprar pilas recargables.
-• Tené en cuenta la calidad de la pila a elegir: evitar comprar pilas baratas, las de marca conocida tienen una mayor vida útil. Además las marcas reconocidas se atienen a convenios de reducción de mercurio.
+* Utilizar artefactos conectados a la red eléctrica (con enchufe). Si su uso es inevitable usar pilas recargables, así se reduce el volumen de desechos.
+* Usar pilas recargables libres de cadmio (Cd) como ser las de níquel metal hídrico (NiMH).
+* Si compras pilas desechables FIJATE que sean libres de mercurio (Hg).
+* Para los aparatos que usas muy seguido conviene comprar pilas recargables.
+* Tené en cuenta la calidad de la pila a elegir: evitar comprar pilas baratas, las de marca conocida tienen una mayor vida útil. Además las marcas reconocidas se atienen a convenios de reducción de mercurio.
 
 En Argentina no hay planta de reciclaje y no hay depósitos locales regularizados. 
 
-Necesitamos construir un sistema de manejo adecuado de residuos tóxicos.
-
-
-{% cite protomastro2007estudio %}
+Hay numerosos trabajos previos, por ejemplo, {% cite protomastro2007estudio %}, sin embargo, aún necesitamos construir un sistema de manejo adecuado de residuos tóxicos.
 
 
 Desarrollo Web: Ágata Ordano
