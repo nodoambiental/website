@@ -2,7 +2,8 @@
 layout: infograph
 title:  "InfoBlog Aprender"
 date:   2019-09-17 00:17:39 -0300
-categories: bienvenido post 
+categories: contaminación
+tags: pilas contaminantes residuos
 
 img_text: |
   Este es el texto que figura al costado de la infografía. Es un archivo en la carpeta _posts.
