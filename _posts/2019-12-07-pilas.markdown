@@ -2,7 +2,8 @@
 layout: infograph
 title:  "Pilas Usadas"
 date:   2019-09-17 00:17:39 -0300
-categories: bienvenido post 
+categories: contaminación 
+tags: pilas contaminantes residuos
 
 img_text: |
   La mayoría de las pilas contienen contaminantes y deben ser desechadas en lugares especiales.
