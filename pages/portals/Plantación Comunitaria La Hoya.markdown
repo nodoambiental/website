@@ -1,17 +1,22 @@
 ---
 layout: project
 title: Plantación Comunitaria La Hoya
+categories: salud
+tags: nucleación regeneración agroecología urbano agroforestal restauración ambiental
 ---
 
 # Oh!Yunga!
 
 # Plantación Comunitaria La Hoya
 
-## Próxima plantación Domingo 29 de Septiembre, te esperamos!
-
-
+## Te esperamos!
 
 <a href="https://www.google.com/maps/place/Plantaci%C3%B3n+Comunitaria+La+Hoya/@-26.7998435,-65.3119644,19z/data=!3m1!4b1!4m13!1m7!3m6!1s0x9422433a2ee1bffb:0xc5d4083eee0d98b1!2sYerba+Buena,+Tucum%C3%A1n!3b1!8m2!3d-26.8119881!4d-65.3013529!3m4!1s0x94224311b8e7679b:0x38a937cba3e0caa9!8m2!3d-26.7998447!4d-65.3114159">UBICACIÓN -enlace a GoogleMaps-</a>
+
+## El domingo 29 de septiembre revisamos 82 puntos de plantación en La Hoya!
+
+- Próximamente mapa de plantación...
+
 
 ## El domingo 25 de agosto se plantaron 35 nuevos árboles en La Hoya!
 
@@ -138,13 +143,9 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
 - Galeano Galeano, J. D. (2019) Diseño y establecimiento piloto de núcleos de vegetación nativa para recuperación de áreas degradadas en un tramo del río Guamal, San Carlos de Guaroa–Meta. Trabajo de grado. Villavicencio, Colombia: Facultad de Ingeniería Ambiental, Universidad Santo Tomás. 
 - Wolff, L. F., & Medeiros, C. A. B. (2017). Alternativas para a Diversificação da Agricultura Familiar de Base Ecológica–. Embrapa Clima Temperado-Documentos (INFOTECA-E).
 
-### Palabras clave - etiquetas
-- nucleación
-- regeneración natural asistida
-- agroecología
 
 ### Idea
-- Matías Kern, Club Fukuoka, Sembradores
+- Matías Kern, Club Fukuoka
 
 ### Participantes
 - Bruno Busnelli
@@ -158,13 +159,14 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
 - Erika Regner
 - Carmen Reguilón
 - Manuel Siñeriz
+- Mariel Sosa
 - Sergio Sosa
 - Agustina Utrera Vargiu
 - Mayra Varela
 - Viviana Vargiu
 - Mariel, Fabián, Lucía
 - Pablo, Malu, SOS Tierra
-- ... decinos si quieres aparecer o no en esta lista...
+- ...
 
 - Banda de Sikuris La Randa
   - Alejandro Flores
@@ -184,15 +186,15 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
   - ...
 
 
-![facebook](/home/nodo/nodo/images/facebook.png)<a href="https://www.facebook.com/Sembradores-294718317398299">Sembradores</a>
+![facebook](/assets/images/facebook.png)<a href="https://www.facebook.com/Sembradores-294718317398299">Sembradores</a>
 
 
-![facebook](/home/nodo/nodo/images/facebook.png)<a href="https://www.facebook.com/BibliotecaPopularLaRanda">La Randa</a>
+![facebook](/assets/images/facebook.png)<a href="https://www.facebook.com/BibliotecaPopularLaRanda">La Randa</a>
 
 
 ### Desarrollo Web
-- Mariano Ordano
 - Ágata Ordano
+- Mariano Ordano
 - Laura González
 
 ### Textos e imágenes
@@ -212,7 +214,7 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
 - Proyecto Salud, Seguridad e Inocuidad Alimentaria, <a href="https://nodoambiental.org">Nodo Ambiental</a>
 
 ### Cita
-Club Fukuoka, Sembradores (2019) Plantación Comunitaria La Hoya. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.github.io/sembradores/">https://nodoambiental.github.io/sembradores/</a>
+Club Fukuoka (2019) Plantación Comunitaria La Hoya. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Plantación Comunitaria La Hoya.html</a>
 
 ### Licencia
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
