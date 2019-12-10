@@ -84,7 +84,6 @@ Palto | <a href="https://es.wiktionary.org/wiki/palto">_Persea americana_</a> | 
 
 # Línea de tiempo
 
-
 - 10 de noviembre - 17:30 a 19:30 horas
 
 - 29 de septiembre - 18 a 20 horas
@@ -92,16 +91,14 @@ Palto | <a href="https://es.wiktionary.org/wiki/palto">_Persea americana_</a> | 
 - 25 de agosto - 15:30 a 19:30 horas
 
 - Difusión
-![difusión](/assets/images/hoyadifusión.jpg)
+![difusión](/assets/images/hoyadifusion.jpg)
 
 - 18 de agosto - 17 a 18:30 horas, vemos el lugar; Matías, Gabriel, Nury, Laura, Mariano. La iniciativa comenzó hace dos años. 
 
 
-- Prensa
-<a href="http://www.primerafuente.com.ar/noticias/81776/invitan-plantar-arboles-nativos-hoya">primerafuente.com.ar</a>
+# Prensa
+- <a href="http://www.primerafuente.com.ar/noticias/81776/invitan-plantar-arboles-nativos-hoya">primerafuente.com.ar</a>
 
-
-El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán, sen del campo), frutales (banano, palta), parches de huertas (achicoria) y enriquecedores del suelo (chaucha egipcia). Hay 3 líneas de árboles, caña morada, y parches sobrevivientes del trabajo de 2 años (desde invierno 2017).
 
 ![vista al este noreste](/assets/images/hoyaeste.jpg)
 
@@ -110,7 +107,6 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
 ![vista al este sureste](/assets/images/hoyaeste3.jpg)
 
 ![vista al atardecer](/assets/images/hoyaatardecer.jpg)
-
 
 
 - 9 de agosto - 17 a 20 horas, reunión de trabajo; Matías, Mayra, Erika, Valeria, Sergio, Gabriel, Manuel, Laura, Mariano. Explicación del concepto y formato de la nucleación en espacios públicos, por parte de Matías Kern.
@@ -134,6 +130,12 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
 - relación con vecinos
 - recuperación y valoración de espacios públicos
 - reserva agroecológica
+
+
+# Historia
+
+El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán, sen del campo), frutales (banano, palta), parches de huertas (achicoria) y enriquecedores del suelo (chaucha egipcia). Hay 3 líneas de árboles, caña morada, y parches sobrevivientes del trabajo de 2 años (desde invierno 2017).
+
 
 
 ### Referencias
