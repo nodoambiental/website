@@ -90,7 +90,6 @@ Palto | <a href="https://es.wiktionary.org/wiki/palto">_Persea americana_</a> | 
 
 - 25 de agosto - 15:30 a 19:30 horas
 
-- Difusión
 ![difusión](/assets/images/hoyadifusion.jpg)
 
 - 18 de agosto - 17 a 18:30 horas, vemos el lugar; Matías, Gabriel, Nury, Laura, Mariano. La iniciativa comenzó hace dos años. 
@@ -132,7 +131,7 @@ Palto | <a href="https://es.wiktionary.org/wiki/palto">_Persea americana_</a> | 
 - reserva agroecológica
 
 
-# Historia
+## Historia
 
 El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán, sen del campo), frutales (banano, palta), parches de huertas (achicoria) y enriquecedores del suelo (chaucha egipcia). Hay 3 líneas de árboles, caña morada, y parches sobrevivientes del trabajo de 2 años (desde invierno 2017).
 
@@ -163,11 +162,13 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
 - Manuel Siñeriz
 - Mariel Sosa
 - Sergio Sosa
+- Mariana Valoy
 - Agustina Utrera Vargiu
 - Mayra Varela
 - Viviana Vargiu
 - Mariel, Fabián, Lucía
 - Pablo, Malu, SOS Tierra
+- Andrés, Ezequiel
 - ...
 
 - Banda de Sikuris La Randa
