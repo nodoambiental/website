@@ -11,8 +11,10 @@ layout: default
 </section>
 <div class="spacer"></div>
 
-
 <section class="section content">
     {{ content | remove: page.excerpt }}
 </section>
 
+<section class="references">
+    {% bibliography --cited_in_order %}
+</section>

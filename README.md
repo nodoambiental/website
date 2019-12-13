@@ -246,10 +246,10 @@ Para agregar el título, la fecha de muestra y demás metadatos se agregan las v
 ```
 ---
 layout: post
-title:  "Titulo del post" # Siempre entre comillas.
-date:   2019-09-17 00:17:39 -0300 # Con formato AAAA-MM-DD HH:MM y zona horaria.
-categories: documentación post # Categorías a las que pertenezca el post, separadas por espacio.
-tags: Jekyll Docs # Etiquetas a las que pertenezca el post, separadas por espacio.
+title:  "Titulo del post"           # Siempre entre comillas.
+date:   2019-09-17 00:17:39 -0300   # Con formato AAAA-MM-DD HH:MM y zona horaria.
+categories: documentación post      # Categorías a las que pertenezca el post, separadas por espacio.
+tags: Jekyll Docs                   # Etiquetas a las que pertenezca el post, separadas por espacio.
 ---
 ```
 #### Contenido
@@ -432,7 +432,7 @@ El sitio soporta el uso de hastags, simplemente escribiendo el caracter `#` ante
 
 ### Consideraciones especiales al momento de editar los archivos
 
-#### ¿Error de caracter unicode, que es esto?
+#### ¿Error de caracter unicode, qué es esto?
 
 Jekyll soporta nativamente codificaciones de caracteres UTF-8. Esto quiere decir que se pueden introducir caracteres que no pertenezcan al conjunto de caracteres ASCII y el sistema los debe procesar sin problemas. En algunos sistemas, particularmente aquellos que utilizan Windows, la codifcación con la que se crean la mayoría de los archivos por defecto no comprende UTF-8. Es por esto que pueden ocurrir errores de compilación de caracteres inválidos _a pesar de que expresamente Jekyll los soporta_. Para solucionar este problema hay que cambiar la codificación del archivo a `65001` **sin encabezado**. La forma más práctica de cambiar esto bajo Windows es utilizar el programa `Notepad++`, que permite guardar archivos con codificaciones personalizadas. También hay que tener cuidado al momento de realizar la compilación que la ventana de la terminal que ejecuta la compilación tenga habilitado UTF-8. Esto se puede hacer mediante el comando `chcp 65001` en Windows.
 
@@ -440,14 +440,421 @@ Jekyll soporta nativamente codificaciones de caracteres UTF-8. Esto quiere decir
 
 Otro detalle a tener en cuenta es que si bien podemos cometer errores en la escritura del contenido y simplemente van a generar un resultado incorrecto, errores de formato en el _front-matter_ de los archivos impedirá realizar la compilación del sitio. Así que hay que tener especial cuidado al momento de editar esta sección.
 
+# Para desarrolladores
+
+Este sitio utiliza a [Jekyll](https://jekyllrb.com/docs/) como generador de sitio estático, a [Bulma](https://bulma.io/documentation/), [Lunr](https://lunrjs.com/) como motor de búsqueda, [Modernizr](https://modernizr.com/docs/) como librería de compatibilidad, [Anime.JS](https://animejs.com/documentation) como librería de animaciones, [JQuery](https://jquery.com/) como libreria extensora de funcionalidad, [JQuery Waypoints](http://imakewebthings.com/waypoints/guides/getting-started/) y algo de código a medida.
+
 ## Estructura interna
+
+La estructura interna del sitio está separada entre los `assets`, archivos estáticos, las plantillas y los bloques de código.
 
 ### Plantillas
 
+Las plantillas en Jekyll son código que se compila a una estructura del sitio. Jekyll utiliza un sistema de plantillas llamado [Liquid](https://es.shopify.com/blog/liquid-lenguaje-para-la-creacion-de-plantillas-en-shopify). Este sistema de plantillas permite generar código en función de una entrada y que no sea todo estático y fijo.
+
+El sitio está separado en 15 plantillas, en orden alfabético:
+
+#### blog.html
+
+Esta plantilla toma la lista de posts ubicada en `_posts`, quebrando en tres columnas (separados en filas de tres tarjetas) todos los posts. El código relevante es:
+
+```
+{% for post in site.posts %}
+    {% if forloop.index == 0 %}
+        <div class="tile is-ancestor">
+    {% endif %}
+
+    {% assign modulo_check = forloop.index0 | modulo: 3 %}
+
+    {% if modulo_check == 0 %}
+        </div>
+        <div class="tile is-ancestor">
+    {% endif %}
+
+    ...
+
+{% endfor %}
+```
+
+#### categories.html
+
+Esta plantilla toma la lista de categorías del sitio, quebrando en tres columnas (separados en filas de tres tarjetas) todos los posts. El código relevante es (similar al de `blog`):
+
+```
+{% for category in site.categories %}
+
+    ...
+
+    {% for post in category[1] %}
+        {% if forloop.index == 0 %}
+            <div class="tile is-ancestor">
+        {% endif %}
+
+        {% assign modulo_check = forloop.index0 | modulo: 3 %}
+
+        {% if modulo_check == 0 %}
+            </div>
+            <div class="tile is-ancestor">
+        {% endif %}
+
+        ...
+
+    {% endfor %}
+
+    ...
+
+{% endfor %}
+```
+
+#### contact.html
+
+Esta plantilla provee un formulario de contacto simple mediante `POST`. Modificar a necesidad y apuntar al backend que procese el formulario.
+
+#### contactsuccess.html
+
+Esta plantilla provee una página de condición de éxito del formulario de contacto. Debe ser retornada con un código `301` como condición de éxito en el backend.
+
+#### default.html
+
+Esta es la plantilla base que incluye el encabezado con toda los metadatos necesarios, la navegación, y el pie de página. Más detalles de cada componente se pueden ver en la sección de Bloques Básicos. Esta plantilla se usa como base la cual será extendida por las demás plantillas, por lo que cualquier modificación aquí se verá reflejada globalmente en el sitio.
+
+#### home.html
+
+Esta plantilla provee la página principal del sitio web. Incluye bloques que proveen a cada sección de la página. 
+
+#### infograph.html
+
+Esta plantilla provee de formato a las publicaciones de infografía. Realiza una sanitización cruda del nombre del vínculo a la imagen:
+
+```
+...
+
+<a href="/assets/images/infograph/
+    {{page.title | remove: " " | replace: "á","a" | 
+    replace: "é","e" | replace: "í","i" | replace: "ó","o" | 
+    replace: "ú","u" | replace: "ñ","n"}}.png">
+
+...
+```
+
+Esto es así porque la función de `url_escape` de jekyll por algún motivo no funciona, así que esto sirve como atajo para resolverlo.
+
+Las otras secciones proveen el contenido (sin el extracto que aparece en la tarjeta):
+
+```
+{{ content | remove: page.excerpt }}
+```
+
+Y la bibliografía:
+
+```
+{% bibliography --cited_in_order %}
+```
+
+#### portals.html
+
+Esta plantilla lee todos los portales presentes en `_data/portals.yml` y genera las tarjetas adecuadas, con la misma estructura de tres columnas vista previamente, enlazando a los archivos pertinentes:
+
+```
+{% assign portals = site.data.portals %}
+
+{% for portal in portals %}
+    {% if forloop.index == 0 %}
+        <div class="tile is-ancestor">
+    {% endif %}
+
+    {% assign modulo_check = forloop.index0 | modulo: 3 %}
+
+    {% if modulo_check == 0 %}
+        </div>
+        <div class="tile is-ancestor">
+    {% endif %}
+
+    ...
+
+    <a href="{{portal.name}}.html">
+
+    ...
+
+{% endfor %}
+```
+
+#### post.html
+
+Esta plantilla provee el contenido de un post abierto, removiendo el extracto de la tarjeta:
+
+```
+{{ content | remove: page.excerpt }}
+```
+
+Y agregando la bibliografía
+
+```
+{% bibliography --cited_in_order %}
+```
+
+#### project.html
+
+Esta plantilla provee el contenido de una página básica que no sea un post. En realidad esto no debería llamarse project, ya que es una plantilla genérica, pero quedó así como legado de código previo que solo lo utilizaba para los proyectos. En el futuro esto será diferente.
+
+#### search.html
+
+Esta plantilla provee la búsqueda según lo que especifica [la documentación de Lunr](https://lunrjs.com/guides/getting_started.html). El código relevante para la creación del índice es:
+
+```
+  window.store = {
+    {% for page in site.pages %}
+      "{{ page.url | slugify }}": {
+        "title": "{{ page.title | xml_escape }}",
+        "author": "{{ page.author | xml_escape }}",
+        "category": "{{ page.category | xml_escape }}",
+        "content": {{ page.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ page.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+```
+
+La búsqueda en sí se carga desde `assets/js/search.js`
+
+#### services.html, services2.html, services3.html
+
+Estas plantillas proveen las tarjetas expansibles en dos columnas de las subpáginas de servicios.
+
+#### tags.html
+
+Esta plantilla provee la página de etiquetas y separa los post relevantes en tres columnas utilizando la misma estructura que las otras plantillas:
+
+```
+{% for tag in site.tags %}
+
+    ...
+
+    {% for post in tag[1] %}
+        {% if forloop.index == 0 %}
+            <div class="tile is-ancestor">
+        {% endif %}
+
+        {% assign modulo_check = forloop.index0 | modulo: 3 %}
+
+        {% if modulo_check == 0 %}
+            </div>
+            <div class="tile is-ancestor">
+        {% endif %}
+    {% endfor %}
+
+    ...
+
+{% endfor %}
+
+```
+
 ### Bloques básicos
+
+Los bloques básicos son pedazos sueltos de código que son insertos tal cual están dentro de donde sean invocados mediante el comando  `{% include NOMBRE.html %}` siendo NOMBRE el nombre del archivo encontrado en la carpeta `_includes`. Los siete bloques utilizados, en orden alfabético:
+
+#### about.html
+
+Genera un acordión y las entradas relacionadas según las lea de `_data/about.yml`. El código relevante es:
+
+```
+{% assign about = site.data.about %}
+
+{% for element in about %}
+
+    ...
+
+        {% for item in element.content %}
+
+        ...
+
+        {% endfor %}
+
+    ...
+
+{% endfor %}
+
+```
+
+#### footer.html
+
+Este bloque genera el pie de página de acuerdo a los datos que lea de `_data/footer.yml` y `_data/social.yml`, además de agregar la carga de todos los scripts necesarios. El código relevante es:
+
+```
+{% assign text = site.data.footer %}
+{% assign social = site.data.social %}
+
+{% for element in text %}
+
+    ...
+
+        {{element.content}}
+
+        {% if forloop.index0 == 0 %}
+
+            <br />
+
+            {% for item in social %}
+                <a href="{{item.element[1].link}}"><i class="fab fa-{{item.element[0].icon}} footer-social"></i></a>
+            {% endfor %}
+        {% endif %}
+
+    ...
+
+{% endfor %}
+
+```
+
+#### head.html
+
+Este bloque carga todos los metadatos y favicons.
+
+#### navigation.html
+
+Este bloque genera el menú de navegación, con un simple switch para eliminar el botón de contacto en la página de contacto:
+
+```
+{% if {{page.path}} == "contact.markdown" or {{page.path}} == "contactsuccess.markdown" %}
+
+    {% else %}
+    
+    ...
+
+{% endif %}
+```
+
+#### projects.html
+
+Este bloque genera todas las tarjetas de los proyectos (en una sola columna) junto con todos sus objetivos, de acuerdo a los datos que lea de `_data/projects.yml`. El código relevante es:
+
+```
+{% assign projects = site.data.projects %}
+{% for project in projects %}
+
+    ...
+
+    {% for element in project.target %}
+
+        {{element.content}}
+
+    {% endfor %}
+
+    ...
+
+{% endfor %}
+```
+
+#### services.html 
+
+Este bloque genera todas las tarjetas de los servicios (en una sola columna), de acuerdo a los datos que lea de `_data/services.yml`. El código relevante es:
+
+```
+{% assign services = site.data.services %}
+{% for service in services %}
+
+    ...
+
+    {{ service.content }}
+
+    ...
+
+{% endfor %}
+```
+
+#### team.html
+
+Este bloque genera todas las tarjetas de los miembros del equipo (en tres o más columnas), de acuerdo a los datos que lea de `_data/team.yml`. El código relevante es:
+
+```
+{% assign team = site.data.team %}
+{% assign columns = 3 %}
+{% assign column_sizing = 12 | divided_by: columns %}
+
+{% for person in team %}
+    {% if forloop.index == 0 %}
+        <div class="tile is-ancestor">
+    {% endif %}
+
+    {% assign modulo_check = forloop.index0 | modulo: columns %}
+
+    {% if modulo_check == 0 %}
+        </div>
+        <div class="tile is-ancestor">
+    {% endif %}
+
+    ...
+
+{% endfor %}
+```
 
 ### Estilo
 
+Este sitio utiliza como base de estilo al provisto por [Bulma](https://bulma.io/documentation/) y utiliza el kit de [Font Awesome 5](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use) y [Poppins](https://fonts.google.com/specimen/Poppins) como fuente, servida localmente.
+
+Todo el contenido de estilo se encuentra repartido entre la carpeta `_sass` y la carpeta `assets/css`. Jekyll tiene un preprocesador de `SASS` por lo tanto se puede explotar todo el potencial de Bulma. En esta página de deja todo más o menos como viene, pero se puede modificar libremente a la necesidad que se tenga.
+
+El estilo básico es `style.css`, que a su vez carga a:
+
+```
+bulma.css
+fonts.css
+solid.css  /* Font Awesome Solid */
+brands.css  /* Font Awesome Brands */
+```
+
+A su vez, algunas subpáginas utilizan estilos específicos, como `search.css` utilizada por la página de búsqueda, `project.css` utilizada por casi todas las subpáginas, `contact.css` utilziada por el formulario de contacto y `blog.css` utilizada por el blog.
+
+En general el estilo es auto-descriptivo, hay algunas reglas específicas para clases que genera Bulma, y para las clases utilizadas para cada cosa.
+
+### JavaScript
+
+Todo el código (exceptuando dependencias) se encuentra repartido entre `script.js`, `search.js` y `services.js`.
+
+#### services.js
+
+Este script simplemente expande y contrae las tarjetas expansibles de los servicios, agregando o quitando una clase, `.expanded` y `.contracted`.
+
+#### search.js
+
+Este código es una leve modificación de [el que se puede ver aquí](https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/).
+
+#### script.js
+
+Este es el principal código de la página, y está dividido en seis partes:
+
+* Navegación:
+
+La navegación utilizada por bulma requiere `JS` para funcionar. Inicia expandida para dar soporte a clientes sin JavaScript.
+
+* Hashtags:
+
+Este código usa una expresión regular para buscar en la página toda aparición de un hashtag dentro de un bloque de texto, e inserta un hipervínculo hacia la página de etiquetas.
+
+* Animaciones:
+
+Agrega animaciones a todas las tarjetas utilizando `anime.js`. Waypoints se encarga de que las tarjetas aparezcan cuando la parte visible del DOM avance, animando la entrada de la tarjeta en función de la posición en pantalla.
+
+* Acordeón:
+
+Expande y contrae los elementos del acordeón que figura en la página principal.
+
+* Colores aleatorios en tarjetas:
+
+Genera pares de colores dentro de una paleta determinada y asigna una gradiente lineal como imagen de fondo, utilizando los pares de colores, aplicando este fondo a todas las tarjetas presentes.
+
 ### Dependencias
 
+Este sitio depende de:
+
+* Bulma v0.7.5
+* AnimeJS v3.1.0
+* JQuery v3.4.1
+* Modernizr v3.6.0
+* Lunr v2.3.8
+* Waypoints v4.0.1
+* Jekyll v4.0.0 (subdependencias figuran en `Gemfile`)
+
 ## Hacia delante
+
+... El futuro!
