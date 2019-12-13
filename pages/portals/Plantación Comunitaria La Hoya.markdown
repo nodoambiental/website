@@ -189,10 +189,10 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
   - ...
 
 
-![facebook](/assets/images/facebook.png)<a href="https://www.facebook.com/Sembradores-294718317398299">Sembradores</a>
+<a href="https://www.facebook.com/Sembradores-294718317398299">![facebook](/assets/images/facebook.png) Sembradores</a>
 
 
-![facebook](/assets/images/facebook.png)<a href="https://www.facebook.com/BibliotecaPopularLaRanda">La Randa</a>
+<a href="https://www.facebook.com/BibliotecaPopularLaRanda">![facebook](/assets/images/facebook.png) La Randa</a>
 
 
 ### Desarrollo Web
