@@ -1,6 +1,7 @@
 #  Las imágenes deberán tener el mismo nombre que figure aquí, y estar en formato .png, ubicadas en /assets/images/team/
 #  Para modificar el orden de aparición simplemente reorganizarlos, el orden en la página refleja el presente en este archivo
 #  Caracteres unicode son aceptados sin inconvenientes, por lo que agregar acentos o caracteres especiales no representa inconvenientes.
+
 - name: Mariano Ordano
   description: Biólogo, Doctor en Ciencias en Ecología y Manejo de Recursos Naturales
 

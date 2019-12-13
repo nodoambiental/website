@@ -2,7 +2,7 @@
 #  Para modificar el orden de aparición simplemente reorganizarlos, el orden en la página refleja el presente en este archivo, de izquierda a derecha.
 #  Caracteres unicode son aceptados sin inconvenientes, por lo que agregar acentos o caracteres especiales no representa inconvenientes.
 #  Para agregar o quitar elementos simplemente agregar o quitar entradas.
-#  El link debe figurar con la ruta completa; de la forma "https://bla.ble.com"
+#  El link debe figurar con la ruta completa; de la forma "https://www.ejemplo.com"
 
 - element:
   - icon: facebook-square

@@ -2,7 +2,7 @@
 #  Caracteres unicode son aceptados sin inconvenientes, por lo que agregar acentos o caracteres especiales no representa inconvenientes.
 #  El ícono corresponde a la librería de íconos de Font Awesome 5 Free Solid, puede encontrarse la lista completa en https://fontawesome.com/icons?s=solid
 #  El archivo al que vincula cada tarjeta debe tener el mismo nombre que figura en la tarjeta, en formato .markdown y encontrarse en /pages/portals/
-#  
+  
 - name: Plantación Comunitaria La Hoya
   icon: tree
   content: Club Fukuoka

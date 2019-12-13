@@ -4,6 +4,7 @@
 #  El archivo al que vincula cada tarjeta debe tener el mismo nombre que figura en la tarjeta, en formato .markdown y encontrarse en /pages/projects/
 #  Para agregar objetivos adicionar un ítem a la lista llamada "target", llamado "content", tal como figura en los proyectos presentes
 #  Para eliminar objetivos simplemente removerlos de la lista llamada "target"
+
 - name: Salud, Seguridad e Inocuidad Alimentaria
   icon: medkit
   teaser: 
