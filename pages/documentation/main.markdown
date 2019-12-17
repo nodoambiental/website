@@ -4,6 +4,10 @@ title: Documentación
 icon: book-open
 ---
 
+## Replicando este sitio
+
+La información y documentación detallada acerca de cómo está constituído este sitio puede ser encontrada en [su repositorio de GitHub](https://github.com/nodoambiental/portal-jekyll)
+
 ## Términos de servicio
 
 *  Nodo Ambiental es una organización que colabora con la elaboración y ejecución de proyectos de pertinencia ambiental y social, para la preservación del ambiente, el desarrollo sostenible, la seguridad e inocuidad alimentaria y el bienestar social.
