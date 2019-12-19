@@ -6,7 +6,7 @@ icon: book-open
 
 ## Replicando este sitio
 
-La información y documentación detallada acerca de cómo está constituído este sitio puede ser encontrada en [su repositorio de GitHub](https://github.com/nodoambiental/portal-jekyll)
+La información y documentación detallada acerca de cómo está constituído este sitio puede ser encontrada en [su repositorio de GitHub](https://github.com/nodoambiental/portal-jekyll).
 
 ## Términos de servicio
 
