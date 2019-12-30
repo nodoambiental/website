@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Plantación Comunitaria La Hoya
+title: Plantación Comunitaria La Hoya - Club Fukuoka
 categories: salud
 tags: nucleación regeneración agroecología urbano agroforestal restauración ambiental
 ---
