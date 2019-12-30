@@ -17,7 +17,9 @@ La Plantación Comunitaria La Hoya está formada por especies nativas (tales com
 
 ![distribución](/assets/images/mapahoya.png)
 
-## El domingo 29 de septiembre revisamos los principales puntos de plantación en La Hoya.
+## El domingo 29 de septiembre se revisaron los principales puntos de plantación en La Hoya.
+
+
 
 
 ## El domingo 25 de agosto se plantaron 35 nuevos árboles en La Hoya!
