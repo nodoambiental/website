@@ -19,8 +19,13 @@ La Plantación Comunitaria La Hoya está formada por especies nativas (tales com
 
 ## El domingo 29 de septiembre se revisaron los principales puntos de plantación en La Hoya.
 
+Para monitorear la plantación, el Ing. Sergio Sosa registró los puntos de ubicación de las plantas y puntos de cultivo comunitario.
 
+![hoyaagrimensura](/assets/images/hoyaagrimensura-20190929.jpg)
 
+También se plantaron nuevos árboles, especies ornamentales (Salvia, copete) y se regaron las plantas.
+
+![hoya20190929](/assets/images/hoya-20190929.jpg)
 
 ## El domingo 25 de agosto se plantaron 35 nuevos árboles en La Hoya!
 
@@ -199,7 +204,7 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
 <a href="https://www.facebook.com/BibliotecaPopularLaRanda">![facebook](/assets/images/facebook.png) La Randa</a>
 
 
-### Desarrollo Web
+### Edición y Desarrollo Web
 - Ágata Ordano
 - Mariano Ordano
 - Laura González
