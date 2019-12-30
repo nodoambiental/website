@@ -9,13 +9,15 @@ tags: nucleación regeneración agroecología urbano agroforestal restauración 
 
 # Plantación Comunitaria La Hoya
 
-## Te esperamos!
+## Ubicación
 
 <a href="https://www.google.com/maps/place/Plantaci%C3%B3n+Comunitaria+La+Hoya/@-26.7998435,-65.3119644,19z/data=!3m1!4b1!4m13!1m7!3m6!1s0x9422433a2ee1bffb:0xc5d4083eee0d98b1!2sYerba+Buena,+Tucum%C3%A1n!3b1!8m2!3d-26.8119881!4d-65.3013529!3m4!1s0x94224311b8e7679b:0x38a937cba3e0caa9!8m2!3d-26.7998447!4d-65.3114159">UBICACIÓN -enlace a GoogleMaps-</a>
 
-## El domingo 29 de septiembre revisamos 82 puntos de plantación en La Hoya!
+La Plantación Comunitaria La Hoya está formada por especies nativas (tales como arrayán, guayacán, lapacho rosado, mato, ramo, tala, tarco, tipa), especies de huerta (tales como banana, caña morada, chaucha egipcia, mango, palta) y especies ornamentales o de arbolado urbano clásico (tales como achira, álamo, fresno).
 
-- Próximamente mapa de plantación...
+![distribución](/assets/images/mapahoya.png)
+
+## El domingo 29 de septiembre revisamos los principales puntos de plantación en La Hoya.
 
 
 ## El domingo 25 de agosto se plantaron 35 nuevos árboles en La Hoya!
@@ -227,4 +229,6 @@ Usted es libre de:
 + Compartir — copiar y redistribuir el material en cualquier medio o formato
 
 + Adaptar — remezclar, transformar y crear a partir del material
+
+
 

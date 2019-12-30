@@ -22,7 +22,7 @@ Para compilar el código fuente de esta web hace falta installar **Ruby**, y el 
 
 Para instalar `Ruby` en la plataforma en la que se esté trabajando se pueden seguir las instrucciones en la [documentación oficial](https://www.ruby-lang.org/es/documentation/installation/). Para instalar `Bundler` se pueden seguir las instrucciones de su [documentación oficial](https://bundler.io/es/).
 
-Una vez instalado, se pueden instalar todas las dependencias ejecutando desde una línea de comandos, en la carpeta raíz del sitio el comando 
+Una vez instalado, se pueden instalar todas las dependencias ejecutando desde una línea de comandos, en la carpeta raíz del sitio el comando
 
 ```
 bundle install
