@@ -83,9 +83,8 @@ Palto | <a href="https://es.wiktionary.org/wiki/palto">_Persea americana_</a> | 
 - árboles nativos, para 2 núcleos
 - bolsas para basura
 - vehículos
-- elementos para tutorar
+- elementos para tutorar (palos de escoba, varillas de madera, cañas), que permiten sostener las plantas al mismo tiempo que indican los sitios ocupados por los plantines, por lo general se usan dos por planta, de tamaño proporcional a la planta
 
-![sembradores](/assets/images/hoyatutorar.png)
 
 ### Recomendaciones
 ¿Qué recomiendas para la próxima plantación?
