@@ -44,7 +44,7 @@ liberalhostier@hotmail.com <a href="https://www.facebook.com/AABDA.com.ar/?__tn_
 
 - Higos Felices - Especialidad en Vinagre de Higos - Ing. Rodolfo Lescano +543816031548 - <a href="http://higosfelices.blogspot.com/"> <a href="https://www.facebook.com/higosfelices/">![facebook](/assets/images/facebook.png)</a><a href="https://www.instagram.com/higosfelices/">![instagram](/assets/images/instagram.png)</a>
 
-- Granja Agroecológica Mucho Gusto - Huevos de gallina - Rafael Caranta
+- Granja Agroecológica Mucho Gusto - Huevos de gallina - Rafael Caranta - +543813690778
 
 - Agricultura Orgánica - Frutas y verduras - Juan Pablo - +543813572418
 
@@ -63,7 +63,7 @@ liberalhostier@hotmail.com <a href="https://www.facebook.com/AABDA.com.ar/?__tn_
 - Artemisa - Mermeladas - +543815706439
 <a href="https://www.facebook.com/Artemisatiendaconsciente/">![facebook](/assets/images/facebook.png)</a><a href="https://www.instagram.com/artemisatiendaconsciente/">![instagram](/assets/images/instagram.png)</a>
 
-- Samera - Aceitunas - Aceites de oliva
+- Samerd - Aceitunas - Aceites de oliva - Andalgalá, Catamarca - Martín - +543815554316
 
 - Comidas Veggies - Comida vegana - Comidas ricas como en casa, sin lavar los platos - +543816546184
 
