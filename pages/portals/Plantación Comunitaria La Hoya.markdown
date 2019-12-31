@@ -213,7 +213,7 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
 - Sergio Sosa
 - Mayra Varela
 
-### Dudas? Aportes? Inquietudes?
+### Participación
 - Escríbenos a correonodoambiental@gmail.com, si quieres contribuir con esta página.
 
 ### Cita

@@ -1,36 +1,28 @@
 ---
 layout: project
-title: Mercadito Agroecológico - Sembradores
+title: Mercadito Agroecológico - Club Cultural Sembradores
 categories: salud
 tags: salud agroecología mercado productos bioferia
 ---
 
 # Mercadito Agroecológico
 
-
 Desde abril de 2019 el Mercadito Agroecológico mantiene una frecuencia mensual y se lleva a cabo los primeros sábados de cada mes, de 9 a 14 horas, en Facundo Quiroga 58, Yerba Buena, Tucumán.
 
-# Integrantes
-- Matías Kern
-En el espacio Sembradores hay una sorprendente huerta agroecológica. Matías expone las formas y técnicas de cultivo de una diversidad enorme de alimentos.
-
-- <a href="https://www.facebook.com/hagroecotuc/>![facebook](/assets/images/facebook.png) Huertas Agroecológicas Tucumanas</a><a href=https://www.instagram.com/p/B6s18-bpNEH/?igshid=p7p1obq9h90i/>![instagram](/assets/images/instagram.jpg)</a>
-
-
-
-
-
-# Historia
 ## Ubicación
+<a href="https://www.google.com.ar/maps/place/Club+Cultural+Sembradores/@-26.8130156,-65.3028702,18z/data=!4m5!3m4!1s0x942242dc1da8b8cd:0xa8eb11d8f8dc31b8!8m2!3d-26.8124236!4d-65.3044657">UBICACIÓN -enlace a GoogleMaps-</a>
 
-<a href="https://www.google.com/maps/place/Plantaci%C3%B3n+Comunitaria+La+Hoya/@-26.7998435,-65.3119644,19z/data=!3m1!4b1!4m13!1m7!3m6!1s0x9422433a2ee1bffb:0xc5d4083eee0d98b1!2sYerba+Buena,+Tucum%C3%A1n!3b1!8m2!3d-26.8119881!4d-65.3013529!3m4!1s0x94224311b8e7679b:0x38a937cba3e0caa9!8m2!3d-26.7998447!4d-65.3114159">UBICACIÓN -enlace a GoogleMaps-</a>
+# Integrantes
+- Matías Kern. En el espacio Sembradores hay una sorprendente huerta agroecológica. Durante el desarrollo del Mercadito, Matías expone las formas y técnicas de cultivo de una diversidad enorme de plantas.
+
+- <a href="https://www.facebook.com/hagroecotuc">![facebook](/assets/images/facebook.png)</a><a href=https://www.instagram.com/p/B6s18-bpNEH/?igshid=p7p1obq9h90i">![instagram](/assets/images/instagram.jpg) Huertas Agroecológicas Tucumanas</a>
 
 
-### Participación abierta
+### Participación
 - Escríbenos a correonodoambiental@gmail.com, si quieres contribuir con esta página.
 
 ### Cita
-Club Fukuoka (2019) Plantación Comunitaria La Hoya. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Plantación Comunitaria La Hoya.html</a>
+Club Cultural Sembradores (2019) Mercadito Agroecológico. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Mercadito Agroecológico.html</a>
 
 ### Vinculación Nodo Ambiental
 - Proyecto Salud, Seguridad e Inocuidad Alimentaria, <a href="https://nodoambiental.org">Nodo Ambiental</a>

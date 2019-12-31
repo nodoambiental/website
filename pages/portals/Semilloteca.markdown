@@ -18,7 +18,7 @@ La actividad se desarrolla en el espacio de Sembradores.
 - Gabriel Cortéz
 - Matías Kern
 
-### Dudas? Aportes? Inquietudes?
+### Participación
 - Escríbenos a correonodoambiental@gmail.com, si quieres contribuir con esta página.
 
 
