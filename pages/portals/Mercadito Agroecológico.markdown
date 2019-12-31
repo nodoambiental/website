@@ -15,7 +15,7 @@ Desde abril de 2019 el Mercadito Agroecológico mantiene una frecuencia mensual 
 # Integrantes
 - Matías Kern. En el espacio Sembradores hay una sorprendente huerta agroecológica. Durante el desarrollo del Mercadito, Matías expone las formas y técnicas de cultivo de una diversidad enorme de plantas.
 
-- <a href="https://www.facebook.com/hagroecotuc">![facebook](/assets/images/facebook.png)</a><a href=https://www.instagram.com/p/B6s18-bpNEH/?igshid=p7p1obq9h90i">![instagram](/assets/images/instagram.jpg) Huertas Agroecológicas Tucumanas</a>
+- <a href="https://www.facebook.com/hagroecotuc">![facebook](/assets/images/facebook.png)</a><a href=https://www.instagram.com/p/B6s18-bpNEH/?igshid=p7p1obq9h90i">![instagram](/assets/images/instagram.png) Huertas Agroecológicas Tucumanas</a>
 
 
 ### Participación
