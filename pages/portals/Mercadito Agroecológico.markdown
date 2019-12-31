@@ -18,8 +18,13 @@ Desde abril de 2019 el Mercadito Agroecológico mantiene una frecuencia mensual 
 - Huertas Agroecológicas Tucumanas
 <a href="https://www.facebook.com/hagroecotuc">![facebook](/assets/images/facebook.png)</a><a href="https://www.instagram.com/p/B6s18-bpNEH/?igshid=p7p1obq9h90i">![instagram](/assets/images/instagram.png)</a>
 
-- Jardín Primitivo 
-![whatsapp](/assets/images/whatsapp.png) +54381632503
+- Jardín Primitivo - Productos para limpieza personal - +543816325503 -
+<a href="https://www.facebook.com/Jardin-Primitivo-629459064103465/">![facebook](/assets/images/facebook.png)</a><a href="https://www.instagram.com/jardinprimitivo6/">![instagram](/assets/images/instagram.png)</a>
+
+- Mis Sabores - Comidas naturales y saludables - Todo caserito - Pizzetas, chipá, mayonesas, pancitos rellenos, muffins, galletas de avena y muchos mas... - Luciana Perea +543814412439 
+
+- Vivero José Méndez - Diseño de huertas y jardines - josemendezdietrich@gmail.com -
+<a href="https://www.facebook.com/viverojosemendez.dietrich">![facebook](/assets/images/facebook.png)</a>
 
 
 ### Participación
