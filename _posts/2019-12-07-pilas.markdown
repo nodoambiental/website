@@ -38,10 +38,13 @@ En Argentina no hay planta de reciclaje y no hay depósitos locales regularizado
 
 Hay numerosos trabajos previos, por ejemplo, {% cite protomastro2007estudio %}, sin embargo, aún necesitamos construir un sistema de manejo adecuado de residuos tóxicos.
 
+Este infoblog fue basado en {% cite Evequoz2000PrdidasEP %}, {% cite urquiza2011estudio %}
 
 Desarrollo Web: Ágata Ordano
 
 Autores: Ágata Ordano, Laura González, Cecilia Ordano, Facundo Bernacki, Renzo Bernacki, Mariano Ordano
+
+Cita: 
 
 
 
