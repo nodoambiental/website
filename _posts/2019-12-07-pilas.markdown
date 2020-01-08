@@ -15,7 +15,7 @@ img_text: |
 
 <!--section-->
 
-Los NO de las pilas usadas
+### Los NO de las pilas usadas
 * Almacenarlas en envases PET con agua, arena, aserrín, cemento o tierra.
 * Tenerlas en un cajón, sueltas.
 * Dejarlas en un aparato sin funcionar por períodos extensos de tiempo. Eso puede producir daños al aparato por derrames.
@@ -27,7 +27,7 @@ Los NO de las pilas usadas
 * Tirarlas a la basura común.
 
 
-Los SI de las pilas usadas
+### Los SI de las pilas usadas
 * Utilizar artefactos conectados a la red eléctrica (con enchufe). Si su uso es inevitable usar pilas recargables, así se reduce el volumen de desechos.
 * Usar pilas recargables libres de cadmio (Cd) como ser las de níquel metal hídrico (NiMH).
 * Si compras pilas desechables FIJATE que sean libres de mercurio (Hg).
@@ -38,7 +38,7 @@ En Argentina no hay planta de reciclaje y no hay depósitos locales regularizado
 
 Hay numerosos trabajos previos, por ejemplo, {% cite protomastro2007estudio %}, sin embargo, aún necesitamos construir un sistema de manejo adecuado de residuos tóxicos.
 
-Este infoblog fue basado en: 
+##### Este infoblog fue basado en: 
 + {% cite soto1996almacenamiento %}
 + {% cite Evequoz2000PrdidasEP %}
 + {% cite ochoa2001revision %}
@@ -58,22 +58,22 @@ Este infoblog fue basado en:
 + {% cite perez2016proyecto %}
 + {% cite arnulfo2018estudio %}
 
-y los portales:
+##### y los portales:
 + https://www.educacioninicial.com/c/004/710-proyecto-sos-pilas-para-educacion-inicial/
 + http://www.energiaestrategica.com/una-propuesta-para-reciclar-pilas-alcalinas-y-cuidar-el-medio-ambiente/
 + https://earth911.com/home-garden/the-ultimate-battery-guide/?utm_source=Pinterest&utm_medium=Social&utm_campaign=Pinterest
 + https://www.unicen.edu.ar/content/pilas-y-bater%C3%AD-c%C3%B3mo-minimizar-el-impacto-ambiental
 + https://www.inti.gob.ar/publicaciones
 
-### Cita
+##### Cita
 Fundación Nodo Ambiental (2019) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/contaminación/2019/09/17/pilas.html
 
-### Vinculación Nodo Ambiental
+##### Vinculación Nodo Ambiental
 - Proyecto Pilas Usadas, <a href="https://nodoambiental.org">Nodo Ambiental</a>
 
-### Desarrollo Web
+##### Desarrollo Web
 Ágata Ordano, Mariano Ordano
 
-### Autores 
+##### Autores 
 Ágata Ordano, Laura González, Cecilia Ordano, Facundo Bernacki, Renzo Bernacki, Mariano Ordano
 
