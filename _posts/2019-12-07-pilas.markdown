@@ -66,7 +66,7 @@ y los portales:
 + https://www.inti.gob.ar/publicaciones
 
 ### Cita
-Fundación Nodo Ambiental (2019) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/contaminación/2019/09/17/pilas.html</a>
+Fundación Nodo Ambiental (2019) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/contaminación/2019/09/17/pilas.html
 
 ### Vinculación Nodo Ambiental
 - Proyecto Pilas Usadas, <a href="https://nodoambiental.org">Nodo Ambiental</a>
