@@ -45,7 +45,7 @@ Este infoblog fue basado en:
 + {% cite ibarra2016planeacion %}
 
 y los portales:
-+ <a href="https://www.educacioninicial.com/c/004/710-proyecto-sos-pilas-para-educacion-inicial/"</a>
++ href="https://www.educacioninicial.com/c/004/710-proyecto-sos-pilas-para-educacion-inicial/"
 
 ### Cita
 Fundación Nodo Ambiental (2019) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/contaminación/2019/09/17/pilas.html</a>
