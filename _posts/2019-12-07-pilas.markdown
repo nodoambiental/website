@@ -36,7 +36,7 @@ Los SI de las pilas usadas
 
 En Argentina no hay planta de reciclaje y no hay depósitos locales regularizados. 
 
-Hay numerosos trabajos previos, por ejemplo, {% cite protomastro2007estudio %}, sin embargo, aún necesitamos construir un sistema de manejo adecuado de residuos tóxicos.
+Hay numerosos trabajos previos, por ejemplo, % cite protomastro2007estudio %, sin embargo, aún necesitamos construir un sistema de manejo adecuado de residuos tóxicos.
 
 Este infoblog fue basado en: 
 + {% cite Evequoz2000PrdidasEP %}
@@ -45,7 +45,7 @@ Este infoblog fue basado en:
 + {% cite ibarra2016planeacion %}
 
 y los portales:
-+ href="https://www.educacioninicial.com/c/004/710-proyecto-sos-pilas-para-educacion-inicial/"
++ https://www.educacioninicial.com/c/004/710-proyecto-sos-pilas-para-educacion-inicial/
 
 ### Cita
 Fundación Nodo Ambiental (2019) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/contaminación/2019/09/17/pilas.html</a>
