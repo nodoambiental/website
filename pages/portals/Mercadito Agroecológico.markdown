@@ -2,7 +2,7 @@
 layout: project
 title: Mercadito Agroecológico - Centro Cultural Sembradores
 categories: salud
-tags: salud agroecología mercado productos bioferia alimentación biodinámica agricultura verduras orgánico vegano celíaco artesanal 
+tags: salud agroecología mercado productos bioferia alimentación biodinámica agricultura verduras orgánico vegano celíaquía artesanal 
 ---
 
 # Mercadito Agroecológico

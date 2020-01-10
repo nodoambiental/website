@@ -5,7 +5,7 @@
   
 - name: Portales Nodo Ambiental
   icon: universal-access
-  content: Tarjetas de información social
+  content: Tarjetas sociales
 
 - name: Plantación Comunitaria La Hoya
   icon: tree
@@ -15,7 +15,7 @@
   icon: seedling
   content: Semilloteca - Adopción y replicación comunitaria de plantas
 
-- name: Mercadito Sembradores
+- name: Mercadito Agroecológico Sembradores
   icon: carrot
   content: Feria
 
