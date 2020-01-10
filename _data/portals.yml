@@ -5,15 +5,31 @@
   
 - name: Plantación Comunitaria La Hoya
   icon: tree
-  content: Club Fukuoka
+  content: Club Fukuoka ~Tucumán
 
-- name: Semilloteca
+- name: Club Fukuoka
   icon: seedling
-  content: Club Fukuoka
+  content: Semilloteca - Adopción y replicación comunitaria de plantas ~Tucumán
 
-- name: Mercadito Agroecológico
+- name: Mercadito Agroecológico - Sembradores
   icon: carrot
-  content: Bioferia los primeros sábados de cada mes. Desde abril 2019
+  content: Feria - Generalmente primer sábado de cada mes a la mañana ~Yerba Buena~Tucumán
+
+- name: Centro Cultural Sembradores
+  icon: air-freshener
+  content: Agroecología - Seguridad Alimentaria - Reciclaje ~Yerba Buena~Tucumán
+
+- name: SOS Tierra 
+  icon: globe-americas
+  content: Feria - Generalmente segundo sábado de cada mes a la tarde ~Yerba Buena~Tucumán
+
+- name: Nave Tierra - Dar x Dar
+  icon: hands-helping
+  content: Reciclaje - Recuperadores - Agroecología - Permacultura - Inserción social ~Tucumán
+
+- name: Huerteros Tucumán - Club Central Tucumán
+  icon: globe-americas
+  content: Feria - Generalmente segundo sábado de cada mes a la mañana ~Tucumán
 
 #- name: Punto Verde Lillo
 #  icon: book-open
