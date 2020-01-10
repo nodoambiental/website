@@ -3,33 +3,37 @@
 #  El ícono corresponde a la librería de íconos de Font Awesome 5 Free Solid, puede encontrarse la lista completa en https://fontawesome.com/icons?s=solid
 #  El archivo al que vincula cada tarjeta debe tener el mismo nombre que figura en la tarjeta, en formato .markdown y encontrarse en /pages/portals/
   
+- name: Portales Nodo Ambiental
+  icon: universal-access
+  content: Tarjetas de información social
+
 - name: Plantación Comunitaria La Hoya
   icon: tree
-  content: Club Fukuoka ~Tucumán
+  content: Club Fukuoka
 
 - name: Club Fukuoka
   icon: seedling
-  content: Semilloteca - Adopción y replicación comunitaria de plantas ~Tucumán
+  content: Semilloteca - Adopción y replicación comunitaria de plantas
 
-- name: Mercadito Agroecológico - Sembradores
+- name: Mercadito Agroecológico Sembradores
   icon: carrot
-  content: Feria - Generalmente primer sábado de cada mes a la mañana ~Yerba Buena~Tucumán
+  content: Feria
 
 - name: Centro Cultural Sembradores
   icon: air-freshener
-  content: Agroecología - Seguridad Alimentaria - Reciclaje ~Yerba Buena~Tucumán
+  content: Agroecología - Seguridad Alimentaria - Reciclaje
 
 - name: SOS Tierra 
   icon: globe-americas
-  content: Feria - Generalmente segundo sábado de cada mes a la tarde ~Yerba Buena~Tucumán
+  content: Feria
 
 - name: Nave Tierra - Dar x Dar
   icon: hands-helping
-  content: Reciclaje - Recuperadores - Agroecología - Permacultura - Inserción social ~Tucumán
+  content: Reciclaje - Recuperadores - Permacultura
 
 - name: Huerteros Tucumán - Club Central Tucumán
-  icon: lemon drumstick-bite
-  content: Feria - Generalmente segundo sábado de cada mes a la mañana ~Tucumán
+  icon: lemon
+  content: Feria
 
 #- name: Punto Verde Lillo
 #  icon: book-open
