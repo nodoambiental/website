@@ -1,29 +1,24 @@
 ---
 layout: project
-title: Semilloteca - Club Fukuoka
+title: Club Fukuoka
 categories: salud
-tags: agroecología alimentación semillas
+tags: agroecología alimentación semillas permacultura
 ---
 
 El Club Fukuoka mantiene una semilloteca comunitaria. Cada participante cultiva plantas para guardar semillas, las cuales se reparten por temporada entre otros participantes. 
 
 Cada participante tiene el compromiso de contribuir con semillas a la semilloteca, de replicar plantas y de compartir materiales con los demás participantes.
 
-La actividad se desarrolla en el espacio de Sembradores.
+La actividad se desarrolla en el espacio del Centro Cultural Sembradores y otros sitios.
 
-
-
-
-### Referentes 
-- Gabriel Cortéz
-- Matías Kern
+### Referentes
+Manuel Bibiloni, Nuri Comedi, Gabriel Cortéz, Valeria González Cowes, Matías Kern, Enrique Santillán, Sergio Sosa, Andrés, Eliana, Ezequiel, Fabián, Jessy.
 
 ### Participación
 - Escríbenos a correonodoambiental@gmail.com, si quieres contribuir con esta página.
 
-
 ### Cita
-Club Fukuoka (2019) Semilloteca. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Semilloteca.html</a>
+Club Fukuoka (2019) Club Fukuoka. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Club Fukuoka.html" </a>
 
 ### Vinculación Nodo Ambiental
 - Proyecto Salud, Seguridad e Inocuidad Alimentaria, <a href="https://nodoambiental.org">Nodo Ambiental</a>

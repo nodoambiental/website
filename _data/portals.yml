@@ -11,29 +11,33 @@
   icon: tree
   content: Club Fukuoka
 
+- name: Mercadito Agroecológico
+  icon: carrot
+  content: Feria
+
 - name: Club Fukuoka
   icon: seedling
   content: Semilloteca - Adopción y replicación comunitaria de plantas
 
-- name: Mercadito Agroecológico Sembradores
-  icon: carrot
-  content: Feria
-
 - name: Centro Cultural Sembradores
   icon: air-freshener
-  content: Agroecología - Seguridad Alimentaria - Reciclaje
+  content: Agroecología - Ecopunto - Seguridad Alimentaria
 
 - name: SOS Tierra 
   icon: globe-americas
-  content: Feria
+  content: Feria - Arte - Ecopunto
 
-- name: Nave Tierra - Dar x Dar
+- name: Nave Tierra
   icon: hands-helping
-  content: Reciclaje - Recuperadores - Permacultura
+  content: Dar x Dar - Reciclaje - Recuperadores - Permacultura
 
-- name: Huerteros Tucumán - Club Central Tucumán
+- name: Huerteros Tucumán
   icon: lemon
-  content: Feria
+  content: Feria - Club Central Tucumán
+
+- name: Salvemos Salvando
+  icon: globe
+  content: Protección del medio ambiente
 
 #- name: Punto Verde Lillo
 #  icon: book-open
