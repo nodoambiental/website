@@ -9,7 +9,7 @@ Nodo Ambiental propone la elaboración de tarjetas sobre actividades sociales re
 
 Nodo Ambiental puede colaborar directa o indirectamente con alguna de ellas, en vinculación con los ejes de acción de Nodo Ambiental: (1) Salud alimentaria, (2) Contención de la contaminación, (3) Relaciones con la vida silvestre {https://testing.nodoambiental.org/#projects}.
 
-La información se revisa regularmente. Se propone un mecanismo de acción participativa por el cual quienes representen la actividad pueden acordar con Nodo Ambiental la publicación de imágenes, datos y detalles.
+La información se revisa regularmente. Se propone un mecanismo de participación mutua, por el cual quienes representen la actividad pueden acordar con Nodo Ambiental la publicación de imágenes, datos y detalles.
 
 #### Formato básico
 - Título de la tarjeta
@@ -29,7 +29,7 @@ Para mayor información sobre nuestros lineamientos de información ver Término
 - Escríbenos a correonodoambiental@gmail.com, si quieres contribuir con esta página y presentar tu actividad.
 
 ### Cita
-Fundación Nodo Ambiental (2019) Tarjetas sociales. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Portales Nodo Ambiental.html</a>
+Fundación Nodo Ambiental (2020) Tarjetas sociales. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Portales Nodo Ambiental.html</a>
 
 ### Edición y Desarrollo Web
 - Ágata Ordano
@@ -40,7 +40,5 @@ Fundación Nodo Ambiental (2019) Tarjetas sociales. Yerba Buena, Tucumán, Argen
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
 
 Usted es libre de:
-
 + Compartir — copiar y redistribuir el material en cualquier medio o formato
-
 + Adaptar — remezclar, transformar y crear a partir del material
