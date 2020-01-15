@@ -2,7 +2,7 @@
 layout: project
 title: Mercadito Agroecológico - Centro Cultural Sembradores
 categories: salud
-tags: salud agroecología mercado productos bioferia alimentación biodinámica agricultura verduras orgánico vegano celíaquía artesanal 
+tags: salud agroecología mercado productos bioferia alimentación biodinámica agricultura verduras frutas comida orgánico vegano celíaquía artesanal 
 ---
 
 # Mercadito Agroecológico
@@ -14,10 +14,10 @@ Desde abril de 2019 el *Mercadito Agroecológico* mantiene una frecuencia mensua
 
 ## Participantes
 
-- **Centro Cultural Sembradores** - 
+- **Centro Cultural Sembradores** - Desde 1999 se promueven actividades agroecológicas, intercambio de semillas, soberanía alimentaria y actividades culturales - 
 <a href="https://www.facebook.com/Sembradores-294718317398299/">![facebook](/assets/images/facebook.png)</a>
 
-- **Matías Kern**. Agroecología. En el espacio Sembradores hay una sorprendente huerta agroecológica. Durante el desarrollo del Mercadito, se exponen formas y técnicas de cultivo de una diversidad enorme de plantas.
+- **Matías Kern**. Agroecología. En el espacio Sembradores hay una sorprendente huerta agroecológica. Durante el desarrollo del Mercadito, se exponen técnicas de cultivo y plantas de producción agroecológica.
 
 - **Asociación para la Agricultura Biológico-Dinámica de Argentina** - Productos de Agricultura Bio-Dinámica -
 <a href="http://aabda.com.ar/"> Liberal Hostier - 
@@ -116,9 +116,7 @@ Centro Cultural Sembradores (2019) Mercadito Agroecológico. Yerba Buena, Tucum�
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
 
 Usted es libre de:
-
 + Compartir — copiar y redistribuir el material en cualquier medio o formato
-
 + Adaptar — remezclar, transformar y crear a partir del material
 
 
