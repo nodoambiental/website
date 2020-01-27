@@ -28,6 +28,9 @@ liberalhostier@hotmail.com - <a href="https://www.facebook.com/AABDA.com.ar/?__t
 
 - **Flor de Miel** - Tierra Dulce - Mieles de distintas combinaciones de flores - José María - +543816000438 - +543814040195
 
+![puesto flor de miel](/assets/images/portales/puestomiel.jpg)
+
+
 - **Jardín Primitivo** - Productos para aseo personal - +543816325503 -
 <a href="https://www.facebook.com/Jardin-Primitivo-629459064103465/">![facebook](/assets/images/facebook.png)</a><a href="https://www.instagram.com/jardinprimitivo6/">![instagram](/assets/images/instagram.png)</a>
 
