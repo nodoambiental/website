@@ -37,6 +37,9 @@ liberalhostier@hotmail.com - <a href="https://www.facebook.com/AABDA.com.ar/?__t
 - **Cosmética Natural Yerba Buena** - Salud y belleza - María José Villafañe - +543813318490 - 
 <a href="https://www.facebook.com/mariajose.villafane?fref=search&__tn__=%2Cd%2CP-R&eid=ARBUGXZBxx2w3Aa7YfYRQsf2lQghkxggqrsKdB8dnH3bRcukA_DxIsuM9j6yfT5hetzAxXu9bm174OBb">![facebook](/assets/images/facebook.png)</a><a href="https://www.instagram.com/cosmetica_natural_yb/">![instagram](/assets/images/instagram.png)</a>
 
+![puesto cosmetica natural](/assets/images/portales/cosmeticanatura.jpg)
+
+
 - **Gaia** - Productos naturales - 
 <a href="https://www.facebook.com/gaiatucuman/">![facebook](/assets/images/facebook.png)</a>
 
