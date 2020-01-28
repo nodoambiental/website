@@ -14,6 +14,12 @@ Desde abril de 2019 el *Mercadito Agroecológico* mantiene una frecuencia mensua
 
 ## Participantes
 
+**nombre** | **descripción** | **contacto** 
+:---------- | :---------- | :----------
+**Centro Cultural Sembradores** | Desde 1999 se promueven actividades agroecológicas, intercambio de semillas, soberanía alimentaria y actividades culturales | <a href="https://www.facebook.com/Sembradores-294718317398299/">![facebook](/assets/images/facebook.png)</a>
+**Matías Kern - Agroecología** | En el espacio Sembradores hay una sorprendente huerta agroecológica mantenida por Matías. Durante el desarrollo del Mercadito, se exponen técnicas de cultivo y plantas de producción agroecológica. | +543815171568
+
+
 - **Centro Cultural Sembradores** - Desde 1999 se promueven actividades agroecológicas, intercambio de semillas, soberanía alimentaria y actividades culturales - 
 <a href="https://www.facebook.com/Sembradores-294718317398299/">![facebook](/assets/images/facebook.png)</a>
 
