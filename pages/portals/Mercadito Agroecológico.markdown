@@ -17,14 +17,10 @@ Desde abril de 2019 el *Mercadito Agroecológico* mantiene una frecuencia mensua
 **nombre** | **descripción** | **contacto** | 
 :---------- | :---------- | :---------- | :----------
 **Centro Cultural Sembradores** | Desde 1999 se promueven actividades agroecológicas, intercambio de semillas, soberanía alimentaria y actividades culturales | <a href="https://www.facebook.com/Sembradores-294718317398299/">![facebook](/assets/images/facebook.png)</a> | 
-
 **Matías Kern - Agroecología** | En el espacio Sembradores hay una sorprendente huerta agroecológica mantenida por Matías. Durante el desarrollo del Mercadito, se exponen técnicas de cultivo y plantas de producción agroecológica. Se brindan talleres. | +543815171568 | 
-
 **AABDA** | Asociación para la Agricultura Biológico-Dinámica de Argentina - Productos de Agricultura Bio-Dinámica <a href="http://aabda.com.ar/"> | 
  Liberal Hostier - liberalhostier@hotmail.com | <a href="https://www.facebook.com/AABDA.com.ar/?__tn__=kCH-R&eid=ARDEQbZI3CUgTjNPtyNDBnPKd8SfEi1_9Obyywx9PHFEXhH4cExCSfkotqD_OskM9qkVE-cbi0eiH7iz&hc_ref=ARQJDg6OZAbKde7sv1Y5Dvpzax54x11c9IMj154PyWlHjewPE71wxTnsNfocEcvXghM&fref=nf&__xts__[0]=68.ARCGi2TvY70VbO0HLTt_hcz-vOast48TVkeqkV8txeU6U8gVvzwvGOUy0V9JvB47KIzX8D-J_8sHa9S2JUvfyULbqD3z2VAf6KdsAMo0wXsm1N_C_hWil6hbro1hQ9JhtMOTY9K5TEq3MoV4C41C_0BI8hZsguO-V-UQPmRML37EZpuppHgxQk65rRBi4LxbBFMKs8kKfRZtwbclAPH4mhHukM3CuRPVwMEb-Ue7THeRd0f5aPBBDDzhC1sDWR6z2fxuX2s_Adu1NIR32Ks6MBGBCLaFMmJL5Amt2tbwwgyHh3nVipxNOvEurvOzJ1g5u0bPulEBXWTR8nOiOh_hHEeMCuQROoyjYOLurQ204brdAWDhbFcExeeU2PNdrRZFi4W2BvWPg5Zxv4xvcs6Vz2680taK9fPrQ8Min2jyqWmdB18RHl-ScKKC_Uf4Y-gj-uxWMgLTK33fm4JTeeEXBTqeUmHezK800hPiOIk8Me7lVyVn_h9W8CE3">![facebook](/assets/images/facebook.png)</a>
- 
 **Huertas Agroecológicas Tucumanas** | Plantines y productos agroecológicos | <a href="https://www.facebook.com/hagroecotuc">![facebook](/assets/images/facebook.png)</a> | <a href="https://www.instagram.com/p/B6s18-bpNEH/?igshid=p7p1obq9h90i">![instagram](/assets/images/instagram.png)</a> 
-
 **Flor de Miel** | Tierra Dulce - Mieles de distintas combinaciones de flores | José María - +543816000438 - +543814040195 | ![puesto flor de miel]
 
 [puesto flor de miel]: assets/images/portales/puestomiel.jpg
