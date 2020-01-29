@@ -51,7 +51,7 @@ Nodo Ambiental (2020) Proyecto Pilas Usadas. Rosario de la Frontera, Salta, Arge
 Ágata Ordano, Mariano Ordano, Laura González
 
 ##### Autores 
-Laura González, Cecilia Ordano, Facundo Bernacki, Renzo Bernacki, Ágata Ordano, Mariano Ordano
+Laura González, Cecilia Ordano, Facundo Bernacki, Renzo Bernacki, Ágata Ordano, Mariano Ordano, Analía Benavidez
 
 ### Licencia
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
