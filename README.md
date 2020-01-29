@@ -400,9 +400,7 @@ Contenido del proyecto
 
 Los servicios deben tener **exactamente el mismo nombre** que figura en la entrada correspondiente en `_data/services.yml`, en formato `.markdown` y encontrarse en `pages/services/`.
 
-Existen tres plantillas base para los servicios, modificando el objetivo al cual apunta cada una. Estas plantillas son `services`, `services2` y `services3`, que tienen cierto contenido incorporado. Estas plantillas son modificables pero están fuera del alcance de la modificación por el usuario final.
-
-El _front-matter_ de los servicios además de la plantilla a utilizar incorpora los nombres de las tarjetas y el contenido expansible, en una variable multilínea. Además, el contenido en sí de la página, que es visible _arriba_ de las tarjetas expansibles.
+El _front-matter_ de los servicios además de la plantilla a utilizar incorpora los nombres de las tarjetas, su ícono y el contenido expansible, en una variable multilínea. Además, el contenido en sí de la página, que es visible _arriba_ de las tarjetas expansibles.
 
 Un ejemplo de esto sería:
 
@@ -410,12 +408,15 @@ Un ejemplo de esto sería:
 ---
 layout: services
 title: Servicios
-organizaciones_icon: users-cog
-organizaciones: |
+card1_icon: user-tie
+card1_title: Profesionales
+card1_text: |
   lorem ipsum dolor
   sit amet et doraem denestratum.
-escuelas_icon: graduation-cap
-escuelas: |
+  
+card2_icon: handshake
+card2_title: Servicios de cooperación
+card2_text: |
   lorem ipsum dolor
   sit amet et doraem denestratum.
 ---

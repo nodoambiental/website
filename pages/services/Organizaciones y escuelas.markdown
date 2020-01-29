@@ -1,11 +1,13 @@
 ---
 layout: services
 title: Servicios a Organizaciones y Escuelas
-organizaciones_icon: users-cog
-organizaciones: |
+card1_icon: users-cog
+card1_title: Organizaciones
+card1_text: |
   
-escuelas_icon: graduation-cap
-escuelas: |
+card2_icon: graduation-cap
+card2_title: Escuelas
+card2_text: |
   
 ---
 

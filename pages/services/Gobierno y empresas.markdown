@@ -1,12 +1,14 @@
 ---
-layout: services3
+layout: services
 title: Servicios a gobierno y empresas
-empresas_icon: industry
-empresas: |
+card1_icon: industry
+card1_title: Empresas
+card1_text: |
   
 
-gobierno_icon: flag
-gobierno: |
+card2_icon: flag
+card2_title: Gobierno
+card2_text: |
   
 
 ---

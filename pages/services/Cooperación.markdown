@@ -1,11 +1,13 @@
 ---
-layout: services2
+layout: services
 title: Servicios de cooperación
-profesionales_icon: user-tie
-profesionales: |
+card1_icon: user-tie
+card1_title: Profesionales
+card1_text: |
   
-programas_icon: handshake
-programas: |
+card2_icon: handshake
+card2_title: Servicios de cooperación
+card2_text: |
   
 ---
 
