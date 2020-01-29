@@ -56,7 +56,7 @@ Desde abril de 2019 el *Mercadito Agroecológico* mantiene una frecuencia mensua
 - Escríbenos a correonodoambiental@gmail.com, si quieres contribuir con esta página.
 
 ### Cita
-Centro Cultural Sembradores (2019) Mercadito Agroecológico. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Mercadito Agroecológico.html</a>
+Centro Cultural Sembradores (2020) Mercadito Agroecológico. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Mercadito Agroecológico.html</a>
 
 ### Vinculación Nodo Ambiental
 - Proyecto Salud, Seguridad e Inocuidad Alimentaria, <a href="https://nodoambiental.org">Nodo Ambiental</a>
