@@ -19,6 +19,8 @@ gobierno: |
 
 - ¿Llevar a cabo una encuesta?
 
+- ¿Realizar inter-consultas?
+
 - ¿Desarrollar un repositorio digital de información verificable?
 
 
