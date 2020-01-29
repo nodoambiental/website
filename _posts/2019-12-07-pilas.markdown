@@ -66,7 +66,7 @@ Hay numerosos trabajos previos, por ejemplo, {% cite protomastro2007estudio %}, 
 + https://www.inti.gob.ar/publicaciones
 
 ##### Cita
-Fundación Nodo Ambiental (2019) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/contaminación/2019/09/17/pilas.html
+Fundación Nodo Ambiental (2020) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/contaminación/2019/09/17/pilas.html
 
 ##### Vinculación Nodo Ambiental
 - Proyecto Pilas Usadas, <a href="https://nodoambiental.org">Nodo Ambiental</a>
@@ -76,3 +76,13 @@ Fundación Nodo Ambiental (2019) Infoblog Pilas Usadas. Yerba Buena, Tucumán, A
 
 ##### Autores 
 Ágata Ordano, Laura González, Cecilia Ordano, Facundo Bernacki, Renzo Bernacki, Mariano Ordano
+
+### Licencia
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
+
+Usted es libre de:
+
++ Compartir — copiar y redistribuir el material en cualquier medio o formato
+
++ Adaptar — remezclar, transformar y crear a partir del material
+

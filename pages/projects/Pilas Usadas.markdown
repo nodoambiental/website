@@ -13,7 +13,7 @@ icon: battery-quarter
 - El manejo de desechos y la búsqueda de alternativas son vitales para reducir la contaminación ambiental y mejorar el bienestar social.
 
 
-![difusión](/home/nodo/nodo/images/pilas.jpg)
+![difusión](/assets/images/projects/pilas_sumate.png)
 
 
 ### Objetivos
@@ -30,73 +30,28 @@ icon: battery-quarter
 
 
 ### A futuro
-- Coordinación y organización en Rosario de la Frontera (Salta), en San Miguel de Tucumán y Yerba Buena (Tucumán). 
+- Coordinación y organización en Rosario de la Frontera (Salta), en San Miguel de Tucumán y Yerba Buena (Tucumán), en San Fernando del Valle de Catamarca. 
 - Gestión de depósitos.
 - Coordinación Córdoba, Santa Fe, Paraná, La Plata, Buenos Aires.
-- Comentarios Antonio Elio Brailovsky
 
-
-![gestión](/home/nodo/nodo/images/flujo-pilas.svg)
-
-
-## Línea de tiempo
-- enero - propuesta por Renzo y Facundo Bernacki.
-- enero-julio - búsqueda de información.
-- 18 de agosto - Difusión por redes sociales. Lanzamiento de recolección en Rosario de la Frontera.
-
-
-### Referencias
-- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwiundW5m5DkAhUJHbkGHb_nDfsQFjAAegQIARAC&url=https%3A%2F%2Fwww.inti.gob.ar%2Fpublicaciones%2Fdescargac%2F20&usg=AOvVaw3FNtWpCvKoDIO683jvm7T4">Gestión de pilas y baterías en Argentina - Instituto Nacional de Tecnología Industrial</a>
-- <a href="https://www.foroambiental.net/pilas-en-desuso">Pilas en desuso - foroambiental</a>
-
+![gestión](/assets/images/projects/flujo-pilas.svg)
 
 ### Palabras clave - etiquetas
 - desechos contaminantes
 - baterías
 - contaminación ecosistémica
 
-
-### Idea
-- Renzo Bernacki
-- Facundo Bernacki
-
-
-### Participantes
-- Renzo Bernacki
-- Facundo Bernacki
-- Cecilia Ordano
-- ...
-
-
-![facebook](/home/nodo/nodo/images/facebook.png)<a href="https://www.facebook.com/fnodoambiental">Nodo Ambiental</a>
-
-
-### Desarrollo Web
-- Laura González
-- Ágata Ordano
-- Mariano Ordano
-
-
-### Textos e imágenes
-- Renzo Bernacki
-- Facundo Bernacki
-- Laura González
-- Ágata Ordano
-- Cecilia Ordano
-- Mariano Ordano
-
-
-### Dudas? Aportes? Inquietudes?
-- Escríbenos a correonodoambiental@gmail.com, si quieres contribuir con esta página.
-
-
-### Vinculación Nodo Ambiental
-- Proyecto Pilas Usadas, <a href="https://nodoambiental.org">Nodo Ambiental</a>
-
+### Referencias
+Fundación Nodo Ambiental (2020) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/contaminación/2019/09/17/pilas.html
 
 ### Cita
-Nodo Ambiental (2019) Pilas Usadas. Rosario de la Frontera, Salta, Argentina. Recuperado de <a "https://nodoambiental.github.io/pilas/">https://nodoambiental.github.io/pilas/</a>
+Nodo Ambiental (2020) Proyecto Pilas Usadas. Rosario de la Frontera, Salta, Argentina. Recuperado de https://nodoambiental.github.io/pilas/">https://nodoambiental.github.io/pilas/
 
+##### Desarrollo Web
+Ágata Ordano, Mariano Ordano, Laura González
+
+##### Autores 
+Laura González, Cecilia Ordano, Facundo Bernacki, Renzo Bernacki, Ágata Ordano, Mariano Ordano
 
 ### Licencia
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
