@@ -3,32 +3,28 @@ layout: services
 title: Servicios a Organizaciones y Escuelas
 organizaciones_icon: users-cog
 organizaciones: |
-  bla bla bla
-  bla bla bla
-  lorem ipsum dolor
-  sit amet et doraem denestratum.
+  acuerdos y convenios de trabajo
+  
 escuelas_icon: graduation-cap
 escuelas: |
-  bla bla bla
-  bla bla bla
-  lorem ipsum dolor
-  sit amet et doraem denestratum.
+  proyectos y educación ambiental
+  
 ---
 
-#### A tu organización o escuela le hace falta...
+### **A tu organización o escuela le hace falta...**
 
-- ¿tiempo o ayuda para desarrollar o gestionar un proyecto?
+- ¿Tiempo o ayuda para desarrollar o gestionar un proyecto?
 
-- ¿un portal web?
+- ¿Un portal web?
 
-- ¿difundir un tema?
+- ¿Difundir un tema?
 
-- ¿información sobre un problema o tema?
+- ¿Información sobre un problema o tema, realizar inter-consultas?
 
-- ¿verificar información publicada ("fake news")?
+- ¿Verificar información publicada ("fake news")?
 
-- ¿llevar a cabo una encuesta?
+- ¿Llevar a cabo una encuesta?
 
-- ¿desarrollar un repositorio digital de información verificable?
+- ¿Desarrollar un repositorio digital de información verificable?
 
 
