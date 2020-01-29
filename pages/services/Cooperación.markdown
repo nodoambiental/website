@@ -9,8 +9,8 @@ programas: |
   
 ---
 
-#### ¿Te interesa desarrollar un proyecto?
+#### **¿Te interesa desarrollar un proyecto?**
 
-Convocamos profesionales de todas las áreas
+Convocamos profesionales de todas las áreas.
 
 
