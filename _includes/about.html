@@ -6,7 +6,13 @@
     <button class="accordion">{{element.name}}</button>
     <div class="panel">
         {% for item in element.content %}
-        <p>{{item.data}}</p>
+            {% if {{item.data}} contains "+image" %}
+                <div class="about-image">
+                    <img src="{{item.data | remove: '+image '}}"/>
+                </div>
+            {% else %}
+                <p>{{item.data}}</p>
+            {% endif %}
         {% endfor %}
     </div>
     <br />

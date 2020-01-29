@@ -148,6 +148,12 @@ En la carpeta `_data` se encuentran siete archivos editables, todos en formato `
 
 * Para agregar mas detalles en cada entrada agregar sub-entradas llamadas `data` como figura en las actuales.
 
+* Para agregar imágenes, agregar una entrada que tenga como inicio la cadena de texto `+image`, seguido de la ubicación de la imagen:
+
+```
+- data: +image /assets/images/imagenDeEjemplo.jpg
+```
+
 ##### footer.yml | Pie de página
 
 * Para modificar el orden de aparición simplemente reorganizar las entradas; el orden en la página, de izquierda a derecha refleja el presente en el archivo.

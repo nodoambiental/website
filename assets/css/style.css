@@ -86,7 +86,6 @@ article.is-child img {
     border-radius: 20px;
 }
 
-
 /*  Title section */
 
 h1.main-title {
@@ -232,6 +231,15 @@ section.second-subtitle p {
     width: 90%;
     margin: auto;
     padding: 10px;
+}
+
+div.about-image {
+    padding: 25px;
+}
+
+div.about-image img {
+    border-radius: 20px;
+    border: 1px solid #ccc
 }
 
 /* Services */
