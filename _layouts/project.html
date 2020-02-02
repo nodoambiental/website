@@ -5,19 +5,11 @@ layout: default
     @import url("/assets/css/project.css");
 </style>
 
-<section class="section main-title">
-    <img src="/assets/images/logo_navigation.svg">
-    {% if {{page.path}} contains "portals" %}
-        <h1 class="project-subtitle">Portales</h1>
-    {% else %}
-        
-    {% endif %}
-    <h1 class="main-title"><i class="fas fa-{{ page.icon }}"></i>&nbsp;&nbsp;&nbsp;{{ page.title }}</h1>
-</section>
-<div class="spacer"></div>
-
-
 <section class="section content">
     {{ content }}
+</section>
+
+<section class="references">
+    {% bibliography --cited_in_order %}
 </section>
 
