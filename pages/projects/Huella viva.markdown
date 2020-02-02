@@ -1,48 +1,32 @@
 ---
 layout: project
-title: Pilas Usadas
-icon: battery-quarter
+title: Huella Viva
+icon: paw
 ---
 
-# Pilas Usadas
+# Huella Viva
 
-## ¿Por qué manejar desechos contaminantes?
-- Las pilas son útiles en muchas situaciones. Sin embargo, su fabricación implica el uso de materiales contaminantes. 
-- De manera invisible, estos materiales contaminantes terminan en la tierra y el agua, cuando no son tratados adecuadamente. Impactan negativamente en la salud ambiental y humana. 
-- La mayoría de las pilas tienen compuestos que contaminan el suelo, el agua y los alimentos, y deben ser desechadas y depositadas en lugares especiales.
-- El manejo de desechos y la búsqueda de alternativas son vitales para reducir la contaminación ambiental y mejorar el bienestar social.
+## ¿Por qué proteger y conservar la vida silvestre?
+- La fauna silvestre ayuda en el mantenimiento de la salud del ambiente, mediante la regulación de plagas, la polinización de cultivos, la dispersión de semillas de especies de plantas útiles, los ciclos de nutrientes que mantienen la salud del suelo, entre otras funciones que ayudan a mantener recursos naturales que utilizamos.
+- Sin embargo, actualmente la mortalidad de fauna silvestre por tráfico vehicular es un problema para la conservación de la fauna y en consecuencia, de los recursos útiles para mejorar el bienestar social.
 
-
-![difusión](/home/nodo/nodo/images/pilas.jpg)
+![ruta9](/assets/images/projects/ruta9.jpg)
 
 
 ### Objetivos
-- Ayudar a reducir la acumulación de materiales contaminantes y su impacto sobre la salud humana y ambiental.
-- Acopiar desechos y cooperar con plantas de tratamiento.
-- Difundir información sobre manejo de desechos y desarrollo de fuentes de energía alternativas.
+- Ayudar a reducir la mortalidad de fauna silvestre en rutas y caminos.
+- Difundir información sobre las funciones de la fauna silvestre que mantienen recursos útiles para el hombre.
 
 
-## Materiales
-- recipientes plásticos especiales
-- cinta adhesiva
-- cartelería
-- sistema de recolección y depósitos especiales
+### Procesos y materiales
+- Síntesis de información sobre funciones de la vida silvestre. 
+- Promoción de prácticas de seguridad vial.
+- Desarrollo de campañas de educación ambiental.
+- Coordinación con organizaciones de seguridad vial.
 
 
-### A futuro
-- Coordinación y organización en Rosario de la Frontera (Salta), en San Miguel de Tucumán y Yerba Buena (Tucumán). 
-- Gestión de depósitos.
-- Coordinación Córdoba, Santa Fe, Paraná, La Plata, Buenos Aires.
-- Comentarios Antonio Elio Brailovsky
+![mara](/assets/images/projects/mara.jpg)
 
-
-![gestión](/home/nodo/nodo/images/flujo-pilas.svg)
-
-
-## Línea de tiempo
-- enero - propuesta por Renzo y Facundo Bernacki.
-- enero-julio - búsqueda de información.
-- 18 de agosto - Difusión por redes sociales. Lanzamiento de recolección en Rosario de la Frontera.
 
 
 ### Referencias
