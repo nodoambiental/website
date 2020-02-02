@@ -15,24 +15,24 @@ tags: nucleación regeneración agroecología urbano agroforestal restauración 
 
 La Plantación Comunitaria La Hoya está formada por especies nativas (tales como arrayán, guayacán, lapacho rosado, mato, ramo, tala, tarco, tipa), especies de huerta (tales como banana, caña morada, chaucha egipcia, mango, palta) y especies ornamentales o de arbolado urbano clásico (tales como achira, álamo, fresno).
 
-![distribución](/assets/images/mapahoya.png)
+![distribución](/assets/images/portales/mapahoya.png)
 
 ## El domingo 29 de septiembre se revisaron los principales puntos de plantación en La Hoya.
 
 Para monitorear la plantación, el Ing. Sergio Sosa registró los puntos de ubicación de las plantas y puntos de cultivo comunitario.
 
-![hoyaagrimensura](/assets/images/hoyaagrimensura-20190929.jpg)
+![hoyaagrimensura](/assets/images/portales/hoyaagrimensura-20190929.jpg)
 
 También se plantaron nuevos árboles, especies ornamentales (Salvia, copete) y se regaron las plantas.
 
-![hoya20190929](/assets/images/hoya-20190929.jpg)
+![hoya20190929](/assets/images/portales/hoya-20190929.jpg)
 
 ## El domingo 25 de agosto se plantaron 35 nuevos árboles en La Hoya!
 
-![manos a la obra](/assets/images/hoya1.jpg)
+![manos a la obra](/assets/images/portales/hoya1.jpg)
 
-![Banda de Sikuris La Randa](/assets/images/hoya2sikuris.jpg)
-![atardecer](/assets/images/hoya3.jpg)
+![Banda de Sikuris La Randa](/assets/images/portales/hoya2sikuris.jpg)
+![atardecer](/assets/images/portales/hoya3.jpg)
 
 ## Riego
 Durante agosto y septiembre fue necesario ir a regar las plantas y la siembra. 
@@ -42,9 +42,9 @@ Durante agosto y septiembre fue necesario ir a regar las plantas y la siembra.
 martes 27 de agosto | Nodo Ambiental
 domingo 1 de septiembre | Gabriel Cortéz
 
-![riego1](/assets/images/hoyariego1.jpg)
+![riego1](/assets/images/portales/hoyariego1.jpg)
 
-![riego2](/assets/images/hoyariego2.jpg)
+![riego2](/assets/images/portales/hoyariego2.jpg)
 
 ## ¿Por qué plantar árboles nativos en La Hoya?
 - Para generar parches de regeneración ecosistémica. 
@@ -98,7 +98,7 @@ Palto | <a href="https://es.wiktionary.org/wiki/palto">_Persea americana_</a> | 
 
 - 25 de agosto - 15:30 a 19:30 horas
 
-![difusión](/assets/images/hoyadifusion.jpg)
+![difusión](/assets/images/portales/hoyadifusion.jpg)
 
 - 18 de agosto - 17 a 18:30 horas, vemos el lugar; Matías, Gabriel, Nury, Laura, Mariano. La iniciativa comenzó hace dos años. 
 
@@ -107,20 +107,20 @@ Palto | <a href="https://es.wiktionary.org/wiki/palto">_Persea americana_</a> | 
 - <a href="http://www.primerafuente.com.ar/noticias/81776/invitan-plantar-arboles-nativos-hoya">primerafuente.com.ar</a>
 
 
-![vista al este noreste](/assets/images/hoyaeste.jpg)
+![vista al este noreste](/assets/images/portales/hoyaeste.jpg)
 
-![vista al este noreste](/assets/images/hoyaeste2.jpg)
+![vista al este noreste](/assets/images/portales/hoyaeste2.jpg)
 
-![vista al este sureste](/assets/images/hoyaeste3.jpg)
+![vista al este sureste](/assets/images/portales/hoyaeste3.jpg)
 
-![vista al atardecer](/assets/images/hoyaatardecer.jpg)
+![vista al atardecer](/assets/images/portales/hoyaatardecer.jpg)
 
 
 - 9 de agosto - 17 a 20 horas, reunión de trabajo; Matías, Mayra, Erika, Valeria, Sergio, Gabriel, Manuel, Laura, Mariano. Explicación del concepto y formato de la nucleación en espacios públicos, por parte de Matías Kern.
 
-![espacio sembradores](/assets/images/hoyasem1.jpg)
+![espacio sembradores](/assets/images/portales/hoyasem1.jpg)
 
-![plantines](/assets/images/hoyasem2.jpg)
+![plantines](/assets/images/portales/hoyasem2.jpg)
 
 
 - 8 de julio - propuesta por Matías Kern, Club Fukuoka.
@@ -197,10 +197,10 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
   - ...
 
 
-<a href="https://www.facebook.com/Sembradores-294718317398299">![facebook](/assets/images/facebook.png) Sembradores</a>
+<a href="https://www.facebook.com/Sembradores-294718317398299">![facebook](/assets/images/logos/facebook.png) Sembradores</a>
 
 
-<a href="https://www.facebook.com/BibliotecaPopularLaRanda">![facebook](/assets/images/facebook.png) La Randa</a>
+<a href="https://www.facebook.com/BibliotecaPopularLaRanda">![facebook](/assets/images/logos/facebook.png) La Randa</a>
 
 
 ### Textos e imágenes
