@@ -1,102 +1,55 @@
 ---
 layout: project
-title: Pilas Usadas
-icon: battery-quarter
+title: Salud, Seguridad e Inocuidad Alimentaria
+icon: medkit
 ---
 
-# Pilas Usadas
+# Salud, Seguridad e Inocuidad Alimentaria
 
-## ¿Por qué manejar desechos contaminantes?
-- Las pilas son útiles en muchas situaciones. Sin embargo, su fabricación implica el uso de materiales contaminantes. 
-- De manera invisible, estos materiales contaminantes terminan en la tierra y el agua, cuando no son tratados adecuadamente. Impactan negativamente en la salud ambiental y humana. 
-- La mayoría de las pilas tienen compuestos que contaminan el suelo, el agua y los alimentos, y deben ser desechadas y depositadas en lugares especiales.
-- El manejo de desechos y la búsqueda de alternativas son vitales para reducir la contaminación ambiental y mejorar el bienestar social.
+## ¿Por qué reducir al mínimo o evitar el uso de venenos?
+- Los venenos se fabrican en general para controlar plagas u organismos que reducen la producción agrícola. 
+- Sin embargo, la mayoría de estos venenos tienen impactos negativos y persistentes sobre la salud humana y ambiental; y son muy difíciles de erradicar. 
+- Excepto en condiciones de exclusión (islas o zonas rodeadas de barreras geográficas), es casi imposible la erradicación de plagas. Esta situación ha llevado al uso masivo de venenos, con dos consecuencias indeseables; generan resistencia en las plagas, e incorporan sustancias venenosas en nuestro cuerpo y en el ambiente a través de alimentos y desechos.
 
 
-![difusión](/home/nodo/nodo/images/pilas.jpg)
+![verdura](/assets/images/projects/verdura.jpg)
 
 
 ### Objetivos
-- Ayudar a reducir la acumulación de materiales contaminantes y su impacto sobre la salud humana y ambiental.
-- Acopiar desechos y cooperar con plantas de tratamiento.
-- Difundir información sobre manejo de desechos y desarrollo de fuentes de energía alternativas.
+- Difundir información sobre salud, seguridad e inocuidad alimentaria.
+- Ayudar a reducir el uso de venenos y su impacto sobre la salud humana y ambiental.
+- Colaborar con proyectos de seguridad alimentaria y emprendimientos de producción orgánica y agroecológica de alimentos.
 
 
-## Materiales
-- recipientes plásticos especiales
-- cinta adhesiva
-- cartelería
-- sistema de recolección y depósitos especiales
+### Procesos y materiales
+- Síntesis de información sobre producción de alimentos inocuos. 
+- Promoción de mercados agroecológicos y orgánicos.
+- Desarrollo de huertas escolares.
+- Coordinación con organizaciones para la salud.
 
 
-### A futuro
-- Coordinación y organización en Rosario de la Frontera (Salta), en San Miguel de Tucumán y Yerba Buena (Tucumán). 
-- Gestión de depósitos.
-- Coordinación Córdoba, Santa Fe, Paraná, La Plata, Buenos Aires.
-- Comentarios Antonio Elio Brailovsky
-
-
-![gestión](/home/nodo/nodo/images/flujo-pilas.svg)
-
-
-## Línea de tiempo
-- enero - propuesta por Renzo y Facundo Bernacki.
-- enero-julio - búsqueda de información.
-- 18 de agosto - Difusión por redes sociales. Lanzamiento de recolección en Rosario de la Frontera.
-
-
-### Referencias
-- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwiundW5m5DkAhUJHbkGHb_nDfsQFjAAegQIARAC&url=https%3A%2F%2Fwww.inti.gob.ar%2Fpublicaciones%2Fdescargac%2F20&usg=AOvVaw3FNtWpCvKoDIO683jvm7T4">Gestión de pilas y baterías en Argentina - Instituto Nacional de Tecnología Industrial</a>
-- <a href="https://www.foroambiental.net/pilas-en-desuso">Pilas en desuso - foroambiental</a>
+![gestión](/assets/images/projects/verdura.jpg)
 
 
 ### Palabras clave - etiquetas
-- desechos contaminantes
-- baterías
-- contaminación ecosistémica
+- salud humana
+- alimentación saludable
+- producción de alimentos
 
 
-### Idea
-- Renzo Bernacki
-- Facundo Bernacki
-
-
-### Participantes
-- Renzo Bernacki
-- Facundo Bernacki
-- Cecilia Ordano
-- ...
-
-
-![facebook](/home/nodo/nodo/images/facebook.png)<a href="https://www.facebook.com/fnodoambiental">Nodo Ambiental</a>
-
-
-### Desarrollo Web
-- Laura González
-- Ágata Ordano
-- Mariano Ordano
-
-
-### Textos e imágenes
-- Renzo Bernacki
-- Facundo Bernacki
-- Laura González
-- Ágata Ordano
-- Cecilia Ordano
-- Mariano Ordano
-
-
-### Dudas? Aportes? Inquietudes?
-- Escríbenos a correonodoambiental@gmail.com, si quieres contribuir con esta página.
-
-
-### Vinculación Nodo Ambiental
-- Proyecto Pilas Usadas, <a href="https://nodoambiental.org">Nodo Ambiental</a>
-
+### Referencias
++ {% cite kolmans1996manual %}
++ {% cite barruti2013mal %}
++ http://www.fao.org/3/ca4449es/ca4449es.pdf
 
 ### Cita
-Nodo Ambiental (2019) Pilas Usadas. Rosario de la Frontera, Salta, Argentina. Recuperado de <a "https://nodoambiental.github.io/pilas/">https://nodoambiental.github.io/pilas/</a>
+Nodo Ambiental (2020) Proyecto Salud Alimentaria. Tucumán, Argentina. Recuperado de https://nodoambiental.org/pages/projects/Salud,%20Seguridad%20e%20Inocuidad%20Alimentaria.html
 
+##### Desarrollo Web
+Ágata Ordano, Mariano Ordano, Laura González
+
+##### Autores 
+Laura González, Mariano Ordano, Carmen Reguilón, Renzo Bernacki, Ágata Ordano, Analía Benavidez, Facundo Bernacki, Cecilia Ordano
 
 ### Licencia
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>

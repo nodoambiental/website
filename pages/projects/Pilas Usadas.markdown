@@ -29,10 +29,12 @@ icon: battery-quarter
 - sistema de recolección y depósitos especiales
 
 
-### A futuro
-- Coordinación y organización en Rosario de la Frontera (Salta), en San Miguel de Tucumán y Yerba Buena (Tucumán), en San Fernando del Valle de Catamarca. 
-- Gestión de depósitos.
+### Procesos y materiales
+- Desarrollo de protocolos de recolección, tratamiento, recipientes especiales, cintas para polos, cartelería.
+- Gestión de depósitos especiales.
+- Coordinación y organización en Rosario de la Frontera (Salta), en San Miguel de Tucumán y Yerba Buena (Tucumán), en San Fernando del Valle de Catamarca.
 - Coordinación Córdoba, Santa Fe, Paraná, La Plata, Buenos Aires.
+
 
 ![gestión](/assets/images/projects/flujo-pilas.svg)
 
@@ -45,7 +47,7 @@ icon: battery-quarter
 Fundación Nodo Ambiental (2020) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/contaminación/2019/09/17/pilas.html
 
 ### Cita
-Nodo Ambiental (2020) Proyecto Pilas Usadas. Rosario de la Frontera, Salta, Argentina. Recuperado de https://nodoambiental.github.io/pilas/">https://nodoambiental.github.io/pilas/
+Nodo Ambiental (2020) Proyecto Pilas Usadas. Rosario de la Frontera, Salta, Argentina. Recuperado de https://nodoambiental.org/pages/projects/Pilas%20Usadas.html
 
 ##### Desarrollo Web
 Ágata Ordano, Mariano Ordano, Laura González
