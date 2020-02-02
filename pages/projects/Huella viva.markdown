@@ -46,7 +46,7 @@ icon: paw
 + https://five.epicollect.net/project/red-argentina-de-monitoreo-de-fauna-atropellada
 
 ### Cita
-Nodo Ambiental (2020) Proyecto Huella Viva. Tucumán, Argentina. Recuperado de https://nodoambiental.org/pages/projects/Salud,%20Seguridad%20e%20Inocuidad%20Alimentaria.html
+Nodo Ambiental (2020) Proyecto Huella Viva. Tucumán, Argentina. Recuperado de https://nodoambiental.org/pages/projects/Huella%20viva.html
 
 ##### Desarrollo Web
 Ágata Ordano, Mariano Ordano, Laura González

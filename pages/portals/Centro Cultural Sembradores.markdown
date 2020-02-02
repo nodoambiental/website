@@ -5,9 +5,9 @@ categories: salud
 tags: agroecología alimentación semillas permacultura
 ---
 
-Centro Cultural Sembradores
+# Centro Cultural Sembradores
 
-En construcción. Web.
+El Centro Cultural Sembradores se inicia en 1999. Se construye como un espacio cultural para la promoción de la agricultura ecológica, la realización de talleres, la soberanía alimentaria, el intercambio de semillas, y la promoción de un mercado de productos agroecológicos y orgánicos.
 
 
 ### Vinculación Nodo Ambiental
