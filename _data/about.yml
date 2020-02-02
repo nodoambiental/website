@@ -9,11 +9,13 @@
   - data: Sintetizar y difundir información socio-ambiental.
   - data: Desarrollar portales de Internet y redes de cooperación.
   - data: Organizar repositorios digitales de información verificable.
-  - data: +image /assets/images/portales/deMadre.jpg
+  - data: +image /assets/images/about/diqueperro.jpg
 
 - name: Nuestra Misión
   content: 
   - data: Desarrollar sistemas de cooperación entre Organizaciones de la Sociedad Civil (ONG), organizaciones públicas y privadas, escuelas, profesionales y empresas, para la difusión, desarrollo y ejecución de proyectos para el desarrollo sostenible, la seguridad e inocuidad alimentaria, la preservación del ambiente, y el bienestar social.
+  - data: +image /assets/images/about/cabaceci.jpg
+
 
 - name: Nuestra Visión
   content: 
@@ -24,3 +26,5 @@
   - data: Es por ello que la conjunción de mecanismos de articulación, desarrollo humano y tecnológico, herramientas de cooperación entre organizaciones, espacios educativos, artísticos y multimedios, ayudan a encontrar soluciones prácticas en entornos donde el tiempo es limitado.
   - data: La verificación de la información difundida es clave para establecer bases sólidas para la realización y alcance de metas de desarrollo sustentable y bienestar social.
   - data: El desarrollo de nodos o sistemas de cooperación y articulación es una herramienta sólida para ayudar a que los proyectos de educación ambiental, conservación de la naturaleza y salud alimentaria y ambiental, logren sus metas. Entre ellas, la reducción del impacto humano sobre el ambiente en que vivimos y convivimos.
+  - data: +image /assets/images/about/lospizarro.jpg
+
