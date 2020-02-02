@@ -28,7 +28,7 @@ icon: medkit
 - Coordinación con organizaciones para la salud.
 
 
-![gestión](/assets/images/projects/verdura.jpg)
+![malbec](/assets/images/projects/malbec.jpg)
 
 
 ### Palabras clave - etiquetas
@@ -40,6 +40,9 @@ icon: medkit
 ### Referencias
 + {% cite kolmans1996manual %}
 + {% cite barruti2013mal %}
++ {% cite sarandon2014agroecologia %}
++ {% cite altieri2018agroecology %}
++ {% cite gliessman2016agroecology %}
 + http://www.fao.org/3/ca4449es/ca4449es.pdf
 
 ### Cita
