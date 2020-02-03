@@ -23,7 +23,7 @@ Organización que se dedica a la producción de eventos en relación a la agroec
 + http://www.radionacional.com.ar/manana-habra-un-encuentro-agroecologico-en-yerba-buena/
 
 ### Vinculación Nodo Ambiental
-- Proyecto Salud, Seguridad e Inocuidad Alimentaria, <a href="https://nodoambiental.org">Nodo Ambiental</a>
+- Proyecto Salud, Seguridad e Inocuidad Alimentaria <a href="https://nodoambiental.org">Nodo Ambiental</a>
 
 ### Edición y Desarrollo Web
 - Ágata Ordano
