@@ -52,6 +52,13 @@ Desde abril de 2019 el *Mercadito Agroecológico* mantiene una frecuencia mensua
 **Casa Verde** | <a href="https://www.instagram.com/casaverde_by_mv?igshid=tybqj60ykc1t">![instagram](/assets/images/logos/instagram.png)</a> Mayra Varela | Kokedamas
 **Club Fukuoka** | Gabriel Cortéz - Nuri Comedi | Árboles en adopción - Intercambio de semillas y plantines agroecológicos - Permacultura
 
+### Prensa
++ https://www.eltucumano.com/noticia/actualidad/255451/se-viene-el-segundo-mercadito-agroecologico-en-yerba-buena
++ https://radiotukson.com.ar/locales/comercio-ecologico-y-solidario-en-yerba-buena/
++ http://agendatucuman.com.ar/02-de-noviembre-mercadito-agroecologico-de-noviembre/
++ https://www.diarioyerbabuena.com.ar/nota/turismo/654141/fin-semana-como-estara-tiempo-actividades-ofrece-ciudad-jardin.html
+
+
 ### Participación en esta página
 - Escríbenos a correonodoambiental@gmail.com, si quieres contribuir con esta página.
 
