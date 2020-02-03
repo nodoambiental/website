@@ -14,11 +14,8 @@ La actividad se desarrolla en el espacio del Centro Cultural Sembradores y otros
 ### Referentes
 Manuel Bibiloni, Nuri Comedi, Gabriel Cortéz, Valeria González Cowes, Matías Kern, Enrique Santillán, Sergio Sosa, Andrés, Eliana, Ezequiel, Fabián, Jessy.
 
-### Participación
-- Escríbenos a correonodoambiental@gmail.com, si quieres contribuir con esta página.
-
 ### Cita
-Club Fukuoka (2019) Club Fukuoka. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Club Fukuoka.html" </a>
+Club Fukuoka (2020) Club Fukuoka. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Club Fukuoka.html" </a>
 
 ### Vinculación Nodo Ambiental
 - Proyecto Salud, Seguridad e Inocuidad Alimentaria, <a href="https://nodoambiental.org">Nodo Ambiental</a>
