@@ -43,15 +43,16 @@ Desde abril de 2019 el *Mercadito Agroecológico* mantiene una frecuencia mensua
 **Las Plantas del Abuelo** | <a href="https://www.facebook.com/Las-Plantas-del-Abuelo-2024635344231753/">![facebook](/assets/images/logos/facebook.png)</a> | Plantas de jardín 
 **Vivo** | <a href="https://www.facebook.com/vivofertilizante/">![facebook](/assets/images/logos/facebook.png)</a><a href="https://www.instagram.com/vivo_fertilizante/">![instagram](/assets/images/logos/instagram.png)</a> | Fertilizante biológico & orgánico 
 **Clorofila** | <a href="https://www.facebook.com/lasangreverde/">![facebook](/assets/images/logos/facebook.png)</a> Luciano +543816678901 | Kefir de agua
-**La Alborada** | María Teresa López - Natalia +543816804454 - +543816804466 | Plantas y jardines 
+**La Alborada** | María Teresa López - Natalia +543816804454 - +543816804466 | Plantas y jardines ![alborada](/assets/images/portales/alborada.jpeg)
 **Julio Risiñolo** | +543814762779 | Frutas y verduras 
 **Finca Ecotipa** | <a href="https://www.facebook.com/fincaecotipa/">![facebook](/assets/images/logos/facebook.png)</a> | Paltas - limones - agricultura orgánica 
 **Conservas** | +543865240588 - +543815752179 | Productos naturales artesanales 
 **Kanpai** | <a href="https://www.facebook.com/Kanpaialmacennatural/?ref=timeline_chaining">![facebook](/assets/images/logos/facebook.png)</a> | Almacén natural 
 **Greendom** | <a href="https://www.facebook.com/greendomargentina/">![facebook](/assets/images/logos/facebook.png)</a> +543815974679 - greendomargentina@gmail.com | Vegetales sin agroquímicos - Diseño y mantenimiento de huertos urbanos 
 **Casa Verde** | <a href="https://www.instagram.com/casaverde_by_mv?igshid=tybqj60ykc1t">![instagram](/assets/images/logos/instagram.png)</a> Mayra Varela | Kokedamas
-**Hierbas del Jardín** | <a href="https://www.facebook.com/hierbasdeljardin/">![facebook](/assets/images/logos/facebook.png)</a> https://hierbasdeljardin.com.ar/ | Vida Natural ![puesto hierbas](/assets/images/portales/hierbasdeljardin.jpeg)  
-**Club Fukuoka** | Gabriel Cortéz - Nuri Comedi | Árboles en adopción - Intercambio de semillas y plantines agroecológicos - Permacultura
+**Hierbas del Jardín** | <a href="https://www.facebook.com/hierbasdeljardin/">![facebook](/assets/images/logos/facebook.png)</a> https://hierbasdeljardin.com.ar/ | Vida Natural - Hierbas - Especias ![puesto hierbas](/assets/images/portales/hierbasdeljardin.jpeg)
+**Volar en Libertad** | <a href="https://www.facebook.com/volar.libertad/">![facebook](/assets/images/logos/facebook.png)</a> Gabriela Núñez-Montellano | Conocer es el primer paso para valorar y conservar la Naturaleza - Tutores artesanales de especies de aves nativas
+**Club Fukuoka** | Gabriel Cortéz - Nuri Comedi | Árboles en adopción - Intercambio de semillas y plantines agroecológicos - Permacultura ![fukuoka](/assets/images/portales/fukuoka.jpeg)
 
 ### Prensa
 + https://www.eltucumano.com/noticia/actualidad/255451/se-viene-el-segundo-mercadito-agroecologico-en-yerba-buena
