@@ -54,3 +54,6 @@ Si no desea recibir mensajes, por favor, indíquelo a nuestro correo, correonodo
 
 Los artículos o post publicados en nodoambiental.org no necesariamente reflejan la opinión consensuada de la organización.
 
+## Sede Social
+
+* Las Guayabas 465, Yerba Buena, Tucumán, Argentina.
