@@ -20,6 +20,8 @@ Organización de jóvenes estudiantes ambientalistas, Tucumán.
 + https://viapais.com.ar/tucuman/934702-jovenes-tucumanos-accionan-contra-el-cambio-climatico/
 + https://www.lagaceta.com.ar/nota/813074/actualidad/grupo-jovenes-recolecto-mas-4000-colillas-cigarrillos-microcentro.html
 + https://www.lagaceta.com.ar/nota/804141/actualidad/ustedes-adultos-estan-destruyendo-nuestro-futuro.html
++ https://www.tucumanalas7.com.ar/local/2019/9/26/en-tucuman-tambien-marcharan-por-la-crisis-climatica-186811.html
++ https://lanotatucuman.com/los-jovenes-tucumanos-se-movilizan-por-el-cambio-climatico/tucuman/27/16/2019/38829/
 
 
 ### Vinculación Nodo Ambiental
