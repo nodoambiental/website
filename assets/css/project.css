@@ -77,6 +77,42 @@ section.content {
         padding: 10px;
     }
 
+/* Table Formatting */
+
+table img {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+table a img {
+    border-radius: 5px;
+    border: none;
+}
+
+table thead {
+    background-color: #eee;
+    border-bottom: 3px solid #aaa;
+}
+
+table thead th:not(:first-child) {
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table tbody tr {
+    text-align: center;
+    display: table-row;
+}
+
+table tbody tr td {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle!important;
+}
+
 /* Media Queries */
 
 @media only screen and (min-width: 1024px) {
