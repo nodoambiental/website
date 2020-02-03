@@ -5,18 +5,27 @@ categories: salud
 tags: contaminación clima ambiente
 ---
 
-Viernes de plaza
-
-Colecta de colillas
-
+# Salvarnos Salvando
+Organización de jóvenes estudiantes ambientalistas, Tucumán.
 
 
-En construcción. Web.
+## Redes sociales
+<a href="https://instagram.com/salvarnossalvando?utm_source=ig_profile_share&igshid=16fjhfsujgg7r&fbclid=IwAR0bHdhH5b_PQ__eET8vch06GIz2KZoutSUmFZif2urtR5mx7hWkstds_Rw"> ![instagram](/assets/images/logos/instagram.png)
 
+<a href="https://instagram.com/salvarnossalvando?utm_source=ig_profile_share&igshid=16fjhfsujgg7r&fbclid=IwAR0bHdhH5b_PQ__eET8vch06GIz2KZoutSUmFZif2urtR5mx7hWkstds_Rw"> ![instagram](/assets/images/logos/instagram.png)
+
+
+## Prensa
++ https://tucuman.telefe.com/local/salvarnos-salvando-agrupacion-ambientalista-paro-para-generar-una-toma-de-conciencia/
++ https://viapais.com.ar/tucuman/934702-jovenes-tucumanos-accionan-contra-el-cambio-climatico/
++ https://www.lagaceta.com.ar/nota/813074/actualidad/grupo-jovenes-recolecto-mas-4000-colillas-cigarrillos-microcentro.html
++ https://www.lagaceta.com.ar/nota/804141/actualidad/ustedes-adultos-estan-destruyendo-nuestro-futuro.html
 
 
 ### Vinculación Nodo Ambiental
-- Proyecto Salud, Seguridad e Inocuidad Alimentaria, <a href="https://nodoambiental.org">Nodo Ambiental</a>
+- Proyecto Salud, Seguridad e Inocuidad Alimentaria <a href="https://nodoambiental.org">Nodo Ambiental</a>
+- Proyecto Pilas Usadas <a href="https://nodoambiental.org">Nodo Ambiental</a>
+
 
 ### Edición y Desarrollo Web
 - Ágata Ordano

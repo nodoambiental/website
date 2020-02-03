@@ -22,7 +22,6 @@ El Centro Cultural Sembradores se inicia en 1999. Se construye como un espacio c
 + https://www.lagaceta.com.ar/nota/641124/sociedad/feria-productos-organicos-e-intercambio-semillas.html
 
 
-
 ### Vinculación Nodo Ambiental
 - Proyecto Salud, Seguridad e Inocuidad Alimentaria, <a href="https://nodoambiental.org">Nodo Ambiental</a>
 

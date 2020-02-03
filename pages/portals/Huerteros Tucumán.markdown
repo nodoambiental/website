@@ -24,8 +24,10 @@ Funciona los segundos sábados de cada mes, a la mañana, en el Club Tucumán Ce
 + https://www.tucumanalas7.com.ar/local/gran-san-miguel/2016/8/19/este-sabado-se-realizara-la-feria-de-huerteros-139198.html
 + https://www.eltucumano.com/noticia/actualidad/253798/los-huerteros-tucumanos-regresan-con-su-feria-de-productos-agroecologicos
 
+
 ### Vinculación Nodo Ambiental
 - Proyecto Salud, Seguridad e Inocuidad Alimentaria <a href="https://nodoambiental.org">Nodo Ambiental</a>
+
 
 ### Edición y Desarrollo Web
 - Ágata Ordano

@@ -216,11 +216,9 @@ El Club Fukuoka inició la plantación con árboles nativos silvestres (arrayán
 ### Participación
 - Escríbenos a correonodoambiental@gmail.com, si quieres contribuir con esta página.
 
-### Cita
-Club Fukuoka (2019) Plantación Comunitaria La Hoya. Yerba Buena, Tucumán, Argentina. Recuperado de <a "https://nodoambiental.org/pages/portals/Plantación Comunitaria La Hoya.html</a>
 
 ### Vinculación Nodo Ambiental
-- Proyecto Salud, Seguridad e Inocuidad Alimentaria, <a href="https://nodoambiental.org">Nodo Ambiental</a>
+- Proyecto Salud, Seguridad e Inocuidad Alimentaria <a href="https://nodoambiental.org">Nodo Ambiental</a>
 
 ### Edición y Desarrollo Web
 - Ágata Ordano
