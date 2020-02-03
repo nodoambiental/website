@@ -126,7 +126,7 @@ Palto | <a href="https://es.wiktionary.org/wiki/palto">_Persea americana_</a> | 
 - 8 de julio - propuesta por Matías Kern, Club Fukuoka.
 
 
-## A futuro
+## A tener en cuenta...
 - agregado de materiales para restauración (perchas, troncos), enredaderas silvestres y frutales, bombas de semillas
 - inclusión de suelo nativo para contribuir con micro-organismos nativos
 - rescate de plantines nativos silvestres y traslocación a plantación
