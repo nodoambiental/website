@@ -28,7 +28,7 @@ Desde abril de 2019 el *Mercadito Agroecológico* mantiene una frecuencia mensua
 **Hama** | +543816039489 | Pan Sirio Artesanal - Puré de garbanzo - Comidas especiales - Encargar los Jueves hasta las 12 horas para retirar los Sábados hasta las 13 horas
 **Higos Felices** | <a href="http://higosfelices.blogspot.com/"> <a href="https://www.facebook.com/higosfelices/">![facebook](/assets/images/logos/facebook.png)</a><a href="https://www.instagram.com/higosfelices/">![instagram](/assets/images/logos/instagram.png)</a> Ing. Rodolfo Lescano +543816031548 | Especialidad en vinagre de higos 
 **Granja Agroecológica Mucho Gusto** | Rafael Caranta +543813690778 | Huevos de gallina - Productos de granja
-**Agricultura Orgánica** | Juan Pablo +543813572418 | Frutas y verduras -  
+**Agricultura Orgánica** | Juan Pablo +543813572418 | Frutas y verduras - ![puesto samerd](/assets/images/portales/juanpablo.jpg)  
 **De Madre** | Ana Segovia +543814585139 | Cocina sana ![puesto de Madre](/assets/images/portales/deMadre.jpg)
 **On Natur** | <a href="https://www.facebook.com/OnNatur2019/">![facebook](/assets/images/logos/facebook.png)</a><a href="https://www.instagram.com/onnatur_snack/">![instagram](/assets/images/logos/instagram.png)</a> +543815134840 | Deshidratados naturales - Sin conservantes - sin azúcares agregados - sin aditivos 
 **Las Pircas** | +543814025575 | Quesos - Fiambres 
@@ -50,6 +50,7 @@ Desde abril de 2019 el *Mercadito Agroecológico* mantiene una frecuencia mensua
 **Kanpai** | <a href="https://www.facebook.com/Kanpaialmacennatural/?ref=timeline_chaining">![facebook](/assets/images/logos/facebook.png)</a> | Almacén natural 
 **Greendom** | <a href="https://www.facebook.com/greendomargentina/">![facebook](/assets/images/logos/facebook.png)</a> +543815974679 - greendomargentina@gmail.com | Vegetales sin agroquímicos - Diseño y mantenimiento de huertos urbanos 
 **Casa Verde** | <a href="https://www.instagram.com/casaverde_by_mv?igshid=tybqj60ykc1t">![instagram](/assets/images/logos/instagram.png)</a> Mayra Varela | Kokedamas
+**Hierbas del Jardín** | <a href="https://www.facebook.com/hierbasdeljardin/">![facebook](/assets/images/logos/facebook.png)</a> https://hierbasdeljardin.com.ar/ | Vida Natural ![puesto hierbas](/assets/images/portales/hierbasdeljardin.jpeg)  
 **Club Fukuoka** | Gabriel Cortéz - Nuri Comedi | Árboles en adopción - Intercambio de semillas y plantines agroecológicos - Permacultura
 
 ### Prensa
