@@ -9,7 +9,7 @@ tags: agroecología alimentación
 
 Desde hace unos 12 años funciona una feria de huerteros de Tucumán, con productos orgánicos y agroecológicos. Organizada por la Red Orgánica Solidaria Tucumán, Huertas Agroecológicas Tucumanas y el INTA (Instituto Nacional de Tecnología Agropecuaria).
 
-Funciona los segundos sábados de cada mes en el Club Tucumán Central, San Miguel de Tucumán.
+Funciona los segundos sábados de cada mes, a la mañana, en el Club Tucumán Central, San Miguel de Tucumán.
 
 
 ## Ubicación
