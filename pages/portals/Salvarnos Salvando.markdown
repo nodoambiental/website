@@ -10,7 +10,7 @@ Organización de jóvenes estudiantes ambientalistas, Tucumán.
 
 
 ## Redes sociales
-<a href="https://instagram.com/salvarnossalvando?utm_source=ig_profile_share&igshid=16fjhfsujgg7r&fbclid=IwAR0bHdhH5b_PQ__eET8vch06GIz2KZoutSUmFZif2urtR5mx7hWkstds_Rw"> ![instagram](/assets/images/logos/instagram.png)
+<a href="https://www.facebook.com/pages/category/Nonprofit-Organization/Salvarnos-Salvando-631284067295248/"> ![facebook](/assets/images/logos/facebook.png)
 
 <a href="https://instagram.com/salvarnossalvando?utm_source=ig_profile_share&igshid=16fjhfsujgg7r&fbclid=IwAR0bHdhH5b_PQ__eET8vch06GIz2KZoutSUmFZif2urtR5mx7hWkstds_Rw"> ![instagram](/assets/images/logos/instagram.png)
 
