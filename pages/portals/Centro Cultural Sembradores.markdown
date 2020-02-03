@@ -16,6 +16,13 @@ El Centro Cultural Sembradores se inicia en 1999. Se construye como un espacio c
 ![sembradores](/assets/images/portales/sembradores.jpg)
 
 
+## Prensa
++ https://www.elmiradordiario.com.ar/nota/actualidad/82811/acercate-feria-sembradores.html
++ https://www.lagaceta.com.ar/nota/609701/sociedad/tu-jardin-pueden-convivir-belleza-tu-comida-dia.html
++ https://www.lagaceta.com.ar/nota/641124/sociedad/feria-productos-organicos-e-intercambio-semillas.html
+
+
+
 ### Vinculación Nodo Ambiental
 - Proyecto Salud, Seguridad e Inocuidad Alimentaria, <a href="https://nodoambiental.org">Nodo Ambiental</a>
 
