@@ -41,9 +41,9 @@ icon: paw
 + {% cite bauni2017mortalidad %}
 + {% cite pinto2020effects %}
 
-+ https://sib.gob.ar/archivos/Proyecto_Atropellamiento.pdf
-+ https://www.redyaguarete.org.ar/lineas-de-accion/mitigacion-de-atropellamientos-en-rutas/
-+ https://five.epicollect.net/project/red-argentina-de-monitoreo-de-fauna-atropellada
+- https://sib.gob.ar/archivos/Proyecto_Atropellamiento.pdf
+- https://www.redyaguarete.org.ar/lineas-de-accion/mitigacion-de-atropellamientos-en-rutas
+- https://five.epicollect.net/project/red-argentina-de-monitoreo-de-fauna-atropellada
 
 ### Cita
 Nodo Ambiental (2020) Proyecto Huella Viva. Tucumán, Argentina. Recuperado de https://nodoambiental.org/pages/projects/Huella%20viva.html
@@ -55,7 +55,15 @@ Nodo Ambiental (2020) Proyecto Huella Viva. Tucumán, Argentina. Recuperado de h
 Laura González, Mariano Ordano, Ágata Ordano, Analía Benavidez
 
 ### Licencia
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+    <img 
+        alt="Licencia de Creative Commons" 
+        style="border-width:0" 
+        src="https://licensebuttons.net/l/by-nc/4.0/88x31.png"
+    />
+</a>
+<br />
+Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
 
 Usted es libre de:
 
