@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Inicio
+date: 2019/nov/10
 
 about_text: Quiénes somos
 

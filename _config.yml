@@ -42,6 +42,7 @@ plugins:
   - jekyll-archives
   - liquid_reading_time
   - jekyll-minifier
+  - jekyll-last-modified-at
 
 jekyll-archives:
   enabled:
