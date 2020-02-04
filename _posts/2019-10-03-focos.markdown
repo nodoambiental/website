@@ -1,0 +1,54 @@
+---
+layout: infograph
+title:  "Focos"
+date:   2019-10-03 00:17:39 -0300
+categories: contaminación 
+tags: industria mitigación salud residuos GIRSU
+
+img_text: | 
+  Si un foco se rompe, hay que tirarlo en un depósito especial.
+---
+
+![foco](/assets/images/infograph/foco.jpg)
+
+<!--section-->
+
+### ¿Por qué esterilizar las mascotas?
+* La reproducción masiva de mascotas causa problemas de salud humana y ambiental.
+* Evita que tus mascotas cacen fauna silvestre. Los animales que no son domésticos contribuyen en el control de plagas y en la conservación del suelo.
+
+##### Este infoblog fue basado en: 
++ {% cite michel2014adios %}
++ {% cite garces2017estado %}
++ {% cite reyes2018descarte %}
++ {% cite leon2019focos %}
+
+##### y los portales:
++ http://www.somers-ac.org/
+
+
+##### Cita
+Fundación Nodo Ambiental (2020) Infoblog Focos. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/contaminacion/2019/10/03/focos.html
+
+
+##### Vinculación Nodo Ambiental
+- Proyecto Pilas Usadas <a href="https://nodoambiental.org">Nodo Ambiental</a>
+
+
+##### Autores 
+Laura González, Ágata Ordano, Mariano Ordano
+
+
+##### Desarrollo Web
+Ágata Ordano, Mariano Ordano, Laura González
+
+
+### Licencia
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
+
+Usted es libre de:
+
++ Compartir — copiar y redistribuir el material en cualquier medio o formato
+
++ Adaptar — remezclar, transformar y crear a partir del material
+
