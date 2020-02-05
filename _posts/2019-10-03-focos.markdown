@@ -13,9 +13,9 @@ img_text: |
 
 <!--section-->
 
-### ¿Por qué esterilizar las mascotas?
-* La reproducción masiva de mascotas causa problemas de salud humana y ambiental.
-* Evita que tus mascotas cacen fauna silvestre. Los animales que no son domésticos contribuyen en el control de plagas y en la conservación del suelo.
+### ¿Por qué cuidar dónde desechamos ciertos elementos?
+* La contaminación invisible causa problemas de salud humana y ambiental.
+* Muchos productos de uso doméstico contienen metales pesados u otros contaminantes, y deben ser remplazados por mejores productos y depositados en lugares especiales.
 
 ##### Este infoblog fue basado en: 
 + {% cite michel2014adios %}
