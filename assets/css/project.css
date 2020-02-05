@@ -157,6 +157,33 @@ table tbody tr td {
         top: 45%;
         left: 55%;
     }
+    table thead tr th {
+        text-align: center;
+        display: block;
+        margin: 5px;
+        margin-top: -1px;
+        margin-bottom: 0px;
+        border-bottom: 1px dashed #aaa!important;
+        border-top: 1px dashed #aaa!important;
+    }
+    
+    table thead tr th:first-child {
+        margin-top: 5px;
+    }
+    table thead tr th:last-child {
+        margin-bottom: 5px;
+    }
+    
+    table tbody tr:not(odd) {
+        background-color: white;
+    }
+    
+    table tbody tr td {
+        display: block;
+        margin: 5px;
+        border-block-style: dashed!important;
+        border-color: #aaa!important; 
+    }
 }
 
 
