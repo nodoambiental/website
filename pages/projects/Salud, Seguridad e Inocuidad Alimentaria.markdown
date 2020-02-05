@@ -7,7 +7,7 @@ icon: medkit
 # Salud, Seguridad e Inocuidad Alimentaria
 
 ## ¿Por qué evitar el uso de venenos?
-- Los venenos se fabrican en general para controlar plagas u organismos que reducen la producción agrícola. 
+- Los venenos se fabrican, en general, para controlar plagas u organismos que reducen la producción agrícola. 
 - Sin embargo, la mayoría de estos venenos tienen impactos negativos y persistentes sobre la salud humana y ambiental; y son muy difíciles de erradicar. 
 - Excepto en condiciones de exclusión (islas o zonas rodeadas de barreras geográficas), es casi imposible la erradicación de plagas. Esta situación ha llevado al uso masivo de venenos, con dos consecuencias indeseables; generan resistencia en las plagas, e incorporan sustancias venenosas en nuestro cuerpo y en el ambiente a través de alimentos y desechos.
 
