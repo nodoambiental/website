@@ -9,7 +9,7 @@ img_text: |
   Si un foco se rompe, hay que tirarlo en un depósito especial.
 ---
 
-![foco](/assets/images/infograph/foco.jpg)
+![Focos](/assets/images/infograph/Focos.jpg)
 
 <!--section-->
 
