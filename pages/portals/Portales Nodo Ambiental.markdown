@@ -7,7 +7,7 @@ tags: organizaciones colectivos sociales información nexos
 
 Nodo Ambiental propone la elaboración de tarjetas sobre actividades sociales realizadas por otras organizaciones, colectivos o convocatorias espontáneas. 
 
-Nodo Ambiental puede colaborar directa o indirectamente con alguna de ellas, en vinculación con los ejes de acción de Nodo Ambiental: (1) Salud alimentaria, (2) Contención de la contaminación, (3) Relaciones con la vida silvestre {https://testing.nodoambiental.org/#projects}.
+Nodo Ambiental puede colaborar directa o indirectamente con alguna de ellas, en vinculación con los ejes de acción de Nodo Ambiental: (1) Salud alimentaria, (2) Contención de la contaminación, (3) Relaciones con la vida silvestre {https://nodoambiental.org/#projects}.
 
 La información se revisa regularmente. Se propone un mecanismo de participación mutua, por el cual quienes representen la actividad pueden acordar con Nodo Ambiental la publicación de imágenes, datos y detalles.
 
@@ -22,7 +22,7 @@ La información publicada aquí, tal como los enlaces web, es obtenida por libre
 
 La información relativa a nombres y datos de contacto es obtenida por contacto directo con la persona o representantes de la actividad. La información es libre y gratuita. El desarrollo web, la edición y revisión de contenidos y la articulación con actividades, son servicios sociales de Nodo Ambiental.
 
-Para mayor información sobre nuestros lineamientos de información ver Términos de servicio {https://testing.nodoambiental.org/pages/documentation/main.html}
+Para mayor información sobre nuestros lineamientos de información ver Términos de servicio {https://nodoambiental.org/pages/documentation/main.html}
 
 
 ### Participación

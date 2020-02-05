@@ -17,6 +17,10 @@ Laprida 2799, San Miguel de Tucumán.
 <a href="https://www.facebook.com/darxdartucuman/">![facebook](/assets/images/logos/facebook.png) Dar x Dar</a>
 
 
+#### Centro de Reciclado
+![navetierra](/assets/images/portales/navetierra.jpg)
+
+
 ## Prensa
 + https://www.eltucumano.com/noticia/actualidad/252285/donde-reciclar-chatarra-electronica-pilas-y-motores
 + https://www.periodicomovil.com.ar/nota/sociedad/9850/donde-reciclar-chatarra-electronica.html

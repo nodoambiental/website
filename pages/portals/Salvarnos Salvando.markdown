@@ -15,6 +15,10 @@ Organización de jóvenes estudiantes ambientalistas, Tucumán.
 <a href="https://instagram.com/salvarnossalvando?utm_source=ig_profile_share&igshid=16fjhfsujgg7r&fbclid=IwAR0bHdhH5b_PQ__eET8vch06GIz2KZoutSUmFZif2urtR5mx7hWkstds_Rw"> ![instagram](/assets/images/logos/instagram.png)
 
 
+#### ¿Qué hacemos por mitigar el cambio climático?
+![salvarnossalvandoclima](/assets/images/portales/salvarnossalvandoclima.jpg)
+
+
 ## Prensa
 + https://tucuman.telefe.com/local/salvarnos-salvando-agrupacion-ambientalista-paro-para-generar-una-toma-de-conciencia/
 + https://viapais.com.ar/tucuman/934702-jovenes-tucumanos-accionan-contra-el-cambio-climatico/
