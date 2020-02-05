@@ -17,6 +17,12 @@ body {
     background-attachment: fixed;
 }
 
+h2 {
+    font-size: 120%;
+    width: 80%;
+    margin: auto;
+}
+
 .js .expanded {
     opacity: 1;
     height: inherit;
