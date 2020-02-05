@@ -6,7 +6,7 @@ icon: medkit
 
 # Salud, Seguridad e Inocuidad Alimentaria
 
-## ¿Por qué reducir al mínimo o evitar el uso de venenos?
+## ¿Por qué evitar el uso de venenos?
 - Los venenos se fabrican en general para controlar plagas u organismos que reducen la producción agrícola. 
 - Sin embargo, la mayoría de estos venenos tienen impactos negativos y persistentes sobre la salud humana y ambiental; y son muy difíciles de erradicar. 
 - Excepto en condiciones de exclusión (islas o zonas rodeadas de barreras geográficas), es casi imposible la erradicación de plagas. Esta situación ha llevado al uso masivo de venenos, con dos consecuencias indeseables; generan resistencia en las plagas, e incorporan sustancias venenosas en nuestro cuerpo y en el ambiente a través de alimentos y desechos.
@@ -41,18 +41,22 @@ icon: medkit
 + {% cite kolmans1996manual %}
 + {% cite barruti2013mal %}
 + {% cite sarandon2014agroecologia %}
-+ {% cite altieri2018agroecology %}
 + {% cite gliessman2016agroecology %}
++ {% cite altieri2018agroecology %}
 + http://www.fao.org/3/ca4449es/ca4449es.pdf
+
 
 ### Cita
 Nodo Ambiental (2020) Proyecto Salud Alimentaria. Tucumán, Argentina. Recuperado de https://nodoambiental.org/pages/projects/Salud,%20Seguridad%20e%20Inocuidad%20Alimentaria.html
 
+
 ##### Desarrollo Web
 Ágata Ordano, Mariano Ordano, Laura González
 
+
 ##### Autores 
 Laura González, Mariano Ordano, Carmen Reguilón, Renzo Bernacki, Ágata Ordano, Analía Benavidez, Facundo Bernacki, Cecilia Ordano
+
 
 ### Licencia
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
