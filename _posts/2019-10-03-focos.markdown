@@ -23,7 +23,7 @@ img_text: |
 + {% cite reyes2018descarte %}
 + {% cite leon2019focos %}
 
-##### y los portales:
+##### y los enlaces:
 + http://www.somers-ac.org/
 
 

@@ -17,13 +17,18 @@ img_text: |
 * La reproducción masiva de mascotas causa problemas de salud humana y ambiental.
 * Evita que tus mascotas cacen fauna silvestre. Los animales que no son domésticos contribuyen en el control de plagas y en la conservación del suelo.
 
-##### Este infoblog fue basado en: 
-+ {% cite garibotti2017tenencia %}
+##### Este infoblog fue basado en:
++ {% blajman2012estrategia %}
 + {% cite chicaiza2016elaboracion %}
++ {% cite garibotti2017tenencia %}
++ {% cite caceres2019tecnicas %}
 
-##### y los portales:
+##### y los enlaces:
 + https://reddeapoyocanino.org/index.php/2019/06/09/esterilizacion-temprana-de-perros-y-gatos-mitos-y-realidades/
-
++ http://repositorio.usil.edu.pe/handle/USIL/3140
++ https://www.eldiario.es/consumoclaro/perros/razones-esterilizar-perro_0_688381732.html
++ http://es.socresponsable.org/beneficios-de-esterilizar
++ https://www.lavanguardia.com/vivo/mascotas/20170412/421602353452/por-que-debes-esterilizar-a-tu-mascota.html
 
 ##### Cita
 Fundación Nodo Ambiental (2020) Infoblog Mascotas. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/salud/2019/10/11/mascotas.html

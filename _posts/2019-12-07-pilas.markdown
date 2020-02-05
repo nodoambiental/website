@@ -58,7 +58,7 @@ Hay numerosos trabajos previos, por ejemplo, {% cite protomastro2007estudio %}, 
 + {% cite perez2016proyecto %}
 + {% cite arnulfo2018estudio %}
 
-##### y los portales:
+##### y los enlaces:
 + https://www.educacioninicial.com/c/004/710-proyecto-sos-pilas-para-educacion-inicial/
 + http://www.energiaestrategica.com/una-propuesta-para-reciclar-pilas-alcalinas-y-cuidar-el-medio-ambiente/
 + https://earth911.com/home-garden/the-ultimate-battery-guide/?utm_source=Pinterest&utm_medium=Social&utm_campaign=Pinterest
