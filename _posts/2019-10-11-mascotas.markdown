@@ -19,7 +19,7 @@ img_text: |
 
 
 ##### Este infoblog fue basado en:
-+ {% blajman2012estrategia %}
++ {% cite blajman2012estrategia %}
 + {% cite chicaiza2016elaboracion %}
 + {% cite garibotti2017tenencia %}
 + {% cite caceres2019tecnicas %}
