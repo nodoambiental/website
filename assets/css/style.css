@@ -144,6 +144,12 @@ section.main-title {
 
 /* Navbar */
 
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+
 .js .navbar {
     box-shadow: 1px 0 3px 1px #333;
 }
