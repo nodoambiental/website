@@ -1,0 +1,16 @@
+#  Para modificar el orden de aparición simplemente reorganizarlos, el orden en la página refleja el presente en este archivo
+#  Caracteres unicode son aceptados sin inconvenientes, por lo que agregar acentos o caracteres especiales no representa inconvenientes.
+#  El ícono corresponde a la librería de íconos de Font Awesome 5 Free Solid, puede encontrarse la lista completa en https://fontawesome.com/icons?s=solid
+#  El archivo al que vincula cada tarjeta debe tener el mismo nombre que figura en la tarjeta, en formato .markdown y encontrarse en /pages/services/
+
+- name: Organizaciones y escuelas
+  icon: book-open
+  content: Para organizaciones no gubernamentales y escuelas, ofrecemos ayuda gratuita, información, difusión, desarrollo de proyectos y portal de Internet.
+
+- name: Gobierno y empresas
+  icon: briefcase
+  content: Ofrecemos servicios con cargo a organizaciones gubernamentales y empresas; manejo y verificación de información. Los fondos obtenidos se destinan a proyectos de Nodo Ambiental.
+
+- name: Cooperación
+  icon: users
+  content: Convocamos a la cooperación con profesionales de todas las áreas. Promovemos programas de voluntariado para desarrollar proyectos en conjunto y generar sistemas de aprendizaje mutuo.

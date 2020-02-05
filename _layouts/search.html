@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<style type="text/css">
+    @import url("/assets/css/search.css");
+</style>
+
+<section class="section search">
+    <form action="/search.html" method="get">
+        <input type="text" id="search-box" name="query">
+        <input type="submit" value="Buscar">
+    </form>
+
+    <ul id="search-results"></ul>
+</section>
+
+<script src="/assets/js/lunr.js"></script>
+<script>
+  window.store = {
+    {% for page in site.pages %}
+      "{{ page.url | slugify }}": {
+        "title": "{{ page.title | xml_escape }}",
+        "author": "{{ page.author | xml_escape }}",
+        "category": "{{ page.category | xml_escape }}",
+        "content": {{ page.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ page.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+</script>
+<script src="/assets/js/search.js"></script>
+

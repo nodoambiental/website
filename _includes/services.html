@@ -1,0 +1,34 @@
+{% assign services = site.data.services %}
+<section id="services" class="section services">
+    <h1>Nuestros servicios</h1>
+    <h2>{{ page.services_text }}</h2>
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+            <div class="tile">
+                <div class="tile is-parent is-vertical">
+                    {% for service in services %}
+                    <article class="tile is-child services-{{forloop.index}}">
+                        <a href="./pages/services/{{service.name}}.html">
+                            <div class="is-card">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure>
+                                            <i class="fas fa-{{ service.icon }}"></i>
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-12">{{ service.name }}</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    {{ service.content }}
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

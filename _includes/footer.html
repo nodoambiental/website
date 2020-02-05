@@ -1,0 +1,28 @@
+{% assign text = site.data.footer %}
+{% assign social = site.data.social %}
+<footer>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            {% for element in text %}
+            <div class="non-selectable tile is-child">
+                {{element.content}}
+                {% if forloop.index0 == 0 %}
+                    <br />
+                    {% for item in social %}
+                        <a href="{{item.element[1].link}}"><i class="fab fa-{{item.element[0].icon}} footer-social"></i></a>
+                    {% endfor %}
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <h6>
+        Última actualización del contenido: {{ page.last_modified_at | date: "%d/%m/%Y" }}
+    </h6>
+</footer>
+</body>
+<script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/jquery.waypoints.min.js"></script>
+<script src="/assets/js/anime.min.js"></script>
+<script src="/assets/js/script.js"></script>
+</html>

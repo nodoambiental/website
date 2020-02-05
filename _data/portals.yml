@@ -1,0 +1,50 @@
+#  Para modificar el orden de aparición simplemente reorganizarlos, el orden en la página refleja el presente en este archivo
+#  Caracteres unicode son aceptados sin inconvenientes, por lo que agregar acentos o caracteres especiales no representa inconvenientes.
+#  El ícono corresponde a la librería de íconos de Font Awesome 5 Free Solid, puede encontrarse la lista completa en https://fontawesome.com/icons?s=solid
+#  El archivo al que vincula cada tarjeta debe tener el mismo nombre que figura en la tarjeta, en formato .markdown y encontrarse en /pages/portals/
+  
+- name: Portales Nodo Ambiental
+  icon: universal-access
+  content: Tarjetas sociales
+
+- name: Plantación Comunitaria La Hoya
+  icon: tree
+  content: Club Fukuoka
+
+- name: Mercadito Agroecológico
+  icon: carrot
+  content: Feria
+
+- name: Club Fukuoka
+  icon: seedling
+  content: Semilloteca - Adopción y replicación comunitaria de plantas
+
+- name: Centro Cultural Sembradores
+  icon: air-freshener
+  content: Agroecología - Ecopunto - Seguridad Alimentaria
+
+- name: SOS Tierra 
+  icon: globe-americas
+  content: Feria - Arte - Ecopunto
+
+- name: Nave Tierra
+  icon: hands-helping
+  content: Dar x Dar - Reciclaje - Recuperadores - Permacultura
+
+- name: Huerteros Tucumán
+  icon: lemon
+  content: Feria - Club Central Tucumán
+
+- name: Salvarnos Salvando
+  icon: globe
+  content: Protección del medio ambiente
+
+- name: Liliana Sosa
+  icon: camera
+  content: Fotografía - Naturaleza y sociedad
+
+
+#- name: Punto Verde Lillo
+#  icon: book-open
+#  content: Articulación de organizaciones para el manejo de residuos en la Manzana Lillo.  
+  
