@@ -18,7 +18,7 @@ La información y documentación detallada acerca de cómo está constituído es
 
 *  Licencia e información para difusión a disponer bajo licencia MIT y Creative Commons.
 
-*  Directrices de privacidad
+####  Directrices de privacidad
   
 Cómo registramos, usamos, y compartimos información personal:
 
@@ -36,11 +36,11 @@ La información sobre domicilio postal o de residencia no será pública. Dicha 
 
 Para la correspondencia o interacción directa en la web (chat, foros) usaremos su primer nombre, el cual usted podrá ver siempre.
 
-*  Cómo protegemos información personal
+#####  Cómo protegemos información personal
 
  En Nodo Ambiental ejecutamos y mantenemos medidas de seguridad y prácticas apropiadas para el registro, repositorio (almacenamiento) y procesamiento para la protección contra accesos no autorizados, alteraciones de información, revelación o destrucción de su información personal, nombre de usuario, contraseña, información de transacciones web y datos almacenados en nuestro sitio.
 
-*  Cambios en estas directrices de privacidad
+#####  Cambios en estas directrices de privacidad
 
 Nodo Ambiental conserva el criterio de actualizar estas directrices de privacidad en cualquier momento. Cuando hacemos esto, publicamos la fecha de modificación al pie de esta página.
 
@@ -50,10 +50,13 @@ Le enviaremos actualizaciones sobre estos cambios y otros anuncios vía correo e
 
 Si no desea recibir mensajes, por favor, indíquelo a nuestro correo, correonodoambiental@gmail.com
 
-*  Lineamientos de autoría
+#####  Lineamientos de autoría
 
 Los artículos o post publicados en nodoambiental.org no necesariamente reflejan la opinión consensuada de la organización.
 
 ## Sede Social
 
 * Las Guayabas 465, Yerba Buena, Tucumán, Argentina.
+
+## Personería Jurídica
+* Personería Jurídica otorgada el 3 de enero de 2020 por Resolución Nº 2/2020 de la Dirección de Personas Jurídicas de la Provincia de Tucumán, Argentina.
