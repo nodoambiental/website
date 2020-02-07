@@ -5,9 +5,9 @@
 /* Fonts */
 
 @import url("fonts.css");
-@import url("fontawesome.css");
-@import url("solid.css");
-@import url("brands.css");
+@import url("fa/fontawesome.css");
+@import url("fa/solid.css");
+@import url("fa/brands.css");
 
 /* General Styling */
 
