@@ -11,7 +11,18 @@
                     <img src="{{item.data | remove: '+image '}}"/>
                 </div>
             {% else %}
-                <p>{{item.data}}</p>
+                {% if {{item.data}} contains "+caption" %}
+                    <h3 class="about-caption">
+                        {% if {{item.data}} contains "+author" %}
+                            {{ item.data | remove: '+caption ' | replace: " +author ","<p class='about-author'>" }}
+                            </p>
+                        {% else %}
+                            {{item.data | remove: '+caption '}}
+                        {% endif %}
+                    </h3>
+                {% else %}
+                    <p>{{item.data}}</p>
+                {% endif %}
             {% endif %}
         {% endfor %}
     </div>

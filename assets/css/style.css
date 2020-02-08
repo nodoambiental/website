@@ -245,6 +245,27 @@ section.second-subtitle p {
     padding: 10px;
 }
 
+.about-caption {
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: -25px;
+    background-color: #ddd;
+    border-radius: 20px;
+    width: 50%;
+    font-style: italic;
+    line-height: 1em;
+    padding-top: 5px;
+}
+
+.about-author {
+    padding: 0px!important;
+    text-align: center!important;
+    margin: auto!important;
+    font-size: 90%;
+    font-style: normal;
+    padding-bottom: 5px!important;
+}
+
 div.about-image {
     padding: 25px;
 }
