@@ -1,0 +1,39 @@
+---
+layout: default
+title: Posts etiquetados con '{{ page.title }}'
+---
+
+<style type="text/css">
+    @import url("/assets/css/blog.css");
+</style>
+
+<section class="section services">
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <div class="tile">
+                <h2 class="category-name">Posts etiquetados con '{{ page.title }}'</h2>
+            </div>
+        </div>
+    </div>
+    {% for post in page.posts %}
+    {% if forloop.index == 0 %}
+    <div class="tile is-ancestor">
+        {% endif %}
+
+        {% assign modulo_check = forloop.index0 | modulo: 3 %}
+
+        {% if modulo_check == 0 %}
+    </div>
+    <div class="tile is-ancestor">
+        {% endif %}
+
+        <div class="tile is-vertical is-4">
+            <article class="tile is-child services-{{forloop.index}}">
+                <div class="is-card">
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </div>
+            </article>
+        </div>
+        {% endfor %}
+    </div>
+</section>
