@@ -108,6 +108,11 @@ h2.main-title {
     padding-right: 10%;
 }
 
+.section.main-title h2.subtitle {
+    font-size: 100%;
+    line-height: 90%; 
+}
+
 /*Alternating gradient and shadow */
 
 section.main-title {
@@ -245,6 +250,27 @@ section.second-subtitle p {
     padding: 10px;
 }
 
+.about-caption {
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: -25px;
+    background-color: #ddd;
+    border-radius: 20px;
+    width: 50%;
+    font-style: italic;
+    line-height: 1em;
+    padding-top: 5px;
+}
+
+.about-author {
+    padding: 0px!important;
+    text-align: center!important;
+    margin: auto!important;
+    font-size: 90%;
+    font-style: normal;
+    padding-bottom: 5px!important;
+}
+
 div.about-image {
     padding: 25px;
 }
@@ -344,6 +370,26 @@ section.team .media-left {
 }
 
 /* Footer */
+
+div.share-social {
+    background-color: #565656;
+    color: white;
+    height: 120px;
+    line-height: 140px;
+}
+
+div.share-social h2 {
+    line-height: 1em;
+    top: 20px;
+    position: relative;
+}
+
+div.share-social img {
+    height: 40px;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 footer {
     background-color: #363636;

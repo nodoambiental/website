@@ -29,8 +29,10 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     execjs (2.7.0)
     ffi (1.11.3)
+    ffi (1.11.3-x64-mingw32)
     forwardable-extended (2.6.0)
     html-pipeline (2.12.2)
       activesupport (>= 2)
@@ -110,6 +112,8 @@ GEM
     namae (1.0.1)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.7-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     posix-spawn (0.3.13)
@@ -122,6 +126,8 @@ GEM
       i18n
     safe_yaml (1.0.5)
     sassc (2.2.1)
+      ffi (~> 1.9)
+    sassc (2.2.1-x64-mingw32)
       ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
@@ -138,6 +144,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   jekyll (~> 4.0.0)

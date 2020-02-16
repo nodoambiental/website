@@ -1,6 +1,6 @@
 /* General Styling */
 
-p, ul, li, h2, h3, h4 {
+p, ul, li, h2:not(.share-social-title), h3, h4 {
     text-align: left;
     margin: auto;
 }
@@ -12,7 +12,7 @@ p > img {
     text-align: center;
 }
 
-a {
+a:not(.share-social-link) {
     border-bottom: 1px dotted #EB6113;
     transition-duration:400ms;
 }
@@ -23,7 +23,7 @@ a:hover {
     border-bottom: 1px dotted black;
 }
 
-a img {
+a img :not(.share-social-icon){
     border-radius: 0px;
     background-color: white;
 }
