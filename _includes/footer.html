@@ -8,27 +8,27 @@
     <div class="tile is-ancestor">
         <div class="tile is-parent">
             <div class="non-selectable tile is-child">
-                <a class="share-social-link" href="whatsapp://send?text=<<{{Mira+esta+publicación+de+Nodo+Ambiental%3A+ | append: page.url}}>>" data-action="share/whatsapp/share">
+                <a class="share-social-link" href="whatsapp://send?text=<<{{Mira+esta+publicación+de+Nodo+Ambiental%3A+ | append: page.url | absolute_url}}>>" data-action="share/whatsapp/share">
                     <img class="share-social-icon" src="/assets/images/social/whatsapp.svg" alt="Whatsapp" />
                 </a>
 
-                <a class="share-social-link" href="http://www.facebook.com/sharer.php?u={{ page.url }}" target="_blank">
+                <a class="share-social-link" href="http://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank">
                     <img class="share-social-icon" src="/assets/images/social/facebook.svg" alt="Facebook" />
                 </a>
                 
-                <a class="share-social-link"  href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url }}" target="_blank">
+                <a class="share-social-link"  href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url | absolute_url }}" target="_blank">
                     <img class="share-social-icon" src="/assets/images/social/linkedin.svg" alt="LinkedIn" />
                 </a>
                 
-                <a class="share-social-link" href="http://reddit.com/submit?url={{ page.url }}&amp;title=Mira esta publicación de Nodo Ambiental:" target="_blank">
+                <a class="share-social-link" href="http://reddit.com/submit?url={{ page.url | absolute_url }}&amp;title=Mira esta publicación de Nodo Ambiental:" target="_blank">
                     <img class="share-social-icon" src="/assets/images/social/reddit.svg" alt="Reddit" />
                 </a>
                 
-                <a class="share-social-link" href="http://www.tumblr.com/share/link?url={{ page.url }}&amp;title=Mira esta publicación de Nodo Ambiental:" target="_blank">
+                <a class="share-social-link" href="http://www.tumblr.com/share/link?url={{ page.url | absolute_url }}&amp;title=Mira esta publicación de Nodo Ambiental:" target="_blank">
                     <img class="share-social-icon" src="/assets/images/social/tumblr.svg" alt="Tumblr" />
                 </a>
                  
-                <a class="share-social-link" href="https://twitter.com/share?url={{ page.url }}&amp;text={{Mira+esta+publicación+de+Nodo+Ambiental%3A}}&amp;hashtags=NodoAmbiental" target="_blank">
+                <a class="share-social-link" href="https://twitter.com/share?url={{ page.url | absolute_url }}&amp;text={{Mira+esta+publicación+de+Nodo+Ambiental%3A}}&amp;hashtags=NodoAmbiental" target="_blank">
                     <img class="share-social-icon" src="/assets/images/social/twitter.svg" alt="Twitter" />
                 </a>
             </div>
