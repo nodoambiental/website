@@ -108,6 +108,11 @@ h2.main-title {
     padding-right: 10%;
 }
 
+.section.main-title h2.subtitle {
+    font-size: 100%;
+    line-height: 90%; 
+}
+
 /*Alternating gradient and shadow */
 
 section.main-title {
