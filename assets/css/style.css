@@ -371,6 +371,26 @@ section.team .media-left {
 
 /* Footer */
 
+div.share-social {
+    background-color: #565656;
+    color: white;
+    height: 120px;
+    line-height: 140px;
+}
+
+div.share-social h2 {
+    line-height: 1em;
+    top: 20px;
+    position: relative;
+}
+
+div.share-social img {
+    height: 40px;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 footer {
     background-color: #363636;
     color: white;
