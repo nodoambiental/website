@@ -582,6 +582,13 @@ footer {
         display: block;
         margin: auto;
     }
+    
+    div.share-social img {
+        height: 30px;
+        margin: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
