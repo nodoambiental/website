@@ -8,7 +8,7 @@ icon: battery-quarter
 
 ## ¿Por qué manejar desechos contaminantes?
 - Las pilas son útiles en muchas situaciones. Sin embargo, su fabricación implica el uso de materiales contaminantes. 
-- De manera invisible, estos materiales contaminantes terminan en la tierra y el agua, cuando no son tratados adecuadamente. Impactan negativamente en la salud ambiental y humana. 
+- De manera invisible, estos materiales contaminantes terminan en la tierra y el agua, cuando no son tratados adecuadamente; impactando negativamente en la salud humana y ambiental. 
 - La mayoría de las pilas tienen compuestos que contaminan el suelo, el agua y los alimentos, y deben ser desechadas y depositadas en lugares especiales.
 - El manejo de desechos y la búsqueda de alternativas son vitales para reducir la contaminación ambiental y mejorar el bienestar social.
 
@@ -32,8 +32,8 @@ icon: battery-quarter
 ### Procesos y materiales
 - Desarrollo de protocolos de recolección, tratamiento, recipientes especiales, cintas para polos, cartelería.
 - Gestión de depósitos especiales.
-- Coordinación y organización en Rosario de la Frontera (Salta), en San Miguel de Tucumán y Yerba Buena (Tucumán), en San Fernando del Valle de Catamarca.
-- Coordinación Córdoba, Santa Fe, Paraná, La Plata, Buenos Aires.
+- Coordinación y organización en Rosario de la Frontera (Salta), San Miguel de Tucumán y Yerba Buena (Tucumán), San Fernando del Valle de Catamarca, Diamante (Entre Ríos) y Ciudad Autónoma de Buenos Aires.
+
 
 
 ![gestión](/assets/images/projects/flujo-pilas.svg)
@@ -41,6 +41,7 @@ icon: battery-quarter
 ### Palabras clave - etiquetas
 - desechos contaminantes
 - baterías
+- pilas
 - contaminación ecosistémica
 
 ### Referencias
