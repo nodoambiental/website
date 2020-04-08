@@ -44,7 +44,7 @@ icon: battery-quarter
 - pilas
 - contaminación ecosistémica
 
-### Referencias
+### Infoblog y referencias
 Fundación Nodo Ambiental (2020) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/contaminación/2019/09/17/pilas.html
 
 ### Cita
