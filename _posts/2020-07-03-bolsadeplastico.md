@@ -82,11 +82,11 @@ FALTA PONER LAS FUENTES
 + {% cite arnulfo2018estudio %}
 
 ##### y los enlaces:
-+ https://www.educacioninicial.com/c/004/710-proyecto-sos-pilas-para-educacion-inicial/
-+ http://www.energiaestrategica.com/una-propuesta-para-reciclar-pilas-alcalinas-y-cuidar-el-medio-ambiente/
-+ https://earth911.com/home-garden/the-ultimate-battery-guide/?utm_source=Pinterest&utm_medium=Social&utm_campaign=Pinterest
-+ https://www.unicen.edu.ar/content/pilas-y-bater%C3%AD-c%C3%B3mo-minimizar-el-impacto-ambiental
-+ https://www.inti.gob.ar/publicaciones
++ https://www.diainternacionalde.com/ficha/dia-internacional-libre-bolsas-plastico
++ https://www.ecoalgrano.com/blog/sabes-lo-que-contamina-una-bolsa-de-plastico/
++ https://www.ecogestos.com/cuanto-contamina-una-bolsa-de-plastico/
++ https://www.eldiario.es/ballenablanca/365_dias/queda-plastico-biodegradable-despues-metida_0_894161665.html
++ https://www.bbc.com/mundo/noticias-47078193
 
 ##### Cita
 Fundación Nodo Ambiental (2020) Infoblog Bolsa de Plástico. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/contaminación/2020/07/03/bolsadeplastico.html
