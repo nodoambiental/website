@@ -11,19 +11,26 @@ categories: contaminación
 
 <!--section-->
 
-El 3 de Julio, Día Internacional Libre de Bolsas de Plástico, está dedicado 
+El 3 de Julio, *Día Internacional Libre de Bolsas de Plástico*, está dedicado 
 a hacernos ver la corta utilidad que tienen las bolsas de plástico y el grave problema que causan en el medio ambiente.
-Ayudemos al planeta tomando la iniciativa con un cambio de hábitos.\nNo tiremos bolsas de plástico vacías a la basura. 
-Llevemos nuestras propias bolsas a la  verdulería, (si no llevaste que no te pongan una bolsa por cada fruta o verdura que compres).
-Le digamos NO a las pequeñas bolsitas, quedan en la farmacia o perfumería, que no sirven para nada luego.
-¡Le digamos NO a las bolsas de plástico de un solo uso! 
 
 
-En Argentina no hay plantas de reciclaje. En la provincia de Buenos Aires, existe una planta piloto multi-propósito que investiga sobre aplicaciones tecnológicas de metales recuperados de pilas y baterías usadas (http://plapimulaseisic.cic.gba.gob.ar/). Existen algunas empresas autorizadas para el tratamiento de residuos que contienen químicos, que son derivados a los llamados "rellenos de seguridad". Aún es incipiente el tratamiento de pilas usadas y en la mayoría de las provincias no hay depósitos locales regularizados. 
+Ayudemos al planeta tomando la iniciativa con un cambio de hábitos.
+
+- No tiremos bolsas de plástico vacías a la basura. 
+- Llevemos nuestras propias bolsas a la  verdulería. Si no llevaste, evitar que te pongan una bolsa por cada fruta o verdura que compres.
+- Le digamos NO a las pequeñas bolsitas, quedan en la farmacia o perfumería, y luego no sirven para nada.
+
+
+*¡Le digamos NO a las bolsas de plástico de un solo uso!*
+
+
+ (http://plapimulaseisic.cic.gba.gob.ar/). 
 
 Hay numerosos trabajos previos, por ejemplo, {% cite protomastro2007estudio %}, sin embargo, aún necesitamos construir un sistema de manejo adecuado de residuos tóxicos.
 
-Necesitamos contener la contaminación hasta que desarrollemos fuentes de energía limpia y sistemas económicos saludables.
+
+Necesitamos contener la contaminación hasta que desarrollemos recipientes, bolsas y packaging con sistemas ecónomica y ambientalmente saludables.
 
 
 ##### Este infoblog fue basado en: 
@@ -54,16 +61,17 @@ Necesitamos contener la contaminación hasta que desarrollemos fuentes de energ�
 + https://www.inti.gob.ar/publicaciones
 
 ##### Cita
-Fundación Nodo Ambiental (2020) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/contaminación/2019/09/17/pilas.html
+Fundación Nodo Ambiental (2020) Infoblog Bolsa de Plástico. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/contaminación/2020/07/03/bolsadeplastico.html
 
 ##### Vinculación Nodo Ambiental
-- Proyecto Pilas Usadas, <a href="https://nodoambiental.org">Nodo Ambiental</a>
+- Contención de la contaminación, Promoción de la salud, Relaciones con la vida silvestre <a href="https://nodoambiental.org">Nodo Ambiental</a>
+
 
 ##### Desarrollo Web
 Ágata Ordano, Mariano Ordano
 
 ##### Autores 
-Laura González, Ágata Ordano, Cecilia Ordano, Facundo Bernacki, Renzo Bernacki, Mariana Valoy, Julieta García Serra, Mariano Ordano
+Laura González, Ágata Ordano, Analía Benavidez, Cecilia Ordano, Facundo Bernacki, Renzo Bernacki, Mariano Ordano
 
 ### Licencia
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
