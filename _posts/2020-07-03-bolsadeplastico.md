@@ -24,14 +24,42 @@ Ayudemos al planeta tomando la iniciativa con un cambio de hábitos.
 
 *¡Le digamos NO a las bolsas de plástico de un solo uso!*
 
+El plástico se ha convertido en el material preferido de la industria durante el último siglo. Los plásticos son productos derivados del petróleo, con gran flexibilidad, durabilidad y relativamente económicos.
 
- (http://plapimulaseisic.cic.gba.gob.ar/). 
+A escala mundial, se estima que cada persona gasta aproximadamentes 230 bolsas de plástico al año, lo que representa al menos 500 billones de bolsas de plástico en el mundo {% cite INCLUIRCITA %}.
 
-Hay numerosos trabajos previos, por ejemplo, {% cite protomastro2007estudio %}, sin embargo, aún necesitamos construir un sistema de manejo adecuado de residuos tóxicos.
+*Las bolsas de plástico...*
 
+- Son uno de los mayores residuos a escala mundial, principalmente porque no son depositados de forma adecuada y terminan en en todo tipo de ambientes.
+
+- Menos del 1% de las bolsas de plástico generadas anualmente es reciclada, ya que cuesta 100 veces más reciclarlas que producirlas.
+
+- Tardan al menos 1000 años en descomponerse (dependiendo del tipo de plástico). Al estar expuestas a la radiación solar en su proceso de degradación liberan gases de invernadero (etileno y metano). Incluso cuando son depositadas en vertederos o basurales, su inadecuado tratamiento conlleva a que sean una fuente permanente de toxinas y lixiviados, los cuales contaminan severamente el suelo y los mantos acuíferos.
+
+- Actualmente se tienen detectadas al menos 5 grandes islas de basura en los océanos alrededor del mundo; mismas que se encuentran en movimiento y contaminando enormes extensiones de costas y mares.
+
+- Afectan la persistencia de la biodiversidad, la calidad de los ambientes y la salud humana. 
+
+- Al degradarse en pequeñas partículas conocidas como “microplásticos”, los animales y otros organismos los incorporan con los alimentos. 
+
+
+Los microplásticos se han hallado en diferentes especies marinas destinadas al consumo humano. Se han probado los efectos adversos sobre la salud humana e incluso se ha demostrado que los microplásticos transportan patógenos.   
+
+INCLUIR CITAS PARA CADA AFIRMACION. LAS CITAS PUEDEN SER DE FUENTES PRIMARIAS (PUBLICACIONES, LIBROS, PAPERS CON INVESTIGACIONES), O SECUNDARIAS (ARTICULOS ESPECIALIZADOS EN DIARIOS, REVISTAS, BLOGS, ANUNCIOS EN PAGINAS DE ORGANIZACIONES, QUE TENGAN REFERENCIAS A OTRAS FUENTES PRIMARIAS O SECUNDARIAS)
+
+En Argenntina, los residuos plásticos también son preocupantes. De las 2.705.318 toneladas de residuos plásticos que se generan, 272.967 no se recolectan. FUENTE
+
+Sólo el 5% de los residuos plásticos generados se reciclan, posicionando al país dentro de los 25 países que más desechos plásticos produce.
+
+En Argentina se reciclan 225.000 toneladas de plástico por año, pero la industria de ese sector tiene una capacidad ociosa del 50%, por lo que son clave las políticas de gestión eficiente de residuos y la separación de la basura desde el hogar. 
+
+{% cite CITACOMOENBIBTEX %}
+
+Elige productos con el menor packaging posible. Evita comprar frutas o verduras envueltas en plásticos.
 
 Necesitamos contener la contaminación hasta que desarrollemos recipientes, bolsas y packaging con sistemas ecónomica y ambientalmente saludables.
 
+FALTA PONER LAS FUENTES
 
 ##### Este infoblog fue basado en: 
 + {% cite soto1996almacenamiento %}
