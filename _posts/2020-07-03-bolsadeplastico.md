@@ -7,7 +7,7 @@ tags: salud contaminantes residuos microplásticos
 categories: contaminación
 ---
 
-![plastico](/assets/images/infograph/BolsadePlástico.png)
+![plastico](/assets/images/infograph/BolsadePlastico.png)
 
 <!--section-->
 
