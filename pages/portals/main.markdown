@@ -1,5 +1,0 @@
----
-layout: portals
-title: Portales
-
----
