@@ -1,0 +1,241 @@
+/* General Styling */
+
+p, ul, li, h2:not(.share-social-title), h3, h4 {
+    text-align: left;
+    margin: auto;
+}
+
+p > img {
+    border-radius: 20px;
+    background-color: white;
+    border: 3px solid #eee;
+    text-align: center;
+}
+
+a:not(.share-social-link) {
+    border-bottom: 1px dotted #EB6113;
+    transition-duration:400ms;
+}
+
+a:hover {
+    color: #EB6113;
+    font-style: italic;
+    border-bottom: 1px dotted black;
+}
+
+a img :not(.share-social-icon){
+    border-radius: 0px;
+    background-color: white;
+}
+
+.project-subtitle {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+}
+
+h1.main-title {
+    position: relative;
+    top: 10%;
+}
+
+.divider {
+    border-bottom: 3px solid #ccc;
+    width: 80%;
+    margin: auto;
+}
+
+/* Infograph */
+
+.infograph img {
+    border-radius: 20px;
+    box-shadow: 0 0 0 0.5em #bbb;
+    width: 100%;
+}
+
+.infograph-text p {
+    /*! text-align: left; */
+    padding: 10%;
+    margin-top: calc(200px - 15vw);
+}
+
+/* TOS */
+
+section.content {
+    text-align: left;
+    padding: 10%;
+    margin-top: calc(200px - 15vw);
+}
+
+    section.content li {
+        list-style: circle;
+        font-size: 120%;
+        padding: 10px;
+    }
+
+    section.content p {
+        padding: 10px;
+    }
+
+/* Table Formatting */
+
+table img {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+table a img {
+    border-radius: 5px;
+    border: none;
+}
+
+table thead {
+    background-color: #eee;
+    border-bottom: 3px solid #aaa;
+}
+
+table thead th:not(:first-child) {
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table tbody tr {
+    text-align: center;
+    display: table-row;
+}
+
+table tbody tr td {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle!important;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 1024px) {
+    .content {
+        padding: 10%;
+    }
+
+    .info {
+        background-color: #eee;
+        width: 90%;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    p > img {   
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+
+@media only screen and (min-width: 780px) {
+    .info {
+        width: 80%;
+    }
+    
+    p > img {   
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .infograph {
+        margin-top: 140px;
+    }
+
+    .project-subtitle {
+        position: absolute;
+        top: 45%;
+        left: 55%;
+    }
+    table thead tr th {
+        text-align: center;
+        display: block;
+        margin: 5px;
+        margin-top: -1px;
+        margin-bottom: 0px;
+        border-bottom: 1px dashed #aaa!important;
+        border-top: 1px dashed #aaa!important;
+    }
+    
+    table thead tr th:first-child {
+        margin-top: 5px;
+    }
+    table thead tr th:last-child {
+        margin-bottom: 5px;
+    }
+    
+    table tbody tr:not(odd) {
+        background-color: white;
+    }
+    
+    table tbody tr td {
+        display: block;
+        margin: 5px;
+        border-block-style: dashed!important;
+        border-color: #aaa!important; 
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .project-subtitle {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+    }
+
+    h1.main-title {
+        position: relative;
+        top: 15%;
+        font-size: 1.6em;
+    }
+
+    .infograph {
+        margin-top: 160px;
+    }
+    
+    p > img {   
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .infograph {
+        margin-top: 200px;
+    }
+
+    .project-subtitle {
+        position: absolute;
+        top: 40%;
+        font-size: 1.6em;
+    }
+
+    h1.main-title {
+        font-size: 2em;
+        margin-left: -10px;
+    }
+
+        h1.main-title i {
+            display: none;
+        }
+
+    body {
+        font-size: 0.7em;
+    }
+    
+    p > img {   
+        width: 90%;
+        margin-left: 5%;
+    }
+}

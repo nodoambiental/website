@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{% assign portals = site.data.portals %}
+<section class="section services">
+    {% for portal in portals %}
+    {% if forloop.index == 0 %}
+    <div class="tile is-ancestor">
+        {% endif %}
+
+        {% assign modulo_check = forloop.index0 | modulo: 3 %}
+
+        {% if modulo_check == 0 %}
+    </div>
+    <div class="tile is-ancestor">
+        {% endif %}
+        <div class="tile is-parent is-4">
+            <div class="tile">
+                <div class="tile is-vertical">
+                    <article class="blog-post tile is-child services-{{forloop.index}}">
+                        <a href="{{portal.name}}.html">
+                            <div class="is-card">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure>
+                                            <i class="fas fa-{{ portal.icon }}"></i>
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-12">{{ portal.name }}</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    {{ portal.content }}
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

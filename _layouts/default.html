@@ -1,0 +1,22 @@
+{% include head.html %}
+
+<body>
+    {% include navigation.html %}
+
+    {% if {{page.path}} contains "index.markdown" %}
+	{% include banner-home.html %}
+    {% else %}
+        {% if {{page.path}} contains "projects" %}
+	    {% include banner-projects.html %}
+        {% else %}
+            {% if {{page.path}} contains "search.markdown" %}
+	        {% include banner-home.html %}
+            {% else %}
+                {% include banner.html %}
+            {% endif %}
+        {% endif %}
+    {% endif %}
+
+    {{ content }}
+
+    {% include footer.html %}

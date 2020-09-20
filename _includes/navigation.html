@@ -1,0 +1,71 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/assets/images/logos/logo_navigation.svg" width="128" height="48" style="max-height:3rem">
+        </a>
+
+        <a role="button" class="navbar-burger burger is-active" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu is-active">
+        <div class="navbar-start">
+
+            <a href="/#about" class="navbar-item">
+                &iquest;Qu&eacute; es Nodo Ambiental?
+            </a>
+
+            <a href="/#services" class="navbar-item">
+                Servicios
+            </a>
+
+            <a href="/#team" class="navbar-item">
+                Equipo
+            </a>
+
+            <a href="/#projects" class="navbar-item">
+                Proyectos
+            </a>
+
+            <a href="/pages/documentation/main.html" class="navbar-item">
+                Documentación
+            </a>
+
+            <a href="/pages/portals/main.html" class="navbar-item">
+                Portales
+            </a>
+
+            <a href="/pages/blog/main.html" class="navbar-item">
+                InfoBlog
+            </a>
+
+            <a href="https://wiki.nodoambiental.org" class="navbar-item">
+                Wiki
+            </a>
+
+            <a href="/pages/surveys/main.html" class="navbar-item">
+                Encuestas
+            </a>
+
+            <a href="/search.html" class="navbar-item">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        {% if {{page.path}} == "contact.markdown" or {{page.path}} == "contactsuccess.markdown" %}
+
+        {% else %}
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a href="/contact.html" class="button is-primary">
+                        <strong>Contactanos</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</nav>

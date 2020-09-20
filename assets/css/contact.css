@@ -1,0 +1,151 @@
+/* General Styling */
+
+form {
+    margin: auto;
+}
+
+label {
+    padding: 10px;
+    display: block;
+    text-align: left;
+    margin: auto;
+    margin-left: 10%;
+}
+
+    label:after {
+        content: ":";
+        font-weight: 900;
+        color: #cf4b00;
+        text-align: left;
+    }
+
+    label:before {
+        content: ">>> ";
+        font-weight: 100;
+        color: #cf4b00;
+    }
+
+    label[for=subscribe] {
+        padding: 20px;
+        display: inline;
+        text-align: center;
+        margin: auto;
+    }
+
+        label[for=subscribe]:after {
+            content: "";
+        }
+
+
+        label[for=subscribe]:before {
+            content: "";
+        }
+
+input[type=submit] {
+    transition-duration: 400ms;
+    border: 2px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FFF;
+    margin: auto;
+}
+
+    input[type=submit]:hover {
+        padding: 10px;
+        background-color: #cf4b00;
+        color: #fff;
+        cursor: pointer;
+    }
+
+input[type=text] {
+    transition-duration: 400ms;
+    border: 2px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    width: 90%
+}
+
+    input[type=text]:focus {
+        padding: 10px;
+        background-color: #cf4b00;
+        color: #fff;
+    }
+
+input[type=email] {
+    transition-duration: 400ms;
+    border: 2px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%
+}
+
+    input[type=email]:focus {
+        padding: 10px;
+        background-color: #cf4b00;
+        color: #fff;
+    }
+
+textarea {
+    transition-duration: 400ms;
+    border: 2px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+    textarea:focus {
+        padding: 10px;
+        border: 3px solid #cf4b00;
+    }
+
+
+/* Media queries */
+
+@media only screen and (min-width: 780px) {
+    .content {
+        padding: 10%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    textarea {
+        width: 80%;
+    }
+
+    input[type=email] {
+        width: 80%;
+    }
+
+    input[type=text] {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    textarea {
+        width: 70%;
+    }
+
+    input[type=email] {
+        width: 70%;
+    }
+
+    input[type=text] {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    textarea {
+        width: 60%;
+    }
+
+    input[type=email] {
+        width: 60%;
+    }
+
+    input[type=text] {
+        width: 60%;
+    }
+}
