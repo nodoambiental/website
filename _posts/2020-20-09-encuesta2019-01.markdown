@@ -1,0 +1,161 @@
+---
+layout: project
+title:  "Encuesta de Salud Humana y Ambiental 2019"
+date:   2020-09-20 00:10:35 -0300
+---
+
+![Encuesta 2019](/assets/images/surveys/EncuestadeSaludHumanayAmbiental2019.png)
+
+<!--section-->
+
+<h1 style="font-size:3em; margin-top: -20px;">Encuesta de Salud Humana y Ambiental 2019</h1>
+
+## ¿Qué es esto
+
+En Nodo Ambiental nos enfrentamos a problemas difíciles de abordar, aproximándonos a ellos de manera técnica e imparcial. Esto implica adquirir información acerca de cómo son las cosas en la realidad, de lo contrario dependeríamos de nuestros sesgos para evaluar nuestros desafíos.
+
+Uno de los medios de adquisición de información son las _encuestas_, que nos permiten sondear la percepción y las nociones que tiene el público general acerca de los temas que nos conciernen.
+
+En el año 2019 realizamos una de estas encuestas para averiguar cómo las personas entienden algunos problemas específicos relacionados a los tres ejes (contención de la contaminación, promoción de la salud y relaciones con la vida silvestre) en los que se sustenta nuestra organización. Para ello encuestamos acerca del manejo de residuos domésticos, la alimentación y los animales domésticos.
+
+En esta encuesta nos encargamos de categorizar la información bajo segmentos que nos permiten analizar cómo se relacionan entre sí los problemas abordados y la vida diaria de la población. Para esto segmentamos las preguntas para evaluar en función de indicadores socioculturales, como la edad, el nivel educativo, la situación familiar, y otros. Luego separamos las preguntas en función del tipo de alimentación, los alimentos, el manejo de residuos, y la percepción que tenemos de estos temas.
+
+Analizamos un total de 267 respuestas, y entre toda esta diversidad (¡267 son muchas personas!) pudimos discriminar los datos para obtener resultados que describan expresiones de estos problemas socioambientales.
+
+A la carga, y nos adentremos en nuestros hallazgos.
+
+## Nuestra alimentación
+
+Cuando una persona consume un alimento, que compra del supermercado, de la verdulería, de la carnicería, siempre hay partes que no podemos ver respecto a cómo llegó ese alimento a nuestro plato. Uno toma el alimento y lo utiliza para el fin que tiene destinado, casi sin preguntarse de dónde salió o cómo llegó ahí.
+
+Si bien sabemos que las verduras y frutas son plantadas en campos, que los pollos y cerdos son de criaderos, y que los procesados vienen de alguna fábrica, generalmente no estamos al tanto de la cadena completa desde el mismo origen del producto hasta que lo tenemos en nuestra mesa. La logística con la que se desarrolla la red de distribución es una maravilla moderna, apareciendo de manera casi mágica las comidas que queremos frente a nuestros ojos en el mercado o la verdulería.
+
+Esta cadena de distribución es importante porque la procedencia de los alimentos y cómo llegan a nuestra mesa en muchos casos determina de manera directa la calidad del producto. Por ejemplo, una lechuga criada en un suelo adecuado, nutrida, sin tóxicos de ninguna clase, es de mejor calidad tanto nutricional como a nivel de los efectos negativos que se acumulan en nuestros cuerpos; versus una lechuga de cadena comercial con químicos nocivos.
+
+Cuando se aplica un químico a una planta, éste generalmente permanece en la planta, ya sea superficialmente como dentro de su propia estructura, y estos químicos nocivos son ingeridos directamente por nosotros. Si bien la concentración de estos tóxicos es pequeña, dependiendo del producto en cuestión y del tiempo que pasemos exponiendo nuestro cuerpo a esos elementos ajenos, hay un impacto significativo y medible en nuestra calidad de vida y nuestra salud.
+
+Conocer la procedencia de un alimento nos permite discriminar el nivel de seguridad, salubridad y nutrición que me ofrece.
+
+En nuestra encuesta evaluamos de manera general la dieta de las personas, para abordar cómo entender su alimentación.
+
+> ----------------------------------------------------------------------------
+>
+> ![fig1](/assets/images/surveys/2019-01-fig1.png)
+>
+> ----------------------------------------------------------------------------
+
+Utilizamos esta información para evaluar cómo se relaciona la dieta de alguien con la procedencia de los productos que consume.
+
+Como es de esperarse debido a la complejidad moderna, la mayoría de las personas desconoce la procedencia de los alimentos que consume. Sin embargo, no es algo universal; hay productos cuya procedencia parece ser más conocida que otros.
+
+> ----------------------------------------------------------------------------
+>
+> ![fig2](/assets/images/surveys/2019-01-fig2.png)
+>
+> ----------------------------------------------------------------------------
+
+Siendo así esto, nos preguntamos si el extenso conocimiento relativo de la procedencia de los productos en personas con dieta restringida se deba a eso. Es posible que una persona que tiene una dieta restringida pueda tener más cuidado al seleccionar los alimentos que consume, y mostrarse más preocupada por conocer su procedencia.
+
+Nuestro análisis, si bien no es sorpresivo, revela la extensión del desconocimiento acerca de la procedencia y procesos a los que están sometidos los productos que consumimos, y la conveniencia y costumbre nos indaga ¿Qué es lo que estoy comiendo realmente?
+
+Es momento de blandir este conocimiento y hacerse este tipo de preguntas. Seamos proactivos con nuestra ingesta y tomemos conciencia del impacto que tiene el proceso productivo y la industrialización sobre nuestras vidas.
+
+## Energía mía, desechos míos
+
+Nuestra vida cotidiana está rodeada por la consecuencia de la aplicación de la tecnología moderna, productos maravillosos que nos acercan, reducen distancias, potencian nuestro trabajo y son indispensables para la existencia en la sociedad moderna.
+
+Particularmente, los artefactos electrónicos fueron una revolución que generó un cambio de paradigma en todas las sociedades que los incorporaron, y actualmente productos como un smartphone, una computadora, un televisor, un horno microondas, acceso a la música, internet, toda la revolución digital está mediada por ellos. En Nodo Ambiental nos preocupa el impacto de los artefactos electrónicos en el ambiente.
+
+Los artefactos electrónicos se fabrican mediante procesos que en general son contaminantes, utilizan metales pesados que son tóxicos, y los procesos implican minería y explotación de recursos que ponen en duda la sostenibilidad de estas prácticas y el bienestar del medio ambiente.
+
+Es muy difícil cuantificar de manera directa el impacto de todo esto, y simplemente imposible mediante una herramienta de sondeo como una encuesta. Sin embargo, podemos evaluar el impacto de cómo algunos metales contaminan la tierra, analizando cómo se disponen los componentes que los contienen, llámense pilas o baterías.
+
+Toda pila o batería está basada en un sistema electroquímico para almacenar la energía, y por naturaleza este sistema tiene mayor eficiencia cuando se utilizan algunos metales pesados en el proceso. Metales tóxicos como litio, plomo, níquel, cadmio y mercurio son elementos comunes y necesarios en las baterías modernas. Y una cantidad enorme de productos electrónicos hacen uso de la energía portátil: controles remotos, relojes, computadoras tanto portátiles como de escritorio, celulares, relojes, audífonos, cigarrillos electrónicos, y en general cualquier cosa que no requiera una conexión permanente a una fuente de energía.
+
+Es por esto que el impacto que tienen las pilas en el  ambiente es siempre presente y aplastante; es inevitable usarlas y nos enfrentamos a un dilema con respecto a ellas, ¿Qué hago con ellas cuando dejan de ser útiles?
+
+En esta encuesta analizamos la participación del uso de las pilas en la vida de las personas, su noción al respecto de su potencial de contaminación y cómo disponen de ellas.
+
+Como es de esperarse, la aplastante mayoría de las personas que respondieron la encuesta incorporan pilas como parte de su vida, siendo que de 267 casos solamente 2 aseguraron no haber usado nunca una pila.
+
+Más interesante es conocer si las personas están al tanto del potencial polutivo que tienen, ya que así como en la modernidad es difícil conocer el origen de un alimento, es difícil quizás adquirir la información relevante para tener conocimiento acerca de cómo impactan al mundo.
+
+> ----------------------------------------------------------------------------
+>
+> ![fig3](/assets/images/surveys/2019-01-fig3.png)
+>
+> ----------------------------------------------------------------------------
+
+Según lo que hallamos en las respuestas, la gran mayoría (74%) está al tanto de que las pilas son contaminantes. Esto es significativo porque analizando cómo las personas están informadas al respecto de la realidad que presentan las baterías y metales pesados como contaminantes, podemos evaluar el impacto que pueden llegar a tener.
+
+> ----------------------------------------------------------------------------
+>
+> ![fig4](/assets/images/surveys/2019-01-fig4.png)
+>
+> ----------------------------------------------------------------------------
+
+Una cantidad similar de personas está al tanto de que las pilas contaminan, aunque la proporción de personas que desconocen o piensan que no contaminan es alarmantemente grande, sobre todo teniendo en cuenta cómo las personas consideran que pueden impactar al ambiente. La mayoría de la gente no está al tanto de la escala global de la contaminación por baterías. Esto invita a la pregunta, ¿Que hacen las personas con las pilas cuando alcanzaron su vida útil?
+
+> ----------------------------------------------------------------------------
+>
+> ![fig5](/assets/images/surveys/2019-01-fig5.png)
+>
+> ----------------------------------------------------------------------------
+
+De manera consistente, la mayoría de las personas desechan las pilas en un lugar separado. Lo preocupante es la alta incidencia de personas que las arrojan en la basura ordinaria, ya que si bien decir que solamente un quinto lo hace puede sonar a poco, cuando consideramos los millones de personas que este quinto representa, son muchísimas baterías desechadas en vertederos u océanos, soltando sus metales pesados y contaminando de manera muy significativa su entorno.
+
+Es muy importante concientizarnos acerca del impacto que tienen los metales pesados sobre el ambiente, cómo literalmente envenenan al mundo, y las fuentes que los liberan, estando entre las más significativas el desecho de baterías y la minería que involucra su fabricación.
+
+Si somos indiferentes o ignorantes de la influencia negativa que pueden tener las maravillosas herramientas que usamos de manera cotidiana cuando no se les da un tratamiento adecuado, agravamos un problema ya muy difícil de solucionar, y colaboramos con la destrucción del mundo que nos da y permite la vida.
+
+En este mundo hiperconectado donde todo está a tipear una búsqueda de distancia, ¿Por qué no aprovechar el poder de la información para el bien de lo que nos sustenta, nos nutre y nos protege? Cuesta poco y aportamos mucho.
+
+## ¿Compost? ¿Y eso cómo se come
+
+Más allá de la influencia de los contaminantes con metales pesados, en general los residuos nocivos enferman el ambiente. Muchos de los desechos domésticos pueden ser reciclados, reutilizados o reaprovechados de manera tal que reduzcamos al mínimo el impacto negativo que tiene sobre el mundo nuestra comodidad y conveniencia.
+
+Los desechos orgánicos en general se pueden descomponer y reaprovechar casi en su totalidad, y sin embargo son arrojados junto con los plásticos, metales, y demás residuos. Esto representa una cantidad enorme de desperdicios que puede eliminarse de los basurales, ríos, humedales y desembocaduras oceánicas.
+
+El proceso para descomponer y reaprovechar estos residuos orgánicos se llama _compost_, y consiste en la degradación y descomposición controlada de la materia orgánica para transformarla en abono delicioso para que las plantitas crezcan sanas y fuertes.
+
+En nuestro sondeo decidimos evaluar si las personas lo hacen.
+
+> ----------------------------------------------------------------------------
+>
+> ![fig6](/assets/images/surveys/2019-01-fig6.png)
+>
+> ----------------------------------------------------------------------------
+
+Las personas que reportaron que realizan de manera consistente la composta es menor a la décima parte del total, y quienes la hacen aunque sea eventualmente son menos de la tercera parte del total.
+
+Es positivo que haya una fracción significativa de la población que se toma el trabajo de evitar enviar los desechos orgánicos a los basurales comunes. Esta pequeña proporción es alentadora. Es algo muy fácil de hacer, se puede hacer en terrenos abiertos o en departamentos, no toma demasiado trabajo y ayuda a prevenir la contaminación a nivel global. Si cada quien pone su granito de arena, el desarrollo sostenible es más viable de implementar.
+
+## Bueno bueno, ¿Entonces
+
+Entonces, en resumidas cuentas, es nuestro deber informarnos acerca del impacto que tienen nuestras acciones sobre el mundo donde vivimos. Un acto que en apariencia es tan inocuo como tirar una pila a la basura, replicado a nivel poblacional, representa en realidad un problema grave y profundo.
+
+Tengamos en cuenta que las acciones con las que conducimos nuestras vidas no son exclusivas de una persona; tienen una incidencia estructural y como sociedad necesitamos evolucionar hacia una existencia más saludable, balanceada y sustentable.
+
+Desde Fundación Nodo Ambiental agradecemos la participación en la encuesta 2019 y les invitamos a acceder a la información técnica extendida en el *anexo*, así como a participar de nuestra próxima encuesta. Escríbanos a contacto@nodoambiental.org o por mensaje en nuestras redes sociales.
+
+##### Cita
+
+Fundación Nodo Ambiental (2020) Encuesta Salud Humana y Ambiental 2019. _Blogpost._ Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/2020/09/20/encuesta2019-01.html>
+
+##### Vinculación Nodo Ambiental
+
+- Contención de la contaminación, Promoción de la salud, Relaciones con la vida silvestre <a href="https://nodoambiental.org">Nodo Ambiental</a>
+
+### Licencia
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
+
+Usted es libre de:
+
++ Compartir — copiar y redistribuir el material en cualquier medio o formato
+
++ Adaptar — remezclar, transformar y crear a partir del material
+
+Fundación Nodo Ambiental
+
+![](/home/nodo/nodo/images/logos-nodo/favicon.png)
