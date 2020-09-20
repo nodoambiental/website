@@ -24,6 +24,7 @@ group :jekyll_plugins do
   gem "jekyll-commonmark"
   gem "jekyll-scholar"
   gem "jekyll-last-modified-at"
+  gem "citeproc", "~> 1.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
