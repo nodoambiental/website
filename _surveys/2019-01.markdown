@@ -132,13 +132,13 @@ En esta sección combinamos los datos sobre tipo de dieta, vegetales consumidos 
 
 La mayoría de las personas no conoce de dónde vienen los vegetales que consumen y menos de un tercio conoce la procedencia.
 
-![fig1](/home/nodo/nodo/web/portal-jekyll/assets/images/fig1.png)
+![fig1](/assets/images/surveys/2019-01-fig1.svg)
 
 #### Figura 1. Porcentaje de respuestas sobre la procedencia de vegetales consumidos según tipo de dieta autopercibida. No = no sabía la procedencia del vegetal consumido el día anterior. Si = sabía la procedencia del vegetal consumido el día anterior
 
 Hay vegetales cuyo origen o procedencia parecen más fáciles de conocer que otros.
 
-![fig2](/home/nodo/nodo/web/portal-jekyll/assets/images/fig2.png)
+![fig2](/assets/images/surveys/2019-01-fig2.svg)
 
 #### Figura 2. Distribución de respuestas sobre la procedencia de vegetales consumidos según tipo de dieta y vegetal consumido
 
@@ -148,7 +148,7 @@ El uso de pilas es muy común. De 267 casos, 2 dijeron no haber usado nunca pila
 
 Respecto de la consulta sobre si las pilas contaminan o no, 74 % dijo que sí y el otro 26 % se dividió entre los que dijeron que no contaminan y los que no saben si las pilas contaminan.
 
-![fig3](/home/nodo/nodo/web/portal-jekyll/assets/images/fig3.png)
+![fig3](/assets/images/surveys/2019-01-fig3.svg)
 
 #### Figura 3. Porcentaje de respuestas sobre el uso de pilas en el tiempo (último mes, último año, más de un año, nunca usó pilas y uso indeterminado) según la consulta sobre si las pilas contaminan o no
 
@@ -160,7 +160,7 @@ Respecto de la consulta sobre si las pilas contaminan o no, 74 % dijo que sí y 
 
 11 % de las respuestas correspondieron a quienes dijeron que las pilas contaminan y las desechan junto con la basura doméstica. Es curioso que aquel 8 % que dijo que las pilas no contaminan de todos modos las desechan en un lugar separado. Es probable que esto sea un resultado espurio que debería evaluarse con un tamaño de muestra más grande.
 
-![fig4](/home/nodo/nodo/web/portal-jekyll/assets/images/fig4.png)
+![fig4](/assets/images/surveys/2019-01-fig4.svg)
 
 #### Figura 4. Porcentaje de respuestas sobre el desecho de pilas; separado de otros desechos, junto con otros desechos, y lugar de desecho indeterminado; según la consulta sobre si las pilas contaminan o no
 
@@ -170,7 +170,7 @@ Respecto de la consulta sobre si las pilas contaminan o no, 74 % dijo que sí y 
 
 Es confuso el resultado expresado por aquellas personas que dijeron que las pilas no contaminan y sin embargo dijeron que tienen algún efecto a nivel global, en el ambiente, o en la población. Estas respuestas representaron 13 % del total (267) y sugiere que algunos controles de verificación de respuestas deben considerarse en el diseño. La revisión de respuestas en contrapunto (entre las opciones obligadas), la inclusión de preguntas de validación y un mayor tamaño de muestra ayudarían a clarificar este punto.
 
-![fig5](/home/nodo/nodo/web/portal-jekyll/assets/images/fig5.png)
+![fig5](/assets/images/surveys/2019-01-fig5.svg)
 
 #### Figura 5. Porcentaje de respuestas sobre la percepción de la escala de afectación (global, ambiente, población) por el desecho de pilas; según la consulta sobre si las pilas contaminan o no
 
@@ -182,7 +182,7 @@ La costumbre de producir compost parece asociarse con la frecuencia con que sepa
 
 Los resultados sugieren que hay potencial para el desarrollo de sistemas de manejo adecuado de residuos domésticos, y que una buena parte de la población ha incorporado costumbres que minimizan el impacto de los desechos domésticos.
 
-![fig6](/home/nodo/nodo/web/portal-jekyll/assets/images/fig6.png)
+![fig6](/assets/images/surveys/2019-01-fig6.svg)
 
 #### Figura 6. Porcentaje de respuestas sobre separación de residuos domésticos según si producen compost o no
 
