@@ -10,7 +10,7 @@ date:   2020-09-20 00:10:35 -0300
 
 <h1 style="font-size:3em; margin-top: -20px;">Encuesta de Salud Humana y Ambiental 2019</h1>
 
-## ¿Qué es esto
+## ¿Qué es esto?
 
 En Nodo Ambiental nos enfrentamos a problemas difíciles de abordar, aproximándonos a ellos de manera técnica e imparcial. Esto implica adquirir información acerca de cómo son las cosas en la realidad, de lo contrario dependeríamos de nuestros sesgos para evaluar nuestros desafíos.
 
@@ -32,7 +32,7 @@ Si bien sabemos que las verduras y frutas son plantadas en campos, que los pollo
 
 Esta cadena de distribución es importante porque la procedencia de los alimentos y cómo llegan a nuestra mesa en muchos casos determina de manera directa la calidad del producto. Por ejemplo, una lechuga criada en un suelo adecuado, nutrida, sin tóxicos de ninguna clase, es de mejor calidad tanto nutricional como a nivel de los efectos negativos que se acumulan en nuestros cuerpos; versus una lechuga de cadena comercial con químicos nocivos.
 
-Cuando se aplica un químico a una planta, éste generalmente permanece en la planta, ya sea superficialmente como dentro de su propia estructura, y estos químicos nocivos son ingeridos directamente por nosotros. Si bien la concentración de estos tóxicos es pequeña, dependiendo del producto en cuestión y del tiempo que pasemos exponiendo nuestro cuerpo a esos elementos ajenos, hay un impacto significativo y medible en nuestra calidad de vida y nuestra salud.
+Cuando se aplica un químico nocivo a una planta, éste generalmente permanece en la planta, ya sea superficialmente como dentro de su propia estructura, y estos químicos nocivos son ingeridos directamente por nosotros. Si bien la concentración de estos tóxicos es pequeña, dependiendo del producto en cuestión y del tiempo que pasemos exponiendo nuestro cuerpo a esos elementos ajenos, hay un impacto significativo y medible en nuestra calidad de vida y nuestra salud.
 
 Conocer la procedencia de un alimento nos permite discriminar el nivel de seguridad, salubridad y nutrición que me ofrece.
 
@@ -40,7 +40,7 @@ En nuestra encuesta evaluamos de manera general la dieta de las personas, para a
 
 > ----------------------------------------------------------------------------
 >
-> ![fig1](/assets/images/surveys/2019-01-fig1.png)
+> ![fig1](/assets/images/surveys/2019-01-fig1.svg)
 >
 > ----------------------------------------------------------------------------
 
@@ -50,7 +50,7 @@ Como es de esperarse debido a la complejidad moderna, la mayoría de las persona
 
 > ----------------------------------------------------------------------------
 >
-> ![fig2](/assets/images/surveys/2019-01-fig2.png)
+> ![fig2](/assets/images/surveys/2019-01-fig2.svg)
 >
 > ----------------------------------------------------------------------------
 
@@ -82,7 +82,7 @@ Más interesante es conocer si las personas están al tanto del potencial poluti
 
 > ----------------------------------------------------------------------------
 >
-> ![fig3](/assets/images/surveys/2019-01-fig3.png)
+> ![fig3](/assets/images/surveys/2019-01-fig3.svg)
 >
 > ----------------------------------------------------------------------------
 
@@ -90,7 +90,7 @@ Según lo que hallamos en las respuestas, la gran mayoría (74%) está al tanto 
 
 > ----------------------------------------------------------------------------
 >
-> ![fig4](/assets/images/surveys/2019-01-fig4.png)
+> ![fig4](/assets/images/surveys/2019-01-fig4.svg)
 >
 > ----------------------------------------------------------------------------
 
@@ -98,7 +98,7 @@ Una cantidad similar de personas está al tanto de que las pilas contaminan, aun
 
 > ----------------------------------------------------------------------------
 >
-> ![fig5](/assets/images/surveys/2019-01-fig5.png)
+> ![fig5](/assets/images/surveys/2019-01-fig5.svg)
 >
 > ----------------------------------------------------------------------------
 
@@ -110,7 +110,7 @@ Si somos indiferentes o ignorantes de la influencia negativa que pueden tener la
 
 En este mundo hiperconectado donde todo está a tipear una búsqueda de distancia, ¿Por qué no aprovechar el poder de la información para el bien de lo que nos sustenta, nos nutre y nos protege? Cuesta poco y aportamos mucho.
 
-## ¿Compost? ¿Y eso cómo se come
+## ¿Compost? ¿Y eso cómo se come?
 
 Más allá de la influencia de los contaminantes con metales pesados, en general los residuos nocivos enferman el ambiente. Muchos de los desechos domésticos pueden ser reciclados, reutilizados o reaprovechados de manera tal que reduzcamos al mínimo el impacto negativo que tiene sobre el mundo nuestra comodidad y conveniencia.
 
@@ -122,7 +122,7 @@ En nuestro sondeo decidimos evaluar si las personas lo hacen.
 
 > ----------------------------------------------------------------------------
 >
-> ![fig6](/assets/images/surveys/2019-01-fig6.png)
+> ![fig6](/assets/images/surveys/2019-01-fig6.svg)
 >
 > ----------------------------------------------------------------------------
 
@@ -130,13 +130,13 @@ Las personas que reportaron que realizan de manera consistente la composta es me
 
 Es positivo que haya una fracción significativa de la población que se toma el trabajo de evitar enviar los desechos orgánicos a los basurales comunes. Esta pequeña proporción es alentadora. Es algo muy fácil de hacer, se puede hacer en terrenos abiertos o en departamentos, no toma demasiado trabajo y ayuda a prevenir la contaminación a nivel global. Si cada quien pone su granito de arena, el desarrollo sostenible es más viable de implementar.
 
-## Bueno bueno, ¿Entonces
+## Bueno bueno, ¿Entonces?
 
 Entonces, en resumidas cuentas, es nuestro deber informarnos acerca del impacto que tienen nuestras acciones sobre el mundo donde vivimos. Un acto que en apariencia es tan inocuo como tirar una pila a la basura, replicado a nivel poblacional, representa en realidad un problema grave y profundo.
 
 Tengamos en cuenta que las acciones con las que conducimos nuestras vidas no son exclusivas de una persona; tienen una incidencia estructural y como sociedad necesitamos evolucionar hacia una existencia más saludable, balanceada y sustentable.
 
-Desde Fundación Nodo Ambiental agradecemos la participación en la encuesta 2019 y les invitamos a acceder a la información técnica extendida en el *anexo*, así como a participar de nuestra próxima encuesta. Escríbanos a contacto@nodoambiental.org o por mensaje en nuestras redes sociales.
+Desde Fundación Nodo Ambiental agradecemos la participación en la encuesta 2019 y les invitamos a acceder a la información técnica extendida en la sección [Encuestas](https://nodoambiental.org/surveys/2019-01.html), así como a participar de nuestra próxima encuesta. Escríbanos a contacto@nodoambiental.org o por mensaje en nuestras redes sociales.
 
 ##### Cita
 
