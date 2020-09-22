@@ -1,12 +1,14 @@
 ---
 title: "Transición Tecnológica y Baterías de Automóviles"
-date: ""
+date: 2020-09-22 12:00:00 -0300
 img_text: 
 layout: infograph
 tags: salud contaminantes reciclado
 categories: contaminación
 ---
 <!--section-->
+
+<h1 style="font-size:3em; margin-top: -20px;">Transición Tecnológica y Baterías de Automóviles</h1>
 
 El *desarrollo sostenible* implica *transiciones tecnológicas*. Un cambio de sistema puede en principio verse beneficioso para la salud (humana y ambiental). Una de las transiciones tecnológicas de fines del siglo 20 y principios del siglo 21 es el cambio de automóviles a combustión a automóviles eléctricos. La implementación de nuevos sistemas suele implicar aspectos deseables e indeseables para el desarrollo sostenible y el bienestar social. 
 
