@@ -1,6 +1,6 @@
 ---
 title: "Transición Tecnológica y Baterías de Automóviles"
-date: 2020-09-22 12:00:00 -0300
+date: 2020-22-09 12:00:00 -0300
 img_text: 
 layout: infograph
 tags: salud contaminantes reciclado
