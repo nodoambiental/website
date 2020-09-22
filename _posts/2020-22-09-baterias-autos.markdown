@@ -1,6 +1,6 @@
 ---
 title: "Transición Tecnológica y Baterías de Automóviles"
-date: 2020-09-21 12:00:00 -0300
+date: 2020-09-22 12:00:00 -0300
 img_text: 
 layout: project
 tags: salud contaminantes reciclado
@@ -19,7 +19,7 @@ El *desarrollo sostenible* implica *transiciones tecnológicas*. Un cambio de si
 
 Los problemas energéticos y ambientales han sido durante mucho tiempo desafíos para la industria automotriz mundial. En los últimos años, la situación energética y ambiental aceleró la transformación estratégica de la tecnología del transporte y la energía, y por lo tanto desencadenó un aumento (a nivel mundial) del desarrollo de nuevos vehículos de energía.
 
-Bajo los diversos escenarios representados en las hojas de ruta tecnológicas de los vehículos de nueva energía, los vehículos eléctricos híbridos (HEV), los vehículos eléctricos de batería (BEV) y los vehículos de pila de combustible (FCEV), generalmente se consideran direcciones importantes de desarrollo para futuros sistemas de energía de energía automotriz, y forman parte de prioridades estratégicas de los principales fabricantes de automóviles del mundo.
+Bajo los diversos escenarios representados en las hojas de ruta tecnológicas de los vehículos de nueva energía, los vehículos eléctricos híbridos (HEV), los vehículos eléctricos de batería (BEV) y los vehículos de pila de combustible (FCEV), generalmente se consideran direcciones importantes de desarrollo para futuros sistemas de energía automotriz, y forman parte de prioridades estratégicas de los principales fabricantes de automóviles del mundo.
 
 El desarrollo de la industria de vehículos eléctricos y la construcción de infraestructura de carga promueve la aplicación a gran escala de las baterías de ión de litio (LIB), y también requisitos exigentes para el desarrollo de las LIB (normas estandarizadas).
 
@@ -27,12 +27,12 @@ Las LIB se pueden clasificar en baterías de óxido de litio y cobalto, manganat
 
 A diferencia de las baterías de plomo-ácido, las LIB tienen fuertes ventajas técnicas en términos de densidad de energía, densidad de potencia y vida útil del ciclo. sin embargo, como las baterías de plomo ácido, su nivel de resistencia al abuso es actualmente indeseable, y su rendimiento de carga y descarga y su ciclo de vida pueden verse afectados por el entorno en el que se utilizan. Para una batería es importante controlar y administrar el proceso de carga y descarga para que funcione bien en un entorno óptimo y dentro de su rango de tensión permisible.
 
-Los vehículos eléctricos siempre funcionan en un entorno operativo complejo con una variedad de variables, como temperatura y humedad, capacidad de carga, presión, corrosión atmosférica, choque vibratorio, potencia de entrada y salida, colocación estática, entre otros. Por lo tanto, las LIB también funcionan en un entorno complejo y estos factores proponen un gran desafío para la seguridad, el ciclo de vida y el uso eficaz. Es importante administrar la batería para reducir su alto costo y mejorar su capacidad contra el abuso. El abuso de la batería (incluida la sobrecarga, la descarga excesiva, el sobrecalentamiento, por ejemplo) podría causar una reducción en la vida útil del ciclo de la batería o incluso accidentes de seguridad.
+Los vehículos eléctricos funcionan en un entorno operativo complejo con una variedad de variables, como temperatura y humedad, capacidad de carga, presión, corrosión atmosférica, choque vibratorio, potencia de entrada y salida, colocación estática, entre otros. Por lo tanto, las LIB también funcionan en un entorno complejo y estos factores proponen un gran desafío para la seguridad, el ciclo de vida y el uso eficaz. Es importante administrar la batería para reducir su alto costo y mejorar su capacidad contra el abuso. El abuso de la batería (incluida la sobrecarga, la descarga excesiva, el sobrecalentamiento, por ejemplo) podría causar una reducción en la vida útil del ciclo de la batería o incluso accidentes de seguridad.
 
 <!--section-->
 # La transición a baterías de automóviles eléctricos
 
-Como ejemplo de contrapunto para esta transición tecnológica, en este caso nos preguntamos, si una batería de un *automóvil eléctrico* es mas grande que una batería de un *automóvil convencional* (a combustión), y la bateria del auto eléctrico debe renovarse (así como la del auto a combustión), ¿un mayor tamaño de la batería de un auto eléctrico daría en un mayor costo ambiental? ¿Depende de los materiales que se usan en las baterías y en las posibilidades de reciclado?
+Como ejemplo de contrapunto para esta transición tecnológica, en este caso nos preguntamos, si una batería de un *automóvil eléctrico* es mas grande que una batería de un *automóvil convencional* (a combustión), y si la bateria del auto eléctrico debe renovarse (así como la del auto a combustión), ¿un mayor tamaño de la batería de un auto eléctrico daría en un mayor costo ambiental? ¿Depende de los materiales que se usan en las baterías y en las posibilidades de reciclado?
 
 Con el foco en estas preguntas, resulta necesario comparar cómo funcionan los *automóviles convencionales* y los *automóviles eléctricos*. El auto convencional usa la batería solamente para algunos procesos, tales como el encendido del motor, mientras que el auto eléctrico la utiliza para todas sus funciones. Es por eso que en general los autos convencionales a nafta o gasolina usan las típicas baterías de plomo ácido que son más baratas, pero
 también menos eficientes, mientras que los autos eléctricos utilizan baterías de ion litio que son mucho más eficientes (también más costosas). En otras palabras, la estimación de costos y beneficios ambientales depende de la combinación de componentes evaluados, en este caso la combinación tipo de auto - tipo de batería.
@@ -46,7 +46,7 @@ motorizados, y para el almacenamiento de energía generada por
 células fotovoltaicas, turbinas eólicas, para suministrar energía
 eléctrica de reserva, iluminación y aparatos eléctricos. Las baterías de litio también se utilizan para muchas cosas, cada vez más por su mayor eficiencia, además de ser ampliamente utilizadas en vehículos eléctricos.
 
-Por lo tanto, el tamaño de la batería no necesariamente implica una relación directa con el costo ambiental en términos de resultado; quizá pese más en términos de nuevas formas de hacer minería y de generación de energía, ya que tanto autos convencionales como eléctricos se basan en la minería y la producción de automóviles demanda energía y procesos contaminantes.
+Por lo tanto, el tamaño de la batería no necesariamente implica una relación directa con el costo ambiental en términos de resultado; quizá pese más en términos de nuevas formas de hacer minería y de generación de energía, ya que tanto autos convencionales como eléctricos se basan en la minería y la producción de automóviles demanda energía y procesos contaminantes. Los balances sobre procesos puntuales necesitan evaluarse también a nivel de procesos globales, y en función de la matriz productiva y energética de la que forma parte un producto (batería o auto eléctrico, por ejemplo).
 
 La tesis de Triana Barreda sobre "Baterías de tracción para vehículos eléctricos" (Valladolid, España) plantea tres puntos principales en relación a los costos y beneficios de los automóviles eléctricos en comparación a los automóviles convencionales. La implementación de vehículos eléctricos como sustituto de los convencionales es más compleja que el reemplazo de tipos de betarías. Las baterías de autos eléctricos necesitan un sistema de control y gestión de cada una de las celdas de la batería. La extensión y el costo de estos sistemas dependerá de la estrategia seguida al seleccionar el tipo de batería.
 
@@ -89,7 +89,7 @@ También es necesaria la instalación y mantenimiento de redes de estaciones de 
 
 Los productos tecnológicos de celdas de combustible ("a hidrogeno") se presumen como otra alternativa, aunque no están disponibles para todos los usuarios y su alto costo y problemas de seguridad, la señalan como una opción a futuro, una vez que sea más accesible. Y los vehículos híbridos entre combustión interna y eléctrico a baterías son una opción que es aún costosa.
 
-En la siguiente tabla adaptada de Andara (2019) se comparan los tres principales tipos de vehículos de la transición tecnológica.
+En la siguiente tabla adaptada de Andara (2019) se comparan los tres principales tipos de vehículos de la transición tecnológica. Los costos se estiman relativos, dado que dependen de la dinámica económica.
 
 **vehículo** | **uso** | **costo ambiental** | **costo productivo**
 :---------- | :---------- | :---------- | :----------
@@ -101,7 +101,7 @@ En la transición tecnológica, seguimos buscando los procesos que minimicen la 
 
 # Indicios de la situación en Argentina
 
-En Argentina, desde 2018 se han incrementado las acciones para promover la transición tecnológica. Diferentes iniciativas se han generado en este contexto, como es el Plan de Movilidad Limpia 2035 de la Ciudad de Buenos Aires, el cual fomenta la incorporación de tecnologías alternativas en el sector de transporte. Tal iniciativa se concretó en mayo de 2019 cuando se puso en marcha la primera prueba piloto que incorporó a la circulación los dos primeros ómnibus eléctricos en la Ciudad de Buenos Aires. En 2018 también la empresa eléctrica Enel aportó dos centros de carga y la empresa de refinería de petróleo YPF junto con un consorcio privado se propuso la instalación de una red de 220 puntos de carga rápida y en noviembre de ese mismo año, la provincia de San Luis inauguró la primera ruta eléctrica del país. Si bien Argentina ha tenido atrasos en el desarrollo para la transición tecnológica, estos indicios sugieren que hay posibilidades y que hay mucho por hacer.
+En Argentina, desde 2018 se han incrementado las acciones para promover la transición tecnológica. Diferentes iniciativas se han generado en este contexto, como es el Plan de Movilidad Limpia 2035 de la Ciudad de Buenos Aires, el cual fomenta la incorporación de tecnologías alternativas en el sector de transporte. Tal iniciativa se concretó en mayo de 2019 cuando se puso en marcha la primera prueba piloto que incorporó a la circulación los dos primeros ómnibus eléctricos en la Ciudad de Buenos Aires. En 2018 también la empresa eléctrica Enel aportó dos centros de carga y la empresa de refinería de petróleo YPF junto con un consorcio privado se propuso la instalación de una red de 220 puntos de carga rápida; y en noviembre de ese mismo año, la provincia de San Luis inauguró la primera ruta eléctrica del país. Si bien Argentina ha tenido atrasos en el desarrollo para la transición tecnológica, estos indicios sugieren que hay posibilidades y también que hay mucho por hacer.
 
 ##### Este infoblog fue basado en
 
@@ -124,7 +124,7 @@ Analía Benavidez, Julieta García Serra, Ágata Ordano, Laura González, Marian
 
 ##### Agradecimientos
 
-Pablo Ingaramo, Daniel Castillo
+Pablo Ingaramo, Daniel Castillo, Oscar Ordano.
 
 ##### Cita
 

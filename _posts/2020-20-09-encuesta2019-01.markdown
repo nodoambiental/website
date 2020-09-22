@@ -10,7 +10,7 @@ date:   2020-09-20 00:10:35 -0300
 
 <h1 style="font-size:3em; margin-top: -20px;">Encuesta de Salud Humana y Ambiental 2019</h1>
 
-## ¿Qué es esto
+## ¿Qué es esto?
 
 En Nodo Ambiental nos enfrentamos a problemas difíciles de abordar, aproximándonos a ellos de manera técnica e imparcial. Esto implica adquirir información acerca de cómo son las cosas en la realidad, de lo contrario dependeríamos de nuestros sesgos para evaluar nuestros desafíos.
 
