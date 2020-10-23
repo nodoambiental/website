@@ -54,18 +54,30 @@
                 <i class="fas fa-search"></i>
             </a>
         </div>
-        {% if {{page.path}} == "contact.markdown" or {{page.path}} == "contactsuccess.markdown" %}
-
-        {% else %}
         <div class="navbar-end">
+            {% if {{page.path}} == "leadgen/form.markdown" %}
+
+            {% else %}
             <div class="navbar-item">
                 <div class="buttons">
-                    <a href="/contact.html" class="button is-primary">
-                        <strong>Contactanos</strong>
+                    <a href="/leadgen/form.html" class="button is-primary">
+                        <strong>¡Me interesa!</strong>
                     </a>
                 </div>
             </div>
+            
+            {% endif %}
+            {% if {{page.path}} == "contact.markdown" %}
+
+            {% else %}
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a href="/contact.html" class="button is-primary">
+                        <strong>Contacto</strong>
+                    </a>
+                </div>
+            </div>
+            {% endif %}
         </div>
-        {% endif %}
     </div>
 </nav>

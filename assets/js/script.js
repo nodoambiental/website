@@ -230,4 +230,3 @@ for (let i = 1; i <= projects.length; i++) {
         colors[1][1] + ", " +
         colors[1][2] + "))";
 }
-
