@@ -1,6 +1,6 @@
 /* General Styling */
 
-p, ul, li, h2:not(.share-social-title), h3, h4 {
+p, ul, li, h2:not(.share-social-title):not(.main-title), h3, h4 {
     text-align: left;
     margin: auto;
 }
@@ -12,7 +12,7 @@ p > img {
     text-align: center;
 }
 
-a:not(.share-social-link) {
+a:not(.share-social-link):not(.license-icons) {
     border-bottom: 1px dotted #EB6113;
     transition-duration:400ms;
 }
@@ -111,6 +111,105 @@ table tbody tr td {
     text-align: center;
     display: table-cell;
     vertical-align: middle!important;
+}
+
+/* License */
+
+@font-face {
+    font-family: 'CC demo';
+    src: local('CC demo medium'), local('CCdemo-medium'),
+        url("/assets/css/fonts/cc/CCdemo-medium.woff") format('woff'),
+        url("/assets/css/fonts/cc/CCdemo-medium.woff2") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.license {
+    background-color: #888;
+}
+
+.license h3 {
+    padding-top: 20px;
+    font-family: 'CC demo';
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.license-icons {
+    margin: auto;
+    display: block;
+    width: 250px;
+    margin-bottom: 20px;
+    transition-duration: 400ms;
+    border: none;
+}
+
+.license-icons:hover {
+    transform: scale(1.1);
+    border:none;
+    background-color: rgba(235, 97, 19,0.9);
+    padding: 10px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+.license-icons img {
+    padding: 5px;
+}
+
+.license > p {
+    color: black;
+    font-family: 'CC demo';
+    font-size: 1.2em;
+    width: 80%;
+    text-align: center;
+}
+
+.license > p a:not(.license-icons) {
+    border: none;
+    border-bottom: 1px dashed white;
+    color: #fff;
+    transition-duration: 400ms;
+}
+
+.license > p a:not(.license-icons):hover {
+    border: none;
+    border-bottom: 3px solid rgba(232, 162, 123,0.9);
+    font-style: normal;
+}
+
+.license p + ul {
+    margin-top: 30px;
+    padding-bottom: 40px;
+    width: 70%;
+}
+
+.license p + ul p {
+    color: black;
+    margin: 10px;
+}
+
+.license p + ul li {
+    margin-left: 20%;
+    border-left: 2px solid black;
+}
+
+.license p + ul li::marker {
+    color: #fff;
+    font-weight: 600;
+}
+
+.license p + ul li:first-child {
+    list-style-type: "Compartir  ";
+}
+
+.license p + ul li:nth-child(2) {
+    list-style-type: "Adaptar  ";
 }
 
 /* Media Queries */
