@@ -1,26 +1,31 @@
-function leadgenSend() {
-    const isEmailValid = document.getElementById("form-email").validity.valid
-    const isNameValid = document.getElementById("form-name").validity.valid
+function membershipSend() {
+    const url = new URL(document.URL)
+    const userToken = url.searchParams.get("token")
+    const origin = url.searchParams.get("origin")
+    const isIDKindValid = document.getElementById("form-ID-kind").validity.valid
+    const isIDValid = document.getElementById("form-ID").validity.valid
+    const isZipValid = document.getElementById("form-zip").validity.valid
+    const isMessageValid = document.getElementById("form-message").validity.valid
     const areToSValid = document.getElementById("form-tos").validity.valid
-    if (isEmailValid && isNameValid && areToSValid) {
+    if (userToken && origin && areToSValid && isIDKindValid && isIDValid && isZipValid && isMessageValid) {
         let request = new XMLHttpRequest()
         const data = {
-            name: document.getElementById("form-name").value,
-            email: document.getElementById("form-email").value,
-            organization: document.getElementById("form-organization").value ? document.getElementById("form-organization").value : "",
-            role: document.getElementById("form-role").value ? document.getElementById("form-role").value : "",
-            message: document.getElementById("form-message").value ? document.getElementById("form-message").value : "",
-            mailing_list: document.getElementById("form-mailing_list").value === "on" ? 1 : 0,
+            user_token: userToken,
+            ID: document.getElementById("form-ID").value,
+            ID_type: document.getElementById("form-ID-kind").value,
+            zip: document.getElementById("form-zip").value,
+            message: document.getElementById("form-message").value,
+            title: document.getElementById("form-role").value ? document.getElementById("form-role").value : "",
         }
 
         request.open("POST","https://userhandling.nodoambiental.org")
         request.setRequestHeader("Content-Type", "application/json")
-        request.setRequestHeader("query-kind", "leadgen")
+        request.setRequestHeader("query-kind", "membership")
         request.send(JSON.stringify(data))
         request.onloadend = () => {
-            window.location.replace(`${window.location.origin}/leadgen/verify`)
+            window.location.replace(`${window.location.origin}/membership/application-success`)
         }
-    } else {
+    } else if (userToken && origin) {
         const originalValue = document.getElementById("form-send").value
         const originalBGColor = document.getElementById("form-send").style.backgroundColor
         const originalColor = document.getElementById("form-send").style.color
@@ -37,6 +42,8 @@ function leadgenSend() {
             document.getElementById("form-send").style.color = originalColor
             document.getElementById("form-send").style.padding = originalPadding
         },4000)
+    } else {
+        window.location.replace(`${window.location.origin}/membership/invalid-data`)
     }
 };
 
