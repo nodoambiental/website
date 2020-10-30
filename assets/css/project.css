@@ -12,18 +12,18 @@ p > img {
     text-align: center;
 }
 
-a:not(.share-social-link):not(.license-icons) {
+.content a:not(.share-social-link):not(.license-icons) {
     border-bottom: 1px dotted #EB6113;
     transition-duration:400ms;
 }
 
-a:hover {
+.content a:hover {
     color: #EB6113;
     font-style: italic;
     border-bottom: 1px dotted black;
 }
 
-a img :not(.share-social-icon){
+.content a img :not(.share-social-icon){
     border-radius: 0px;
     background-color: white;
 }
