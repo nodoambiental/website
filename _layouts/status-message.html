@@ -1,0 +1,28 @@
+{% include head.html %}
+
+<body>
+    {% include navigation.html %}
+
+    {% if {{page.path}} contains "index.markdown" %}
+	{% include banner-home.html %}
+    {% else %}
+        {% if {{page.path}} contains "projects" %}
+	    {% include banner-projects.html %}
+        {% else %}
+            {% if {{page.path}} contains "search.markdown" %}
+	        {% include banner-home.html %}
+            {% else %}
+                {% include banner.html %}
+            {% endif %}
+        {% endif %}
+    {% endif %}
+
+    {{ content }}
+
+    <section>
+        <div class="buttons" style="margin: auto;">
+            <a href="/" class="button is-primary" style="background-color: #EB6113; font-size: 2.5em; margin: auto; margin-bottom: 100px;">
+                <strong>Ir al inicio</strong>
+            </a>
+        </div>
+    </section>
