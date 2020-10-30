@@ -42,12 +42,19 @@ title: ¡Me interesa participar!
         </div>
         <div class="checkbox-container">
             <label class="checkbox-label">
+                <input type="checkbox" name="tos" id="form-tos" required>
+                <span class="checkbox-custom rectangular" style="border-color: red;"></span>
+            </label>
+            <div class="input-title" style="color:red;">Acepto los <a href="#">Términos de servicio</a></div>
+        </div>
+        <div class="checkbox-container">
+            <label class="checkbox-label">
                 <input type="checkbox" name="mailing_list" id="form-mailing_list">
                 <span class="checkbox-custom rectangular"></span>
             </label>
             <div class="input-title">Suscribirme a noticias y mensajes informativos de Nodo Ambiental</div>
         </div>
-            <input type="button" value="Enviar datos" onclick="leadgenSend()">
+            <input id="form-send" type="button" value="Enviar datos" onclick="leadgenSend()">
         </div>
     </Form>
 </section>
