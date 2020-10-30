@@ -33,3 +33,12 @@
     font-weight: bold;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'CC demo';
+    src: local('CC demo medium'), local('CCdemo-medium'),
+        url("/assets/css/fonts/cc/CCdemo-medium.woff") format('woff'),
+        url("/assets/css/fonts/cc/CCdemo-medium.woff2") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}

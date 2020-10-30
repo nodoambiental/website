@@ -9,7 +9,7 @@ title: ¡Me interesa participar!
 
 <section class="section form js">
     <p style="text-align: left; margin-left:10%;">
-        ¡Hola! Por lo visto te interesa participar de lo que estamos construyendo en Nodo Ambiental.<br>
+        ¡Hola! Gracias por tu interés en aplicar a una membresía para Nodo Ambiental.<br>
         Para eso, te voy a pedir por favor que rellenes los campos solicitados así podemos ponernos en contacto.<br><br>
         ¡Gracias!
     </p>
@@ -18,24 +18,24 @@ title: ¡Me interesa participar!
     </p>
     <Form id="leadgen-form">
         <div>
-            <label class="required-field"  for="name">Tu nombre</label>
-            <input type="text" name="name" id="form-name" placeholder="Abraham Lincoln" required/>
+            <label class="required-field"  for="ID-kind">Tipo de Documento Identificatorio</label>
+            <input type="text" name="ID-kind" id="form-ID-kind" placeholder="DNI, LC, Pasaporte, CURP, SSN, ..." required/>
         </div>
         <div>
-            <label class="required-field"  for="email">Tu dirección de correo electrónico</label>
-            <input type="email" name="email" id="form-email" placeholder="abrahamlincoln@ejemplo.com"  required/>
+            <label class="required-field"  for="ID">Documento Identificatorio</label>
+            <input type="text" name="ID" id="form-ID" placeholder="99 999 998"  required/>
         </div>
         <div>
-            <label for="organization">Organizaci&oacute;n o empresa a la que pertences</label>
-            <input type="text" name="organization" id="form-organization" placeholder="Garbanzos Solidarios S.A." />
+            <label class="required-field"  for="organization" for="zip">Código Postal</label>
+            <input type="text" name="zip" id="form-zip" placeholder="T4000" required/>
         </div>
         <div>
-            <label for="role">Cargo que ocupas en ella</label>
+            <label for="role">Cargo u ocupación</label>
             <input type="text" name="role" id="form-role" placeholder="Mánager de garbanzos" />
         </div>
         <div>
-            <label for="message">¿Quieres decirnos algo?</label>
-            <textarea name="message" id="form-message" rows="10" cols="50" placeholder="Ingrese su mensaje aqu&iacute;">
+            <label class="required-field"  for="message">Dinos por qué aplicas a nuestra organización</label>
+            <textarea name="message" id="form-message" rows="10" cols="50" placeholder="Ingrese su mensaje aqu&iacute;" required>
             </textarea>
         </div>
         <div class="checkbox-container">
@@ -45,14 +45,7 @@ title: ¡Me interesa participar!
             </label>
             <div class="input-title" style="color:red;">Acepto los <a href="#">Términos de servicio</a></div>
         </div>
-        <div class="checkbox-container">
-            <label class="checkbox-label">
-                <input type="checkbox" name="mailing_list" id="form-mailing_list">
-                <span class="checkbox-custom rectangular"></span>
-            </label>
-            <div class="input-title">Suscribirme a noticias y mensajes informativos de Nodo Ambiental</div>
-        </div>
-            <input id="form-send" type="button" value="Enviar datos" onclick="leadgenSend()">
+            <input id="form-send" type="button" value="Enviar datos" onclick="membershipSend()">
         </div>
     </Form>
 </section>
@@ -66,5 +59,5 @@ title: ¡Me interesa participar!
     </section>
 </noscript>
 
-<script src="/assets/js/leadgen-form.js"></script>
+<script src="/assets/js/membership-form.js"></script>
 

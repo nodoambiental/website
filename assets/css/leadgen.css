@@ -4,6 +4,10 @@ form {
     margin: auto;
 }
 
+.form.js {
+    display:none;
+}
+
 label:not(.checkbox-label) {
     padding: 10px;
     display: block;
@@ -51,7 +55,8 @@ label:not(.checkbox-label) {
     line-height: 24px;
     width: 24px;
     clear: both;
-    left: 280px;
+    left: 310px;
+    top: 2px;
 }
 
 .checkbox-label input {
