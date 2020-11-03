@@ -1,0 +1,42 @@
+/* References */
+
+.references {
+    width: 90%;
+    margin: auto;
+}
+
+.references button.expandable_card {
+	background: none;
+	border: none;
+	width: 100%;
+}
+
+ol.bibliography {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-left: 0;
+}
+
+    ol.bibliography li::marker {
+        color: #eb6113;
+    }
+
+    ol.bibliography li span i {
+        font-size: 1em;
+    }
+
+.citation {
+    color: #eb6113;
+    font-size: 0.9em;
+    font-variant: small-caps;
+    transition-duration: 1s;
+}
+
+    .citation:hover {
+        font-style: italic;
+        color: #eb6113;
+        font-size: 0.95em;
+        border-bottom: 1px dashed #999;
+    }

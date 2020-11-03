@@ -43,14 +43,14 @@ for (let i = 0; i < text_elements.length; i++) {
 
 // Animations
 
-function animateCard(element) {
-    $(element).hover(function () {
+const animateCard = (element) => {
+    $(element).hover(() => {
         element.style.transitionDuration = '100ms';
         anime({
             targets: element,
             scale: 1.05
         });
-    }, function () {
+    }, () => {
         anime({
             targets: element,
             scale: 1
@@ -59,7 +59,7 @@ function animateCard(element) {
 
     let cardsWaypoint = new Waypoint({
         element: element,
-        handler: function (direction) {
+        handler: (direction) => {
             element.style.opacity = 1;
             anime({
                 targets: element,
@@ -161,7 +161,7 @@ for (let i = 0; i < accordion.length; i++) {
 
 // Random colors on cards
 
-function getRandomColorPair() {
+const getRandomColorPair = () => {
     while (true) {
         var firstColor = [
             parseInt(Math.random() * 255),

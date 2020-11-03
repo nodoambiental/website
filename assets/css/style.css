@@ -13,7 +13,11 @@
 
 body {
     text-align: center;
-    background: repeating-linear-gradient( -45deg, #eee, #eee 2px, #fff 2px, #fff 10px );
+    background: repeating-linear-gradient(-45deg,
+            #eee,
+            #eee 2px,
+            #fff 2px,
+            #fff 10px);
     background-attachment: fixed;
 }
 
@@ -24,14 +28,13 @@ h2 {
 }
 
 .js .expanded {
-    opacity: 1;
+    display: inherit;
     height: inherit;
     transition-duration: 400ms;
 }
 
 .js .contracted {
-    opacity: 0;
-    height: 0px;
+    display: none;
     transition-duration: 400ms;
 }
 
@@ -50,7 +53,7 @@ div.tile a {
 
 div.tile article:hover {
     border-radius: 20px;
-    border: 10px solid rgba(255,255,255,0.5);
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
 article.tile {
@@ -79,10 +82,10 @@ div.is-card i {
     padding: 5px;
 }
 
-    .footer-social:hover {
-        color: #EB6113;
-        font-size: 1.8em;
-    }
+.footer-social:hover {
+    color: #eb6113;
+    font-size: 1.8em;
+}
 
 footer .tile {
     padding: 10px;
@@ -110,14 +113,14 @@ h2.main-title {
 
 .section.main-title h2.subtitle {
     font-size: 100%;
-    line-height: 90%; 
+    line-height: 90%;
 }
 
 /*Alternating gradient and shadow */
 
 section.main-title {
     box-shadow: 1px 0 3px 1px #333;
-    background-image: linear-gradient(45deg, #33CC99, #33CCCC,#3399CC);
+    background-image: linear-gradient(45deg, #33cc99, #33cccc, #3399cc);
     animation: main_title alternate infinite 2000ms;
     z-index: 99;
     display: block;
@@ -125,28 +128,27 @@ section.main-title {
     width: 100%;
 }
 
-    section.main-title::before {
-        background-image: linear-gradient(45deg, #66CC33, #33CC33,#33CC66);
-        content: '';
-        z-index: -99;
-        transition: opacity 0.45s;
-        animation: main_title alternate-reverse infinite 3000ms;
-        display: block;
-        height: 100%;
-        position: absolute;
-        opacity: 0;
-        width: 100%;
-        left: 0;
-        top: 0;
-    }
+section.main-title::before {
+    background-image: linear-gradient(45deg, #66cc33, #33cc33, #33cc66);
+    content: "";
+    z-index: -99;
+    transition: opacity 0.45s;
+    animation: main_title alternate-reverse infinite 3000ms;
+    display: block;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
 
 .main-title {
     color: black;
 }
 
 @keyframes main_title {
-    0% {
-    }
+    0% {}
 
     100% {
         opacity: 1;
@@ -169,19 +171,19 @@ section.main-title {
     transition-duration: 200ms;
 }
 
-    .js a.navbar-item:hover {
-        background-color: #ddd !important;
-        border-radius: 10px;
-    }
+.js a.navbar-item:hover {
+    background-color: #ddd !important;
+    border-radius: 10px;
+}
 
 .js a.navbar-link {
     transition-duration: 200ms;
 }
 
-    .js a.navbar-link:hover {
-        background-color: #ddd !important;
-        border-radius: 10px;
-    }
+.js a.navbar-link:hover {
+    background-color: #ddd !important;
+    border-radius: 10px;
+}
 
 /* Accordion */
 
@@ -213,9 +215,10 @@ section h1 {
     font-size: 140%;
 }
 
-    .js .active, .accordion:hover {
-        background-color: #ccc;
-    }
+.js .active,
+.accordion:hover {
+    background-color: #ccc;
+}
 
 .js .panel {
     display: none;
@@ -230,7 +233,7 @@ section h1 {
 .js .accordion:after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    content: '\f078';
+    content: "\f078";
     font-size: 30px;
     color: #777;
     float: right;
@@ -263,12 +266,12 @@ section.second-subtitle p {
 }
 
 .about-author {
-    padding: 0px!important;
-    text-align: center!important;
-    margin: auto!important;
+    padding: 0px !important;
+    text-align: center !important;
+    margin: auto !important;
     font-size: 90%;
     font-style: normal;
-    padding-bottom: 5px!important;
+    padding-bottom: 5px !important;
 }
 
 div.about-image {
@@ -277,7 +280,7 @@ div.about-image {
 
 div.about-image img {
     border-radius: 20px;
-    border: 1px solid #ccc
+    border: 1px solid #ccc;
 }
 
 /* Services */
@@ -300,9 +303,9 @@ section.services .tile p.title {
     animation-duration: 200ms;
 }
 
-    section.services .tile p.title:hover {
-        font-size: 1.8em;
-    }
+section.services .tile p.title:hover {
+    font-size: 1.8em;
+}
 
 section.services .tile p.subtitle {
     font-size: 1em;
@@ -333,7 +336,7 @@ section.projects article.tile {
     margin: 10px !important;
 }
 
-section.projects > h2 {
+section.projects>h2 {
     padding: 30px;
     padding-top: 0px;
 }
@@ -398,49 +401,6 @@ footer {
     padding-bottom: 60px;
 }
 
-/* References */
-
-.references {
-    border-top: 3px solid #ccc;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 35px;
-}
-
-    .references::before {
-        content: "Referencias";
-        text-align: left;
-        font-size: 1.4em;
-        position: relative;
-        bottom: 32px;
-        right: 35%;
-    }
-
-.bibliography {
-    background-color: #eee;
-    border-radius: 10px;
-    padding: 10px;
-    padding-left: 30px;
-}
-
-    .bibliography li::marker {
-        color: #EB6113;
-    }
-
-.citation {
-    color: #EB6113;
-    font-size: 0.9em;
-    font-variant: small-caps;
-    transition-duration: 1s;
-}
-
-    .citation:hover {
-        font-style: italic;
-        color: #EB6113;
-        font-size: 0.95em;
-        border-bottom: 1px dashed #999;
-    }
-
 /* Hashtags */
 
 .js a.hashtag {
@@ -448,7 +408,7 @@ footer {
 }
 
     .js a.hashtag:hover {
-        color: #FF5C00;
+        color: #ff5c00;
         border-bottom: 1px dashed #999;
     }
 
@@ -474,17 +434,23 @@ footer {
 }
 
 .no-js div.tile article {
-    background-image: linear-gradient(90deg, rgb(146, 238, 199), rgb(171, 222, 209));
+    background-image: linear-gradient(90deg,
+            rgb(146, 238, 199),
+            rgb(171, 222, 209));
 }
 
-    .no-js div.tile article:hover {
-        transition-duration: 400ms;
-        border: 20px solid rgba(255,255,255,0.5);
-        background-image: linear-gradient(45deg, rgb(214, 165, 240), rgb(230, 140, 247));
-    }
+.no-js div.tile article:hover {
+    transition-duration: 400ms;
+    border: 20px solid rgba(255, 255, 255, 0.5);
+    background-image: linear-gradient(45deg,
+            rgb(214, 165, 240),
+            rgb(230, 140, 247));
+}
 
 .no-js .team div.tile article:hover {
-    background-image: linear-gradient(90deg, rgb(146, 238, 199), rgb(171, 222, 209));
+    background-image: linear-gradient(90deg,
+            rgb(146, 238, 199),
+            rgb(171, 222, 209));
     border: 3px solid #eee;
 }
 
