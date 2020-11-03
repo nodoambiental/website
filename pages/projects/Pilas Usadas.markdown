@@ -37,23 +37,19 @@ icon: battery-quarter
 
 ![gestión](/assets/images/projects/flujo-pilas.svg)
 
-### Palabras clave - etiquetas
-
-- desechos contaminantes
-- baterías
-- contaminación ecosistémica
-
-### Referencias
+<!-- Referencias (Agregadas en un comentario para que la cita no aparezca en el cuerpo del documento) 
 
 Fundación Nodo Ambiental (2020) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/contaminación/2019/09/17/pilas.html>
 
-### Cita
+Agregar las citas que están sueltas a la bibliografía
+
+-->
+
+<!-- info -->
+
+##### Cita este documento
 
 Nodo Ambiental (2020) Proyecto Pilas Usadas. Rosario de la Frontera, Salta, Argentina. Recuperado de <https://nodoambiental.org/pages/projects/Pilas%20Usadas.html>
-
-##### Desarrollo Web
-
-Ágata Ordano, Mariano Ordano, Laura González
 
 ##### Autores
 

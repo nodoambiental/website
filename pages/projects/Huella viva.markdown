@@ -27,31 +27,27 @@ icon: paw
 
 ![mara](/assets/images/projects/mara.jpg)
 
-### Palabras clave - etiquetas
+<!-- Referencias  (Agregadas en un comentario para que la cita no aparezca en el cuerpo del documento)
 
-- servicios ecosistémicos de la vida silvestre
-- conservación de la biodiversidad
-- relaciones con la vida silvestre
+{% cite cuyckens2016patterns %}
+{% cite vilches2016conocimiento %}
+{% cite cappa2017effects %}
+{% cite bauni2017mortalidad %}
+{% cite pinto2020effects %}
 
-### Referencias
+<https://sib.gob.ar/archivos/Proyecto_Atropellamiento.pdf>
+<https://www.redyaguarete.org.ar/lineas-de-accion/mitigacion-de-atropellamientos-en-rutas>
+<https://five.epicollect.net/project/red-argentina-de-monitoreo-de-fauna-atropellada>
 
-+ {% cite cuyckens2016patterns %}
-+ {% cite vilches2016conocimiento %}
-+ {% cite cappa2017effects %}
-+ {% cite bauni2017mortalidad %}
-+ {% cite pinto2020effects %}
+Agregar las citas que están sueltas a la bibliografía
 
-- <https://sib.gob.ar/archivos/Proyecto_Atropellamiento.pdf>
-- <https://www.redyaguarete.org.ar/lineas-de-accion/mitigacion-de-atropellamientos-en-rutas>
-- <https://five.epicollect.net/project/red-argentina-de-monitoreo-de-fauna-atropellada>
+-->
 
-### Cita
+<!-- info -->
+
+##### Cita este documento
 
 Nodo Ambiental (2020) Proyecto Huella Viva. Tucumán, Argentina. Recuperado de <https://nodoambiental.org/pages/projects/Huella%20viva.html>
-
-##### Desarrollo Web
-
-Ágata Ordano, Mariano Ordano, Laura González
 
 ##### Autores
 

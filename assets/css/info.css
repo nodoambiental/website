@@ -1,0 +1,12 @@
+/* Info */
+
+.info-section {
+    width: 90%;
+    margin: auto;
+}
+
+.info-section button.expandable_card {
+	background: none;
+	border: none;
+	width: 100%;
+}

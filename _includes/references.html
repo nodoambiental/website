@@ -1,4 +1,4 @@
-
+{% if page.cited | size > 0 %}
 <style type="text/css">
     @import url("/assets/css/references.css");
   </style>
@@ -8,8 +8,8 @@
       <div class="is-card">
         <div class="media project-accordion">
           <div class="media-content project-accordion-name">
-            <p style="font-size: 1.3rem;" class="title is-12"><i class="project-accordion-icon fas fa-book"></i>Referencias</p>
-          </div>
+            <p style="font-size: 1.3rem;" class="title is-12"><i class="project-accordion-icon fas fa-book"></i>Referencias</p>          
+            </div>
           <div class="media-right">
             <i class="expandable_card_button fas fa-caret-square-right"></i>
           </div>
@@ -18,3 +18,4 @@
       </div>
     </a>
   </section>
+  {% endif %}

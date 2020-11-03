@@ -29,28 +29,24 @@ icon: medkit
 
 ![malbec](/assets/images/projects/malbec.jpg)
 
-### Palabras clave - etiquetas
+<!-- info -->
 
-- salud humana
-- alimentación saludable
-- producción de alimentos
+<!-- Referencias (Agregadas en un comentario para que la cita no aparezca en el cuerpo del documento)
 
-### Referencias
+{% cite kolmans1996manual %}
+{% cite barruti2013mal %}
+{% cite sarandon2014agroecologia %}
+{% cite gliessman2016agroecology %}
+{% cite altieri2018agroecology %}}
 
-+ {% cite kolmans1996manual %}
-+ {% cite barruti2013mal %}
-+ {% cite sarandon2014agroecologia %}
-+ {% cite gliessman2016agroecology %}
-+ {% cite altieri2018agroecology %}
-+ <http://www.fao.org/3/ca4449es/ca4449es.pdf>
+<http://www.fao.org/3/ca4449es/ca4449es.pdf> 
 
-### Cita
+Agregar las citas que están sueltas a la bibliografía
+ -->
+
+##### Cita este documento
 
 Nodo Ambiental (2020) Proyecto Salud Alimentaria. Tucumán, Argentina. Recuperado de <https://nodoambiental.org/pages/projects/Salud,%20Seguridad%20e%20Inocuidad%20Alimentaria.html>
-
-##### Desarrollo Web
-
-Ágata Ordano, Mariano Ordano, Laura González
 
 ##### Autores
 

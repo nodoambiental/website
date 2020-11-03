@@ -6,11 +6,14 @@ layout: default
   @import url("/assets/css/project.css");
 </style>
 
-<section class="section content">{{ content }}</section>
+{% assign pagecontent = content | split: '<!-- info -->' %}
+
+<section class="section content">{{ pagecontent[0] }}</section>
 
 {% include references.html %}
 
 {% include license.html %}
 
-<script src="/assets/js/project.js"></script>
+{% include info.html %}
+
 <script src="/assets/js/cards.js"></script>

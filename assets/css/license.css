@@ -30,7 +30,7 @@
 	background: none;
 	border: none;
 	width: 100%;
-	margin-bottom: 35px;
+	margin-bottom: 15px;
 }
 
 .license-icons {
@@ -59,7 +59,7 @@
     margin-left: 80px;
 }
 
-div.content div > p {
+.license div.content div > p {
     color: black;
     font-family: 'CC demo';
     font-size: 1.2em;
@@ -67,44 +67,44 @@ div.content div > p {
     text-align: center;
 }
 
-div.content div > p a:not(.license-icons) {
+.license div.content div > p a:not(.license-icons) {
     border: none;
     border-bottom: 1px dashed white;
     color: #fff;
     transition-duration: 400ms;
 }
 
-div.content div > p a:not(.license-icons):hover {
+.license div.content div > p a:not(.license-icons):hover {
     border: none;
     border-bottom: 3px solid rgba(232, 162, 123,0.9);
     font-style: normal;
 }
 
-div.content div p + ul {
+.license div.content div p + ul {
     margin-top: 30px;
     padding-bottom: 40px;
     width: 70%;
 }
 
-div.content div p + ul p {
+.license div.content div p + ul p {
     color: black;
     margin: 10px;
 }
 
-div.content div p + ul li {
+.license div.content div p + ul li {
     margin-left: 20%;
     border-left: 2px solid black;
 }
 
-div.content div p + ul li::marker {
+.license div.content div p + ul li::marker {
     color: #fff;
     font-weight: 600;
 }
 
-div.content div p + ul li:first-child {
+.license div.content div p + ul li:first-child {
     list-style-type: "Compartir  ";
 }
 
-div.content div p + ul li:nth-child(2) {
+.license div.content div p + ul li:nth-child(2) {
     list-style-type: "Adaptar  ";
 }
