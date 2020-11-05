@@ -60,7 +60,7 @@
 	}
 }
 
-@media screen and (min-width:600px) and (max-width: 800px) {
+@media only screen and (min-width:600px) and (max-width: 800px) {
 	.info {
 		margin-top: -150px;
 		margin-bottom: 0;
@@ -86,7 +86,7 @@
 	}
 }
 
-@media screen and (min-width:800px) and (max-width: 1024px) {
+@media only screen and (min-width:800px) and (max-width: 1024px) {
 	.info {
 		margin-top: calc(-1.776 * 10vw + 75px);
 		margin-bottom: 0;
@@ -114,7 +114,7 @@
 	}
 }
 
-@media screen and (min-width:1024px) {
+@media only screen and (min-width:1024px) {
 	.info {
 		margin-top: calc(-0.5625 * 10vw + 130px);
 		margin-bottom: 0;

@@ -238,27 +238,182 @@ textarea {
 
 /* Media queries */
 
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 1600px) {
+
+    textarea {
+        width: 66ch;
+    }
+
+    input[type=email] {
+        width: 66ch;
+    }
+
+    input[type=text] {
+        width: 66ch;
+    }
+
+    label:not(.checkbox-label) {
+        padding: 10px;
+        display: block;
+        text-align: left;
+        margin: auto;
+        margin-left: calc(0.5625 * 55vw);
+    }
+
+    section.form p {
+        margin: auto!important;
+    }
+
+    section.form > :first-child {
+        width: 66ch;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    #leadgen-form > .checkbox-container {
+        position: relative;
+        left: -20px;
+    }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1600px)  {
+
+    textarea {
+        width: 66ch;
+    }
+
+    input[type=email] {
+        width: 66ch;
+    }
+
+    input[type=text] {
+        width: 66ch;
+    }
+
+    label:not(.checkbox-label) {
+        padding: 10px;
+        display: block;
+        text-align: left;
+        margin: auto;
+        margin-left: calc(0.5625 * 50vw);
+    }
+
+    section.form p {
+        margin: auto!important;
+    }
+
+    section.form > :first-child {
+        width: 66ch;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    #leadgen-form > .checkbox-container {
+        position: relative;
+        left: -25px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+    textarea {
+        width: 66ch;
+    }
+
+    input[type=email] {
+        width: 66ch;
+    }
+
+    input[type=text] {
+        width: 66ch;
+    }
+
+    label:not(.checkbox-label) {
+        padding: 10px;
+        display: block;
+        text-align: left;
+        margin: auto;
+        margin-left: calc(0.5625 * 30vw);
+    }
+
+    section.form p {
+        margin: auto!important;
+    }
+
+    section.form > :first-child {
+        width: 66ch;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    #leadgen-form > .checkbox-container {
+        position: relative;
+        left: -25px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1024px)  {
     .content {
         padding: 10%;
     }
-}
 
-@media only screen and (min-width: 1024px) {
+    div.spacer {
+        position: relative;
+        display: block;
+        margin-top: 110px;
+        height: calc(0.5625 * 45vw);
+        width: 100%;
+    }
+
     textarea {
-        width: 80%;
+        width: 66ch;
     }
 
     input[type=email] {
-        width: 80%;
+        width: 66ch;
     }
 
     input[type=text] {
-        width: 80%;
+        width: 66ch;
+    }
+
+    label:not(.checkbox-label) {
+        padding: 10px;
+        display: block;
+        text-align: left;
+        margin: auto;
+        margin-left: calc(0.5625 * 30vw);
+    }
+
+    section.form p {
+        margin: auto!important;
+    }
+
+    section.form > :first-child {
+        width: 66ch;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    #leadgen-form > .checkbox-container {
+        position: relative;
+        left: -20px;
     }
 }
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 600px) and (max-width: 800px)  {
+    .content {
+        padding: 10%;
+    }
+
+    div.spacer {
+        position: relative;
+        display: block;
+        margin-top: 110px;
+        height: calc(0.5625 * 45vw);
+        width: 100%;
+    }
+
     textarea {
         width: 70%;
     }
@@ -270,18 +425,181 @@ textarea {
     input[type=text] {
         width: 70%;
     }
+
+    label:not(.checkbox-label) {
+        padding: 10px;
+        display: block;
+        text-align: left;
+        margin: auto;
+        margin-left: 10%;
+    }
+
+    section.form > :first-child {
+        width: 80%;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    #leadgen-form > .checkbox-container {
+        position: relative;
+        left: -30px;
+    }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+
+    h2.main-title {
+        margin-bottom: 30px;
+        margin-top: -10px;
+    }
+
+    div.spacer {
+        position: relative;
+        display: block;
+        margin-top: 110px;
+        height: calc(0.5625 * 45vw);
+        width: 100%;
+    }
+
     textarea {
-        width: 60%;
+        width: 90%;
     }
 
     input[type=email] {
-        width: 60%;
+        width: 90%;
     }
 
     input[type=text] {
-        width: 60%;
+        width: 90%;
+    }
+
+    label:not(.checkbox-label) {
+        padding: 10px;
+        display: block;
+        text-align: left;
+        margin: auto;
+        margin-left: -4%;
+    }
+
+    section.form > :first-child {
+        width: 90%;
+        position: relative;
+        left: -30px;
+        margin-bottom: 30px;
+    }
+
+    #leadgen-form  :first-child {
+        position: relative;
+        left: 0px;
+    }
+
+    #leadgen-form > .checkbox-container > .checkbox-label {
+        position: relative;
+        left: calc(30% + 15px);
+        top: 45px;
+    }
+
+    #leadgen-form > :nth-child(6) span.checkbox-custom {
+        left: 20px;
+        top: 1px;
+    }
+
+    #leadgen-form > :nth-child(7) span.checkbox-custom {
+        left: 20px;
+        top: 0.5em;
+    }
+
+    #leadgen-form > .checkbox-container {
+        margin: auto;
+        width: 90%;
+        margin-left: calc(10%);
+    }
+
+    #leadgen-form > .checkbox-container > div.input-title {
+        width: 75%;
+        text-align: center;
+        position:relative;
+        left: 5%;
+    }
+
+    #form-send {
+        margin-top: 20px;
+    }
+
+    div.share-social div.is-child > a > img {
+        width: calc(0.5625 * 15vw);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    h2.main-title {
+        margin-bottom: 30px;
+        margin-top: -10px;
+    }
+
+    div.spacer {
+        position: relative;
+        display: block;
+        margin-top: 110px;
+        height: 100px;
+        width: 100%;
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+    input[type=email] {
+        width: 90%;
+    }
+
+    input[type=text] {
+        width: 90%;
+    }
+
+    label:not(.checkbox-label) {
+        padding: 10px;
+        display: block;
+        text-align: left;
+        margin: auto;
+        margin-left: -4%;
+    }
+
+    section.form > :first-child {
+        width: 100%;
+        position: relative;
+        left: -30px;
+    }
+
+    #leadgen-form  :first-child {
+        position: relative;
+        left: 0px;
+    }
+
+    #leadgen-form > :nth-child(6) span.checkbox-custom {
+        left: 150px;
+        top: 45px
+    }
+
+    #leadgen-form > :nth-child(7) span.checkbox-custom {
+        left: 150px;
+        top: calc(45px + 0.5em)
+    }
+
+    #leadgen-form > .checkbox-container {
+        margin: auto;
+    }
+
+    #leadgen-form > .checkbox-container > div.input-title {
+        width: 90%;
+    }
+
+    #form-send {
+        margin-top: 20px;
+    }
+
+    div.share-social div.is-child > a > img {
+        width: calc(0.5625 * 15vw);
     }
 }

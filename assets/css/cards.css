@@ -16,8 +16,9 @@ button.expandable_card {
 
 .project-accordion-name {
 	display: inline-block;
-	position: relative;
-    top: calc((2.2em - 20px) / 2);
+    position: relative;
+    margin: auto;
+    top: 50%;
     overflow: hidden;
 }
 
