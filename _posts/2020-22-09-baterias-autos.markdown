@@ -103,20 +103,24 @@ En la transición tecnológica, seguimos buscando los procesos que minimicen la 
 
 En Argentina, desde 2018 se han incrementado las acciones para promover la transición tecnológica. Diferentes iniciativas se han generado en este contexto, como es el Plan de Movilidad Limpia 2035 de la Ciudad de Buenos Aires, el cual fomenta la incorporación de tecnologías alternativas en el sector de transporte. Tal iniciativa se concretó en mayo de 2019 cuando se puso en marcha la primera prueba piloto que incorporó a la circulación los dos primeros ómnibus eléctricos en la Ciudad de Buenos Aires. En 2018 también la empresa eléctrica Enel aportó dos centros de carga y la empresa de refinería de petróleo YPF junto con un consorcio privado se propuso la instalación de una red de 220 puntos de carga rápida; y en noviembre de ese mismo año, la provincia de San Luis inauguró la primera ruta eléctrica del país. Si bien Argentina ha tenido atrasos en el desarrollo para la transición tecnológica, estos indicios sugieren que hay posibilidades y también que hay mucho por hacer.
 
-##### Este infoblog fue basado en
+<!-- Referencias
 
-+ {% cite andara2019usabilidad %}
-+ {% cite chen2019recycling %}
-+ {% cite jiang2015fundamentals %}
-+ {% cite avancesmovilidad2018 %}
-+ {% cite segui2019estudio %}
-+ {% cite sonter2020renewable %}
-+ {% cite triana2019baterias %}
+{% cite andara2019usabilidad %}
+{% cite chen2019recycling %}
+{% cite jiang2015fundamentals %}
+{% cite avancesmovilidad2018 %}
+{% cite segui2019estudio %}
+{% cite sonter2020renewable %}
+{% cite triana2019baterias %}
 
-##### y los enlaces
+<https://www.buenosaires.gob.ar/movilidad/noticias/circulan-los-primeros-colectivos-electricos-en-la-ciudad>
+<https://waste-management-world.com/a/in-depth-lithium-battery-recycling-the-clean-energy-clean-up>
 
-+ <https://www.buenosaires.gob.ar/movilidad/noticias/circulan-los-primeros-colectivos-electricos-en-la-ciudad>
-+ <https://waste-management-world.com/a/in-depth-lithium-battery-recycling-the-clean-energy-clean-up>
+Agregar enlaces faltantes a la bibliografia
+
+-->
+
+<!-- info -->
 
 ##### Autores
 
@@ -126,20 +130,10 @@ Analía Benavidez, Julieta García Serra, Ágata Ordano, Laura González, Marian
 
 Pablo Ingaramo, Daniel Castillo, Oscar Ordano.
 
-##### Cita
+##### Cita este documento
 
 Fundación Nodo Ambiental (2020) Infoblog Baterías de Automóviles. Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/contaminación/2020/09/22/baterías.html>
 
 ##### Vinculación Nodo Ambiental
 
-- Contención de la contaminación, Promoción de la salud, <a href="https://nodoambiental.org">Nodo Ambiental</a>
-
-### Licencia
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
-
-Usted es libre de:
-
-+ Compartir — copiar y redistribuir el material en cualquier medio o formato
-
-+ Adaptar — remezclar, transformar y crear a partir del material
+Contención de la contaminación, Promoción de la salud, <a href="https://nodoambiental.org">Nodo Ambiental</a>

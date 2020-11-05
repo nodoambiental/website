@@ -14,48 +14,38 @@ img_text: |
 <!--section-->
 
 ### ¿Por qué esterilizar las mascotas?
+
 * La reproducción masiva de mascotas causa problemas de salud humana y ambiental.
 * Evita que tus mascotas cacen fauna silvestre. Los animales que no son domésticos contribuyen en el control de plagas y en la conservación del suelo.
 
+<!-- Referencias
 
-##### Este infoblog fue basado en:
-+ {% cite blajman2012estrategia %}
-+ {% cite chicaiza2016elaboracion %}
-+ {% cite garibotti2017tenencia %}
-+ {% cite caceres2019tecnicas %}
+{% cite blajman2012estrategia %}
+{% cite chicaiza2016elaboracion %}
+{% cite garibotti2017tenencia %}
+{% cite caceres2019tecnicas %}
 
+https://reddeapoyocanino.org/index.php/2019/06/09/esterilizacion-temprana-de-perros-y-gatos-mitos-y-realidades/
+http://repositorio.usil.edu.pe/handle/USIL/3140
+https://www.eldiario.es/consumoclaro/perros/razones-esterilizar-perro_0_688381732.html
+http://es.socresponsable.org/beneficios-de-esterilizar
+https://www.lavanguardia.com/vivo/mascotas/20170412/421602353452/por-que-debes-esterilizar-a-tu-mascota.html
 
-##### y los enlaces:
-+ https://reddeapoyocanino.org/index.php/2019/06/09/esterilizacion-temprana-de-perros-y-gatos-mitos-y-realidades/
-+ http://repositorio.usil.edu.pe/handle/USIL/3140
-+ https://www.eldiario.es/consumoclaro/perros/razones-esterilizar-perro_0_688381732.html
-+ http://es.socresponsable.org/beneficios-de-esterilizar
-+ https://www.lavanguardia.com/vivo/mascotas/20170412/421602353452/por-que-debes-esterilizar-a-tu-mascota.html
+Agregar referencias faltantes a la bibliografia
 
+-->
 
-##### Cita
-Fundación Nodo Ambiental (2020) Infoblog Mascotas. Yerba Buena, Tucumán, Argentina. Recuperado de https://nodoambiental.org/salud/2019/10/11/mascotas.html
+<!-- info -->
 
+##### Cita este documento
+
+Fundación Nodo Ambiental (2020) Infoblog Mascotas. Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/salud/2019/10/11/mascotas.html>
 
 ##### Vinculación Nodo Ambiental
+
 - Proyecto Huella Viva <a href="https://nodoambiental.org">Nodo Ambiental</a>
 - Proyecto Salud, Seguridad e Inocuidad Alimentaria <a href="https://nodoambiental.org">Nodo Ambiental</a>
 
+##### Autores
 
-##### Autores 
 Laura González, Ágata Ordano, Mariano Ordano
-
-
-##### Desarrollo Web
-Ágata Ordano, Mariano Ordano, Laura González
-
-
-### Licencia
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
-
-Usted es libre de:
-
-+ Compartir — copiar y redistribuir el material en cualquier medio o formato
-
-+ Adaptar — remezclar, transformar y crear a partir del material
-

@@ -132,15 +132,15 @@ En esta sección combinamos los datos sobre tipo de dieta, vegetales consumidos 
 
 La mayoría de las personas no conoce de dónde vienen los vegetales que consumen y menos de un tercio conoce la procedencia.
 
-![fig1](/home/nodo/nodo/web/portal-jekyll/assets/images/fig1.png)
+![fig1](/assets/images/surveys/2019-01-fig1.svg)
 
-#### Figura 1. Porcentaje de respuestas sobre la procedencia de vegetales consumidos según tipo de dieta autopercibida. No = no sabía la procedencia del vegetal consumido el día anterior. Si = sabía la procedencia del vegetal consumido el día anterior
+##### Figura 1. Porcentaje de respuestas sobre la procedencia de vegetales consumidos según tipo de dieta autopercibida. No = no sabía la procedencia del vegetal consumido el día anterior. Si = sabía la procedencia del vegetal consumido el día anterior
 
 Hay vegetales cuyo origen o procedencia parecen más fáciles de conocer que otros.
 
-![fig2](/home/nodo/nodo/web/portal-jekyll/assets/images/fig2.png)
+![fig2](/assets/images/surveys/2019-01-fig2.svg)
 
-#### Figura 2. Distribución de respuestas sobre la procedencia de vegetales consumidos según tipo de dieta y vegetal consumido
+##### Figura 2. Distribución de respuestas sobre la procedencia de vegetales consumidos según tipo de dieta y vegetal consumido
 
 ## Uso de pilas
 
@@ -148,9 +148,9 @@ El uso de pilas es muy común. De 267 casos, 2 dijeron no haber usado nunca pila
 
 Respecto de la consulta sobre si las pilas contaminan o no, 74 % dijo que sí y el otro 26 % se dividió entre los que dijeron que no contaminan y los que no saben si las pilas contaminan.
 
-![fig3](/home/nodo/nodo/web/portal-jekyll/assets/images/fig3.png)
+![fig3](/assets/images/surveys/2019-01-fig3.svg)
 
-#### Figura 3. Porcentaje de respuestas sobre el uso de pilas en el tiempo (último mes, último año, más de un año, nunca usó pilas y uso indeterminado) según la consulta sobre si las pilas contaminan o no
+##### Figura 3. Porcentaje de respuestas sobre el uso de pilas en el tiempo (último mes, último año, más de un año, nunca usó pilas y uso indeterminado) según la consulta sobre si las pilas contaminan o no
 
 ## Desecho de pilas y conocimiento sobre si contaminan o no
 
@@ -160,9 +160,9 @@ Respecto de la consulta sobre si las pilas contaminan o no, 74 % dijo que sí y 
 
 11 % de las respuestas correspondieron a quienes dijeron que las pilas contaminan y las desechan junto con la basura doméstica. Es curioso que aquel 8 % que dijo que las pilas no contaminan de todos modos las desechan en un lugar separado. Es probable que esto sea un resultado espurio que debería evaluarse con un tamaño de muestra más grande.
 
-![fig4](/home/nodo/nodo/web/portal-jekyll/assets/images/fig4.png)
+![fig4](/assets/images/surveys/2019-01-fig4.svg)
 
-#### Figura 4. Porcentaje de respuestas sobre el desecho de pilas; separado de otros desechos, junto con otros desechos, y lugar de desecho indeterminado; según la consulta sobre si las pilas contaminan o no
+##### Figura 4. Porcentaje de respuestas sobre el desecho de pilas; separado de otros desechos, junto con otros desechos, y lugar de desecho indeterminado; según la consulta sobre si las pilas contaminan o no
 
 ## Percepción de la escala de afectación (global, al ambiente o a la población) según la consulta sobre si contaminan o no
 
@@ -170,9 +170,9 @@ Respecto de la consulta sobre si las pilas contaminan o no, 74 % dijo que sí y 
 
 Es confuso el resultado expresado por aquellas personas que dijeron que las pilas no contaminan y sin embargo dijeron que tienen algún efecto a nivel global, en el ambiente, o en la población. Estas respuestas representaron 13 % del total (267) y sugiere que algunos controles de verificación de respuestas deben considerarse en el diseño. La revisión de respuestas en contrapunto (entre las opciones obligadas), la inclusión de preguntas de validación y un mayor tamaño de muestra ayudarían a clarificar este punto.
 
-![fig5](/home/nodo/nodo/web/portal-jekyll/assets/images/fig5.png)
+![fig5](/assets/images/surveys/2019-01-fig5.svg)
 
-#### Figura 5. Porcentaje de respuestas sobre la percepción de la escala de afectación (global, ambiente, población) por el desecho de pilas; según la consulta sobre si las pilas contaminan o no
+##### Figura 5. Porcentaje de respuestas sobre la percepción de la escala de afectación (global, ambiente, población) por el desecho de pilas; según la consulta sobre si las pilas contaminan o no
 
 ## Separación de basura y generación de compost
 
@@ -182,9 +182,9 @@ La costumbre de producir compost parece asociarse con la frecuencia con que sepa
 
 Los resultados sugieren que hay potencial para el desarrollo de sistemas de manejo adecuado de residuos domésticos, y que una buena parte de la población ha incorporado costumbres que minimizan el impacto de los desechos domésticos.
 
-![fig6](/home/nodo/nodo/web/portal-jekyll/assets/images/fig6.png)
+![fig6](/assets/images/surveys/2019-01-fig6.svg)
 
-#### Figura 6. Porcentaje de respuestas sobre separación de residuos domésticos según si producen compost o no
+##### Figura 6. Porcentaje de respuestas sobre separación de residuos domésticos según si producen compost o no
 
 # Prospecciones futuras
 
@@ -202,32 +202,20 @@ Una evaluación interesante es comparar la magnitud de la contaminación (durant
 
 Sería útil diseñar encuestas sobre la percepción y conocimiento de la cadena alimenticia, y cómo los eslabones de la cadena se vinculan a la salud, la alimentación, el manejo de desechos y las relaciones con otros seres vivos, entre otros aspectos multivariados, para visualizar aquellos procesos que facilitarían una mejor calidad de vida considerando cada uno de los tres ejes de acción de Fundación Nodo Ambiental.
 
-# Agradecimientos
+<!-- info -->
+
+### Agradecimientos
 
 Al espacio de Sembradores y a la gente del Mercadito Agroecológico de Yerba Buena. A la revisión de Analía Benavidez, Griselda Podazza y Mariana Valoy. Al grupo de Facebook Chat & Infoblog Data. A las personas encuestadas.
 
-# Autoría
+### Autoría
 
 Mariano Ordano, Laura González, Ágata Ordano
 
-##### Cita
+##### Cita este documento
 
 Fundación Nodo Ambiental (2020) Encuesta Salud Humana y Ambiental 2019. _Informe 0.1._ Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/surveys/2019-01.html>
 
 ##### Vinculación Nodo Ambiental
 
 - Contención de la contaminación, Promoción de la salud, Relaciones con la vida silvestre <a href="https://nodoambiental.org">Nodo Ambiental</a>
-
-### Licencia
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
-
-Usted es libre de:
-
-+ Compartir — copiar y redistribuir el material en cualquier medio o formato
-
-+ Adaptar — remezclar, transformar y crear a partir del material
-
-Fundación Nodo Ambiental
-
-![](/home/nodo/nodo/images/logos-nodo/favicon.png)
