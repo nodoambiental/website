@@ -48,20 +48,6 @@ h1.main-title {
     margin: auto;
 }
 
-/* Infograph */
-
-.infograph img {
-    border-radius: 20px;
-    box-shadow: 0 0 0 0.5em #bbb;
-    width: 100%;
-}
-
-.infograph-text p {
-    /*! text-align: left; */
-    padding: 10%;
-    margin-top: calc(200px - 15vw);
-}
-
 /* TOS */
 
 section.content {
@@ -125,15 +111,6 @@ table tbody tr td {
 
     .content {
         padding: 10%;
-    }
-
-    .info {
-        background-color: #eee;
-        width: 90%;
-        border-radius: 20px;
-        margin: auto;
-        margin-top: 60px;
-        margin-bottom: 60px;
     }
     
     p > img {   
@@ -220,10 +197,6 @@ table tbody tr td {
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
-
-    .info {
-        width: 80%;
-    }
     
     section.section.content {
         width: calc(65ch);
@@ -313,11 +286,6 @@ table tbody tr td {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
-
-    
-    .infograph {
-        margin-top: 140px;
-    }
 
     .project-subtitle {
         position: absolute;
@@ -441,11 +409,6 @@ table tbody tr td {
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
-
-    
-    .infograph {
-        margin-top: 200px;
-    }
 
     .project-subtitle {
         position: absolute;
