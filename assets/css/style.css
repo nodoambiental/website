@@ -561,7 +561,7 @@ footer {
 /* Media Queries */
 
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1601px) {
     
     section.section {
         width: 100ch;
@@ -639,7 +639,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
     
     section.section {
         width: 110ch;
@@ -694,6 +694,14 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    
+    .js .navbar {
+        font-size: calc(0.5625 * 2vw);
+    }
+    
+    .js .navbar-menu a.navbar-item:not(:last-child):after {
+        transform: scaleY(300%)
+    }
     
     section.section {
         width: 105ch;
@@ -760,7 +768,7 @@ footer {
     }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1024px) {
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
     
     section.section {
         width: 80ch;
@@ -869,7 +877,7 @@ footer {
     }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (min-width: 401px) and (max-width: 600px) {
     
     section.main-title {
         padding: 0;
@@ -968,7 +976,7 @@ footer {
     }
 
     .js .navbar-start :last-child {
-        text-align: center!important;;
+        text-align: center!important;
         transition-duration: 400ms;
     }
 
@@ -1011,7 +1019,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
     section.team h2.team-subtitle {
         font-size: 0.9em;
         padding: 0;
@@ -1104,7 +1112,7 @@ footer {
     }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 1024px) {
+@media only screen and (min-width: 401px) and (max-width: 1023px) {
 
     .js .navbar-menu a.navbar-item {
         text-align: left;
