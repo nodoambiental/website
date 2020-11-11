@@ -2,7 +2,7 @@
 
 let burger_menu = document.querySelector("a.navbar-burger");
 
-function toggleMenu() {
+toggleMenu = () => {
     document.querySelector(".burger").classList.toggle("is-active");
     document.querySelector(".navbar-menu").classList.toggle("is-active");
 };
@@ -10,6 +10,53 @@ function toggleMenu() {
 burger_menu.addEventListener("click", toggleMenu, false);
 
 toggleMenu();      // Needed as it initializes expanded to support no-js
+
+const handleElementVisibility = {
+    showElement: (element) => {
+        element.style.opacity = 1;
+        element.style.position = "sticky";
+    },
+    
+    hideElement: (element) => {
+        element.style.opacity = 0;
+        setTimeout(() => {
+            element.style.position = "relative";
+        }, 400)
+    }
+}
+
+let lastScroll = 0;
+window.addEventListener("scroll", () => {
+    const navBar = document.querySelector("nav.navbar");
+    if (
+        !document.querySelector(".navbar-menu").classList.contains("is-active") &&
+        window.innerWidth < 1024
+    ) {
+        const currentScroll = window.pageYOffset;
+        if (currentScroll <= 0) {
+            navBar.classList.remove("scroll-up");
+            handleElementVisibility.showElement(navBar)
+            return;
+        }
+        
+        if (
+            currentScroll > lastScroll &&
+            !navBar.classList.contains("scroll-down")
+        ) {
+            navBar.classList.remove("scroll-up");
+            navBar.classList.add("scroll-down");
+            handleElementVisibility.hideElement(navBar)
+        } else if (
+            currentScroll < lastScroll &&
+            navBar.classList.contains("scroll-down")
+        ) {
+            navBar.classList.remove("scroll-down");
+            navBar.classList.add("scroll-up");
+            handleElementVisibility.showElement(navBar)
+        }
+        lastScroll = currentScroll;
+    }
+});
 
 // Hastag support
 

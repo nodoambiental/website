@@ -165,25 +165,72 @@ section.main-title::before {
 
 .js .navbar {
     box-shadow: 1px 0 3px 1px #333;
+    transition-duration: 400ms;
 }
 
 .js a.navbar-item {
-    transition-duration: 200ms;
+    transition-duration: 400ms;
+    padding: 5px;
 }
 
-.js a.navbar-item:hover {
-    background-color: #ddd !important;
-    border-radius: 10px;
+.js .navbar-brand .navbar-item path {
+    width: 48px;
+    transition-duration: 400ms;
 }
 
-.js a.navbar-link {
-    transition-duration: 200ms;
+.js .navbar-menu a.navbar-item:not(:last-child):after {
+    content: "|";
+    position: relative;
+    left: 5px;
+    transform: scaleY(2);
+    color: #EB6113;
 }
 
-.js a.navbar-link:hover {
-    background-color: #ddd !important;
-    border-radius: 10px;
+.js .navbar-start a.navbar-item:hover {
+    background-color: rgba(0,0,0,0.05);
+    color: #EB6113;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+.js .navbar-start a.navbar-item:hover:after {
+    position: relative;
+    transform: scaleY(2) translateX(7px)!important;
+}
+
+.js .navbar-start :last-child {
+    padding-left: 10px;
+    padding-right: 10px;
+    transition-duration: 400ms;
+}
+
+.js .navbar-start :last-child:hover i {
+    transform: scale(1.2);
+}
+
+.js .navbar-brand .navbar-item:hover path {
+   fill: rgba(0,150,0,1);
+}
+
+.js .navbar-end .navbar-item {
+    padding: 5px;
+}
+
+.js .navbar-end .navbar-item a {
+    padding: 5px;
+    transition-duration: 400ms;
+    font-size: 16px;
+}
+
+.js .navbar-end .navbar-item a:hover {
+    background-color: #EB6113;
+}
+
+.navbar-burger {
+    height: 58px;
+    position: relative;
+}
+
 
 /* Accordion */
 
@@ -343,8 +390,28 @@ section.projects>h2 {
 
 /* Team */
 
+section.section.team {
+    width: 95%;
+    margin-bottom: 50px;
+}
+
+section.team > :nth-child(3) {
+    margin-top: 50px;
+}
+
 section.team article {
+    border-radius: 10px;
+    transition-duration: 400ms;
+}
+
+section.team div.tile article:hover {
+    border: 3px solid #ccc;
     border-radius: 20px;
+}
+
+section.team div.tile article div.is-card:hover {
+    border-radius: 20px;
+    transform: translateY(-5px);
 }
 
 section.team .tile {
@@ -357,10 +424,43 @@ section.team .title {
 
 section.team figure {
     margin: auto;
+    margin-top: 0;
+}
+
+section.team figure img {
+    border: 3px solid #ccc;
 }
 
 section.team .media-left {
     margin: auto;
+    /*! margin: 0; */
+    /*! padding: 0; */
+    margin-top: 0;
+}
+
+section.team p.title {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+section.team h2.team-subtitle {
+    font-size: 0.9em;
+    padding: 0;
+    width: 100%;
+    line-height: 1.1em;
+}
+
+section.team article.tile {
+    padding: 10px;
+}
+
+section.team > div.tile > :nth-child(2) {
+    transform: translateY(60px)
+}
+
+section.team > div.tile > :nth-child(3) {
+    transform: translateY(-80px)
 }
 
 .team .is-card {
@@ -460,7 +560,27 @@ footer {
 
 /* Media Queries */
 
-@media only screen and (min-width: 1024px) {
+
+@media only screen and (min-width: 1600px) {
+    
+    section.section {
+        width: 100ch;
+        margin: auto;
+    }
+    
+    section.main-title {
+        width: 100%;
+    }
+    
+    section.section.main-title img {
+        width: 600px;
+    }
+    
+    section.section.team {
+        width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     section.content img {
         width: 100%;
@@ -476,7 +596,75 @@ footer {
     div.spacer {
         position: relative;
         display: block;
-        margin-top: 18%;
+        margin-top: 350px;
+        height: 100px;
+        width: 100%;
+    }
+
+    div.tile.is-ancestor {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .accordion {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+
+    .media-content {
+        overflow: hidden;
+    }
+
+    section.team .tile {
+        justify-content: flex-start;
+    }
+
+    section.team h2 {
+        padding-bottom: 40px;
+    }
+    
+    footer .tile.is-ancestor {
+        margin: auto;
+    }
+    
+    footer > div {
+        width: 1000px;
+    }
+    
+    footer > h6 {
+        width: 1000px;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+    
+    section.section {
+        width: 110ch;
+        margin: auto;
+    }
+    
+    section.main-title {
+        width: 100%;
+    }
+    
+    section.content img {
+        width: 100%;
+        margin: 0;
+    }
+    
+    section.main-title img {
+        width: 40%;
+        display: block;
+        margin: auto;
+    }
+
+    div.spacer {
+        position: relative;
+        display: block;
+        margin-top: calc(0.5625 * 40vw);
         height: 100px;
         width: 100%;
     }
@@ -505,7 +693,84 @@ footer {
     }
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    
+    section.section {
+        width: 105ch;
+        margin: auto;
+    }
+    
+    section.main-title {
+        width: 100%
+    }
+    
+    section.content img {
+        width: 100%;
+        margin: 0;
+    }
+    
+    section.main-title img {
+        width: 40%;
+        display: block;
+        margin: auto;
+    }
+
+    div.spacer {
+        position: relative;
+        display: block;
+        margin-top: calc(0.5625 * 30vw);
+        height: calc(20px + 0.5625 * 25vw);
+        width: 100%;
+    }
+
+    div.tile.is-ancestor {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .accordion {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+
+    .media-content {
+        overflow: hidden;
+    }
+    
+    section.section.team {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    
+    section.team div.tile.is-ancestor {
+        margin: 0;
+    }
+
+    section.team > h2 + div.tile.is-ancestor {
+        margin-top: 50px;
+    }
+
+    section.team .tile {
+        justify-content: flex-start;
+    }
+
+    section.team h2 {
+        padding-bottom: 40px;
+    }
+}
+
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
+    
+    section.section {
+        width: 80ch;
+        margin: auto;
+    }
+    
+    section.main-title {
+        width: 100%
+    }
+    
     
     section.services .tile p.title {
         font-size: 1.3em;
@@ -526,7 +791,7 @@ footer {
     }
 
     section.main-title img {
-        width: 70%;
+        width: 45%;
         display: block;
         margin: auto;
     }
@@ -538,15 +803,37 @@ footer {
     div.spacer {
         position: relative;
         display: block;
-        margin-top: 400px;
+        margin-top: calc(0.5625 * 40vw);
         height: 100px;
         width: 100%;
+    }
+    
+    section.section.team {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    
+    section.team div.tile.is-ancestor {
+        margin: 0;
+    }
+
+    section.team > h2 + div.tile.is-ancestor {
+        margin-top: 100px;
     }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
+    section.section {
+        width: 70ch;
+        margin: auto;
+    }
+    
+    section.main-title {
+        width: 100%
+    }
+    
     section.main-title img {
-        width: 90%;
+        width: 60%;
         display: block;
         margin: auto;
     }
@@ -566,13 +853,7 @@ footer {
     }
 
     article div.content {
-        line-height: 1.3em;
-    }
-
-    section.main-title img {
-        width: 70%;
-        display: block;
-        margin: auto;
+        line-height: 1.6em;
     }
 
     section#about {
@@ -582,7 +863,7 @@ footer {
     div.spacer {
         position: relative;
         display: block;
-        margin-top: 55%;
+        margin-top: calc(0.5625 * 55vw);
         height: 100px;
         width: 100%;
     }
@@ -631,5 +912,300 @@ footer {
         margin-top: 250px;
         height: 100px;
         width: 100%;
+    }
+    
+    .js .navbar-menu a.navbar-item {
+        text-align: left;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .js .navbar-start :last-child {
+        transition-duration: 400ms;
+    }
+
+    .js .navbar-start :last-child:after {
+        content: "Buscar";
+        position: relative;
+        left: 10px;
+        font-weight: 500;
+        transition-duration: 800ms;
+    }
+
+    .js .navbar-start :last-child:hover {
+        background-color: #EB6113!important;
+        color: white!important;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition-duration: 400ms;
+    }
+
+    .js .navbar-start :last-child:hover :after {
+        color: rgba(0,0,0,0);
+        margin-right: -70px;
+    }
+
+    .js .navbar-menu .navbar-start :nth-child(odd) {
+        text-align: left;
+        padding-right: 20px;
+    }
+
+    .js .navbar-menu a.navbar-item:after {
+        content: ""!important;
+    }
+
+    .js .navbar-menu a.navbar-item:not(:nth-child(even)):not(:last-child):hover {
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+
+    .js .navbar-menu a.navbar-item:not(:nth-child(odd)):not(:last-child):hover {
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+
+    .js .navbar-start :last-child {
+        text-align: center!important;;
+        transition-duration: 400ms;
+    }
+
+    .js .navbar-start :last-child:hover {
+        color: white;
+        background-color: #EB6113;
+    }
+
+    .js .navbar-end .navbar-item {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .js .navbar-end .navbar-item a {
+        padding: 0px;
+        transition-duration: 400ms;
+        font-size: 16px;
+        margin: auto;
+        background-color: rgba(0,0,0,0);
+        color: black;
+    }
+    
+    .js .navbar-end > :first-child {
+        margin-top: 10px;
+    }
+    
+    .js .navbar-end > :last-child a {
+        color: #EB6113;
+    }
+
+    .js .navbar-end .navbar-item :hover {
+        background-color: #EB6113;
+    }
+
+    .js .navbar-end .navbar-item :hover a {
+        color: white;
+        font-size: 1.2em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.team h2.team-subtitle {
+        font-size: 0.9em;
+        padding: 0;
+        width: 100%;
+        line-height: 1.1em;
+    }
+
+    section.team article.tile {
+        padding: 0px;
+    }
+
+    section.team > div.tile > :nth-child(2) {
+        transform: translateY(0);
+    }
+
+    section.team > div.tile > :nth-child(3) {
+        transform: translateY(0);
+    }
+    
+    section.team .is-card {
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    
+    section.team .media {
+        position: relative;
+        right: 26vw;
+        top: 25px;
+    }
+    
+    section.team article.is-child img {
+        width: 180px;
+    }
+    
+    section.team > div.is-ancestor p.title {
+        position: relative;
+        display: block;
+        font-size: 1.9em;
+        text-align: left;
+        left: 90px;
+        margin-left: 0;
+        padding-left: 0;
+        top: -210px;
+    }
+    
+    section.team > div.is-ancestor > :nth-child(1) p.title {
+        position: relative;
+        text-align: left;
+        left: 200px;
+    } 
+    
+    section.team > div.is-ancestor > :nth-child(1) h2.team-subtitle {
+        position: relative;
+        text-align: right;
+        left: 15vw;
+        width: 60%;
+        margin-top: -60px;
+    } 
+    
+    section.team > div.is-ancestor > :nth-child(2) p.title {
+        position: relative;
+        text-align: left;
+    } 
+    
+    section.team > div.is-ancestor > :nth-child(2) h2.team-subtitle {
+        position: relative;
+        text-align: right;
+        left: 25vw;
+        width: 60%;
+        margin-top: -60px;
+    } 
+    
+    section.team > div.is-ancestor > :nth-child(3) p.title {
+        position: relative;
+        text-align: left;
+        top: -260px;
+        left: 110px;
+    } 
+    
+    section.team > div.is-ancestor > :nth-child(3) h2.team-subtitle {
+        position: relative;
+        text-align: right;
+        left: 25vw;
+        width: 60%;
+        margin-top: -60px;
+    } 
+
+    .team article.is-child img {
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1024px) {
+
+    .js .navbar-menu a.navbar-item {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .js .navbar-start :last-child {
+        transition-duration: 400ms;
+    }
+
+    .js .navbar-start :last-child:after {
+        content: "Buscar";
+        position: relative;
+        left: 10px;
+        font-weight: 500;
+        transition-duration: 800ms;
+    }
+
+    .js .navbar-start :last-child:hover {
+        background-color: #EB6113!important;
+        color: white!important;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition-duration: 400ms;
+    }
+
+    .js .navbar-start :last-child:hover :after {
+        color: rgba(0,0,0,0);
+        margin-right: -70px;
+    }
+
+    .js .navbar-menu .navbar-start :nth-child(odd) {
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    .js .navbar-menu a.navbar-item:not(:nth-child(odd)):after {
+        content: "";
+    }
+
+    .js .navbar-menu a.navbar-item:not(:nth-child(odd)):not(:last-child):before {
+        content: "->";
+        color: #EB6113;
+    }
+
+    .js .navbar-menu a.navbar-item:not(:nth-child(even)):after {
+        content: "<-";
+    }
+
+    .js .navbar-menu a.navbar-item:not(:nth-child(even)):not(:last-child):hover {
+        padding-left: 0px;
+        padding-right: 30px;
+    }
+
+    .js .navbar-menu a.navbar-item:not(:nth-child(odd)):not(:last-child):hover {
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+
+    .js .navbar-start :last-child {
+        text-align: center!important;;
+        transition-duration: 400ms;
+    }
+
+    .js .navbar-start :last-child:hover {
+        color: white;
+        background-color: #EB6113;
+    }
+
+    .js .navbar-end .navbar-item {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .js .navbar-end .navbar-item a {
+        padding: 0px;
+        transition-duration: 400ms;
+        font-size: 16px;
+        margin: auto;
+        background-color: rgba(0,0,0,0);
+        color: black;
+    }
+    
+    .js .navbar-end > :first-child {
+        margin-top: 20px;
+    }
+    
+    .js .navbar-end > :last-child a {
+        color: #EB6113;
+    }
+
+    .js .navbar-end .navbar-item :hover {
+        background-color: #EB6113;
+    }
+
+    .js .navbar-end .navbar-item :hover a {
+        color: white;
+        font-size: 1.2em;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
