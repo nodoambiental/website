@@ -1,0 +1,6 @@
+_sass/* linguist-vendored
+_site/* linguist-vendored
+.jekyl-cache/* linguist-vendored
+.vscode/* linguist-vendored
+.vs/* linguist-vendored
+coverage/* linguist-vendored
