@@ -4,3 +4,7 @@ _site/* linguist-vendored
 .vscode/* linguist-vendored
 .vs/* linguist-vendored
 coverage/* linguist-vendored
+assets/css/*.scss linguist-vendored
+assets/css/fonts/* linguist-vendored
+assets/js/*.min.js linguist-vendored
+assets/js/lunr.js linguist-vendored
