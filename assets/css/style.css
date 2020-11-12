@@ -57,9 +57,7 @@ div.tile article:hover {
 }
 
 article.tile {
-    display: flex;
     justify-content: center;
-    align-items: center;
     padding: 30px;
 }
 
@@ -69,8 +67,8 @@ article {
 }
 
 div.is-card figure {
-    margin: 15%;
-    margin-left: 40%;
+    margin: 5%;
+    /*! margin-left: 40%; */
 }
 
 div.is-card i {
@@ -344,10 +342,12 @@ section.services .tile article {
 }
 
 section.services .tile p.title {
-    font-size: 1.6em;
-    text-align: center;
+    font-size: calc(5 * 0.5625 * 2vw);
+    text-align: right;
     padding: 10px;
     animation-duration: 200ms;
+    overflow-x: hidden;
+    padding-top: 0;
 }
 
 section.services .tile p.title:hover {
@@ -360,6 +360,14 @@ section.services .tile p.subtitle {
     padding: 10px;
 }
 
+section.services .content {
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    right: 10px;
+}
+
 /* Projects */
 
 section.projects .tile article {
@@ -368,6 +376,7 @@ section.projects .tile article {
 
 section.projects div.tile .title {
     text-align: right;
+    font-size: calc(5 * 0.5625 * 2vw);
 }
 
 section.projects div.tile .subtitle {
@@ -411,7 +420,7 @@ section.team div.tile article:hover {
 
 section.team div.tile article div.is-card:hover {
     border-radius: 20px;
-    transform: translateY(-5px);
+    transform: translateY(calc(-50% - 5px));
 }
 
 section.team .tile {
@@ -432,10 +441,10 @@ section.team figure img {
 }
 
 section.team .media-left {
-    margin: auto;
-    /*! margin: 0; */
-    /*! padding: 0; */
-    margin-top: 0;
+    margin: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 200px;
 }
 
 section.team p.title {
@@ -466,6 +475,9 @@ section.team > div.tile > :nth-child(3) {
 .team .is-card {
     padding: 0;
     margin: auto;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
 }
 
 .team article.is-child img {
@@ -1019,16 +1031,18 @@ footer {
     }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (min-width: 510px) and (max-width: 769px) {
+
+    section.team div.tile article div.is-card:hover {
+        border-radius: 20px;
+        transform: translateY(-5px);
+    }
+    
     section.team h2.team-subtitle {
         font-size: 0.9em;
         padding: 0;
         width: 100%;
         line-height: 1.1em;
-    }
-
-    section.team article.tile {
-        padding: 0px;
     }
 
     section.team > div.tile > :nth-child(2) {
@@ -1042,6 +1056,7 @@ footer {
     section.team .is-card {
         margin-top: -10px;
         margin-bottom: 20px;
+        transform: translate(0px);
     }
     
     section.team .media {
@@ -1052,64 +1067,90 @@ footer {
     
     section.team article.is-child img {
         width: 180px;
+        position: relative;
+        top: 20px;
     }
     
     section.team > div.is-ancestor p.title {
-        position: relative;
+        position: fixed;
+        right: 10px;
+        top: 20px;
+        width: 200px;
         display: block;
-        font-size: 1.9em;
-        text-align: left;
-        left: 90px;
-        margin-left: 0;
-        padding-left: 0;
-        top: -210px;
+        font-size: calc(6 * 0.5625 * 1vw);
+        text-align: right!important;
     }
     
-    section.team > div.is-ancestor > :nth-child(1) p.title {
-        position: relative;
-        text-align: left;
-        left: 200px;
-    } 
-    
-    section.team > div.is-ancestor > :nth-child(1) h2.team-subtitle {
-        position: relative;
+    section.team > div.is-ancestor h2.team-subtitle {
+        position: fixed;
         text-align: right;
-        left: 15vw;
-        width: 60%;
-        margin-top: -60px;
-    } 
-    
-    section.team > div.is-ancestor > :nth-child(2) p.title {
-        position: relative;
-        text-align: left;
-    } 
-    
-    section.team > div.is-ancestor > :nth-child(2) h2.team-subtitle {
-        position: relative;
-        text-align: right;
-        left: 25vw;
-        width: 60%;
-        margin-top: -60px;
-    } 
-    
-    section.team > div.is-ancestor > :nth-child(3) p.title {
-        position: relative;
-        text-align: left;
-        top: -260px;
-        left: 110px;
-    } 
-    
-    section.team > div.is-ancestor > :nth-child(3) h2.team-subtitle {
-        position: relative;
-        text-align: right;
-        left: 25vw;
-        width: 60%;
-        margin-top: -60px;
+        right: 10px;
+        bottom: calc((15) * 0.5625 * -1vw);
+        width: 200px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     } 
 
     .team article.is-child img {
         width: 150px;
     }
+}
+
+@media only screen and (max-width: 509px) {
+
+    section.team div.tile article div.is-card:hover {
+        border-radius: 20px;
+        transform: translateY(-5px);
+    }
+    
+    section.team h2.team-subtitle {
+        font-size: 0.9em;
+        padding: 0;
+        width: 100%;
+        line-height: 1.1em;
+    }
+
+    section.team > div.tile > :nth-child(2) {
+        transform: translateY(0);
+    }
+
+    section.team > div.tile > :nth-child(3) {
+        transform: translateY(0);
+    }
+    
+    section.team .is-card {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        transform: translate(0px);
+    }
+    
+    section.team .media-left {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    section.team article.is-child img {
+        width: 180px;
+        position: relative;
+        top: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    section.team > div.is-ancestor p.title {
+        position: fixed;
+        top: 20px;
+        width: 100%;
+        display: block;
+        font-size: calc(8 * 0.5625 * 1vw);
+    }
+    
+    section.team > div.is-ancestor h2.team-subtitle {
+        position: relative;
+        margin-top: -10px;
+        bottom: calc(-10% + (10) * 0.5625 * -1vw);
+        width: 90%;
+    } 
 }
 
 @media only screen and (min-width: 401px) and (max-width: 1023px) {

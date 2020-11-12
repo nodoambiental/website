@@ -17,22 +17,18 @@
     <div class="tile is-ancestor">
         {% endif %}
         <div class="tile is-vertical is-{{column_sizing}}">
-            <div class="tile">
-                <div class="tile is-parent">
-                    <article class="non-selectable tile is-child team-{{forloop.index}}">
-                        <div class="is-card">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure class="team">
-                                        <img src="/assets/images/team/{{person.name}}.png" />
-                                    </figure>
-                                </div>
-                            </div>
-                            <p class="title is-12">{{person.name}}</p>
-                            <h2 class="team-subtitle">{{ person.description }}</h2>
+            <div class="tile is-parent">
+                <article class="non-selectable tile is-child team-{{forloop.index}}">
+                    <div class="is-card">
+                        <div class="media-left">
+                            <figure class="team">
+                                <img src="/assets/images/team/{{person.name}}.png" />
+                            </figure>
                         </div>
-                    </article>
-                </div>
+                        <p class="title is-12">{{person.name}}</p>
+                        <h2 class="team-subtitle">{{ person.description }}</h2>
+                    </div>
+                </article>
             </div>
         </div>
         {% endfor %}
