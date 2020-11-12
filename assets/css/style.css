@@ -69,6 +69,7 @@ article {
 div.is-card figure {
     margin: 5%;
     /*! margin-left: 40%; */
+    font-size: calc(5 * 0.5625 * 1vw);
 }
 
 div.is-card i {
@@ -330,6 +331,10 @@ div.about-image img {
 
 /* Services */
 
+section.services > div.is-ancestor figure {
+    margin-top: 0;
+}
+
 section.services h2 {
     padding: 20px;
     padding-top: 0;
@@ -342,7 +347,7 @@ section.services .tile article {
 }
 
 section.services .tile p.title {
-    font-size: calc(5 * 0.5625 * 2vw);
+    font-size: calc(4.5 * 0.5625 * 2vw);
     text-align: right;
     padding: 10px;
     animation-duration: 200ms;
@@ -386,10 +391,11 @@ section.projects div.tile .subtitle {
 section.projects div.tile .content {
     padding-top: 30px;
     text-align: left;
+    line-height: calc(10 * 0.5625 * 1vw);
 }
 
 section.projects article.tile {
-    margin: 10px !important;
+    /*! margin: 10px !important; */
 }
 
 section.projects>h2 {
@@ -913,17 +919,31 @@ footer {
 }
 
 @media only screen and (max-width: 400px) {
+     
+    section.section {
+        padding: 0;
+    }
     
     section.main-title {
         padding: 0;
+        padding-bottom: 30px;
     }
     
     section.main-title img {
         width: 90%;
         padding: 10px;
+        padding-top: 30px;
         display: block;
         margin: auto;
         margin-bottom: 10px;
+    }
+    
+    section.main-title h2 {
+        font-size: calc(8 * 0.5625 * 1vw);
+    }
+    
+    .section.main-title h2.subtitle {
+        font-size: calc(6.5 * 0.5625 * 1vw);
     }
     
     div.spacer {
@@ -932,6 +952,133 @@ footer {
         margin-top: 250px;
         height: 100px;
         width: 100%;
+    }
+    
+    .js .accordion {
+        margin-bottom: 0px;
+        border-radius: 0px;
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+    
+    .js .accordion:not(:last-of-type) {
+        border-bottom: 3px solid #ccc;
+    }
+    
+    .js .panel {
+        width: 100%;
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+    
+    section#about,#services,#projects {
+        margin-bottom: calc(0.5625 * 30vw);
+    }
+    
+    section#projects,#services,#team .tile article {
+        position: relative;
+        border: none;
+    }
+    
+    section#services .content {
+        width: 100%;
+        padding-left: 10px;
+    }
+    
+    section#services .content::after {
+        content: "Más información";
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 200px;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 10px;
+        color: white;
+    }
+    
+    section#projects .is-card {
+       padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    section#projects .is-child {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    section#projects h1 {
+        font-size: calc(20 * 0.5625 * 1vw);
+        width: 100%;
+        line-height: calc(20 * 0.5625 * 1vw);
+    }
+    
+    section#projects h2 {
+        font-size: calc(10 * 0.5625 * 1vw);
+        width: 100%;
+        line-height: calc(14 * 0.5625 * 1vw);
+    }
+    
+    section#projects .is-card::after {
+        content: "Más información";
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 200px;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 10px;
+        color: white;
+    }
+    
+    section.section#team {
+        width: 100%;
+    }
+    
+    div.share-social h2 {
+        margin-bottom: 10px;
+    }
+    
+    div.share-social img {
+        height: calc(16 * 0.5625 * 1vw);
+    }
+    
+    .tile.is-parent{
+        padding: 0px;
+    }
+    
+    div.tile article {
+        border: none!important;
+        border-radius: 0px;
+    }
+    
+    div.tile article:hover {
+        border: none!important;
+        border-radius: 0px;
+    }
+    
+    section div.is-ancestor .tile article {
+        border-radius: 0px;
+    }
+    
+    section div.is-ancestor .tile article {
+        transform: scale(1)!important;
+        margin: 0px;
+    }
+    
+    section .tile.is-vertical > .tile.is-child {
+        margin-bottom: 0px!important;
+    }
+    
+    section .tile.is-vertical > .tile.is-child:not(:last-child) {
+        margin: 0px!important;
     }
     
     .js .navbar-menu a.navbar-item {
