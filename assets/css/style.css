@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* Framework */
 
 @import url("bulma.css");
@@ -13,6 +20,11 @@
 
 body {
     text-align: center;
+    background: -o-repeating-linear-gradient(135deg,
+            #eee,
+            #eee 2px,
+            #fff 2px,
+            #fff 10px);
     background: repeating-linear-gradient(-45deg,
             #eee,
             #eee 2px,
@@ -30,12 +42,16 @@ h2 {
 .js .expanded {
     display: inherit;
     height: inherit;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
 }
 
 .js .contracted {
     display: none;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
 }
 
 .title {
@@ -57,18 +73,21 @@ div.tile article:hover {
 }
 
 article.tile {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 30px;
 }
 
 article {
     border: 3px solid #ccc;
-    transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+         -o-transition-duration: 2s;
+            transition-duration: 2s;
 }
 
 div.is-card figure {
     margin: 5%;
-    /*! margin-left: 40%; */
     font-size: calc(5 * 0.5625 * 1vw);
 }
 
@@ -118,9 +137,12 @@ h2.main-title {
 /*Alternating gradient and shadow */
 
 section.main-title {
-    box-shadow: 1px 0 3px 1px #333;
+    -webkit-box-shadow: 1px 0 3px 1px #333;
+            box-shadow: 1px 0 3px 1px #333;
+    background-image: -o-linear-gradient(45deg, #33cc99, #33cccc, #3399cc);
     background-image: linear-gradient(45deg, #33cc99, #33cccc, #3399cc);
-    animation: main_title alternate infinite 2000ms;
+    -webkit-animation: main_title alternate infinite 2000ms;
+            animation: main_title alternate infinite 2000ms;
     z-index: 99;
     display: block;
     position: absolute;
@@ -128,9 +150,12 @@ section.main-title {
 }
 
 section.main-title::before {
+    background-image: -o-linear-gradient(45deg, #66cc33, #33cc33, #33cc66);
     background-image: linear-gradient(45deg, #66cc33, #33cc33, #33cc66);
     content: "";
     z-index: -99;
+    -webkit-transition: opacity 0.45s;
+    -o-transition: opacity 0.45s;
     transition: opacity 0.45s;
     animation: main_title alternate-reverse infinite 3000ms;
     display: block;
@@ -146,6 +171,14 @@ section.main-title::before {
     color: black;
 }
 
+@-webkit-keyframes main_title {
+    0% {}
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes main_title {
     0% {}
 
@@ -157,31 +190,41 @@ section.main-title::before {
 /* Navbar */
 
 .navbar {
+    position: -webkit-sticky;
     position: sticky;
     top: 0px;
     z-index: 9999;
 }
 
 .js .navbar {
-    box-shadow: 1px 0 3px 1px #333;
-    transition-duration: 400ms;
+    -webkit-box-shadow: 1px 0 3px 1px #333;
+            box-shadow: 1px 0 3px 1px #333;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
 }
 
 .js a.navbar-item {
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
     padding: 5px;
 }
 
 .js .navbar-brand .navbar-item path {
     width: 48px;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
 }
 
 .js .navbar-menu a.navbar-item:not(:last-child):after {
     content: "|";
     position: relative;
     left: 5px;
-    transform: scaleY(2);
+    -webkit-transform: scaleY(2);
+        -ms-transform: scaleY(2);
+            transform: scaleY(2);
     color: #EB6113;
 }
 
@@ -194,17 +237,23 @@ section.main-title::before {
 
 .js .navbar-start a.navbar-item:hover:after {
     position: relative;
-    transform: scaleY(2) translateX(7px)!important;
+    -webkit-transform: scaleY(2) translateX(7px)!important;
+        -ms-transform: scaleY(2) translateX(7px)!important;
+            transform: scaleY(2) translateX(7px)!important;
 }
 
 .js .navbar-start :last-child {
     padding-left: 10px;
     padding-right: 10px;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
 }
 
 .js .navbar-start :last-child:hover i {
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
 }
 
 .js .navbar-brand .navbar-item:hover path {
@@ -217,7 +266,9 @@ section.main-title::before {
 
 .js .navbar-end .navbar-item a {
     padding: 5px;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
     font-size: 16px;
 }
 
@@ -255,6 +306,8 @@ section h1 {
     text-align: left;
     border: none;
     outline: none;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
     transition: 0.4s;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -350,7 +403,8 @@ section#services .tile p.title {
     font-size: calc(4.5 * 0.5625 * 2vw);
     text-align: right;
     padding: 10px;
-    animation-duration: 200ms;
+    -webkit-animation-duration: 200ms;
+            animation-duration: 200ms;
     overflow-x: hidden;
     padding-top: 0;
 }
@@ -391,11 +445,6 @@ section#projects div.tile .subtitle {
 section#projects div.tile .content {
     padding-top: 30px;
     text-align: left;
-    line-height: calc(10 * 0.5625 * 1vw);
-}
-
-section#projects article.tile {
-    /*! margin: 10px !important; */
 }
 
 section#projects>h2 {
@@ -416,7 +465,9 @@ section#team > :nth-child(3) {
 
 section#team article {
     border-radius: 10px;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
 }
 
 section#team div.tile article:hover {
@@ -425,7 +476,9 @@ section#team div.tile article:hover {
 }
 
 section#team .tile {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
 }
 
 section#team .title {
@@ -466,11 +519,15 @@ section#team article.tile {
 }
 
 section#team > div.tile > :nth-child(2) {
-    transform: translateY(60px)
+    -webkit-transform: translateY(60px);
+        -ms-transform: translateY(60px);
+            transform: translateY(60px)
 }
 
 section#team > div.tile > :nth-child(3) {
-    transform: translateY(-80px)
+    -webkit-transform: translateY(-80px);
+        -ms-transform: translateY(-80px);
+            transform: translateY(-80px)
 }
 
 .team .is-card {
@@ -478,7 +535,9 @@ section#team > div.tile > :nth-child(3) {
     margin: auto;
     top: 50%;
     position: relative;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 
 .team article.is-child img {
@@ -549,20 +608,39 @@ footer {
 }
 
 .no-js div.tile article {
+    background-image: -webkit-gradient(linear,
+            left top, right top,
+            from(rgb(146, 238, 199)),
+            to(rgb(171, 222, 209)));
+    background-image: -o-linear-gradient(left,
+            rgb(146, 238, 199),
+            rgb(171, 222, 209));
     background-image: linear-gradient(90deg,
             rgb(146, 238, 199),
             rgb(171, 222, 209));
 }
 
 .no-js div.tile article:hover {
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
     border: 20px solid rgba(255, 255, 255, 0.5);
+    background-image: -o-linear-gradient(45deg,
+            rgb(214, 165, 240),
+            rgb(230, 140, 247));
     background-image: linear-gradient(45deg,
             rgb(214, 165, 240),
             rgb(230, 140, 247));
 }
 
 .no-js .team div.tile article:hover {
+    background-image: -webkit-gradient(linear,
+            left top, right top,
+            from(rgb(146, 238, 199)),
+            to(rgb(171, 222, 209)));
+    background-image: -o-linear-gradient(left,
+            rgb(146, 238, 199),
+            rgb(171, 222, 209));
     background-image: linear-gradient(90deg,
             rgb(146, 238, 199),
             rgb(171, 222, 209));
@@ -632,7 +710,9 @@ footer {
     }
 
     section#team .tile {
-        justify-content: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
     }
 
     section#team h2 {
@@ -736,7 +816,9 @@ footer {
     section#team .is-card {
         min-height: 240px;
         top: calc(125px + 50%);
-        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+                transform: translateY(-100%);
     }
     
     section#team .tile.is-ancestor:first-of-type > :nth-child(2) {
@@ -765,7 +847,9 @@ footer {
     }
     
     .js nav .navbar-menu {
-        flex-grow: 0;
+        -webkit-box-flex: 0;
+            -ms-flex-positive: 0;
+                flex-grow: 0;
         width: 1300px;
         margin: auto;
         margin-left: 0px;
@@ -908,7 +992,9 @@ footer {
     section#team .is-card {
         min-height: 240px;
         top: calc(125px + 50%);
-        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+                transform: translateY(-100%);
     }
     
     section#team .tile.is-ancestor:first-of-type > :nth-child(2) {
@@ -939,12 +1025,16 @@ footer {
     }
     
     .js .navbar-menu a.navbar-item:not(:last-child):after {
-        transform: scaleY(250%)
+        -webkit-transform: scaleY(250%);
+            -ms-transform: scaleY(250%);
+                transform: scaleY(250%)
     }
     
     .js .navbar-start a.navbar-item:hover::after {
         position: relative;
-        transform: scaleY(2.5) translateX(7px) !important;
+        -webkit-transform: scaleY(2.5) translateX(7px) !important;
+            -ms-transform: scaleY(2.5) translateX(7px) !important;
+                transform: scaleY(2.5) translateX(7px) !important;
     }
     
     section.section {
@@ -1061,7 +1151,9 @@ footer {
 
     section#team .is-card {
         top: calc(125px + 50%);
-        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+                transform: translateY(-100%);
         min-height: 230px;
     }
     
@@ -1481,6 +1573,10 @@ footer {
         width: 100%;
     }
     
+    div.share-social {
+        margin-top: -50px;
+    }
+    
     div.share-social h2 {
         margin-bottom: 10px;
     }
@@ -1508,7 +1604,9 @@ footer {
     }
     
     section div.is-ancestor .tile article {
-        transform: scale(1)!important;
+        -webkit-transform: scale(1)!important;
+            -ms-transform: scale(1)!important;
+                transform: scale(1)!important;
         margin: 0px;
     }
     
@@ -1528,7 +1626,9 @@ footer {
     }
 
     .js .navbar-start :last-child {
-        transition-duration: 400ms;
+        -webkit-transition-duration: 400ms;
+             -o-transition-duration: 400ms;
+                transition-duration: 400ms;
     }
 
     .js .navbar-start :last-child:after {
@@ -1536,7 +1636,9 @@ footer {
         position: relative;
         left: 10px;
         font-weight: 500;
-        transition-duration: 800ms;
+        -webkit-transition-duration: 800ms;
+             -o-transition-duration: 800ms;
+                transition-duration: 800ms;
     }
 
     .js .navbar-start :last-child:hover {
@@ -1546,7 +1648,9 @@ footer {
         padding-right: 0px;
         padding-top: 10px;
         padding-bottom: 10px;
-        transition-duration: 400ms;
+        -webkit-transition-duration: 400ms;
+             -o-transition-duration: 400ms;
+                transition-duration: 400ms;
     }
 
     .js .navbar-start :last-child:hover :after {
@@ -1575,7 +1679,9 @@ footer {
 
     .js .navbar-start :last-child {
         text-align: center!important;
-        transition-duration: 400ms;
+        -webkit-transition-duration: 400ms;
+             -o-transition-duration: 400ms;
+                transition-duration: 400ms;
     }
 
     .js .navbar-start :last-child:hover {
@@ -1590,7 +1696,9 @@ footer {
 
     .js .navbar-end .navbar-item a {
         padding: 0px;
-        transition-duration: 400ms;
+        -webkit-transition-duration: 400ms;
+             -o-transition-duration: 400ms;
+                transition-duration: 400ms;
         font-size: 16px;
         margin: auto;
         background-color: rgba(0,0,0,0);
@@ -1655,7 +1763,9 @@ footer {
 
     section#team div.tile article div.is-card:hover {
         border-radius: 20px;
-        transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+            -ms-transform: translateY(-5px);
+                transform: translateY(-5px);
     }
     
     section#team h2.team-subtitle {
@@ -1666,17 +1776,23 @@ footer {
     }
 
     section#team > div.tile > :nth-child(2) {
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
     }
 
     section#team > div.tile > :nth-child(3) {
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
     }
     
     section#team .is-card {
         margin-top: -10px;
         margin-bottom: 20px;
-        transform: translate(0px);
+        -webkit-transform: translate(0px);
+            -ms-transform: translate(0px);
+                transform: translate(0px);
     }
     
     section#team .media {
@@ -1718,7 +1834,9 @@ footer {
 
     section#team div.tile article div.is-card:hover {
         border-radius: 20px;
-        transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+            -ms-transform: translateY(-5px);
+                transform: translateY(-5px);
     }
     
     section#team h2.team-subtitle {
@@ -1729,17 +1847,23 @@ footer {
     }
 
     section#team > div.tile > :nth-child(2) {
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
     }
 
     section#team > div.tile > :nth-child(3) {
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
     }
     
     section#team .is-card {
         margin-top: -10px;
         margin-bottom: 10px;
-        transform: translate(0px);
+        -webkit-transform: translate(0px);
+            -ms-transform: translate(0px);
+                transform: translate(0px);
     }
     
     section#team .media-left {
@@ -1784,7 +1908,9 @@ footer {
     }
 
     .js .navbar-start :last-child {
-        transition-duration: 400ms;
+        -webkit-transition-duration: 400ms;
+             -o-transition-duration: 400ms;
+                transition-duration: 400ms;
     }
 
     .js .navbar-start :last-child:after {
@@ -1792,7 +1918,9 @@ footer {
         position: relative;
         left: 10px;
         font-weight: 500;
-        transition-duration: 800ms;
+        -webkit-transition-duration: 800ms;
+             -o-transition-duration: 800ms;
+                transition-duration: 800ms;
     }
 
     .js .navbar-start :last-child:hover {
@@ -1802,7 +1930,9 @@ footer {
         padding-right: 0px;
         padding-top: 10px;
         padding-bottom: 10px;
-        transition-duration: 400ms;
+        -webkit-transition-duration: 400ms;
+             -o-transition-duration: 400ms;
+                transition-duration: 400ms;
     }
 
     .js .navbar-start :last-child:hover :after {
@@ -1840,7 +1970,9 @@ footer {
 
     .js .navbar-start :last-child {
         text-align: center!important;;
-        transition-duration: 400ms;
+        -webkit-transition-duration: 400ms;;
+             -o-transition-duration: 400ms;;
+                transition-duration: 400ms;
     }
 
     .js .navbar-start :last-child:hover {
@@ -1855,7 +1987,9 @@ footer {
 
     .js .navbar-end .navbar-item a {
         padding: 0px;
-        transition-duration: 400ms;
+        -webkit-transition-duration: 400ms;
+             -o-transition-duration: 400ms;
+                transition-duration: 400ms;
         font-size: 16px;
         margin: auto;
         background-color: rgba(0,0,0,0);

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* General Styling */
 
 form {
@@ -42,7 +49,9 @@ label {
         }
 
 input[type=submit] {
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
     border: 2px solid #ccc;
     padding: 5px;
     border-radius: 5px;
@@ -58,7 +67,9 @@ input[type=submit] {
     }
 
 input[type=text] {
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
     border: 2px solid #ccc;
     padding: 5px;
     border-radius: 5px;
@@ -73,7 +84,9 @@ input[type=text] {
     }
 
 input[type=email] {
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
     border: 2px solid #ccc;
     padding: 5px;
     border-radius: 5px;
@@ -87,7 +100,9 @@ input[type=email] {
     }
 
 textarea {
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
     border: 2px solid #ccc;
     padding: 5px;
     border-radius: 5px;

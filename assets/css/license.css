@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* License */
 
 @font-face {
@@ -38,12 +45,16 @@
     display: block;
     width: 250px;
     margin-bottom: 20px;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
     border: none;
 }
 
 .license-icons:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
     border:none;
     background-color: rgba(235, 97, 19,0.9);
     padding: 10px;
@@ -71,7 +82,9 @@
     border: none;
     border-bottom: 1px dashed white;
     color: #fff;
-    transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+         -o-transition-duration: 400ms;
+            transition-duration: 400ms;
 }
 
 .license div.content div > p a:not(.license-icons):hover {

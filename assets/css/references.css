@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* References */
 
 .references {
@@ -31,7 +38,9 @@ ol.bibliography {
     color: #eb6113;
     font-size: 0.9em;
     font-variant: small-caps;
-    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+         -o-transition-duration: 1s;
+            transition-duration: 1s;
 }
 
     .citation:hover {

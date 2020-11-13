@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* General Styling */
 
 @import url("cards.css");
@@ -16,7 +23,9 @@ p > img {
 
 .content a:not(.share-social-link):not(.license-icons) {
     border-bottom: 1px dotted #EB6113;
-    transition-duration:400ms;
+    -webkit-transition-duration:400ms;
+         -o-transition-duration:400ms;
+            transition-duration:400ms;
     word-wrap: break-word;
 }
 
@@ -158,7 +167,9 @@ table tbody tr td {
     }
 
     section.team .tile {
-        justify-content: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
     }
 
     section.team h2 {

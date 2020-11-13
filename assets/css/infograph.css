@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .info {
 	background-color: #eee;
 	width: 80%;
@@ -11,7 +18,8 @@
 
 .infograph img {
     border-radius: 20px;
-    box-shadow: 0 0 0 0.5em #eee;
+    -webkit-box-shadow: 0 0 0 0.5em #eee;
+            box-shadow: 0 0 0 0.5em #eee;
     width: 100%;
 }
 
@@ -31,7 +39,8 @@
 	}
 
 	.infograph img {
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
 	}
 	
 	.infograph-text p {
@@ -56,7 +65,8 @@
 		border-radius: 20px;
 		width: 100%;
 		margin-top: 20px;
-        box-shadow: 0 0 0 0.5em #eee;
+        -webkit-box-shadow: 0 0 0 0.5em #eee;
+                box-shadow: 0 0 0 0.5em #eee;
 	}
 }
 
@@ -70,7 +80,8 @@
 	}
 
 	.infograph img {
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
 	}
 	
 	.infograph-text p {
@@ -96,7 +107,8 @@
 	}
 
 	.infograph img {
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
 	}
 	
 	.infograph-text p {
@@ -106,7 +118,9 @@
 		margin-top: 0;
 		position: relative;
 		top: 50%;
-		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		        transform: translateY(-50%);
 	}
 
 	hr.divider {
@@ -132,7 +146,8 @@
 	}
 
 	.infograph img {
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
 	}
 	
 	.infograph-text p {
@@ -141,7 +156,9 @@
 		margin: 0;
 		position: relative;
 		top: 50%;
-		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		        transform: translateY(-50%);
 	}
 
 	hr.divider {
