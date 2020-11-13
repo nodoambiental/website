@@ -1,0 +1,118 @@
+---
+---
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+/* License */
+@font-face {
+	font-family: 'CC demo';
+	src: local('CC demo medium'), local('CCdemo-medium'), url("/assets/css/fonts/cc/CCdemo-medium.woff") format('woff'), url("/assets/css/fonts/cc/CCdemo-medium.woff2") format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+.license {
+	width: 90%;
+	margin: auto;
+	h3 {
+		padding-top: 20px;
+		font-family: 'CC demo';
+		font-weight: 500;
+		font-style: normal;
+		text-align: center;
+		font-size: 3em;
+		margin-bottom: 10px;
+		color: black;
+	}
+	button.expandable_card {
+		background: none;
+		border: none;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.content {
+		ul {
+			margin-left: 80px;
+		}
+	}
+	div.content {
+		div {
+			> p {
+				color: black;
+				font-family: 'CC demo';
+				font-size: 1.2em;
+				width: 80%;
+				text-align: center;
+				a {
+					&:not(.license-icons) {
+						border: none;
+						border-bottom: 1px dashed white;
+						color: #fff;
+						-webkit-transition-duration: 400ms;
+						-o-transition-duration: 400ms;
+						transition-duration: 400ms;
+						&:hover {
+							border: none;
+							border-bottom: 3px solid rgba(232, 162, 123,0.9);
+							font-style: normal;
+						}
+					}
+				}
+			}
+			p {
+				+ {
+					ul {
+						margin-top: 30px;
+						padding-bottom: 40px;
+						width: 70%;
+						p {
+							color: black;
+							margin: 10px;
+						}
+						li {
+							margin-left: 20%;
+							border-left: 2px solid black;
+							&::marker {
+								color: #fff;
+								font-weight: 600;
+							}
+							&:first-child {
+								list-style-type: "Compartir  ";
+							}
+							&:nth-child(2) {
+								list-style-type: "Adaptar  ";
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.license-icons {
+	margin: auto;
+	display: block;
+	width: 250px;
+	margin-bottom: 20px;
+	-webkit-transition-duration: 400ms;
+	-o-transition-duration: 400ms;
+	transition-duration: 400ms;
+	border: none;
+	&:hover {
+		-webkit-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+		border: none;
+		background-color: rgba(235, 97, 19,0.9);
+		padding: 10px;
+		padding-bottom: 5px;
+		border-radius: 20px;
+	}
+	img {
+		padding: 5px;
+	}
+}

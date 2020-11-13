@@ -1,0 +1,79 @@
+---
+---
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+form {
+	margin: 40px;
+}
+ul {
+	li {
+		background-color: #FFF;
+		border: 3px solid #eee;
+		border-radius: 20px;
+		width: 80%;
+		margin: auto;
+		padding: 20px;
+		a {
+			text-align: center;
+			padding: 5px;
+			position: relative;
+			font-size: 2em;
+			color: #cf4b00;
+			font-variant: all-small-caps;
+			&:hover {
+				color: #FF5C00;
+				font-size: 2.2em;
+			}
+		}
+	}
+}
+input[type=submit] {
+	-webkit-transition-duration: 400ms;
+	-o-transition-duration: 400ms;
+	transition-duration: 400ms;
+	border: 2px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #FFF;
+	&:hover {
+		padding: 10px;
+		background-color: #cf4b00;
+		color: #fff;
+		cursor: pointer;
+	}
+}
+#search-box {
+	-webkit-transition-duration: 400ms;
+	-o-transition-duration: 400ms;
+	transition-duration: 400ms;
+	border: 2px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	&:hover {
+		padding: 10px;
+		width: 50%;
+		background-color: #cf4b00;
+		color: #fff;
+	}
+	&:focus {
+		padding: 10px;
+		width: 50%;
+		background-color: #cf4b00;
+		color: #fff;
+	}
+}
+@media only screen and (min-width: 780px) {
+	.content {
+		padding: 10%;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 610px) {
+	.navbar-blog {
+		top: -7vw;
+	}
+}

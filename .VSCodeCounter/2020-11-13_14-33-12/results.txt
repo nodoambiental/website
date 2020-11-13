@@ -1,0 +1,296 @@
+Date : 2020-11-13 14:33:12
+Directory : /mnt/nodo/Repos/website-version-1
+Total : 222 files,  34155 codes, 1788 comments, 4131 blanks, all 40074 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| XML                |         20 |     11,323 |         12 |         14 |     11,349 |
+| SCSS               |         28 |      7,841 |        129 |      1,220 |      9,190 |
+| Sass               |         54 |      4,440 |        134 |        459 |      5,033 |
+| CSS                |         12 |      3,203 |         81 |        706 |      3,990 |
+| JavaScript         |         11 |      2,221 |      1,231 |        522 |      3,974 |
+| JSON               |          3 |      1,694 |          0 |          1 |      1,695 |
+| Markdown           |         36 |      1,500 |        127 |        908 |      2,535 |
+| HTML               |         45 |      1,398 |          0 |        178 |      1,576 |
+| BibTeX             |          1 |        344 |          0 |         59 |        403 |
+| YAML               |         10 |        185 |         73 |         63 |        321 |
+| JSON with Comments |          1 |          4 |          0 |          0 |          4 |
+| Shell Script       |          1 |          2 |          1 |          1 |          4 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                               | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                  |        222 |     34,155 |      1,788 |      4,131 |     40,074 |
+| _bibliography                                                                                      |          1 |        344 |          0 |         59 |        403 |
+| _data                                                                                              |          8 |        134 |         34 |         53 |        221 |
+| _includes                                                                                          |         13 |        452 |          0 |         39 |        491 |
+| _layouts                                                                                           |         24 |        878 |          0 |        124 |      1,002 |
+| _posts                                                                                             |          5 |        203 |         86 |        161 |        450 |
+| _sass                                                                                              |         66 |      8,971 |        170 |        969 |     10,110 |
+| _sass/base                                                                                         |          4 |        400 |         16 |        101 |        517 |
+| _sass/components                                                                                   |         14 |      1,353 |         30 |        148 |      1,531 |
+| _sass/elements                                                                                     |         14 |        999 |         24 |         63 |      1,086 |
+| _sass/fa                                                                                           |         13 |      4,544 |         36 |        512 |      5,092 |
+| _sass/form                                                                                         |          7 |        569 |         15 |         37 |        621 |
+| _sass/grid                                                                                         |          3 |        532 |          5 |          8 |        545 |
+| _sass/layout                                                                                       |          4 |        149 |         11 |         14 |        174 |
+| _sass/utilities                                                                                    |          7 |        425 |         33 |         86 |        544 |
+| _surveys                                                                                           |          1 |        132 |          2 |         88 |        222 |
+| assets                                                                                             |         48 |     16,859 |      1,336 |      1,254 |     19,449 |
+| assets/css                                                                                         |         18 |     11,411 |        101 |        720 |     12,232 |
+| assets/css/fonts                                                                                   |          2 |      8,137 |          8 |          2 |      8,147 |
+| assets/css/fonts/fa                                                                                |          2 |      8,137 |          8 |          2 |      8,147 |
+| assets/icon                                                                                        |          2 |         43 |          0 |          0 |         43 |
+| assets/images                                                                                      |         17 |      3,184 |          4 |         12 |      3,200 |
+| assets/images/logos                                                                                |          3 |        351 |          3 |          3 |        357 |
+| assets/images/projects                                                                             |          1 |      2,182 |          1 |          3 |      2,186 |
+| assets/images/social                                                                               |          7 |          7 |          0 |          0 |          7 |
+| assets/images/surveys                                                                              |          6 |        644 |          0 |          6 |        650 |
+| assets/js                                                                                          |         11 |      2,221 |      1,231 |        522 |      3,974 |
+| category                                                                                           |          2 |          2 |          0 |          0 |          2 |
+| category/proyectos                                                                                 |          1 |          1 |          0 |          0 |          1 |
+| category/servicios                                                                                 |          1 |          1 |          0 |          0 |          1 |
+| leadgen                                                                                            |          5 |         20 |          0 |         15 |         35 |
+| membership                                                                                         |          3 |         12 |          0 |          9 |         21 |
+| pages                                                                                              |         22 |        595 |         37 |        300 |        932 |
+| pages/blog                                                                                         |          3 |         12 |          0 |          6 |         18 |
+| pages/documentation                                                                                |          1 |         34 |          0 |         28 |         62 |
+| pages/portals                                                                                      |         11 |        420 |          0 |        180 |        600 |
+| pages/projects                                                                                     |          3 |         79 |         37 |         50 |        166 |
+| pages/services                                                                                     |          3 |         46 |          0 |         34 |         80 |
+| pages/surveys                                                                                      |          1 |          4 |          0 |          2 |          6 |
+| scss                                                                                               |         12 |      3,239 |         81 |        698 |      4,018 |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                           | language           | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /mnt/nodo/Repos/website-version-1/.drone.yml                                                       | YAML               |         10 |          0 |          1 |         11 |
+| /mnt/nodo/Repos/website-version-1/.markdownlint.jsonc                                              | JSON with Comments |          4 |          0 |          0 |          4 |
+| /mnt/nodo/Repos/website-version-1/404.html                                                         | HTML               |         23 |          0 |          4 |         27 |
+| /mnt/nodo/Repos/website-version-1/README.html                                                      | HTML               |         27 |          0 |          3 |         30 |
+| /mnt/nodo/Repos/website-version-1/README.md                                                        | Markdown           |        532 |          2 |        333 |        867 |
+| /mnt/nodo/Repos/website-version-1/_bibliography/references.bib                                     | BibTeX             |        344 |          0 |         59 |        403 |
+| /mnt/nodo/Repos/website-version-1/_config.yml                                                      | YAML               |         41 |         39 |          9 |         89 |
+| /mnt/nodo/Repos/website-version-1/_data/about.yml                                                  | YAML               |         24 |          5 |          5 |         34 |
+| /mnt/nodo/Repos/website-version-1/_data/banner-home.yml                                            | YAML               |          3 |          1 |          2 |          6 |
+| /mnt/nodo/Repos/website-version-1/_data/footer.yml                                                 | YAML               |          2 |          3 |          3 |          8 |
+| /mnt/nodo/Repos/website-version-1/_data/portals.yml                                                | YAML               |         30 |          7 |         14 |         51 |
+| /mnt/nodo/Repos/website-version-1/_data/projects.yml                                               | YAML               |         23 |          6 |          4 |         33 |
+| /mnt/nodo/Repos/website-version-1/_data/services.yml                                               | YAML               |          9 |          4 |          4 |         17 |
+| /mnt/nodo/Repos/website-version-1/_data/social.yml                                                 | YAML               |         15 |          5 |          6 |         26 |
+| /mnt/nodo/Repos/website-version-1/_data/team.yml                                                   | YAML               |         28 |          3 |         15 |         46 |
+| /mnt/nodo/Repos/website-version-1/_includes/about.html                                             | HTML               |         31 |          0 |          0 |         31 |
+| /mnt/nodo/Repos/website-version-1/_includes/banner-home.html                                       | HTML               |         12 |          0 |          1 |         13 |
+| /mnt/nodo/Repos/website-version-1/_includes/banner-projects.html                                   | HTML               |          9 |          0 |          2 |         11 |
+| /mnt/nodo/Repos/website-version-1/_includes/banner.html                                            | HTML               |          5 |          0 |          0 |          5 |
+| /mnt/nodo/Repos/website-version-1/_includes/footer.html                                            | HTML               |         60 |          0 |          8 |         68 |
+| /mnt/nodo/Repos/website-version-1/_includes/head.html                                              | HTML               |         26 |          0 |          2 |         28 |
+| /mnt/nodo/Repos/website-version-1/_includes/info.html                                              | HTML               |         24 |          0 |          1 |         25 |
+| /mnt/nodo/Repos/website-version-1/_includes/license.html                                           | HTML               |         61 |          0 |          4 |         65 |
+| /mnt/nodo/Repos/website-version-1/_includes/navigation.html                                        | HTML               |        100 |          0 |         17 |        117 |
+| /mnt/nodo/Repos/website-version-1/_includes/projects.html                                          | HTML               |         37 |          0 |          0 |         37 |
+| /mnt/nodo/Repos/website-version-1/_includes/references.html                                        | HTML               |         20 |          0 |          1 |         21 |
+| /mnt/nodo/Repos/website-version-1/_includes/services.html                                          | HTML               |         34 |          0 |          0 |         34 |
+| /mnt/nodo/Repos/website-version-1/_includes/team.html                                              | HTML               |         33 |          0 |          3 |         36 |
+| /mnt/nodo/Repos/website-version-1/_layouts/blog.html                                               | HTML               |         52 |          0 |          7 |         59 |
+| /mnt/nodo/Repos/website-version-1/_layouts/categories.html                                         | HTML               |         48 |          0 |          9 |         57 |
+| /mnt/nodo/Repos/website-version-1/_layouts/category-archive.html                                   | HTML               |         34 |          0 |          5 |         39 |
+| /mnt/nodo/Repos/website-version-1/_layouts/contact.html                                            | HTML               |         27 |          0 |          4 |         31 |
+| /mnt/nodo/Repos/website-version-1/_layouts/default.html                                            | HTML               |         18 |          0 |          5 |         23 |
+| /mnt/nodo/Repos/website-version-1/_layouts/home.html                                               | HTML               |          7 |          0 |          5 |         12 |
+| /mnt/nodo/Repos/website-version-1/_layouts/infograph.html                                          | HTML               |         32 |          0 |          8 |         40 |
+| /mnt/nodo/Repos/website-version-1/_layouts/leadgen-already-verified.html                           | HTML               |         31 |          0 |          4 |         35 |
+| /mnt/nodo/Repos/website-version-1/_layouts/leadgen-form.html                                       | HTML               |         65 |          0 |          6 |         71 |
+| /mnt/nodo/Repos/website-version-1/_layouts/leadgen-invalid-data.html                               | HTML               |         46 |          0 |          4 |         50 |
+| /mnt/nodo/Repos/website-version-1/_layouts/leadgen-verification-success.html                       | HTML               |         28 |          0 |          4 |         32 |
+| /mnt/nodo/Repos/website-version-1/_layouts/leadgen-verify.html                                     | HTML               |         44 |          0 |          4 |         48 |
+| /mnt/nodo/Repos/website-version-1/_layouts/membership-application-success.html                     | HTML               |         44 |          0 |          4 |         48 |
+| /mnt/nodo/Repos/website-version-1/_layouts/membership-form.html                                    | HTML               |         58 |          0 |          6 |         64 |
+| /mnt/nodo/Repos/website-version-1/_layouts/membership-invalid-data.html                            | HTML               |         46 |          0 |          4 |         50 |
+| /mnt/nodo/Repos/website-version-1/_layouts/portals.html                                            | HTML               |         42 |          0 |          3 |         45 |
+| /mnt/nodo/Repos/website-version-1/_layouts/post.html                                               | HTML               |         12 |          0 |          2 |         14 |
+| /mnt/nodo/Repos/website-version-1/_layouts/project.html                                            | HTML               |         12 |          0 |          8 |         20 |
+| /mnt/nodo/Repos/website-version-1/_layouts/search.html                                             | HTML               |         29 |          0 |          5 |         34 |
+| /mnt/nodo/Repos/website-version-1/_layouts/services.html                                           | HTML               |         57 |          0 |          4 |         61 |
+| /mnt/nodo/Repos/website-version-1/_layouts/status-message.html                                     | HTML               |         24 |          0 |          5 |         29 |
+| /mnt/nodo/Repos/website-version-1/_layouts/surveys.html                                            | HTML               |         40 |          0 |          4 |         44 |
+| /mnt/nodo/Repos/website-version-1/_layouts/tag-archive.html                                        | HTML               |         34 |          0 |          5 |         39 |
+| /mnt/nodo/Repos/website-version-1/_layouts/tags.html                                               | HTML               |         48 |          0 |          9 |         57 |
+| /mnt/nodo/Repos/website-version-1/_posts/2019-10-03-focos.markdown                                 | Markdown           |         19 |         13 |         14 |         46 |
+| /mnt/nodo/Repos/website-version-1/_posts/2019-10-11-mascotas.markdown                              | Markdown           |         20 |         18 |         14 |         52 |
+| /mnt/nodo/Repos/website-version-1/_posts/2019-12-07-pilas.markdown                                 | Markdown           |         35 |         32 |         19 |         86 |
+| /mnt/nodo/Repos/website-version-1/_posts/2020-20-09-encuesta2019-01.markdown                       | Markdown           |         63 |          2 |         61 |        126 |
+| /mnt/nodo/Repos/website-version-1/_posts/2020-22-09-baterias-autos.markdown                        | Markdown           |         66 |         21 |         53 |        140 |
+| /mnt/nodo/Repos/website-version-1/_sass/base/_all.sass                                             | Sass               |          4 |          0 |          2 |          6 |
+| /mnt/nodo/Repos/website-version-1/_sass/base/generic.sass                                          | Sass               |        116 |          2 |         25 |        143 |
+| /mnt/nodo/Repos/website-version-1/_sass/base/helpers.sass                                          | Sass               |        213 |          6 |         63 |        282 |
+| /mnt/nodo/Repos/website-version-1/_sass/base/minireset.sass                                        | Sass               |         67 |          8 |         11 |         86 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/_all.sass                                       | Sass               |         14 |          0 |          2 |         16 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/breadcrumb.sass                                 | Sass               |         69 |          3 |          4 |         76 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/card.sass                                       | Sass               |         64 |          1 |         15 |         80 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/dropdown.sass                                   | Sass               |         72 |          0 |         10 |         82 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/level.sass                                      | Sass               |         65 |          7 |          6 |         78 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/list.sass                                       | Sass               |         32 |          3 |          5 |         40 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/media.sass                                      | Sass               |         42 |          1 |          6 |         49 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/menu.sass                                       | Sass               |         50 |          2 |          6 |         58 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/message.sass                                    | Sass               |         78 |          2 |          8 |         88 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/modal.sass                                      | Sass               |         93 |          2 |         19 |        114 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/navbar.sass                                     | Sass               |        411 |          4 |         29 |        444 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/pagination.sass                                 | Sass               |        130 |          1 |         19 |        150 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/panel.sass                                      | Sass               |         89 |          1 |         14 |        104 |
+| /mnt/nodo/Repos/website-version-1/_sass/components/tabs.sass                                       | Sass               |        144 |          3 |          5 |        152 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/_all.sass                                         | Sass               |         13 |          0 |          3 |         16 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/box.sass                                          | Sass               |         21 |          0 |          4 |         25 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/button.sass                                       | Sass               |        288 |          6 |         12 |        306 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/container.sass                                    | Sass               |         22 |          0 |          2 |         24 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/content.sass                                      | Sass               |        148 |          3 |          5 |        156 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/form.sass                                         | Sass               |          1 |          0 |          1 |          2 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/icon.sass                                         | Sass               |         19 |          1 |          2 |         22 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/image.sass                                        | Sass               |         66 |          2 |          2 |         70 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/notification.sass                                 | Sass               |         33 |          1 |          2 |         36 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/other.sass                                        | Sass               |         34 |          0 |          6 |         40 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/progress.sass                                     | Sass               |         60 |          2 |          6 |         68 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/table.sass                                        | Sass               |        116 |          3 |          9 |        128 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/tag.sass                                          | Sass               |        114 |          4 |          4 |        122 |
+| /mnt/nodo/Repos/website-version-1/_sass/elements/title.sass                                        | Sass               |         64 |          2 |          5 |         71 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_animated.scss                                          | SCSS               |         14 |          2 |          5 |         21 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_bordered-pulled.scss                                   | SCSS               |         15 |          2 |          4 |         21 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_core.scss                                              | SCSS               |         17 |          2 |          3 |         22 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_fixed-width.scss                                       | SCSS               |          4 |          2 |          1 |          7 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_icons.scss                                             | SCSS               |      1,385 |          2 |          2 |      1,389 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_larger.scss                                            | SCSS               |         16 |          3 |          5 |         24 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_list.scss                                              | SCSS               |         13 |          2 |          4 |         19 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_mixins.scss                                            | SCSS               |         38 |         10 |          9 |         57 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_rotated-flipped.scss                                   | SCSS               |         16 |          4 |          5 |         25 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_screen-reader.scss                                     | SCSS               |          2 |          2 |          2 |          6 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_shims.scss                                             | SCSS               |      1,601 |          0 |        462 |      2,063 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_stacked.scss                                           | SCSS               |         24 |          2 |          6 |         32 |
+| /mnt/nodo/Repos/website-version-1/_sass/fa/_variables.scss                                         | SCSS               |      1,399 |          3 |          4 |      1,406 |
+| /mnt/nodo/Repos/website-version-1/_sass/form/_all.sass                                             | Sass               |          7 |          0 |          2 |          9 |
+| /mnt/nodo/Repos/website-version-1/_sass/form/checkbox-radio.sass                                   | Sass               |         19 |          0 |          3 |         22 |
+| /mnt/nodo/Repos/website-version-1/_sass/form/file.sass                                             | Sass               |        168 |          3 |         10 |        181 |
+| /mnt/nodo/Repos/website-version-1/_sass/form/input-textarea.sass                                   | Sass               |         54 |          4 |          3 |         61 |
+| /mnt/nodo/Repos/website-version-1/_sass/form/select.sass                                           | Sass               |         81 |          4 |          1 |         86 |
+| /mnt/nodo/Repos/website-version-1/_sass/form/shared.sass                                           | Sass               |         47 |          0 |          9 |         56 |
+| /mnt/nodo/Repos/website-version-1/_sass/form/tools.sass                                            | Sass               |        193 |          4 |          9 |        206 |
+| /mnt/nodo/Repos/website-version-1/_sass/grid/_all.sass                                             | Sass               |          3 |          0 |          2 |          5 |
+| /mnt/nodo/Repos/website-version-1/_sass/grid/columns.sass                                          | Sass               |        498 |          3 |          4 |        505 |
+| /mnt/nodo/Repos/website-version-1/_sass/grid/tiles.sass                                            | Sass               |         31 |          2 |          2 |         35 |
+| /mnt/nodo/Repos/website-version-1/_sass/layout/_all.sass                                           | Sass               |          4 |          0 |          2 |          6 |
+| /mnt/nodo/Repos/website-version-1/_sass/layout/footer.sass                                         | Sass               |          8 |          0 |          2 |         10 |
+| /mnt/nodo/Repos/website-version-1/_sass/layout/hero.sass                                           | Sass               |        127 |          9 |          8 |        144 |
+| /mnt/nodo/Repos/website-version-1/_sass/layout/section.sass                                        | Sass               |         10 |          2 |          2 |         14 |
+| /mnt/nodo/Repos/website-version-1/_sass/utilities/_all.sass                                        | Sass               |          7 |          0 |          2 |          9 |
+| /mnt/nodo/Repos/website-version-1/_sass/utilities/animations.sass                                  | Sass               |          5 |          0 |          1 |          6 |
+| /mnt/nodo/Repos/website-version-1/_sass/utilities/controls.sass                                    | Sass               |         42 |          2 |          7 |         51 |
+| /mnt/nodo/Repos/website-version-1/_sass/utilities/derived-variables.sass                           | Sass               |         54 |          7 |         25 |         86 |
+| /mnt/nodo/Repos/website-version-1/_sass/utilities/functions.sass                                   | Sass               |         44 |          9 |         10 |         63 |
+| /mnt/nodo/Repos/website-version-1/_sass/utilities/initial-variables.sass                           | Sass               |         49 |         11 |          7 |         67 |
+| /mnt/nodo/Repos/website-version-1/_sass/utilities/mixins.sass                                      | Sass               |        224 |          4 |         34 |        262 |
+| /mnt/nodo/Repos/website-version-1/_surveys/2019-01.markdown                                        | Markdown           |        132 |          2 |         88 |        222 |
+| /mnt/nodo/Repos/website-version-1/assets/css/blog.css                                              | CSS                |         52 |          5 |         16 |         73 |
+| /mnt/nodo/Repos/website-version-1/assets/css/brands.scss                                           | SCSS               |         20 |          4 |          3 |         27 |
+| /mnt/nodo/Repos/website-version-1/assets/css/bulma.sass                                            | Sass               |         13 |          0 |          2 |         15 |
+| /mnt/nodo/Repos/website-version-1/assets/css/cards.css                                             | CSS                |         28 |          0 |          3 |         31 |
+| /mnt/nodo/Repos/website-version-1/assets/css/contact.css                                           | CSS                |        129 |          8 |         30 |        167 |
+| /mnt/nodo/Repos/website-version-1/assets/css/fontawesome.scss                                      | SCSS               |         16 |          4 |          3 |         23 |
+| /mnt/nodo/Repos/website-version-1/assets/css/fonts.css                                             | CSS                |         40 |          0 |          4 |         44 |
+| /mnt/nodo/Repos/website-version-1/assets/css/fonts/fa/fa-brands-400.svg                            | XML                |      3,492 |          4 |          1 |      3,497 |
+| /mnt/nodo/Repos/website-version-1/assets/css/fonts/fa/fa-solid-900.svg                             | XML                |      4,645 |          4 |          1 |      4,650 |
+| /mnt/nodo/Repos/website-version-1/assets/css/info.css                                              | CSS                |          9 |          1 |          2 |         12 |
+| /mnt/nodo/Repos/website-version-1/assets/css/infograph.css                                         | CSS                |        139 |          6 |         22 |        167 |
+| /mnt/nodo/Repos/website-version-1/assets/css/leadgen.css                                           | CSS                |        506 |          9 |        106 |        621 |
+| /mnt/nodo/Repos/website-version-1/assets/css/license.css                                           | CSS                |         98 |          7 |         18 |        123 |
+| /mnt/nodo/Repos/website-version-1/assets/css/project.css                                           | CSS                |        469 |         10 |        111 |        590 |
+| /mnt/nodo/Repos/website-version-1/assets/css/references.css                                        | CSS                |         36 |          7 |          9 |         52 |
+| /mnt/nodo/Repos/website-version-1/assets/css/search.css                                            | CSS                |         70 |          8 |         15 |         93 |
+| /mnt/nodo/Repos/website-version-1/assets/css/solid.scss                                            | SCSS               |         22 |          4 |          4 |         30 |
+| /mnt/nodo/Repos/website-version-1/assets/css/style.css                                             | CSS                |      1,627 |         20 |        370 |      2,017 |
+| /mnt/nodo/Repos/website-version-1/assets/icon/browserconfig.xml                                    | XML                |          2 |          0 |          0 |          2 |
+| /mnt/nodo/Repos/website-version-1/assets/icon/manifest.json                                        | JSON               |         41 |          0 |          0 |         41 |
+| /mnt/nodo/Repos/website-version-1/assets/images/logos/logo.svg                                     | XML                |        158 |          1 |          1 |        160 |
+| /mnt/nodo/Repos/website-version-1/assets/images/logos/logo_navigation.svg                          | XML                |        160 |          1 |          1 |        162 |
+| /mnt/nodo/Repos/website-version-1/assets/images/logos/logo_square.svg                              | XML                |         33 |          1 |          1 |         35 |
+| /mnt/nodo/Repos/website-version-1/assets/images/projects/flujo-pilas.svg                           | XML                |      2,182 |          1 |          3 |      2,186 |
+| /mnt/nodo/Repos/website-version-1/assets/images/social/facebook.svg                                | XML                |          1 |          0 |          0 |          1 |
+| /mnt/nodo/Repos/website-version-1/assets/images/social/linkedin.svg                                | XML                |          1 |          0 |          0 |          1 |
+| /mnt/nodo/Repos/website-version-1/assets/images/social/reddit.svg                                  | XML                |          1 |          0 |          0 |          1 |
+| /mnt/nodo/Repos/website-version-1/assets/images/social/telegram.svg                                | XML                |          1 |          0 |          0 |          1 |
+| /mnt/nodo/Repos/website-version-1/assets/images/social/tumblr.svg                                  | XML                |          1 |          0 |          0 |          1 |
+| /mnt/nodo/Repos/website-version-1/assets/images/social/twitter.svg                                 | XML                |          1 |          0 |          0 |          1 |
+| /mnt/nodo/Repos/website-version-1/assets/images/social/whatsapp.svg                                | XML                |          1 |          0 |          0 |          1 |
+| /mnt/nodo/Repos/website-version-1/assets/images/surveys/2019-01-fig1.svg                           | XML                |         63 |          0 |          1 |         64 |
+| /mnt/nodo/Repos/website-version-1/assets/images/surveys/2019-01-fig2.svg                           | XML                |        326 |          0 |          1 |        327 |
+| /mnt/nodo/Repos/website-version-1/assets/images/surveys/2019-01-fig3.svg                           | XML                |         67 |          0 |          1 |         68 |
+| /mnt/nodo/Repos/website-version-1/assets/images/surveys/2019-01-fig4.svg                           | XML                |         61 |          0 |          1 |         62 |
+| /mnt/nodo/Repos/website-version-1/assets/images/surveys/2019-01-fig5.svg                           | XML                |         68 |          0 |          1 |         69 |
+| /mnt/nodo/Repos/website-version-1/assets/images/surveys/2019-01-fig6.svg                           | XML                |         59 |          0 |          1 |         60 |
+| /mnt/nodo/Repos/website-version-1/assets/js/anime.min.js                                           | JavaScript         |          1 |          6 |          1 |          8 |
+| /mnt/nodo/Repos/website-version-1/assets/js/cards.js                                               | JavaScript         |         26 |          1 |          2 |         29 |
+| /mnt/nodo/Repos/website-version-1/assets/js/delrefs.js                                             | JavaScript         |         10 |          2 |          3 |         15 |
+| /mnt/nodo/Repos/website-version-1/assets/js/jquery-3.4.1.min.js                                    | JavaScript         |          1 |          1 |          1 |          3 |
+| /mnt/nodo/Repos/website-version-1/assets/js/jquery.waypoints.min.js                                | JavaScript         |          1 |          6 |          0 |          7 |
+| /mnt/nodo/Repos/website-version-1/assets/js/leadgen-form.js                                        | JavaScript         |         39 |          0 |          4 |         43 |
+| /mnt/nodo/Repos/website-version-1/assets/js/lunr.js                                                | JavaScript         |      1,815 |      1,205 |        456 |      3,476 |
+| /mnt/nodo/Repos/website-version-1/assets/js/membership-form.js                                     | JavaScript         |         46 |          0 |          4 |         50 |
+| /mnt/nodo/Repos/website-version-1/assets/js/modernizr.min.js                                       | JavaScript         |          1 |          2 |          0 |          3 |
+| /mnt/nodo/Repos/website-version-1/assets/js/script.js                                              | JavaScript         |        233 |          6 |         40 |        279 |
+| /mnt/nodo/Repos/website-version-1/assets/js/search.js                                              | JavaScript         |         48 |          2 |         11 |         61 |
+| /mnt/nodo/Repos/website-version-1/category/proyectos/index.html                                    | HTML               |          1 |          0 |          0 |          1 |
+| /mnt/nodo/Repos/website-version-1/category/servicios/index.html                                    | HTML               |          1 |          0 |          0 |          1 |
+| /mnt/nodo/Repos/website-version-1/contact.markdown                                                 | Markdown           |          6 |          0 |          2 |          8 |
+| /mnt/nodo/Repos/website-version-1/es_jekyll-testing.sh                                             | Shell Script       |          2 |          1 |          1 |          4 |
+| /mnt/nodo/Repos/website-version-1/index.markdown                                                   | Markdown           |         10 |          0 |          6 |         16 |
+| /mnt/nodo/Repos/website-version-1/leadgen/already-verified.markdown                                | Markdown           |          4 |          0 |          3 |          7 |
+| /mnt/nodo/Repos/website-version-1/leadgen/form.markdown                                            | Markdown           |          4 |          0 |          3 |          7 |
+| /mnt/nodo/Repos/website-version-1/leadgen/invalid-data.markdown                                    | Markdown           |          4 |          0 |          3 |          7 |
+| /mnt/nodo/Repos/website-version-1/leadgen/verification-success.markdown                            | Markdown           |          4 |          0 |          3 |          7 |
+| /mnt/nodo/Repos/website-version-1/leadgen/verify.markdown                                          | Markdown           |          4 |          0 |          3 |          7 |
+| /mnt/nodo/Repos/website-version-1/membership/application-success.markdown                          | Markdown           |          4 |          0 |          3 |          7 |
+| /mnt/nodo/Repos/website-version-1/membership/form.markdown                                         | Markdown           |          4 |          0 |          3 |          7 |
+| /mnt/nodo/Repos/website-version-1/membership/invalid-data.markdown                                 | Markdown           |          4 |          0 |          3 |          7 |
+| /mnt/nodo/Repos/website-version-1/package-lock.json                                                | JSON               |      1,589 |          0 |          1 |      1,590 |
+| /mnt/nodo/Repos/website-version-1/pages/blog/categories.html                                       | HTML               |          4 |          0 |          2 |          6 |
+| /mnt/nodo/Repos/website-version-1/pages/blog/main.html                                             | HTML               |          4 |          0 |          2 |          6 |
+| /mnt/nodo/Repos/website-version-1/pages/blog/tags.html                                             | HTML               |          4 |          0 |          2 |          6 |
+| /mnt/nodo/Repos/website-version-1/pages/documentation/main.markdown                                | Markdown           |         34 |          0 |         28 |         62 |
+| /mnt/nodo/Repos/website-version-1/pages/portals/Centro Cultural Sembradores.markdown               | Markdown           |         21 |          0 |         11 |         32 |
+| /mnt/nodo/Repos/website-version-1/pages/portals/Club Fukuoka.markdown                              | Markdown           |         18 |          0 |         11 |         29 |
+| /mnt/nodo/Repos/website-version-1/pages/portals/Huerteros Tucumán.markdown                         | Markdown           |         24 |          0 |         12 |         36 |
+| /mnt/nodo/Repos/website-version-1/pages/portals/Liliana Sosa.markdown                              | Markdown           |         29 |          0 |         11 |         40 |
+| /mnt/nodo/Repos/website-version-1/pages/portals/Mercadito Agroecológico.markdown                   | Markdown           |         63 |          0 |         15 |         78 |
+| /mnt/nodo/Repos/website-version-1/pages/portals/Nave Tierra.markdown                               | Markdown           |         26 |          0 |         12 |         38 |
+| /mnt/nodo/Repos/website-version-1/pages/portals/Plantación Comunitaria La Hoya.markdown            | Markdown           |        159 |          0 |         67 |        226 |
+| /mnt/nodo/Repos/website-version-1/pages/portals/Portales Nodo Ambiental.markdown                   | Markdown           |         25 |          0 |         16 |         41 |
+| /mnt/nodo/Repos/website-version-1/pages/portals/SOS Tierra.markdown                                | Markdown           |         24 |          0 |         11 |         35 |
+| /mnt/nodo/Repos/website-version-1/pages/portals/Salvarnos Salvando.markdown                        | Markdown           |         27 |          0 |         13 |         40 |
+| /mnt/nodo/Repos/website-version-1/pages/portals/main.markdown                                      | Markdown           |          4 |          0 |          1 |          5 |
+| /mnt/nodo/Repos/website-version-1/pages/projects/Huella viva.markdown                              | Markdown           |         23 |         16 |         16 |         55 |
+| /mnt/nodo/Repos/website-version-1/pages/projects/Pilas Usadas.markdown                             | Markdown           |         31 |          8 |         18 |         57 |
+| /mnt/nodo/Repos/website-version-1/pages/projects/Salud, Seguridad e Inocuidad Alimentaria.markdown | Markdown           |         25 |         13 |         16 |         54 |
+| /mnt/nodo/Repos/website-version-1/pages/services/Cooperación.markdown                              | Markdown           |         12 |          0 |          7 |         19 |
+| /mnt/nodo/Repos/website-version-1/pages/services/Gobierno y empresas.markdown                      | Markdown           |         16 |          0 |         14 |         30 |
+| /mnt/nodo/Repos/website-version-1/pages/services/Organizaciones y escuelas.markdown                | Markdown           |         18 |          0 |         13 |         31 |
+| /mnt/nodo/Repos/website-version-1/pages/surveys/main.html                                          | HTML               |          4 |          0 |          2 |          6 |
+| /mnt/nodo/Repos/website-version-1/scss/blog.scss                                                   | SCSS               |         54 |          5 |         16 |         75 |
+| /mnt/nodo/Repos/website-version-1/scss/cards.scss                                                  | SCSS               |         28 |          0 |          3 |         31 |
+| /mnt/nodo/Repos/website-version-1/scss/contact.scss                                                | SCSS               |        137 |          8 |         28 |        173 |
+| /mnt/nodo/Repos/website-version-1/scss/fonts.scss                                                  | SCSS               |         40 |          0 |          4 |         44 |
+| /mnt/nodo/Repos/website-version-1/scss/info.scss                                                   | SCSS               |          9 |          1 |          2 |         12 |
+| /mnt/nodo/Repos/website-version-1/scss/infograph.scss                                              | SCSS               |        139 |          6 |         22 |        167 |
+| /mnt/nodo/Repos/website-version-1/scss/leadgen.scss                                                | SCSS               |        530 |          9 |        100 |        639 |
+| /mnt/nodo/Repos/website-version-1/scss/license.scss                                                | SCSS               |        100 |          7 |         18 |        125 |
+| /mnt/nodo/Repos/website-version-1/scss/project.scss                                                | SCSS               |        469 |         10 |        111 |        590 |
+| /mnt/nodo/Repos/website-version-1/scss/references.scss                                             | SCSS               |         36 |          7 |          9 |         52 |
+| /mnt/nodo/Repos/website-version-1/scss/search.scss                                                 | SCSS               |         70 |          8 |         15 |         93 |
+| /mnt/nodo/Repos/website-version-1/scss/style.scss                                                  | SCSS               |      1,627 |         20 |        370 |      2,017 |
+| /mnt/nodo/Repos/website-version-1/search.json                                                      | JSON               |         64 |          0 |          0 |         64 |
+| /mnt/nodo/Repos/website-version-1/search.markdown                                                  | Markdown           |          6 |          0 |          2 |          8 |
+| Total                                                                                              |                    |     34,155 |      1,788 |      4,131 |     40,074 |
++----------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

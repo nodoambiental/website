@@ -1,0 +1,170 @@
+---
+---
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+.info {
+	background-color: #eee;
+	width: 80%;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: -60px;
+	margin-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.infograph {
+	img {
+		border-radius: 20px;
+		-webkit-box-shadow: 0 0 0 0.5em #eee;
+		box-shadow: 0 0 0 0.5em #eee;
+		width: 100%;
+	}
+}
+.infograph-text {
+	p {
+		text-align: center;
+		padding: 10%;
+		margin-top: 25%;
+	}
+}
+@media screen and (max-width: 400px) {
+	.info {
+		margin-top: -300px;
+		margin-bottom: 0;
+		width: 100%;
+		border-radius: 0;
+		background: none;
+	}
+	.infograph {
+		img {
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+	}
+	.infograph-text {
+		p {
+			background-color: #eee;
+			border-radius: 20px;
+			width: 100%;
+			margin-top: 10px;
+		}
+	}
+}
+@media screen and (min-width:400px) and (max-width: 600px) {
+	.info {
+		margin-top: -170px;
+		margin-bottom: 0;
+		width: 100%;
+		border-radius: 0;
+		background: none;
+	}
+	.infograph-text {
+		p {
+			background-color: #eee;
+			border-radius: 20px;
+			width: 100%;
+			margin-top: 20px;
+			-webkit-box-shadow: 0 0 0 0.5em #eee;
+			box-shadow: 0 0 0 0.5em #eee;
+		}
+	}
+}
+@media only screen and (min-width:600px) and (max-width: 800px) {
+	.info {
+		margin-top: -150px;
+		margin-bottom: 0;
+		width: 90%;
+		border-radius: 20px;
+		background-color: #eee;
+	}
+	.infograph {
+		img {
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+	}
+	.infograph-text {
+		p {
+			background: none;
+			border-radius: 20px;
+			width: 100%;
+			margin-top: 0;
+			position: relative;
+		}
+	}
+	hr.divider {
+		border: none;
+	}
+}
+@media only screen and (min-width:800px) and (max-width: 1024px) {
+	.info {
+		margin-top: calc(-1.776 * 10vw + 75px);
+		margin-bottom: 0;
+		width: 70ch;
+		border-radius: 20px;
+		background-color: #eee;
+	}
+	.infograph {
+		img {
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+	}
+	.infograph-text {
+		p {
+			background: none;
+			border-radius: 20px;
+			width: 100%;
+			margin-top: 0;
+			position: relative;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
+	}
+	hr.divider {
+		border: none;
+	}
+}
+@media only screen and (min-width:1024px) {
+	.info {
+		margin-top: calc(-0.5625 * 10vw + 130px);
+		margin-bottom: 0;
+		width: 100ch;
+		border-radius: 20px;
+		background-color: #eee;
+		.tile.is-ancestor {
+			margin: 0;
+		}
+		.tile.is-child {
+			width: 500px;
+		}
+	}
+	.infograph {
+		img {
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+	}
+	.infograph-text {
+		p {
+			background: none;
+			width: 90%;
+			margin: 0;
+			position: relative;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
+	}
+	hr.divider {
+		border: none;
+	}
+}
