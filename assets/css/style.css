@@ -939,7 +939,12 @@ footer {
     }
     
     .js .navbar-menu a.navbar-item:not(:last-child):after {
-        transform: scaleY(300%)
+        transform: scaleY(250%)
+    }
+    
+    .js .navbar-start a.navbar-item:hover::after {
+        position: relative;
+        transform: scaleY(2.5) translateX(7px) !important;
     }
     
     section.section {
