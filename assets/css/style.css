@@ -23,7 +23,7 @@ body {
 
 h2 {
     font-size: 120%;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -331,22 +331,22 @@ div.about-image img {
 
 /* Services */
 
-section.services > div.is-ancestor figure {
+section#services > div.is-ancestor figure {
     margin-top: 0;
 }
 
-section.services h2 {
+section#services h2 {
     padding: 20px;
     padding-top: 0;
     padding-bottom: 40px;
 }
 
-section.services .tile article {
+section#services .tile article {
     padding-right: 15px;
     border-radius: 20px;
 }
 
-section.services .tile p.title {
+section#services .tile p.title {
     font-size: calc(4.5 * 0.5625 * 2vw);
     text-align: right;
     padding: 10px;
@@ -355,17 +355,17 @@ section.services .tile p.title {
     padding-top: 0;
 }
 
-section.services .tile p.title:hover {
+section#services .tile p.title:hover {
     font-size: 1.8em;
 }
 
-section.services .tile p.subtitle {
+section#services .tile p.subtitle {
     font-size: 1em;
     text-align: center;
     padding: 10px;
 }
 
-section.services .content {
+section#services .content {
     margin-top: 10px;
     text-align: left;
     width: 100%;
@@ -375,106 +375,101 @@ section.services .content {
 
 /* Projects */
 
-section.projects .tile article {
+section#projects .tile article {
     border-radius: 20px;
 }
 
-section.projects div.tile .title {
+section#projects div.tile .title {
     text-align: right;
     font-size: calc(5 * 0.5625 * 2vw);
 }
 
-section.projects div.tile .subtitle {
+section#projects div.tile .subtitle {
     text-align: right;
 }
 
-section.projects div.tile .content {
+section#projects div.tile .content {
     padding-top: 30px;
     text-align: left;
     line-height: calc(10 * 0.5625 * 1vw);
 }
 
-section.projects article.tile {
+section#projects article.tile {
     /*! margin: 10px !important; */
 }
 
-section.projects>h2 {
+section#projects>h2 {
     padding: 30px;
     padding-top: 0px;
 }
 
 /* Team */
 
-section.section.team {
+section.section#team {
     width: 95%;
     margin-bottom: 50px;
 }
 
-section.team > :nth-child(3) {
+section#team > :nth-child(3) {
     margin-top: 50px;
 }
 
-section.team article {
+section#team article {
     border-radius: 10px;
     transition-duration: 400ms;
 }
 
-section.team div.tile article:hover {
-    border: 3px solid #ccc;
-    border-radius: 20px;
+section#team div.tile article:hover {
+    border: 3px solid #aaa;
+    border-radius: 10px;
 }
 
-section.team div.tile article div.is-card:hover {
-    border-radius: 20px;
-    transform: translateY(calc(-50% - 5px));
-}
-
-section.team .tile {
+section#team .tile {
     justify-content: flex-start;
 }
 
-section.team .title {
+section#team .title {
     font-size: 1.5em;
 }
 
-section.team figure {
+section#team figure {
     margin: auto;
     margin-top: 0;
 }
 
-section.team figure img {
+section#team figure img {
     border: 3px solid #ccc;
 }
 
-section.team .media-left {
+section#team .media-left {
     margin: 0;
     margin-bottom: auto;
     margin-top: auto;
     width: 200px;
 }
 
-section.team p.title {
+section#team p.title {
     font-size: 1.2rem;
     margin: 0;
     margin-bottom: 10px;
 }
 
-section.team h2.team-subtitle {
+section#team h2.team-subtitle {
     font-size: 0.9em;
     padding: 0;
     width: 100%;
     line-height: 1.1em;
 }
 
-section.team article.tile {
+section#team article.tile {
     padding: 10px;
 }
 
-section.team > div.tile > :nth-child(2) {
+section#team > div.tile > :nth-child(2) {
     transform: translateY(60px)
 }
 
-section.team > div.tile > :nth-child(3) {
+section#team > div.tile > :nth-child(3) {
     transform: translateY(-80px)
 }
 
@@ -489,6 +484,8 @@ section.team > div.tile > :nth-child(3) {
 .team article.is-child img {
     width: 150px;
 }
+
+
 
 /* Footer */
 
@@ -594,7 +591,7 @@ footer {
         width: 600px;
     }
     
-    section.section.team {
+    section.section#team {
         width: 1400px;
         margin-left: auto;
         margin-right: auto;
@@ -634,11 +631,11 @@ footer {
         overflow: hidden;
     }
 
-    section.team .tile {
+    section#team .tile {
         justify-content: flex-start;
     }
 
-    section.team h2 {
+    section#team h2 {
         padding-bottom: 40px;
     }
     
@@ -653,6 +650,143 @@ footer {
     footer > h6 {
         width: 1000px;
         margin: auto;
+    }
+    
+    section#services > h2 {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    section#services i {
+        font-size: 60px!important;
+    }
+    
+    section#services figure {
+        font-size: 60px!important;
+    }
+      
+    section#services div.tile p.title {
+        font-size: 2em;
+    }
+    
+    section#services .content {
+        font-size: 1em;
+        line-height: 1.75em;
+    }
+    
+    section#projects div.tile p.title {
+        font-size: 2em;
+    }
+    
+    section#projects div.tile i {
+        font-size: 70px!important;
+    }
+    
+    section#projects figure {
+        font-size: 50px!important;
+    }
+    
+    section#projects > h2 {
+        margin-bottom: 60px;
+        width: 80%;
+    }
+    
+    section#projects div.tile .content {
+        font-size: 1em;
+        line-height: 1.75em;
+    }
+    
+    section#projects i {
+        font-size: 2em;
+    }
+    
+    section.section#team {
+        width: 100ch;
+        margin-bottom: 50px;
+    }
+    
+    section#team > h2 {
+        height: 150px;
+    }
+    
+    section#team div.tile.is-ancestor {
+        margin: 0;
+    }
+
+    section#team > h2 + div.tile.is-ancestor {
+        margin-top: 50px;
+    }
+
+    section#team h2 {
+        padding-bottom: 40px;
+        text-align: center;
+        margin: auto;
+    }
+
+    section#team article {
+        max-width: 300px;
+    }
+
+    section#team .media-left {
+        position: relative;
+        text-align: center;
+        margin: auto;
+    }
+
+    section#team .is-card {
+        min-height: 240px;
+        top: calc(125px + 50%);
+        transform: translateY(-100%);
+    }
+    
+    section#team .tile.is-ancestor:first-of-type > :nth-child(2) {
+        position: static;
+        margin-top: -140px;
+    }
+    
+    section#team .tile.is-ancestor:first-of-type > :nth-child(1) {
+        position: static;
+        margin-top: -80px;
+    }
+    
+    section#team .tile.is-ancestor:last-of-type > :nth-child(2) {
+        position: static;
+        height: 300px;
+    }
+    
+    section#team .tile.is-ancestor:last-of-type > :nth-child(1) {
+        position: static;
+        margin-bottom: -60px;
+    }
+    
+    .js nav > div {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .js nav .navbar-menu {
+        flex-grow: 0;
+        width: 1300px;
+        margin: auto;
+        margin-left: 0px;
+        text-align: center;
+    }
+    
+    .js nav .navbar-brand {
+        width: 80px;
+        margin: auto;
+        margin-right: 0px;
+    }
+    
+    .js nav .navbar-menu .navbar-start {
+        width: 1000px;
+        margin: auto;
+        margin-right: 0px;
+    }
+    
+    .js nav .navbar-menu .navbar-end {
+        width: 300px;
+        margin-left: 10px;
     }
 }
 
@@ -701,13 +835,100 @@ footer {
     .media-content {
         overflow: hidden;
     }
-
-    section.team .tile {
-        justify-content: flex-start;
+    
+    section#services > h2 {
+        width: 80ch;
+        margin-bottom: 40px;
+    }
+    
+    section#services div.tile i {
+        font-size: 1.5em;
+    }
+      
+    section#services div.tile p.title {
+        font-size: 2em;
+    }
+    
+    section#services .content {
+        font-size: 1em;
+        line-height: 1.75em;
+    }
+    
+    section#projects div.tile p.title {
+        font-size: 2em;
+    }
+    
+    section#projects > h2 {
+        margin-bottom: 60px;
+        width: 80%;
+    }
+    
+    section#projects div.tile .content {
+        font-size: 1em;
+        line-height: 1.75em;
+    }
+    
+    section#projects div.tile i {
+        font-size: 2em;
+    }
+    
+    section.section#team {
+        width: 100ch;
+        margin-bottom: 50px;
+    }
+    
+    section#team > h2 {
+        height: 150px;
+    }
+    
+    section#team div.tile.is-ancestor {
+        margin: 0;
     }
 
-    section.team h2 {
+    section#team > h2 + div.tile.is-ancestor {
+        margin-top: 50px;
+    }
+
+    section#team h2 {
         padding-bottom: 40px;
+        text-align: center;
+        margin: auto;
+    }
+
+    section#team article {
+        max-width: 300px;
+    }
+
+    section#team .media-left {
+        position: relative;
+        text-align: center;
+        margin: auto;
+    }
+
+    section#team .is-card {
+        min-height: 240px;
+        top: calc(125px + 50%);
+        transform: translateY(-100%);
+    }
+    
+    section#team .tile.is-ancestor:first-of-type > :nth-child(2) {
+        position: static;
+        margin-top: -140px;
+    }
+    
+    section#team .tile.is-ancestor:first-of-type > :nth-child(1) {
+        position: static;
+        margin-top: -80px;
+    }
+    
+    section#team .tile.is-ancestor:last-of-type > :nth-child(2) {
+        position: static;
+        height: 300px;
+    }
+    
+    section#team .tile.is-ancestor:last-of-type > :nth-child(1) {
+        position: static;
+        margin-bottom: -60px;
     }
 }
 
@@ -764,46 +985,183 @@ footer {
         overflow: hidden;
     }
     
-    section.section.team {
-        width: 90%;
+    section#services > h2 {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    section#services div.tile i {
+        font-size: 1.75em;
+    }
+      
+    section#services div.tile p.title {
+        font-size: 2em;
+    }
+    
+    section#services .content {
+        font-size: 1em;
+        line-height: 1.75em;
+    }
+    
+    section#projects div.tile p.title {
+        font-size: 2em;
+    }
+    
+    section#projects > h2 {
+        margin-bottom: 60px;
+        width: 80%;
+    }
+    
+    section#projects div.tile .content {
+        font-size: 1em;
+        line-height: 1.75em;
+    }
+    
+    section#projects div.tile i {
+        font-size: 2em;
+    }
+    
+    section.section#team {
+        width: 100ch;
         margin-bottom: 50px;
     }
     
-    section.team div.tile.is-ancestor {
+    section#team > h2 {
+        height: 150px;
+    }
+    
+    section#team div.tile.is-ancestor {
         margin: 0;
     }
 
-    section.team > h2 + div.tile.is-ancestor {
+    section#team > h2 + div.tile.is-ancestor {
         margin-top: 50px;
     }
 
-    section.team .tile {
-        justify-content: flex-start;
+    section#team h2 {
+        padding-bottom: 40px;
+        text-align: center;
+        margin: auto;
     }
 
-    section.team h2 {
-        padding-bottom: 40px;
+    section#team article {
+        max-width: 300px;
+    }
+
+    section#team .media-left {
+        position: relative;
+        text-align: center;
+        margin: auto;
+    }
+
+    section#team .is-card {
+        top: calc(125px + 50%);
+        transform: translateY(-100%);
+        min-height: 230px;
+    }
+    
+    section#team .tile.is-ancestor:first-of-type > :nth-child(2) {
+        position: static;
+        margin-top: -140px;
+    }
+    
+    section#team .tile.is-ancestor:first-of-type > :nth-child(1) {
+        position: static;
+        margin-top: -80px;
+    }
+    
+    section#team .tile.is-ancestor:last-of-type > :nth-child(2) {
+        position: static;
+        height: 300px;
+    }
+    
+    section#team .tile.is-ancestor:last-of-type > :nth-child(1) {
+        position: static;
+        margin-bottom: -60px;
     }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1023px) {
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    
+    .js .panel {
+        width: 100%;
+        line-height: 1.5em;
+    }
+    
+    section.section.main-title {
+        max-width: 100%;
+        width: 100%
+    }
+    
+    section.section.main-title h2 {
+        font-size: 1.2em;
+    }
+    
+    section.section.main-title h2:first-of-type {
+        margin-top: 20px;
+    }
+    
+    section.section {
+        max-width: 70ch;
+        margin: auto;
+    }
+
+    section div.tile .title {
+        text-align: right;
+        font-size: calc(5 * 0.5625 * 2vw);
+    }
+
+    section div.tile .subtitle {
+        text-align: right;
+    }
+
+    section#services,#about,#projects div.tile .content {
+        text-align: left;
+        line-height: 1.5em;
+    }
+
+    section#services,#about h2 {
+        padding-top: 30px;
+        text-align:center;
+        line-height: calc(9 * 0.5625 * 1vw);
+    }
+    
+    section#team .tile.is-ancestor:first-of-type > :nth-child(2) {
+        position: static;
+        margin-top: -140px;
+    }
+    
+    section#team .tile.is-ancestor:first-of-type > :nth-child(1) {
+        position: static;
+        margin-top: -80px;
+    }
+    
+    section#team .tile.is-ancestor:last-of-type > :nth-child(2) {
+        position: static;
+        height: 300px;
+    }
+    
+    section#team .tile.is-ancestor:last-of-type > :nth-child(1) {
+        position: static;
+        margin-bottom: -60px;
+    }
     
     section.section {
         width: 80ch;
         margin: auto;
     }
     
-    section.main-title {
-        width: 100%
+    section.section.main-title {
+        width: 100%;
     }
     
     
-    section.services .tile p.title {
+    section#services .tile p.title {
         font-size: 1.3em;
         line-height: 1em;
     }
 
-    section.projects .tile p.title {
+    section#projects .tile p.title {
         font-size: 1.3em;
         line-height: 1em;
     }
@@ -834,28 +1192,80 @@ footer {
         width: 100%;
     }
     
-    section.section.team {
+    section.section#team {
         width: 90%;
         margin-bottom: 50px;
     }
     
-    section.team div.tile.is-ancestor {
-        margin: 0;
+    section#team div.tile.is-ancestor {
+        margin-left: -40px;
+        margin-right: -40px;
+        margin-top: -20px;
+    }
+    
+    section#team .is-card {
+        padding-top: 10px;
+        padding-bottom: 10px; 
+    }
+    
+    section#team p.title {
+        font-size: 1.2em;
+        text-align: center;
     }
 
-    section.team > h2 + div.tile.is-ancestor {
+    section#team > h2 + div.tile.is-ancestor {
         margin-top: 100px;
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 800px) {
-    section.section {
-        width: 70ch;
-        margin: auto;
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    
+    .js .panel {
+        width: 100%;
+        line-height: 1.5em;
     }
     
-    section.main-title {
-        width: 100%
+    section.section.main-title {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    section.section.main-title h2 {
+        font-size: 1.2em;
+    }
+    
+    section.section.main-title h2:first-of-type {
+        margin-top: 20px;
+    }
+    
+    section.section {
+        max-width: 70ch;
+        margin: auto;
+    }
+
+    section div.tile .title {
+        text-align: right;
+        font-size: calc(5 * 0.5625 * 2vw);
+    }
+
+    section div.tile .subtitle {
+        text-align: right;
+    }
+
+    section#services,#about div.tile .content {
+        text-align: left;
+        line-height: calc(15 * 0.5625 * 1vw);
+    }
+
+    section#projects div.tile .content {
+        text-align: left;
+        line-height: calc(7 * 0.5625 * 1vw);
+    }
+
+    section#services,#about h2 {
+        padding-top: 30px;
+        text-align:center;
+        line-height: calc(9 * 0.5625 * 1vw);
     }
     
     section.main-title img {
@@ -864,12 +1274,12 @@ footer {
         margin: auto;
     }
     
-    section.services .tile p.title {
+    section#services .tile p.title {
         font-size: 1.3em;
         line-height: 1em;
     }
 
-    section.projects .tile p.title {
+    section#projects .tile p.title {
         font-size: 1.3em;
         line-height: 1em;
     }
@@ -909,10 +1319,18 @@ footer {
         margin: auto;
     }
     
+    section.main-title h2 {
+        margin-bottom: 5px;
+    }
+    
+    section.main-title h2:last-of-type {
+        margin-bottom: 34px;
+    }
+    
     div.spacer {
         position: relative;
         display: block;
-        margin-top: 270px;
+        margin-top: 200px;
         height: 100px;
         width: 100%;
     }
@@ -939,7 +1357,23 @@ footer {
     }
     
     section.main-title h2 {
-        font-size: calc(8 * 0.5625 * 1vw);
+        font-size: 1em;
+        width: 90%;
+    }
+
+    section div.tile .title {
+        text-align: right;
+        font-size: calc(5 * 0.5625 * 2vw);
+    }
+
+    section div.tile .subtitle {
+        text-align: right;
+    }
+
+    section div.tile .content {
+        padding-top: 30px;
+        text-align: left;
+        line-height: calc(10 * 0.5625 * 1vw);
     }
     
     .section.main-title h2.subtitle {
@@ -1179,46 +1613,80 @@ footer {
 }
 
 @media only screen and (min-width: 510px) and (max-width: 769px) {
+    
+    section.main-title h2 {
+        font-size: 1.4em;
+    }
+    
+    section.main-title img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    div.spacer {
+        margin-top: 240px;
+    }
 
-    section.team div.tile article div.is-card:hover {
+    section div.tile .title {
+        text-align: right;
+        font-size: calc(5 * 0.5625 * 2vw);
+    }
+
+    section div.tile .subtitle {
+        text-align: right;
+    }
+
+    section div.tile .content {
+        padding-top: 30px;
+        text-align: left;
+        line-height: calc(6 * 0.5625 * 1vw);
+    }
+
+    section#projects div.tile .content {
+        padding-top: 30px;
+        text-align: left;
+        line-height: calc(6 * 0.5625 * 1vw);
+    }
+
+    section#team div.tile article div.is-card:hover {
         border-radius: 20px;
         transform: translateY(-5px);
     }
     
-    section.team h2.team-subtitle {
+    section#team h2.team-subtitle {
         font-size: 0.9em;
         padding: 0;
         width: 100%;
         line-height: 1.1em;
     }
 
-    section.team > div.tile > :nth-child(2) {
+    section#team > div.tile > :nth-child(2) {
         transform: translateY(0);
     }
 
-    section.team > div.tile > :nth-child(3) {
+    section#team > div.tile > :nth-child(3) {
         transform: translateY(0);
     }
     
-    section.team .is-card {
+    section#team .is-card {
         margin-top: -10px;
         margin-bottom: 20px;
         transform: translate(0px);
     }
     
-    section.team .media {
+    section#team .media {
         position: relative;
         right: 26vw;
         top: 25px;
     }
     
-    section.team article.is-child img {
+    section#team article.is-child img {
         width: 180px;
         position: relative;
         top: 20px;
     }
     
-    section.team > div.is-ancestor p.title {
+    section#team > div.is-ancestor p.title {
         position: fixed;
         right: 10px;
         top: 20px;
@@ -1228,14 +1696,12 @@ footer {
         text-align: right!important;
     }
     
-    section.team > div.is-ancestor h2.team-subtitle {
+    section#team > div.is-ancestor h2.team-subtitle {
         position: fixed;
         text-align: right;
         right: 10px;
-        bottom: calc((15) * 0.5625 * -1vw);
+        bottom: -10px;
         width: 200px;
-        margin-bottom: 20px;
-        padding-bottom: 20px;
     } 
 
     .team article.is-child img {
@@ -1245,38 +1711,38 @@ footer {
 
 @media only screen and (max-width: 509px) {
 
-    section.team div.tile article div.is-card:hover {
+    section#team div.tile article div.is-card:hover {
         border-radius: 20px;
         transform: translateY(-5px);
     }
     
-    section.team h2.team-subtitle {
+    section#team h2.team-subtitle {
         font-size: 0.9em;
         padding: 0;
         width: 100%;
         line-height: 1.1em;
     }
 
-    section.team > div.tile > :nth-child(2) {
+    section#team > div.tile > :nth-child(2) {
         transform: translateY(0);
     }
 
-    section.team > div.tile > :nth-child(3) {
+    section#team > div.tile > :nth-child(3) {
         transform: translateY(0);
     }
     
-    section.team .is-card {
+    section#team .is-card {
         margin-top: -10px;
         margin-bottom: 10px;
         transform: translate(0px);
     }
     
-    section.team .media-left {
+    section#team .media-left {
         margin-right: auto;
         margin-left: auto;
     }
     
-    section.team article.is-child img {
+    section#team article.is-child img {
         width: 180px;
         position: relative;
         top: 20px;
@@ -1284,20 +1750,25 @@ footer {
         margin-bottom: 40px;
     }
     
-    section.team > div.is-ancestor p.title {
+    section#team > div.is-ancestor p.title {
         position: fixed;
+        text-align: center;
         top: 20px;
         width: 100%;
         display: block;
-        font-size: calc(8 * 0.5625 * 1vw);
+        font-size: 1em;;
     }
     
-    section.team > div.is-ancestor h2.team-subtitle {
+    section#team > div.is-ancestor h2.team-subtitle {
         position: relative;
         margin-top: -10px;
         bottom: calc(-10% + (10) * 0.5625 * -1vw);
         width: 90%;
     } 
+    
+    section#team {
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 1023px) {
