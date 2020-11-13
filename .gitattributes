@@ -1,11 +1,11 @@
-_sass/* linguist-vendored
-_site/* linguist-generated
-.jekyl-cache/* linguist-generated
+_sass/**/* linguist-vendored
+_site/**/* linguist-generated
+.jekyl-cache/**/* linguist-generated
 .vscode/* linguist-generated
 .vs/* linguist-generated
-.VSCodeCounter/* linguist-generated
+.VSCodeCounter/***/* linguist-generated
 .css.backup/* linguist-vendored
-coverage/* linguist-generated
+coverage/***/* linguist-generated
 assets/css/brands.scss linguist-vendored
 assets/css/bulma.scss linguist-vendored
 assets/css/fontawesome.scss linguist-vendored
