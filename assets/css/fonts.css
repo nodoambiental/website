@@ -1,26 +1,114 @@
 @font-face {
-  font-family: "Poppins";
-  src: local("Poppins Italic"), local("Poppins-Italic"), url("./fonts/poppins/Poppins-Italic.woff2") format("woff2"), url("./fonts/poppins/Poppins-Italic.woff") format("woff");
-  font-weight: normal;
+  font-family: "Sarabun";
+  src: local("Sarabun ExtraBold Italic"), local("Sarabun-ExtraBoldItalic"), url("/assets/css/fonts/sarabun/subset-Sarabun-ExtraBoldItalic.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url("./fonts/poppins/Poppins-BoldItalic.woff2") format("woff2"), url("./fonts/poppins/Poppins-BoldItalic.woff") format("woff");
+  font-family: "Sarabun";
+  src: local("Sarabun ExtraBold"), local("Sarabun-ExtraBold"), url("/assets/css/fonts/sarabun/subset-Sarabun-ExtraBold.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun Bold Italic"), local("Sarabun-BoldItalic"), url("/assets/css/fonts/sarabun/subset-Sarabun-BoldItalic.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("Poppins Regular"), local("Poppins-Regular"), url("./fonts/poppins/Poppins-Regular.woff2") format("woff2"), url("./fonts/poppins/Poppins-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Poppins";
-  src: local("Poppins Bold"), local("Poppins-Bold"), url("./fonts/poppins/Poppins-Bold.woff2") format("woff2"), url("./fonts/poppins/Poppins-Bold.woff") format("woff");
+  font-family: "Sarabun";
+  src: local("Sarabun Bold"), local("Sarabun-Bold"), url("/assets/css/fonts/sarabun/subset-Sarabun-Bold.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun SemiBold Italic"), local("Sarabun-SemiBoldItalic"), url("/assets/css/fonts/sarabun/subset-Sarabun-SemiBoldItalic.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun SemiBold"), local("Sarabun-SemiBold"), url("/assets/css/fonts/sarabun/subset-Sarabun-SemiBold.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun Regular"), local("Sarabun-Regular"), url("/assets/css/fonts/sarabun/subset-Sarabun-Regular.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun Medium"), local("Sarabun-Medium"), url("/assets/css/fonts/sarabun/subset-Sarabun-Medium.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun Italic"), local("Sarabun-Italic"), url("/assets/css/fonts/sarabun/subset-Sarabun-Italic.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun Medium Italic"), local("Sarabun-MediumItalic"), url("/assets/css/fonts/sarabun/subset-Sarabun-MediumItalic.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun ExtraLight Italic"), local("Sarabun-ExtraLightItalic"), url("/assets/css/fonts/sarabun/subset-Sarabun-ExtraLightItalic.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun Light"), local("Sarabun-Light"), url("/assets/css/fonts/sarabun/subset-Sarabun-Light.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun Light Italic"), local("Sarabun-LightItalic"), url("/assets/css/fonts/sarabun/subset-Sarabun-LightItalic.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun Thin Italic"), local("Sarabun-ThinItalic"), url("/assets/css/fonts/sarabun/subset-Sarabun-ThinItalic.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun ExtraLight"), local("Sarabun-ExtraLight"), url("/assets/css/fonts/sarabun/subset-Sarabun-ExtraLight.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun Thin"), local("Sarabun-Thin"), url("/assets/css/fonts/sarabun/subset-Sarabun-Thin.woff2") format("woff2"), url("/assets/css/fonts/sarabun/subset-Sarabun-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "CC demo";

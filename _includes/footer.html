@@ -49,7 +49,10 @@
                 {% if forloop.index0 == 0 %}
                     <br />
                     {% for item in social %}
-                        <a href="{{item.element[1].link}}"><i class="fab fa-{{item.element[0].icon}} footer-social"></i></a>
+                        {% capture svglocation %}font-awesome/brands/{{item.element[0].icon}}.svg{% endcapture %}
+                        <a class="footer-social" href="{{item.element[1].link}}">
+                           {% include {{svglocation}} %}
+                        </a>
                     {% endfor %}
                 {% endif %}
             </div>
