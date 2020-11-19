@@ -59,9 +59,6 @@ jekyll-archives:
 tag_page_layout: tag_page
 tag_page_dir: tag
 
-sass:
-  style: compressed
-
 collections:
     surveys:
       output: true
@@ -75,14 +72,26 @@ collections:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .jekyll-cache/
+  - _site/
+  - .css.backup/
+  - .vs/
+  - .vscode/
+  - .VSCodeCounter/
+  - coverage/
+  - node_modules/
+  - sass/
+  - Gemfile
+  - Gemfile.lock
+  - .drone.yml
+  - .gitignore
+  - .gitattributes
+  - .markdownlint.jsonc
+  - .Rhistory
+  - .todo
+  - es_jekyll-testing.sh
+  - LICENSE
+  - README.html
+  - README.md
+  - gulpfile.js
