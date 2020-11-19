@@ -11,7 +11,8 @@
                         <div class="media">
                             <div class="media-left">
                                 <figure>
-                                    <i class="fas fa-{{ project.icon }}"></i>
+                                    {% capture svglocation %}font-awesome/solid/{{project.icon}}.svg{% endcapture %}
+                                    {% include {{svglocation}} %}
                                 </figure>
                             </div>
                             <div class="media-content">

@@ -17,7 +17,6 @@
 
 @import "./vendor/bourbon";
 @import "./vendor/bulma";
-@import "./vendor/fontawesome";
 @import "./vendor/solid";
 @import "./vendor/brands";
 
@@ -31,6 +30,7 @@ $background-primary-highlight-soft: #F2F2F2;
 $accent-primary: #EB6113;
 $accent-primary-darkened: #CF4B00;
 $accent-logo: #090;
+$light-text: #252525;
 $light-text-high-contrast: #000;
 
 $transition-duration-primary: 400ms;
@@ -103,6 +103,11 @@ body {
 	background-attachment: fixed;
 	font-family: "Sarabun", Arial, Helvetica, sans-serif;
 }
+
+.title {
+	color: $light-text;
+}
+
 h2 {
 	font-size: 120%;
 	width: 100%;
@@ -203,21 +208,21 @@ h2 {
 		margin-bottom: 20px;
 		font-size: 140%;
 		&:after {
-			font-family: "Font Awesome 5 Free";
-			font-weight: 900;
-			content: "\f078";
-			font-size: 30px;
-			color: $light-primary-highlight;
+			@include triangle("down", 1.6rem, 1rem, $light-primary-highlight);
+			content: "";
 			float: right;
 			margin-left: 5px;
+			margin-top: 10px;
 		}
 	}
 	.active {
 		background-color: $light-secondary;
 		&:after {
-			font-family: "Font Awesome 5 Free";
-			font-weight: 900;
-			content: "\f077";
+			@include triangle("up", 1.6rem, 1rem, $light-primary-highlight);
+			content: "";
+			float: right;
+			margin-left: 5px;
+			margin-top: 5px;
 		}
 	}
 	.panel {
@@ -411,6 +416,8 @@ section#services {
 	>div.is-ancestor {
 		figure {
 			margin-top: 0;
+			width: 2.8em;
+			fill: $dark-primary;
 		}
 	}
 	h2 {
@@ -428,9 +435,6 @@ section#services {
 			@include transition-primary-short;
 			overflow-x: hidden;
 			padding-top: 0;
-			&:hover {
-				font-size: 1.8em;
-			}
 		}
 		p.subtitle {
 			font-size: 1em;
@@ -450,6 +454,10 @@ section#projects {
 	.tile {
 		article {
 			border-radius: $border-radius-primary;
+			& figure {
+				width: 2.8em;
+				fill: $dark-primary;
+			}
 		}
 	}
 	div.tile {
