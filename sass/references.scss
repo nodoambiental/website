@@ -1,0 +1,47 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+/* References */
+.references {
+	width: 90%;
+	margin: auto;
+	button.expandable_card {
+		background: none;
+		border: none;
+		width: 100%;
+	}
+}
+ol.bibliography {
+	background-color: #eee;
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 30px;
+	margin-left: 0;
+	li {
+		&::marker {
+			color: #eb6113;
+		}
+		span {
+			i {
+				font-size: 1em;
+			}
+		}
+	}
+}
+.citation {
+	color: #eb6113;
+	font-size: 0.9em;
+	font-variant: small-caps;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+	&:hover {
+		font-style: italic;
+		color: #eb6113;
+		font-size: 0.95em;
+		border-bottom: 1px dashed #999;
+	}
+}
