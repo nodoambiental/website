@@ -123,6 +123,11 @@ async function WatchStyleLint() {
 
 exports.watch = parallel(
   WatchSASS,
+  WatchJekyll
+);
+
+exports["watch-plus-lint"] = parallel(
+  WatchSASS,
   WatchJekyll,
   WatchStyleLint
 );
