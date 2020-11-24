@@ -15,8 +15,56 @@
 			"height"
         ],    
         "at-rule-no-unknown": null,
+        "scss/at-extend-no-missing-placeholder": true,
+        "scss/at-function-named-arguments": "never",
+        "scss/at-function-pattern": "/^([a-zA-Z0-9])+$/",
+        "scss/at-function-parentheses-space-before": "never",
+        "scss/at-if-no-null": true,
+        "scss/at-import-partial-extension": "never",
+        "scss/at-import-no-partial-leading-underscore": true,
+        "scss/at-mixin-argumentless-call-parentheses": "never",
+        "scss/at-mixin-pattern": "/^([a-z0-9-])+$/",
+        "scss/at-mixin-parentheses-space-before": "always",
         "scss/at-rule-no-unknown": true,
+        "scss/comment-no-empty": true,
+        "scss/dollar-variable-colon-space-before": "never",
+        "scss/dollar-variable-no-missing-interpolation": true,
+        "scss/dollar-variable-pattern": "/^([a-z0-9-])+$/",
+        "scss/dollar-variable-default": [
+            true,
+            {
+                "ignore": "local"
+            }
+        ],
+        "sscs/declaration-nested-properties": "always",
+        "scss/declaration-nested-properties-no-divided-groups": true,
+        "scss/dimension-no-non-numeric-values": true,
+        "scss/double-slash-comment-empty-line-before": [
+            "always",
+            {
+                "except": [
+                    "first-nested"
+                ],
+                "ignore": [
+                    "between-comments", 
+                    "stylelint-commands"
+                ]
+            }
+        ],
+        "scss/function-color-relative": true,
+        "scss/function-quote-no-quoted-strings-inside": true,
+        "scss/function-unquote-no-unquoted-strings-inside": true,
+        "scss/operator-no-newline-after": true,
+        "scss/operator-no-newline-before": true,
+        "scss/operator-no-unspaced": true,
+        "scss/partial-no-import": true,
+        "scss/percent-placeholder-pattern": "/^(([a-z0-9-]+)(\\{2})*)+$/",
+        "scss/selector-nest-combinators": "always",
         "scss/selector-no-redundant-nesting-selector": true,
+        "scss/selector-no-union-class-name": true,
+        "scss/no-duplicate-dollar-variables": true,
+        "scss/no-duplicate-mixins": true,
+        "scss/no-global-function-names": true,
         "prettier/prettier": true
 	}
   }
