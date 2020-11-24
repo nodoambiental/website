@@ -1,8 +1,7 @@
-const { series, parallel, watch } = require("gulp");
+const { parallel, watch } = require("gulp");
 const { spawn } = require("child_process");
 const chalk = require("chalk");
-const { stderr, stdout, emit } = require("process");
-const { write } = require("fs");
+const { stderr, stdout } = require("process");
 
 chalk.level = 3;
 
@@ -96,10 +95,8 @@ async function ExecStyleLint() {
   return controller;
 }
 
-exports.watch = parallel(
-  WatchSASS,
-  WatchJekyll,
-  function WatchStyleLint() {watch(
+async function WatchStyleLint() {
+  watch(
     [
       "sass/*.scss",
       "sass/partials/*.scss",
@@ -113,10 +110,19 @@ exports.watch = parallel(
       ],
       ignoreInitial: false,
     },
+    // Named this weird way (one being ExecStyleLint and the other StyleLint) so it shows something understandable in stdout
     function StyleLint(done) {
       ExecStyleLint().then(
-        done() // Required to avoid it dying after first execution
+        // Required to avoid it dying after first execution
+        // https://github.com/gulpjs/gulp/issues/1784#issuecomment-360860442
+        done()
       );
     }
-  )}
+  )
+};
+
+exports.watch = parallel(
+  WatchSASS,
+  WatchJekyll,
+  WatchStyleLint
 );
