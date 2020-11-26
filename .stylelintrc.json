@@ -1,5 +1,9 @@
 {
-    "extends": "stylelint-config-sass-guidelines",
+    "extends": [
+        "stylelint-config-sass-guidelines",
+        "stylelint-prettier/recommended",
+        "stylelint-config-prettier"
+    ],
     "plugins": [
 		"stylelint-order",
         "stylelint-scss",
@@ -9,11 +13,9 @@
 		"order/order": [
 			"custom-properties",
 			"declarations"
-		],
-		"order/properties-order": [
-			"width",
-			"height"
-        ],    
+        ],
+        "max-nesting-depth": 20,
+        "selector-max-compound-selectors": null,
         "at-rule-no-unknown": null,
         "scss/at-extend-no-missing-placeholder": true,
         "scss/at-function-named-arguments": "never",
@@ -24,7 +26,7 @@
         "scss/at-import-no-partial-leading-underscore": true,
         "scss/at-mixin-argumentless-call-parentheses": "never",
         "scss/at-mixin-pattern": "^([a-z0-9-])+$",
-        "scss/at-mixin-parentheses-space-before": "always",
+        "scss/at-mixin-parentheses-space-before": "never",
         "scss/at-rule-no-unknown": true,
         "scss/comment-no-empty": true,
         "scss/dollar-variable-colon-space-before": "never",
@@ -36,7 +38,6 @@
                 "ignore": "local"
             }
         ],
-        "sscs/declaration-nested-properties": "always",
         "scss/declaration-nested-properties-no-divided-groups": true,
         "scss/dimension-no-non-numeric-values": true,
         "scss/double-slash-comment-empty-line-before": [
@@ -58,14 +59,13 @@
         "scss/operator-no-newline-before": true,
         "scss/operator-no-unspaced": true,
         "scss/partial-no-import": true,
-        "scss/percent-placeholder-pattern": "^(([a-z0-9-]+)(\\{1})*)+$",
+        "scss/percent-placeholder-pattern": "^(([a-z0-9-]+)(_{1})*)+$",
         "scss/selector-nest-combinators": "always",
         "scss/selector-no-redundant-nesting-selector": true,
         "scss/selector-no-union-class-name": true,
         "scss/no-duplicate-dollar-variables": true,
         "scss/no-duplicate-mixins": true,
-        "scss/no-global-function-names": true,
-        "prettier/prettier": true
+        "scss/no-global-function-names": true
 	}
   }
   
