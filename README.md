@@ -1,7 +1,5 @@
 
 # Portal-jekyll 
-#### _Deprecated_  |  Vea [el nuevo repositorio](https://github.com/nodoambiental/website)
----
 
 Portal de Nodo Ambiental 2019 en Jekyll.
 
@@ -857,13 +855,13 @@ Genera pares de colores dentro de una paleta determinada y asigna una gradiente 
 
 Este sitio depende de:
 
-* Bulma v0.7.5
-* AnimeJS v3.1.0
-* JQuery v3.4.1
-* Modernizr v3.6.0
-* Lunr v2.3.8
-* Waypoints v4.0.1
-* Jekyll v4.0.0 (subdependencias figuran en `Gemfile`)
+* Bulma
+* AnimeJS
+* JQuery
+* Modernizr
+* Lunr
+* Waypoints
+* Jekyll
 
 ## Hacia delante
 
