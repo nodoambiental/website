@@ -1,5 +1,6 @@
 @use 'sass:math';
 @use 'sass:string';
+@use 'sass:list';
 @use '../vendor/bourbon' as bourbon;
 @use 'variables' as *;
 
@@ -39,6 +40,23 @@
 @mixin translate($axis, $value) {
   $processed-value: string.unquote("translate#{$axis}(#{$value})");
   @include bourbon.prefixer(transform, $processed-value, ("webkit", "ms"));
+}
+@mixin reset-transform($transforms...) {
+  @each $transform in $transforms {
+    @if $transform == list.nth($transforms, 1) {
+      $transform-resetter: string.unquote("#{$transform}(0)") !global;
+    } @else if $transform == list.nth($transforms, -1) {
+      @include bourbon.prefixer(
+        transform,
+        $transform-resetter,
+        ("webkit", "ms")
+      );
+    } @else {
+      $transform-resetter: string.unquote(
+        "#{$transform-resetter} #{$transform}(0)"
+      ) !global;
+    }
+  }
 }
 @function proportionalText($percentage) {
   $stripped-percentage: bourbon.strip-unit($percentage);

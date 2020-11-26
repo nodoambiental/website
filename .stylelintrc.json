@@ -15,7 +15,11 @@
 			"declarations"
         ],
         "max-nesting-depth": 20,
+        "selector-max-id": 1,
         "selector-max-compound-selectors": null,
+        "selector-no-qualifying-type": [true, {
+            "ignore": ["id"]
+        }],
         "at-rule-no-unknown": null,
         "scss/at-extend-no-missing-placeholder": true,
         "scss/at-function-named-arguments": "never",
@@ -35,7 +39,7 @@
         "scss/dollar-variable-default": [
             true,
             {
-                "ignore": "local"
+                "ignore": ["local"]
             }
         ],
         "scss/declaration-nested-properties-no-divided-groups": true,

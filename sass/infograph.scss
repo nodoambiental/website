@@ -1,9 +1,7 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
+// TODO Reemplazar harcoded values por variables
+// TODO Reemplazar funciones directas por helpers
+
+// ? Que diferencia hay entre .info e .infograph?
 .info {
   background-color: #eee;
   border-radius: 20px;
@@ -19,11 +17,11 @@
   img {
     border-radius: 20px;
     box-shadow: 0 0 0 0.5em #eee;
-    box-shadow: 0 0 0 0.5em #eee;
     width: 100%;
   }
 }
 
+// ? Esto es hijo de .infograph?
 .infograph-text {
   p {
     margin-top: 25%;
@@ -31,6 +29,8 @@
     text-align: center;
   }
 }
+
+// TODO Mover a @media
 @media screen and (max-width: 400px) {
   .info {
     background: none;
@@ -42,7 +42,6 @@
 
   .infograph {
     img {
-      box-shadow: none;
       box-shadow: none;
     }
   }
@@ -70,7 +69,6 @@
       background-color: #eee;
       border-radius: 20px;
       box-shadow: 0 0 0 0.5em #eee;
-      box-shadow: 0 0 0 0.5em #eee;
       margin-top: 20px;
       width: 100%;
     }
@@ -88,7 +86,6 @@
   .infograph {
     img {
       box-shadow: none;
-      box-shadow: none;
     }
   }
 
@@ -102,8 +99,10 @@
     }
   }
 
-  hr.divider {
-    border: none;
+  hr {
+    .divider {
+      border: 0;
+    }
   }
 }
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
@@ -118,7 +117,6 @@
   .infograph {
     img {
       box-shadow: none;
-      box-shadow: none;
     }
   }
 
@@ -130,14 +128,14 @@
       position: relative;
       top: 50%;
       transform: translateY(-50%);
-      transform: translateY(-50%);
-      transform: translateY(-50%);
       width: 100%;
     }
   }
 
-  hr.divider {
-    border: none;
+  hr {
+    .divider {
+      border: 0;
+    }
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -148,18 +146,21 @@
     margin-top: calc(-0.5625 * 10vw + 130px);
     width: 100ch;
 
-    .tile.is-ancestor {
-      margin: 0;
+    .tile {
+      .is-ancestor {
+        margin: 0;
+      }
     }
 
-    .tile.is-child {
-      width: 500px;
+    .tile {
+      .is-child {
+        width: 500px;
+      }
     }
   }
 
   .infograph {
     img {
-      box-shadow: none;
       box-shadow: none;
     }
   }
@@ -171,13 +172,13 @@
       position: relative;
       top: 50%;
       transform: translateY(-50%);
-      transform: translateY(-50%);
-      transform: translateY(-50%);
       width: 90%;
     }
   }
 
-  hr.divider {
-    border: none;
+  hr {
+    .divider {
+      border: 0;
+    }
   }
 }

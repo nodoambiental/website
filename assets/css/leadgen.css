@@ -1,16 +1,10 @@
 @charset "UTF-8";
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
 /* Checkbox from https://www.appitventures.com/blog/styling-checkbox-css-tips */
 form {
   margin: auto;
 }
 
-.form.js {
+.form .js {
   display: none;
 }
 
@@ -26,17 +20,16 @@ label:not(.checkbox-label)::before {
   content: ">>> ";
   font-weight: 100;
 }
-
-label[for=subscribe] {
+label [for=subscribe] {
   display: inline;
   margin: auto;
   padding: 20px;
   text-align: center;
 }
-label[for=subscribe]::after {
+label [for=subscribe]::after {
   content: "";
 }
-label[for=subscribe]::before {
+label [for=subscribe]::before {
   content: "";
 }
 
@@ -69,8 +62,6 @@ label[for=subscribe]::before {
   height: 40px;
   opacity: 1;
   transform: translateX(-25px) translateY(-30px) scale(1);
-  transform: translateX(-25px) translateY(-30px) scale(1);
-  transform: translateX(-25px) translateY(-30px) scale(1);
   width: 40px;
 }
 .checkbox-label input:checked ~ .checkbox-custom::after {
@@ -87,8 +78,6 @@ label[for=subscribe]::before {
   top: 25px;
   top: 5px;
   transform: scale(1) translateX(-5px) translateY(-5px);
-  transform: scale(1) translateX(-5px) translateY(-5px);
-  transform: scale(1) translateX(-5px) translateY(-5px);
   width: 0;
   width: 35px;
 }
@@ -99,12 +88,6 @@ label[for=subscribe]::before {
   opacity: 0;
   top: -3px;
   transform: scale(3);
-  transform: scale(3);
-  transform: scale(3);
-  transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   width: 40px;
   z-index: 999;
@@ -118,12 +101,6 @@ label[for=subscribe]::before {
   position: absolute;
   top: 20px;
   transform: translateX(-15px) translateY(-20px) scale(1);
-  transform: translateX(-15px) translateY(-20px) scale(1);
-  transform: translateX(-15px) translateY(-20px) scale(1);
-  transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   width: 20px;
 }
@@ -140,12 +117,6 @@ label[for=subscribe]::before {
   position: absolute;
   top: 10px;
   transform: rotate(0deg) scale(0);
-  transform: rotate(0deg) scale(0);
-  transform: rotate(0deg) scale(0);
-  transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   width: 10px;
 }
@@ -158,54 +129,34 @@ label[for=subscribe]::before {
   position: absolute;
   top: 10px;
   transform: scale(0);
-  transform: scale(0);
-  transform: scale(0);
   width: 0;
 }
 
-input[type=button] {
+input [type=button] {
   background-color: #fff;
   border: 2px solid #ccc;
   border-radius: 5px;
   margin: auto;
   padding: 5px;
   transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
 }
-input[type=button]:hover {
+input [type=button]:hover {
   background-color: #cf4b00;
   color: #fff;
   cursor: pointer;
   padding: 10px;
 }
-
-input[type=text] {
+input [type=text],
+input [type=email] {
   border: 2px solid #ccc;
   border-radius: 5px;
   margin: auto;
   padding: 5px;
   transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
   width: 90%;
 }
-input[type=text]:focus {
-  background-color: #cf4b00;
-  color: #fff;
-  padding: 10px;
-}
-
-input[type=email] {
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  width: 90%;
-}
-input[type=email]:focus {
+input [type=text]:focus,
+input [type=email]:focus {
   background-color: #cf4b00;
   color: #fff;
   padding: 10px;
@@ -215,8 +166,6 @@ textarea {
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
   transition-duration: 400ms;
   width: 90%;
 }
@@ -234,11 +183,8 @@ textarea:focus {
     width: 66ch;
   }
 
-  input[type=email] {
-    width: 66ch;
-  }
-
-  input[type=text] {
+  input [type=email],
+input [type=text] {
     width: 66ch;
   }
 
@@ -250,10 +196,10 @@ textarea:focus {
     text-align: left;
   }
 
-  section.form p {
+  section .form p {
     margin: auto !important;
   }
-  > section.form:first-child {
+  > section .form:first-child {
     margin-bottom: 30px;
     position: relative;
     width: 66ch;
@@ -269,11 +215,8 @@ textarea:focus {
     width: 66ch;
   }
 
-  input[type=email] {
-    width: 66ch;
-  }
-
-  input[type=text] {
+  input [type=email],
+input [type=text] {
     width: 66ch;
   }
 
@@ -285,10 +228,10 @@ textarea:focus {
     text-align: left;
   }
 
-  section.form p {
+  section .form p {
     margin: auto !important;
   }
-  > section.form:first-child {
+  > section .form:first-child {
     margin-bottom: 30px;
     position: relative;
     width: 66ch;
@@ -304,11 +247,8 @@ textarea:focus {
     width: 66ch;
   }
 
-  input[type=email] {
-    width: 66ch;
-  }
-
-  input[type=text] {
+  input [type=email],
+input [type=text] {
     width: 66ch;
   }
 
@@ -320,10 +260,10 @@ textarea:focus {
     text-align: left;
   }
 
-  section.form p {
+  section .form p {
     margin: auto !important;
   }
-  > section.form:first-child {
+  > section .form:first-child {
     margin-bottom: 30px;
     position: relative;
     width: 66ch;
@@ -339,7 +279,7 @@ textarea:focus {
     padding: 10%;
   }
 
-  div.spacer {
+  div .spacer {
     display: block;
     height: calc(0.5625 * 45vw);
     margin-top: 110px;
@@ -351,11 +291,8 @@ textarea:focus {
     width: 66ch;
   }
 
-  input[type=email] {
-    width: 66ch;
-  }
-
-  input[type=text] {
+  input [type=email],
+input [type=text] {
     width: 66ch;
   }
 
@@ -367,10 +304,10 @@ textarea:focus {
     text-align: left;
   }
 
-  section.form p {
+  section .form p {
     margin: auto !important;
   }
-  > section.form:first-child {
+  > section .form:first-child {
     margin-bottom: 30px;
     position: relative;
     width: 66ch;
@@ -386,7 +323,7 @@ textarea:focus {
     padding: 10%;
   }
 
-  div.spacer {
+  div .spacer {
     display: block;
     height: calc(0.5625 * 45vw);
     margin-top: 110px;
@@ -398,11 +335,8 @@ textarea:focus {
     width: 70%;
   }
 
-  input[type=email] {
-    width: 70%;
-  }
-
-  input[type=text] {
+  input [type=email],
+input [type=text] {
     width: 70%;
   }
 
@@ -414,7 +348,7 @@ textarea:focus {
     text-align: left;
   }
 
-  > section.form:first-child {
+  > section .form:first-child {
     margin-bottom: 30px;
     position: relative;
     width: 80%;
@@ -426,12 +360,12 @@ textarea:focus {
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 600px) {
-  h2.main-title {
+  h2 .main-title {
     margin-bottom: 30px;
     margin-top: -10px;
   }
 
-  div.spacer {
+  div .spacer {
     display: block;
     height: calc(0.5625 * 45vw);
     margin-top: 110px;
@@ -443,11 +377,8 @@ textarea:focus {
     width: 90%;
   }
 
-  input[type=email] {
-    width: 90%;
-  }
-
-  input[type=text] {
+  input [type=email],
+input [type=text] {
     width: 90%;
   }
 
@@ -459,7 +390,7 @@ textarea:focus {
     text-align: left;
   }
 
-  > section.form:first-child {
+  > section .form:first-child {
     left: -30px;
     margin-bottom: 30px;
     position: relative;
@@ -480,17 +411,17 @@ textarea:focus {
     position: relative;
     top: 45px;
   }
-  #leadgen-form > .checkbox-container > div.input-title {
+  #leadgen-form > .checkbox-container > div .input-title {
     left: 5%;
     position: relative;
     text-align: center;
     width: 75%;
   }
-  > #leadgen-form:nth-child(6) span.checkbox-custom {
+  > #leadgen-form:nth-child(6) span .checkbox-custom {
     left: 20px;
     top: 1px;
   }
-  > #leadgen-form:nth-child(7) span.checkbox-custom {
+  > #leadgen-form:nth-child(7) span .checkbox-custom {
     left: 20px;
     top: 0.5em;
   }
@@ -499,17 +430,17 @@ textarea:focus {
     margin-top: 20px;
   }
 
-  div.share-social div.is-child > a > img {
+  div .share-social div .is-child > a > img {
     width: calc(0.5625 * 15vw);
   }
 }
 @media only screen and (max-width: 400px) {
-  h2.main-title {
+  h2 .main-title {
     margin-bottom: 30px;
     margin-top: -10px;
   }
 
-  div.spacer {
+  div .spacer {
     display: block;
     height: 100px;
     margin-top: 110px;
@@ -521,11 +452,8 @@ textarea:focus {
     width: 90%;
   }
 
-  input[type=email] {
-    width: 90%;
-  }
-
-  input[type=text] {
+  input [type=email],
+input [type=text] {
     width: 90%;
   }
 
@@ -537,7 +465,7 @@ textarea:focus {
     text-align: left;
   }
 
-  > section.form:first-child {
+  > section .form:first-child {
     left: -30px;
     position: relative;
     width: 100%;
@@ -547,18 +475,18 @@ textarea:focus {
     left: 0;
     position: relative;
   }
-  > #leadgen-form:nth-child(6) span.checkbox-custom {
+  > #leadgen-form:nth-child(6) span .checkbox-custom {
     left: 150px;
     top: 45px;
   }
-  > #leadgen-form:nth-child(7) span.checkbox-custom {
+  > #leadgen-form:nth-child(7) span .checkbox-custom {
     left: 150px;
     top: calc(45px + 0.5em);
   }
   #leadgen-form > .checkbox-container {
     margin: auto;
   }
-  #leadgen-form > .checkbox-container > div.input-title {
+  #leadgen-form > .checkbox-container > div .input-title {
     width: 90%;
   }
 
@@ -566,7 +494,7 @@ textarea:focus {
     margin-top: 20px;
   }
 
-  div.share-social div.is-child > a > img {
+  div .share-social div .is-child > a > img {
     width: calc(0.5625 * 15vw);
   }
 }

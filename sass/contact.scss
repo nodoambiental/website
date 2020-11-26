@@ -1,13 +1,18 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
+// TODO Reemplazar valores por variables
+
+/* Lib */
+@use 'vendor/bourbon' as bourbon;
+
+/* Partials */
+@use 'partials/variables' as *;
+@use 'partials/components' as *;
+@use 'partials/helpers' as helpers;
+
 form {
   margin: auto;
 }
 
+// TODO Convertir en componentes genericos para formulario y extender aqui
 label {
   display: block;
   margin: auto;
@@ -17,98 +22,91 @@ label {
 
   &::after {
     color: #cf4b00;
-    content: ':';
+    content: ":";
     font-weight: 900;
     text-align: left;
   }
 
   &::before {
     color: #cf4b00;
-    content: '>>> ';
+    content: ">>> ";
     font-weight: 100;
   }
 }
-
-label[for='subscribe'] {
-  display: inline;
-  margin: auto;
-  padding: 20px;
-  text-align: center;
-
-  &::after {
-    content: '';
-  }
-
-  &::before {
-    content: '';
-  }
-}
-
-input[type='submit'] {
-  background-color: #fff;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  margin: auto;
-  padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-
-  &:hover {
-    background-color: #cf4b00;
-    color: #fff;
-    cursor: pointer;
-    padding: 10px;
+label {
+  [for="subscribe"] {
+    display: inline;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    &::after {
+      content: "";
+    }
+    &::before {
+      content: "";
+    }
   }
 }
+input {
+  [type="submit"] {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    @include helpers.transition-primary;
 
-input[type='text'] {
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  margin: auto;
-  padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  width: 90%;
-
-  &:focus {
-    background-color: #cf4b00;
-    color: #fff;
-    padding: 10px;
+    &:hover {
+      background-color: #cf4b00;
+      color: #fff;
+      cursor: pointer;
+      padding: 10px;
+    }
   }
 }
-
-input[type='email'] {
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  width: 90%;
-
-  &:focus {
-    background-color: #cf4b00;
-    color: #fff;
-    padding: 10px;
+input {
+  [type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    width: 90%;
+    @include helpers.transition-primary;
+    &:focus {
+      background-color: #cf4b00;
+      color: #fff;
+      padding: 10px;
+    }
   }
 }
-
+input {
+  [type="email"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+    @include helpers.transition-primary;
+    &:focus {
+      background-color: #cf4b00;
+      color: #fff;
+      padding: 10px;
+    }
+  }
+}
 textarea {
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
   width: 90%;
+  @include helpers.transition-primary;
 
   &:focus {
     border: 3px solid #cf4b00;
     padding: 10px;
   }
 }
+
+// TODO Mover a @media
 @media only screen and (min-width: 780px) {
   .content {
     padding: 10%;
@@ -119,12 +117,16 @@ textarea {
     width: 80%;
   }
 
-  input[type='email'] {
-    width: 80%;
+  input {
+    [type="email"] {
+      width: 80%;
+    }
   }
 
-  input[type='text'] {
-    width: 80%;
+  input {
+    [type="text"] {
+      width: 80%;
+    }
   }
 }
 @media only screen and (min-width: 1366px) {
@@ -132,12 +134,16 @@ textarea {
     width: 70%;
   }
 
-  input[type='email'] {
-    width: 70%;
+  input {
+    [type="email"] {
+      width: 70%;
+    }
   }
 
-  input[type='text'] {
-    width: 70%;
+  input {
+    [type="text"] {
+      width: 70%;
+    }
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -145,11 +151,15 @@ textarea {
     width: 60%;
   }
 
-  input[type='email'] {
-    width: 60%;
+  input {
+    [type="email"] {
+      width: 60%;
+    }
   }
 
-  input[type='text'] {
-    width: 60%;
+  input {
+    [type="text"] {
+      width: 60%;
+    }
   }
 }

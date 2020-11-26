@@ -1,9 +1,21 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
+@keyframes animations_main-title {
+  0% {
+    opacity: inherit;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes animations_main-title {
+  0% {
+    opacity: inherit;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Lib */
+/* Partials */
 form {
   margin: auto;
 }
@@ -27,62 +39,68 @@ label::before {
   font-weight: 100;
 }
 
-label[for=subscribe] {
+label [for=subscribe] {
   display: inline;
   margin: auto;
   padding: 20px;
   text-align: center;
 }
-label[for=subscribe]::after {
+label [for=subscribe]::after {
   content: "";
 }
-label[for=subscribe]::before {
+label [for=subscribe]::before {
   content: "";
 }
 
-input[type=submit] {
+input [type=submit] {
   background-color: #fff;
   border: 2px solid #ccc;
   border-radius: 5px;
   margin: auto;
   padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
+  -ms-transition-duration: 400ms;
+  -moz-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-input[type=submit]:hover {
+input [type=submit]:hover {
   background-color: #cf4b00;
   color: #fff;
   cursor: pointer;
   padding: 10px;
 }
 
-input[type=text] {
+input [type=text] {
   border: 2px solid #ccc;
   border-radius: 5px;
   margin: auto;
   padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
   width: 90%;
+  -ms-transition-duration: 400ms;
+  -moz-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  transition-duration: 400ms;
 }
-input[type=text]:focus {
+input [type=text]:focus {
   background-color: #cf4b00;
   color: #fff;
   padding: 10px;
 }
 
-input[type=email] {
+input [type=email] {
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
   width: 90%;
+  -ms-transition-duration: 400ms;
+  -moz-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  transition-duration: 400ms;
 }
-input[type=email]:focus {
+input [type=email]:focus {
   background-color: #cf4b00;
   color: #fff;
   padding: 10px;
@@ -92,10 +110,12 @@ textarea {
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
   width: 90%;
+  -ms-transition-duration: 400ms;
+  -moz-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  transition-duration: 400ms;
 }
 textarea:focus {
   border: 3px solid #cf4b00;
@@ -112,11 +132,11 @@ textarea:focus {
     width: 80%;
   }
 
-  input[type=email] {
+  input [type=email] {
     width: 80%;
   }
 
-  input[type=text] {
+  input [type=text] {
     width: 80%;
   }
 }
@@ -125,11 +145,11 @@ textarea:focus {
     width: 70%;
   }
 
-  input[type=email] {
+  input [type=email] {
     width: 70%;
   }
 
-  input[type=text] {
+  input [type=text] {
     width: 70%;
   }
 }
@@ -138,11 +158,11 @@ textarea:focus {
     width: 60%;
   }
 
-  input[type=email] {
+  input [type=email] {
     width: 60%;
   }
 
-  input[type=text] {
+  input [type=text] {
     width: 60%;
   }
 }

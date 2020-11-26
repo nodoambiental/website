@@ -1,3 +1,5 @@
+// TODO Reemplazar valores por variables
+
 // TODO Reemplazar por @extends modificando la tarjeta basica
 section {
   .services {
@@ -6,6 +8,7 @@ section {
         padding: 10px;
       }
       .is-child {
+        // This is to override Bulma declarations (which are !important too)
         margin: 10px !important;
       }
     }

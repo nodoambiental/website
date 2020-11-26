@@ -1,6 +1,6 @@
-button.expandable_card {
+button .expandable_card {
   background-color: #ccc;
-  border: none;
+  border: 0;
   border-radius: 10px;
   margin-bottom: 15px;
   width: 100%;
@@ -22,7 +22,7 @@ button.expandable_card {
   top: 50%;
 }
 
-div.is-card i.project-accordion-icon {
+div .is-card i .project-accordion-icon {
   color: #666;
   font-size: 1em;
   margin-right: 10px;

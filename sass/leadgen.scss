@@ -1,16 +1,16 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
+// TODO Reemplazar hardcoded values por variables
+// TODO Reemplazar partes por extensiones de elementos base
 /* Checkbox from https://www.appitventures.com/blog/styling-checkbox-css-tips */
+
 form {
   margin: auto;
 }
 
-.form.js {
-  display: none;
+// ? Por que la diferencia entre form y .form, que representa cada uno?
+.form {
+  .js {
+    display: none;
+  }
 }
 
 label {
@@ -23,24 +23,21 @@ label {
 
     &::before {
       color: #cf4b00;
-      content: '>>> ';
+      content: ">>> ";
       font-weight: 100;
     }
   }
-}
-
-label[for='subscribe'] {
-  display: inline;
-  margin: auto;
-  padding: 20px;
-  text-align: center;
-
-  &::after {
-    content: '';
-  }
-
-  &::before {
-    content: '';
+  [for="subscribe"] {
+    display: inline;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    &::after {
+      content: "";
+    }
+    &::before {
+      content: "";
+    }
   }
 }
 
@@ -49,6 +46,7 @@ label[for='subscribe'] {
   margin-top: 20px;
 }
 
+// ? Esto no va dentro de .checkbox-container?
 .checkbox-label {
   clear: both;
   cursor: pointer;
@@ -75,15 +73,14 @@ label[for='subscribe'] {
           height: 40px;
           opacity: 1;
           transform: translateX(-25px) translateY(-30px) scale(1);
-          transform: translateX(-25px) translateY(-30px) scale(1);
-          transform: translateX(-25px) translateY(-30px) scale(1);
           width: 40px;
 
           &::after {
+            // FIXME Wtf hapened here? Que valores son correctos?
             background-color: #fff;
             border: solid #cf4b00;
             border-radius: 50%;
-            content: '✔️';
+            content: "✔️";
             height: 0;
             height: 35px;
             left: 25px;
@@ -92,8 +89,6 @@ label[for='subscribe'] {
             position: absolute;
             top: 25px;
             top: 5px;
-            transform: scale(1) translateX(-5px) translateY(-5px);
-            transform: scale(1) translateX(-5px) translateY(-5px);
             transform: scale(1) translateX(-5px) translateY(-5px);
             width: 0;
             width: 35px;
@@ -106,12 +101,6 @@ label[for='subscribe'] {
             opacity: 0;
             top: -3px;
             transform: scale(3);
-            transform: scale(3);
-            transform: scale(3);
-            transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
             width: 40px;
             z-index: 999;
@@ -130,12 +119,6 @@ label[for='subscribe'] {
     position: absolute;
     top: 20px;
     transform: translateX(-15px) translateY(-20px) scale(1);
-    transform: translateX(-15px) translateY(-20px) scale(1);
-    transform: translateX(-15px) translateY(-20px) scale(1);
-    transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     width: 20px;
 
@@ -143,7 +126,7 @@ label[for='subscribe'] {
       border: solid #cf4b00;
       border-radius: 5px;
       border-width: 0 3px 3px 0;
-      content: '';
+      content: "";
       font-size: 20px;
       height: 10px;
       left: 10px;
@@ -152,12 +135,6 @@ label[for='subscribe'] {
       position: absolute;
       top: 10px;
       transform: rotate(0deg) scale(0);
-      transform: rotate(0deg) scale(0);
-      transform: rotate(0deg) scale(0);
-      transition: all 0.3s ease-out;
-      transition: all 0.3s ease-out;
-      transition: all 0.3s ease-out;
-      transition: all 0.3s ease-out;
       transition: all 0.3s ease-out;
       width: 10px;
     }
@@ -165,67 +142,45 @@ label[for='subscribe'] {
     &::before {
       border: 2px solid #cf4b00;
       border-radius: 5px;
-      content: '';
+      content: "";
       height: 0;
       left: 10px;
       position: absolute;
       top: 10px;
-      transform: scale(0);
-      transform: scale(0);
       transform: scale(0);
       width: 0;
     }
   }
 }
 
-input[type='button'] {
-  background-color: #fff;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  margin: auto;
-  padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-
-  &:hover {
-    background-color: #cf4b00;
-    color: #fff;
-    cursor: pointer;
-    padding: 10px;
+input {
+  [type="button"] {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    transition-duration: 400ms;
+    &:hover {
+      background-color: #cf4b00;
+      color: #fff;
+      cursor: pointer;
+      padding: 10px;
+    }
   }
-}
-
-input[type='text'] {
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  margin: auto;
-  padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  width: 90%;
-
-  &:focus {
-    background-color: #cf4b00;
-    color: #fff;
-    padding: 10px;
-  }
-}
-
-input[type='email'] {
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  padding: 5px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
-  width: 90%;
-
-  &:focus {
-    background-color: #cf4b00;
-    color: #fff;
-    padding: 10px;
+  [type="text"],
+  [type="email"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    transition-duration: 400ms;
+    width: 90%;
+    &:focus {
+      background-color: #cf4b00;
+      color: #fff;
+      padding: 10px;
+    }
   }
 }
 
@@ -234,30 +189,29 @@ textarea {
   border-radius: 5px;
   padding: 5px;
   transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
   width: 90%;
-
   &:focus {
     border: 3px solid #cf4b00;
     padding: 10px;
   }
 }
 
+// ? Esto no va dentro de label?
 .required-field {
   color: red;
 }
+
+// TODO Mover a @media
 @media only screen and (min-width: 1600px) {
   textarea {
     width: 66ch;
   }
 
-  input[type='email'] {
-    width: 66ch;
-  }
-
-  input[type='text'] {
-    width: 66ch;
+  input {
+    [type="email"],
+    [type="text"] {
+      width: 66ch;
+    }
   }
 
   label {
@@ -270,18 +224,19 @@ textarea {
     }
   }
 
-  section.form {
-    p {
-      margin: auto !important;
-    }
+  section {
+    .form {
+      p {
+        margin: auto !important;
+      }
 
-    > &:first-child {
-      margin-bottom: 30px;
-      position: relative;
-      width: 66ch;
+      > &:first-child {
+        margin-bottom: 30px;
+        position: relative;
+        width: 66ch;
+      }
     }
   }
-
   #leadgen-form {
     > .checkbox-container {
       left: -20px;
@@ -294,12 +249,11 @@ textarea {
     width: 66ch;
   }
 
-  input[type='email'] {
-    width: 66ch;
-  }
-
-  input[type='text'] {
-    width: 66ch;
+  input {
+    [type="email"],
+    [type="text"] {
+      width: 66ch;
+    }
   }
 
   label {
@@ -312,15 +266,17 @@ textarea {
     }
   }
 
-  section.form {
-    p {
-      margin: auto !important;
-    }
+  section {
+    .form {
+      p {
+        margin: auto !important;
+      }
 
-    > &:first-child {
-      margin-bottom: 30px;
-      position: relative;
-      width: 66ch;
+      > &:first-child {
+        margin-bottom: 30px;
+        position: relative;
+        width: 66ch;
+      }
     }
   }
 
@@ -336,12 +292,11 @@ textarea {
     width: 66ch;
   }
 
-  input[type='email'] {
-    width: 66ch;
-  }
-
-  input[type='text'] {
-    width: 66ch;
+  input {
+    [type="email"],
+    [type="text"] {
+      width: 66ch;
+    }
   }
 
   label {
@@ -354,15 +309,17 @@ textarea {
     }
   }
 
-  section.form {
-    p {
-      margin: auto !important;
-    }
+  section {
+    .form {
+      p {
+        margin: auto !important;
+      }
 
-    > &:first-child {
-      margin-bottom: 30px;
-      position: relative;
-      width: 66ch;
+      > &:first-child {
+        margin-bottom: 30px;
+        position: relative;
+        width: 66ch;
+      }
     }
   }
 
@@ -378,24 +335,25 @@ textarea {
     padding: 10%;
   }
 
-  div.spacer {
-    display: block;
-    height: calc(0.5625 * 45vw);
-    margin-top: 110px;
-    position: relative;
-    width: 100%;
+  div {
+    .spacer {
+      display: block;
+      height: calc(0.5625 * 45vw);
+      margin-top: 110px;
+      position: relative;
+      width: 100%;
+    }
   }
 
   textarea {
     width: 66ch;
   }
 
-  input[type='email'] {
-    width: 66ch;
-  }
-
-  input[type='text'] {
-    width: 66ch;
+  input {
+    [type="email"],
+    [type="text"] {
+      width: 66ch;
+    }
   }
 
   label {
@@ -408,15 +366,17 @@ textarea {
     }
   }
 
-  section.form {
-    p {
-      margin: auto !important;
-    }
+  section {
+    .form {
+      p {
+        margin: auto !important;
+      }
 
-    > &:first-child {
-      margin-bottom: 30px;
-      position: relative;
-      width: 66ch;
+      > &:first-child {
+        margin-bottom: 30px;
+        position: relative;
+        width: 66ch;
+      }
     }
   }
 
@@ -432,24 +392,25 @@ textarea {
     padding: 10%;
   }
 
-  div.spacer {
-    display: block;
-    height: calc(0.5625 * 45vw);
-    margin-top: 110px;
-    position: relative;
-    width: 100%;
+  div {
+    .spacer {
+      display: block;
+      height: calc(0.5625 * 45vw);
+      margin-top: 110px;
+      position: relative;
+      width: 100%;
+    }
   }
 
   textarea {
     width: 70%;
   }
 
-  input[type='email'] {
-    width: 70%;
-  }
-
-  input[type='text'] {
-    width: 70%;
+  input {
+    [type="email"],
+    [type="text"] {
+      width: 70%;
+    }
   }
 
   label {
@@ -462,11 +423,13 @@ textarea {
     }
   }
 
-  section.form {
-    > &:first-child {
-      margin-bottom: 30px;
-      position: relative;
-      width: 80%;
+  section {
+    .form {
+      > &:first-child {
+        margin-bottom: 30px;
+        position: relative;
+        width: 80%;
+      }
     }
   }
 
@@ -478,29 +441,32 @@ textarea {
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 600px) {
-  h2.main-title {
-    margin-bottom: 30px;
-    margin-top: -10px;
+  h2 {
+    .main-title {
+      margin-bottom: 30px;
+      margin-top: -10px;
+    }
   }
 
-  div.spacer {
-    display: block;
-    height: calc(0.5625 * 45vw);
-    margin-top: 110px;
-    position: relative;
-    width: 100%;
+  div {
+    .spacer {
+      display: block;
+      height: calc(0.5625 * 45vw);
+      margin-top: 110px;
+      position: relative;
+      width: 100%;
+    }
   }
 
   textarea {
     width: 90%;
   }
 
-  input[type='email'] {
-    width: 90%;
-  }
-
-  input[type='text'] {
-    width: 90%;
+  input {
+    [type="email"],
+    [type="text"] {
+      width: 90%;
+    }
   }
 
   label {
@@ -513,12 +479,14 @@ textarea {
     }
   }
 
-  section.form {
-    > &:first-child {
-      left: -30px;
-      margin-bottom: 30px;
-      position: relative;
-      width: 90%;
+  section {
+    .form {
+      > &:first-child {
+        left: -30px;
+        margin-bottom: 30px;
+        position: relative;
+        width: 90%;
+      }
     }
   }
 
@@ -538,25 +506,31 @@ textarea {
       margin-left: calc(10%);
       width: 90%;
 
-      > div.input-title {
-        left: 5%;
-        position: relative;
-        text-align: center;
-        width: 75%;
+      > div {
+        .input-title {
+          left: 5%;
+          position: relative;
+          text-align: center;
+          width: 75%;
+        }
       }
     }
 
     > &:nth-child(6) {
-      span.checkbox-custom {
-        left: 20px;
-        top: 1px;
+      span {
+        .checkbox-custom {
+          left: 20px;
+          top: 1px;
+        }
       }
     }
 
     > &:nth-child(7) {
-      span.checkbox-custom {
-        left: 20px;
-        top: 0.5em;
+      span {
+        .checkbox-custom {
+          left: 20px;
+          top: 0.5em;
+        }
       }
     }
   }
@@ -565,40 +539,47 @@ textarea {
     margin-top: 20px;
   }
 
-  div.share-social {
-    div.is-child {
-      > a {
-        > img {
-          width: calc(0.5625 * 15vw);
+  div {
+    .share-social {
+      div {
+        .is-child {
+          > a {
+            > img {
+              width: calc(0.5625 * 15vw);
+            }
+          }
         }
       }
     }
   }
 }
 @media only screen and (max-width: 400px) {
-  h2.main-title {
-    margin-bottom: 30px;
-    margin-top: -10px;
+  h2 {
+    .main-title {
+      margin-bottom: 30px;
+      margin-top: -10px;
+    }
   }
 
-  div.spacer {
-    display: block;
-    height: 100px;
-    margin-top: 110px;
-    position: relative;
-    width: 100%;
+  div {
+    .spacer {
+      display: block;
+      height: 100px;
+      margin-top: 110px;
+      position: relative;
+      width: 100%;
+    }
   }
 
   textarea {
     width: 90%;
   }
 
-  input[type='email'] {
-    width: 90%;
-  }
-
-  input[type='text'] {
-    width: 90%;
+  input {
+    [type="email"],
+    [type="text"] {
+      width: 90%;
+    }
   }
 
   label {
@@ -611,11 +592,13 @@ textarea {
     }
   }
 
-  section.form {
-    > &:first-child {
-      left: -30px;
-      position: relative;
-      width: 100%;
+  section {
+    .form {
+      > &:first-child {
+        left: -30px;
+        position: relative;
+        width: 100%;
+      }
     }
   }
 
@@ -626,24 +609,30 @@ textarea {
     }
 
     > &:nth-child(6) {
-      span.checkbox-custom {
-        left: 150px;
-        top: 45px;
+      span {
+        .checkbox-custom {
+          left: 150px;
+          top: 45px;
+        }
       }
     }
 
     > &:nth-child(7) {
-      span.checkbox-custom {
-        left: 150px;
-        top: calc(45px + 0.5em);
+      span {
+        .checkbox-custom {
+          left: 150px;
+          top: calc(45px + 0.5em);
+        }
       }
     }
 
     > .checkbox-container {
       margin: auto;
 
-      > div.input-title {
-        width: 90%;
+      > div {
+        .input-title {
+          width: 90%;
+        }
       }
     }
   }
@@ -652,11 +641,15 @@ textarea {
     margin-top: 20px;
   }
 
-  div.share-social {
-    div.is-child {
-      > a {
-        > img {
-          width: calc(0.5625 * 15vw);
+  div {
+    .share-social {
+      div {
+        .is-child {
+          > a {
+            > img {
+              width: calc(0.5625 * 15vw);
+            }
+          }
         }
       }
     }

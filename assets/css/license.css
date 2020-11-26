@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-/* License */
 @font-face {
   font-display: swap;
   font-family: "CC demo";
@@ -26,77 +19,71 @@
   padding-top: 20px;
   text-align: center;
 }
-.license button.expandable_card {
+.license button .expandable_card {
   background: none;
-  border: none;
+  border: 0;
   margin-bottom: 15px;
   width: 100%;
 }
-.license .content ul {
-  margin-left: 80px;
-}
-.license div.content div > p {
+.license div .content div > p {
   color: black;
   font-family: "CC demo";
   font-size: 1.2em;
   text-align: center;
   width: 80%;
 }
-.license div.content div > p a:not(.license-icons) {
-  border: none;
+.license div .content div > p a:not(.license-icons) {
+  border: 0;
   border-bottom: 1px dashed white;
   color: #fff;
   transition-duration: 400ms;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
 }
-.license div.content div > p a:not(.license-icons):hover {
-  border: none;
+.license div .content div > p a:not(.license-icons):hover {
+  border: 0;
   border-bottom: 3px solid rgba(232, 162, 123, 0.9);
   font-style: normal;
 }
-.license div.content div p + ul {
+.license div .content div p + ul {
   margin-top: 30px;
   padding-bottom: 40px;
   width: 70%;
 }
-.license div.content div p + ul p {
+.license div .content div p + ul p {
   color: black;
   margin: 10px;
 }
-.license div.content div p + ul li {
+.license div .content div p + ul li {
   border-left: 2px solid black;
   margin-left: 20%;
 }
-.license div.content div p + ul li::marker {
+.license div .content div p + ul li::marker {
   color: #fff;
   font-weight: 600;
 }
-.license div.content div p + ul li:first-child {
+.license div .content div p + ul li:first-child {
   list-style-type: "Compartir  ";
 }
-.license div.content div p + ul li:nth-child(2) {
+.license div .content div p + ul li:nth-child(2) {
   list-style-type: "Adaptar  ";
+}
+.license div .content ul {
+  margin-left: 80px;
 }
 
 .license-icons {
-  border: none;
+  border: 0;
   display: block;
   margin: auto;
   margin-bottom: 20px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
   transition-duration: 400ms;
   width: 250px;
 }
 .license-icons:hover {
   background-color: rgba(235, 97, 19, 0.9);
-  border: none;
+  border: 0;
   border-radius: 20px;
   padding: 10px;
   padding-bottom: 5px;
-  transform: scale(1.1);
-  transform: scale(1.1);
   transform: scale(1.1);
 }
 .license-icons img {

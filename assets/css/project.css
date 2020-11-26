@@ -1,10 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-@import 'cards.css';
+@import "cards.css";
 p {
   margin: auto;
   text-align: left;
@@ -26,16 +20,17 @@ li {
   text-align: left;
 }
 
-h2:not(.share-social-title):not(.main-title) {
+h1 .main-title {
+  position: relative;
+  top: 10%;
+}
+
+h2:not(.share-social-title), h2:not(.main-title) {
   margin: auto;
   text-align: left;
 }
 
-h3 {
-  margin: auto;
-  text-align: left;
-}
-
+h3,
 h4 {
   margin: auto;
   text-align: left;
@@ -43,8 +38,6 @@ h4 {
 
 .content a:not(.share-social-link):not(.license-icons) {
   border-bottom: 1px dotted #eb6113;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
   transition-duration: 400ms;
   word-wrap: break-word;
 }
@@ -64,28 +57,23 @@ h4 {
   top: 45%;
 }
 
-h1.main-title {
-  position: relative;
-  top: 10%;
-}
-
 .divider {
   border-bottom: 3px solid #ccc;
   margin: auto;
   width: 80%;
 }
 
-section.content {
+section .content {
   margin-top: calc(200px - 15vw);
   padding: 10%;
   text-align: left;
 }
-section.content li {
+section .content li {
   font-size: 120%;
   list-style: circle;
   padding: 10px;
 }
-section.content p {
+section .content p {
   padding: 10px;
 }
 
@@ -94,7 +82,7 @@ table img {
   border-radius: 20px;
 }
 table a img {
-  border: none;
+  border: 0;
   border-radius: 5px;
 }
 table thead {
@@ -118,62 +106,63 @@ table tbody tr td {
 }
 
 @media only screen and (min-width: 1024px) {
-  .content {
-    padding: 10%;
-  }
-
   p > img {
     margin-left: 20%;
     width: 60%;
   }
 
-  section.content {
+  .content {
+    padding: 10%;
+  }
+
+  section .content {
     margin: auto;
     width: calc(75ch + 20%);
   }
-  section.content img {
+  section .content img {
     margin: 0;
     width: 100%;
   }
-  section.content h1 {
+  section .content h1 {
     font-size: 1.5rem;
     margin-bottom: 40px;
     margin-top: -50px;
     padding: 10px;
   }
-  section.content h2 {
+  section .content h2 {
     font-size: 1.3em;
     padding-bottom: 20px;
   }
-  section.content ul {
+  section .content ul {
     margin: 0;
     margin-left: 10px;
   }
-  section.content ul li {
+  section .content ul li {
     padding-bottom: 5px;
     padding-top: 5px;
   }
-  section.content ul li::marker {
+  section .content ul li::marker {
     color: #eb6113;
     content: ">";
     font-weight: 900;
   }
-
-  section.main-title img {
+  section .main-title img {
     display: block;
     margin: auto;
     width: 40%;
   }
+  section .team h2 {
+    padding-bottom: 40px;
+  }
 
-  div.spacer {
+  div .spacer {
     display: block;
     height: 100px;
     margin-top: 18%;
     position: relative;
     width: 100%;
   }
-
-  div.tile.is-ancestor {
+  div .tile .is-ancestor {
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -187,90 +176,73 @@ table tbody tr td {
   .media-content {
     overflow: hidden;
   }
-
-  section.team .tile {
-    box-pack: start;
-    flex-pack: start;
-    justify-content: flex-start;
-  }
-  section.team h2 {
-    padding-bottom: 40px;
-  }
 }
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
-  section.section.content {
+  section .section .content {
     font-size: 1.1em;
     margin: auto;
     padding: 40px;
     width: calc(65ch);
   }
-
-  section.content img {
-    margin: 0;
+  section .section .content img {
     margin: 0;
     padding: 0;
     width: 100%;
-    width: 100%;
   }
-  section.content ul {
+  section .section .content ul {
     margin: 0;
     margin-left: 10px;
   }
-  section.content ul li {
+  section .section .content ul li {
     font-size: 1em;
     padding-bottom: 5px;
     padding-top: 5px;
   }
-  section.content ul li::marker {
+  section .section .content ul li::marker {
     color: #eb6113;
     content: ">";
     font-weight: 900;
   }
-  section.content h1 {
+  section .section .content h1 {
     font-size: 1.5rem;
     margin-bottom: 40px;
     margin-top: -50px;
     padding: 10px;
   }
-  section.content h2 {
+  section .section .content h2 {
     font-size: 1.3em;
     padding-bottom: 20px;
   }
-
-  section.services .tile p.title {
+  section .section .services .tile p .title {
     font-size: 1.3em;
     line-height: 1em;
   }
-
-  section.projects .tile p.title {
+  section .section .projects .tile p .title {
     font-size: 1.3em;
     line-height: 1em;
   }
-
-  div.is-card i {
-    font-size: 2.2em;
-  }
-
-  article div.content {
-    line-height: 1.3em;
-  }
-
-  section.main-title img {
+  section .section .main-title img {
     display: block;
     margin: auto;
     width: 70%;
   }
-
-  section#about {
+  section .section#about {
     margin-top: 40px;
   }
 
-  div.spacer {
+  div .is-card i {
+    font-size: 2.2em;
+  }
+  div .spacer {
     display: block;
     height: 100px;
     margin-top: 400px;
     position: relative;
     width: 100%;
+  }
+
+  article div .content {
+    line-height: 1.3em;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 800px) {
@@ -305,83 +277,75 @@ table tbody tr td {
     margin: 5px;
   }
 
-  h1.main-title {
+  h1 .main-title {
     font-size: 1.6em;
     position: relative;
     top: 15%;
   }
 
-  section.main-title img {
-    display: block;
-    display: block;
-    margin: auto;
-    margin: auto;
-    width: 90%;
-    width: 70%;
-  }
-
-  section.section.content {
+  section .section .content {
     margin: auto;
     padding: 40px;
     width: calc(65ch);
   }
-
-  section.content img {
+  section .content img {
     margin: 0;
     width: 100%;
   }
-  section.content h1 {
+  section .content h1 {
     font-size: 1.5rem;
     margin-bottom: 40px;
     margin-top: -50px;
     padding: 10px;
   }
-  section.content h2 {
+  section .content h2 {
     font-size: 1.3em;
     padding-bottom: 20px;
   }
-  section.content ul {
+  section .content ul {
     margin: 0;
     margin-left: 10px;
   }
-  section.content ul li {
+  section .content ul li {
     padding-bottom: 5px;
     padding-top: 5px;
   }
-  section.content ul li::marker {
+  section .content ul li::marker {
     color: #eb6113;
     content: ">";
     font-weight: 900;
   }
-
-  section.services .tile p.title {
+  section .main-title img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    width: 70%;
+  }
+  section .services .tile p .title {
     font-size: 1.3em;
     line-height: 1em;
   }
-
-  section.projects .tile p.title {
+  section .projects .tile p .title {
     font-size: 1.3em;
     line-height: 1em;
   }
-
-  div.is-card i {
-    font-size: 2.2em;
-  }
-
-  article div.content {
-    line-height: 1.3em;
-  }
-
   section#about {
     margin-top: 40px;
   }
 
-  div.spacer {
+  div .is-card i {
+    font-size: 2.2em;
+  }
+  div .spacer {
     display: block;
     height: 100px;
     margin-top: 55%;
     position: relative;
     width: 100%;
+  }
+
+  article div .content {
+    line-height: 1.3em;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 600px) {
@@ -391,140 +355,130 @@ table tbody tr td {
     top: 40%;
   }
 
-  section.main-title {
-    font-size: 0.75em;
-    padding: 0;
-  }
-  section.main-title img {
-    display: block;
-    display: block;
-    margin: auto;
-    margin: auto;
-    padding-top: 20px;
-    width: 90%;
-    width: 70%;
-  }
-
-  section.section.content {
+  section .section .content {
     font-size: 0.95em;
     line-height: 1.7em;
     margin: auto;
     padding: 30px;
     width: 100%;
   }
-
-  section.content img {
+  section .content img {
     margin: 0;
     width: 100%;
   }
-  section.content h1 {
+  section .content h1 {
     font-size: 1.5rem;
     margin-bottom: 40px;
     margin-top: -50px;
     padding: 10px;
   }
-  section.content h2 {
+  section .content h2 {
     font-size: 1.3em;
     padding-bottom: 20px;
   }
-  section.content ul {
+  section .content ul {
     margin: 0;
     margin-left: 10px;
   }
-  section.content ul li {
+  section .content ul li {
     padding-bottom: 5px;
     padding-top: 5px;
   }
-  section.content ul li::marker {
+  section .content ul li::marker {
     color: #eb6113;
     content: ">";
     font-weight: 900;
   }
-
-  section.services .tile p.title {
+  section .main-title {
+    font-size: 0.75em;
+    padding: 0;
+  }
+  section .main-title img {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    width: 90%;
+    width: 70%;
+  }
+  section .services .tile p .title {
     font-size: 1.3em;
     line-height: 1em;
   }
-
-  section.projects .tile p.title {
+  section .projects .tile p .title {
     font-size: 1.3em;
     line-height: 1em;
   }
-
-  div.is-card i {
-    font-size: 2.2em;
-  }
-
-  article div.content {
-    line-height: 1.3em;
-  }
-
   section#about {
     margin-top: 40px;
   }
 
-  div.spacer {
+  div .is-card i {
+    font-size: 2.2em;
+  }
+  div .spacer {
     display: block;
     height: 100px;
     margin-top: 270px;
     position: relative;
     width: 100%;
   }
+
+  article div .content {
+    line-height: 1.3em;
+  }
 }
 @media only screen and (max-width: 400px) {
-  section.main-title {
-    padding: 0;
-  }
-  section.main-title img {
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 90%;
-  }
-  section.main-title h1 {
-    top: 10%;
-  }
-
-  section.section.content {
+  section .section .content {
     font-size: 0.9em;
     line-height: 1.6em;
     margin: auto;
     padding: 20px;
     width: 100%;
   }
-
-  section.content ul {
+  section .content ul {
     margin: 0;
     margin-left: 10px;
   }
-  section.content ul li {
+  section .content ul li {
     font-size: 1em;
     padding-bottom: 5px;
     padding-top: 5px;
   }
-  section.content ul li::marker {
+  section .content ul li::marker {
     color: #eb6113;
     content: ">";
     font-weight: 900;
   }
-  section.content img {
+  section .content img {
     margin: 0;
     padding: 0;
     width: 100%;
   }
-  section.content h1 {
+  section .content h1 {
     font-size: 1.5rem;
     margin-bottom: 40px;
     margin-top: -50px;
     padding: 10px;
   }
-  section.content h2 {
+  section .content h2 {
     font-size: 1.3em;
     padding-bottom: 20px;
   }
+  section .main-title {
+    padding: 0;
+  }
+  section .main-title img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 90%;
+  }
+  section .main-title h1 {
+    top: 10%;
+  }
 
-  div.spacer {
+  div .spacer {
     display: block;
     height: 100px;
     margin-top: 400px;

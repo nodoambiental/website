@@ -1,49 +1,43 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-/* References */
+// TODO Reemplazar hardcoded values por variables
+// TODO Ver si tiene sentido reemplazar por componentes base en alguna parte
+
 .references {
   margin: auto;
   width: 90%;
-
-  button.expandable_card {
-    background: none;
-    border: none;
-    width: 100%;
+  button {
+    .expandable_card {
+      background: none;
+      border: 0;
+      width: 100%;
+    }
   }
 }
-
-ol.bibliography {
-  background-color: #eee;
-  border-radius: 10px;
-  margin-left: 0;
-  padding: 10px;
-  padding-left: 30px;
-
-  li {
-    &::marker {
-      color: #eb6113;
-    }
-
-    span {
-      i {
-        font-size: 1em;
+ol {
+  .bibliography {
+    background-color: #eee;
+    border-radius: 10px;
+    margin-left: 0;
+    padding: 10px;
+    padding-left: 30px;
+    li {
+      &::marker {
+        color: #eb6113;
+      }
+      span {
+        i {
+          font-size: 1em;
+        }
       }
     }
   }
 }
-
 .citation {
   color: #eb6113;
   font-size: 0.9em;
   font-variant: small-caps;
-  transition-duration: 1s;
-  transition-duration: 1s;
-  transition-duration: 1s;
 
+  // TODO Duracion nonstandard, reemplazar por 800ms
+  transition-duration: 1s;
   &:hover {
     border-bottom: 1px dashed #999;
     color: #eb6113;

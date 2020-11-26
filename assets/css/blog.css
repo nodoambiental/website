@@ -1,7 +1,7 @@
-section.services .tile article {
+section .services .tile article {
   padding: 10px;
 }
-section.services .tile.is-child {
+section .services .tile .is-child {
   margin: 10px !important;
 }
 
@@ -50,7 +50,7 @@ section.services .tile.is-child {
   }
 }
 @media only screen and (max-width: 780px) {
-  section.services .tile article {
+  section .services .tile article {
     padding: 5vw;
   }
 }

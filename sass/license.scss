@@ -1,18 +1,15 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-/* License */
+// TODO Reemplazar hardcoded values por variables
+// TODO Reemplazar transformaciones por helpers
+// TODO Reemplazar transiciones por mixins
+
 @font-face {
   font-display: swap;
-  font-family: 'CC demo';
+  font-family: "CC demo";
   font-style: normal;
   font-weight: 500;
-  src: local('CC demo medium'), local('CCdemo-medium'),
-    url('/assets/css/fonts/cc/CCdemo-medium.woff') format('woff'),
-    url('/assets/css/fonts/cc/CCdemo-medium.woff2') format('woff2');
+  src: local("CC demo medium"), local("CCdemo-medium"),
+    url("/assets/css/fonts/cc/CCdemo-medium.woff") format("woff"),
+    url("/assets/css/fonts/cc/CCdemo-medium.woff2") format("woff2");
 }
 
 .license {
@@ -21,7 +18,7 @@
 
   h3 {
     color: black;
-    font-family: 'CC demo';
+    font-family: "CC demo";
     font-size: 3em;
     font-style: normal;
     font-weight: 500;
@@ -30,100 +27,95 @@
     text-align: center;
   }
 
-  button.expandable_card {
-    background: none;
-    border: none;
-    margin-bottom: 15px;
-    width: 100%;
-  }
-
-  .content {
-    ul {
-      margin-left: 80px;
+  button {
+    .expandable_card {
+      background: none;
+      border: 0;
+      margin-bottom: 15px;
+      width: 100%;
     }
   }
 
-  div.content {
-    div {
-      > p {
-        color: black;
-        font-family: 'CC demo';
-        font-size: 1.2em;
-        text-align: center;
-        width: 80%;
+  div {
+    .content {
+      div {
+        > p {
+          color: black;
+          font-family: "CC demo";
+          font-size: 1.2em;
+          text-align: center;
+          width: 80%;
 
-        a {
-          &:not(.license-icons) {
-            border: none;
-            border-bottom: 1px dashed white;
-            color: #fff;
-            transition-duration: 400ms;
-            transition-duration: 400ms;
-            transition-duration: 400ms;
+          a {
+            &:not(.license-icons) {
+              border: 0;
+              border-bottom: 1px dashed white;
+              color: #fff;
+              transition-duration: 400ms;
 
-            &:hover {
-              border: none;
-              border-bottom: 3px solid rgba(232, 162, 123, 0.9);
-              font-style: normal;
+              &:hover {
+                border: 0;
+                border-bottom: 3px solid rgba(232, 162, 123, 0.9);
+                font-style: normal;
+              }
+            }
+          }
+        }
+
+        p {
+          + {
+            ul {
+              margin-top: 30px;
+              padding-bottom: 40px;
+              width: 70%;
+
+              p {
+                color: black;
+                margin: 10px;
+              }
+
+              li {
+                border-left: 2px solid black;
+                margin-left: 20%;
+
+                &::marker {
+                  color: #fff;
+                  font-weight: 600;
+                }
+
+                &:first-child {
+                  list-style-type: "Compartir  ";
+                }
+
+                &:nth-child(2) {
+                  list-style-type: "Adaptar  ";
+                }
+              }
             }
           }
         }
       }
-
-      p {
-        + {
-          ul {
-            margin-top: 30px;
-            padding-bottom: 40px;
-            width: 70%;
-
-            p {
-              color: black;
-              margin: 10px;
-            }
-
-            li {
-              border-left: 2px solid black;
-              margin-left: 20%;
-
-              &::marker {
-                color: #fff;
-                font-weight: 600;
-              }
-
-              &:first-child {
-                list-style-type: 'Compartir  ';
-              }
-
-              &:nth-child(2) {
-                list-style-type: 'Adaptar  ';
-              }
-            }
-          }
-        }
+      ul {
+        margin-left: 80px;
       }
     }
   }
 }
 
 .license-icons {
-  border: none;
+  border: 0;
   display: block;
   margin: auto;
   margin-bottom: 20px;
-  transition-duration: 400ms;
-  transition-duration: 400ms;
   transition-duration: 400ms;
   width: 250px;
 
   &:hover {
     background-color: rgba(235, 97, 19, 0.9);
-    border: none;
+    border: 0;
     border-radius: 20px;
     padding: 10px;
     padding-bottom: 5px;
-    transform: scale(1.1);
-    transform: scale(1.1);
     transform: scale(1.1);
   }
 

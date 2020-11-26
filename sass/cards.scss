@@ -1,11 +1,17 @@
-button.expandable_card {
-  background-color: #ccc;
-  border: none;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  width: 100%;
+// TODO Reemplazar valores por variables
+
+// ? Que relacion tiene esto con el componente card?
+button {
+  .expandable_card {
+    background-color: #ccc;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
 }
 
+// ? Revisar de donde es esto y ver si lo pasamos a un componente o es una extension de otro
 .project-accordion {
   background-color: #eee;
   border-radius: 10px;
@@ -13,7 +19,6 @@ button.expandable_card {
   padding-bottom: 10px;
   padding-top: 10px;
 }
-
 .project-accordion-name {
   display: inline-block;
   margin: auto;
@@ -21,13 +26,16 @@ button.expandable_card {
   position: relative;
   top: 50%;
 }
-
-div.is-card {
-  i.project-accordion-icon {
-    color: #666;
-    font-size: 1em;
-    margin-right: 10px;
-    position: relative;
-    top: 0;
+div {
+  .is-card {
+    i {
+      .project-accordion-icon {
+        color: #666;
+        font-size: 1em;
+        margin-right: 10px;
+        position: relative;
+        top: 0;
+      }
+    }
   }
 }
