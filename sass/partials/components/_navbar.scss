@@ -1,0 +1,100 @@
+@use '../../vendor/bourbon' as bourbon;
+@use '../helpers';
+@use '../variables' as *;
+
+%base_navbar-item {
+  a {
+    &.navbar-item {
+      @include helpers.transition-primary;
+      padding: 5px;
+      svg {
+        fill: $light-text;
+        width: 1.2em;
+      }
+    }
+  }
+}
+
+%base_navbar-brand {
+  .navbar-brand {
+    .navbar-item {
+      path {
+        width: 48px;
+        @include helpers.transition-primary;
+      }
+
+      &:hover {
+        path {
+          fill: $accent-logo;
+        }
+      }
+    }
+  }
+}
+
+%base_navbar-menu {
+  .navbar-menu {
+    a {
+      &.navbar-item {
+        &:not(:last-child) {
+          &::after {
+            color: $accent-primary;
+            content: "|";
+            left: 5px;
+            position: relative;
+            @include helpers.scale(Y, 2);
+          }
+        }
+      }
+    }
+  }
+}
+
+%base_navbar-start {
+  .navbar-start {
+    a {
+      &.navbar-item {
+        &:hover {
+          background-color: $background-primary-highlight-soft;
+          color: $accent-primary;
+          @include bourbon.padding(null 10px);
+
+          &::after {
+            position: relative;
+            @include helpers.scale(Y, 2);
+            @include helpers.translate(X, 7px);
+          }
+        }
+      }
+    }
+
+    &:last-child {
+      @include bourbon.padding(null 10px);
+      @include helpers.transition-primary;
+
+      &:hover {
+        i {
+          @include helpers.scale(Y, 1.25);
+        }
+      }
+    }
+  }
+}
+
+%base_navbar-end {
+  .navbar-end {
+    .navbar-item {
+      padding: 5px;
+
+      a {
+        font-size: 16px;
+        padding: 5px;
+        @include helpers.transition-primary;
+
+        &:hover {
+          background-color: $accent-primary;
+        }
+      }
+    }
+  }
+}

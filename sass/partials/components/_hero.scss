@@ -1,0 +1,72 @@
+@use "../../vendor/bourbon" as bourbon;
+@use "../helpers";
+@use "../variables" as *;
+@use "../animations" as *;
+
+%base_hero_background-animation {
+  z-index: 99;
+  @include bourbon.value-prefixer(
+    background-image,
+    #{$main-title-gradient-a},
+    ("o")
+  );
+  @include bourbon.prefixer(
+    animation,
+    animations_main-title alternate infinite $transition-duration-flair,
+    ("webkit", "ms")
+  );
+
+  &::before {
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -99;
+    @include bourbon.value-prefixer(
+      background-image,
+      #{$main-title-gradient-b},
+      ("o")
+    );
+    @include bourbon.prefixer(
+      animation,
+      animations_main-title alternate-reverse infinite
+        $transition-duration-flair,
+      ("webkit", "ms")
+    );
+    @include helpers.transition-primary;
+  }
+}
+%base_hero_body {
+  color: $light-text-high-contrast;
+  display: block;
+  position: absolute;
+  width: 100%;
+  @include bourbon.prefixer(
+    box-shadow,
+    1px 0 3px 1px $dark-primary,
+    ("webkit")
+  );
+}
+%base_hero_text {
+  h1 {
+    font-size: 2.2em;
+    padding: 30px;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    text-align: center;
+    @include bourbon.padding(null 10%);
+
+    .subtitle {
+      font-size: 100%;
+      line-height: 90%;
+    }
+  }
+}

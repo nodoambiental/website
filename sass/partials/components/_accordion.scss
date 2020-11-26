@@ -1,0 +1,78 @@
+@use '../../vendor/bourbon' as bourbon;
+@use '../helpers';
+@use '../variables' as *;
+%base_accordion-element {
+  background-color: $light-primary;
+  border: 0;
+  border-radius: $border-radius-secondary;
+  color: $dark-primary;
+  cursor: pointer;
+  font-size: 140%;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 18px;
+  text-align: left;
+  width: 100%;
+  @include helpers.transition-primary;
+
+  &::after {
+    @include bourbon.triangle("down", 1.6rem, 1rem, $light-primary-highlight);
+    content: "";
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  &:hover {
+    background-color: $light-secondary;
+  }
+}
+%base_accordion-element_active {
+  background-color: $light-secondary;
+
+  &::after {
+    @include bourbon.triangle("up", 1.6rem, 1rem, $light-primary-highlight);
+    content: "";
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+}
+%base_accordion-element_panel {
+  background-color: $background-primary;
+  border: $border-thickness-primary solid $light-primary;
+  border-radius: $border-radius-primary;
+  display: none;
+  margin: auto;
+  overflow: hidden;
+  width: 80%;
+}
+%base_accordion-element_images {
+  .about-caption {
+    background-color: $light-secondary;
+    border-radius: $border-radius-primary;
+    font-style: italic;
+    line-height: 1em;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: -25px;
+    padding-top: 5px;
+    width: 50%;
+  }
+
+  .about-author {
+    font-size: 90%;
+    font-style: normal;
+    margin: auto !important;
+    padding: 0 !important;
+    padding-bottom: 5px !important;
+    text-align: center !important;
+  }
+
+  .about-image {
+    padding: 25px;
+
+    img {
+      border: $border-thickness-thin solid $light-secondary;
+      border-radius: $border-radius-primary;
+    }
+  }
+}
