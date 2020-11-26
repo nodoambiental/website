@@ -5,131 +5,151 @@
 * Browsers: last 4 version
 */
 form {
-	margin: auto;
+  margin: auto;
 }
+
 label {
-	padding: 10px;
-	display: block;
-	text-align: left;
-	margin: auto;
-	margin-left: 10%;
-	&:after {
-		content: ":";
-		font-weight: 900;
-		color: #cf4b00;
-		text-align: left;
-	}
-	&:before {
-		content: ">>> ";
-		font-weight: 100;
-		color: #cf4b00;
-	}
+  display: block;
+  margin: auto;
+  margin-left: 10%;
+  padding: 10px;
+  text-align: left;
+
+  &::after {
+    color: #cf4b00;
+    content: ':';
+    font-weight: 900;
+    text-align: left;
+  }
+
+  &::before {
+    color: #cf4b00;
+    content: '>>> ';
+    font-weight: 100;
+  }
 }
-label[for=subscribe] {
-	padding: 20px;
-	display: inline;
-	text-align: center;
-	margin: auto;
-	&:after {
-		content: "";
-	}
-	&:before {
-		content: "";
-	}
+
+label[for='subscribe'] {
+  display: inline;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+
+  &::after {
+    content: '';
+  }
+
+  &::before {
+    content: '';
+  }
 }
-input[type=submit] {
-	-webkit-transition-duration: 400ms;
-	-o-transition-duration: 400ms;
-	transition-duration: 400ms;
-	border: 2px solid #ccc;
-	padding: 5px;
-	border-radius: 5px;
-	background-color: #FFF;
-	margin: auto;
-	&:hover {
-		padding: 10px;
-		background-color: #cf4b00;
-		color: #fff;
-		cursor: pointer;
-	}
+
+input[type='submit'] {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin: auto;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+
+  &:hover {
+    background-color: #cf4b00;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+  }
 }
-input[type=text] {
-	-webkit-transition-duration: 400ms;
-	-o-transition-duration: 400ms;
-	transition-duration: 400ms;
-	border: 2px solid #ccc;
-	padding: 5px;
-	border-radius: 5px;
-	margin: auto;
-	width: 90%;
-	&:focus {
-		padding: 10px;
-		background-color: #cf4b00;
-		color: #fff;
-	}
+
+input[type='text'] {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin: auto;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  width: 90%;
+
+  &:focus {
+    background-color: #cf4b00;
+    color: #fff;
+    padding: 10px;
+  }
 }
-input[type=email] {
-	-webkit-transition-duration: 400ms;
-	-o-transition-duration: 400ms;
-	transition-duration: 400ms;
-	border: 2px solid #ccc;
-	padding: 5px;
-	border-radius: 5px;
-	width: 90%;
-	&:focus {
-		padding: 10px;
-		background-color: #cf4b00;
-		color: #fff;
-	}
+
+input[type='email'] {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  width: 90%;
+
+  &:focus {
+    background-color: #cf4b00;
+    color: #fff;
+    padding: 10px;
+  }
 }
+
 textarea {
-	-webkit-transition-duration: 400ms;
-	-o-transition-duration: 400ms;
-	transition-duration: 400ms;
-	border: 2px solid #ccc;
-	padding: 5px;
-	border-radius: 5px;
-	width: 90%;
-	&:focus {
-		padding: 10px;
-		border: 3px solid #cf4b00;
-	}
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  width: 90%;
+
+  &:focus {
+    border: 3px solid #cf4b00;
+    padding: 10px;
+  }
 }
 @media only screen and (min-width: 780px) {
-	.content {
-		padding: 10%;
-	}
+  .content {
+    padding: 10%;
+  }
 }
 @media only screen and (min-width: 1024px) {
-	textarea {
-		width: 80%;
-	}
-	input[type=email] {
-		width: 80%;
-	}
-	input[type=text] {
-		width: 80%;
-	}
+  textarea {
+    width: 80%;
+  }
+
+  input[type='email'] {
+    width: 80%;
+  }
+
+  input[type='text'] {
+    width: 80%;
+  }
 }
 @media only screen and (min-width: 1366px) {
-	textarea {
-		width: 70%;
-	}
-	input[type=email] {
-		width: 70%;
-	}
-	input[type=text] {
-		width: 70%;
-	}
+  textarea {
+    width: 70%;
+  }
+
+  input[type='email'] {
+    width: 70%;
+  }
+
+  input[type='text'] {
+    width: 70%;
+  }
 }
 @media only screen and (min-width: 1600px) {
-	textarea {
-		width: 60%;
-	}
-	input[type=email] {
-		width: 60%;
-	}
-	input[type=text] {
-		width: 60%;
-	}
+  textarea {
+    width: 60%;
+  }
+
+  input[type='email'] {
+    width: 60%;
+  }
+
+  input[type='text'] {
+    width: 60%;
+  }
 }

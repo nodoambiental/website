@@ -6,9 +6,9 @@ section.services .tile.is-child {
 }
 
 .navbar-blog {
+  background-color: #fff;
   border-bottom: 3px solid #ccc;
   padding-bottom: 10px;
-  background-color: #fff;
   padding-top: 20px;
   position: relative;
   top: -2.5vw;
@@ -21,22 +21,22 @@ section.services .tile.is-child {
 }
 
 .category-name {
+  color: #000;
   font-size: 1.5em;
   font-variant: small-caps;
-  color: #000;
   text-align: left;
 }
 
 .tag-name {
+  color: #000;
   font-size: 2em;
   font-variant: small-caps;
-  color: #000;
   text-align: left;
 }
 .tag-name::before {
+  color: #eb6113;
   content: "#";
   font-size: 1em;
-  color: #EB6113;
 }
 
 @media only screen and (min-width: 780px) {

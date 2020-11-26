@@ -9,97 +9,97 @@ form {
 }
 
 label {
-  padding: 10px;
   display: block;
-  text-align: left;
   margin: auto;
   margin-left: 10%;
-}
-label:after {
-  content: ":";
-  font-weight: 900;
-  color: #cf4b00;
+  padding: 10px;
   text-align: left;
 }
-label:before {
+label::after {
+  color: #cf4b00;
+  content: ":";
+  font-weight: 900;
+  text-align: left;
+}
+label::before {
+  color: #cf4b00;
   content: ">>> ";
   font-weight: 100;
-  color: #cf4b00;
 }
 
 label[for=subscribe] {
-  padding: 20px;
   display: inline;
-  text-align: center;
   margin: auto;
+  padding: 20px;
+  text-align: center;
 }
-label[for=subscribe]:after {
+label[for=subscribe]::after {
   content: "";
 }
-label[for=subscribe]:before {
+label[for=subscribe]::before {
   content: "";
 }
 
 input[type=submit] {
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
+  background-color: #fff;
   border: 2px solid #ccc;
-  padding: 5px;
   border-radius: 5px;
-  background-color: #FFF;
   margin: auto;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
 }
 input[type=submit]:hover {
-  padding: 10px;
   background-color: #cf4b00;
   color: #fff;
   cursor: pointer;
+  padding: 10px;
 }
 
 input[type=text] {
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
   border: 2px solid #ccc;
-  padding: 5px;
   border-radius: 5px;
   margin: auto;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
   width: 90%;
 }
 input[type=text]:focus {
-  padding: 10px;
   background-color: #cf4b00;
   color: #fff;
+  padding: 10px;
 }
 
 input[type=email] {
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
   border: 2px solid #ccc;
-  padding: 5px;
   border-radius: 5px;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
   width: 90%;
 }
 input[type=email]:focus {
-  padding: 10px;
   background-color: #cf4b00;
   color: #fff;
+  padding: 10px;
 }
 
 textarea {
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
   border: 2px solid #ccc;
-  padding: 5px;
   border-radius: 5px;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
   width: 90%;
 }
 textarea:focus {
-  padding: 10px;
   border: 3px solid #cf4b00;
+  padding: 10px;
 }
 
 @media only screen and (min-width: 780px) {

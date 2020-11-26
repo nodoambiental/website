@@ -5,72 +5,80 @@
 * Browsers: last 4 version
 */
 form {
-	margin: 40px;
+  margin: 40px;
 }
+
 ul {
-	li {
-		background-color: #FFF;
-		border: 3px solid #eee;
-		border-radius: 20px;
-		width: 80%;
-		margin: auto;
-		padding: 20px;
-		a {
-			text-align: center;
-			padding: 5px;
-			position: relative;
-			font-size: 2em;
-			color: #cf4b00;
-			font-variant: all-small-caps;
-			&:hover {
-				color: #FF5C00;
-				font-size: 2.2em;
-			}
-		}
-	}
+  li {
+    background-color: #fff;
+    border: 3px solid #eee;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+
+    a {
+      color: #cf4b00;
+      font-size: 2em;
+      font-variant: all-small-caps;
+      padding: 5px;
+      position: relative;
+      text-align: center;
+
+      &:hover {
+        color: #ff5c00;
+        font-size: 2.2em;
+      }
+    }
+  }
 }
-input[type=submit] {
-	-webkit-transition-duration: 400ms;
-	-o-transition-duration: 400ms;
-	transition-duration: 400ms;
-	border: 2px solid #ccc;
-	padding: 5px;
-	border-radius: 5px;
-	background-color: #FFF;
-	&:hover {
-		padding: 10px;
-		background-color: #cf4b00;
-		color: #fff;
-		cursor: pointer;
-	}
+
+input[type='submit'] {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+
+  &:hover {
+    background-color: #cf4b00;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+  }
 }
+
 #search-box {
-	-webkit-transition-duration: 400ms;
-	-o-transition-duration: 400ms;
-	transition-duration: 400ms;
-	border: 2px solid #ccc;
-	padding: 5px;
-	border-radius: 5px;
-	&:hover {
-		padding: 10px;
-		width: 50%;
-		background-color: #cf4b00;
-		color: #fff;
-	}
-	&:focus {
-		padding: 10px;
-		width: 50%;
-		background-color: #cf4b00;
-		color: #fff;
-	}
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+
+  &:hover {
+    background-color: #cf4b00;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+  }
+
+  &:focus {
+    background-color: #cf4b00;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+  }
 }
 @media only screen and (min-width: 780px) {
-	.content {
-		padding: 10%;
-	}
+  .content {
+    padding: 10%;
+  }
 }
 @media only screen and (max-width: 1024px) and (min-width: 610px) {
-	.navbar-blog {
-		top: -7vw;
-	}
+  .navbar-blog {
+    top: -7vw;
+  }
 }

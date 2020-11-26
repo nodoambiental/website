@@ -4,64 +4,64 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-@import "cards.css";
+@import 'cards.css';
 p {
-  text-align: left;
   margin: auto;
+  text-align: left;
 }
 p > img {
-  border-radius: 20px;
   background-color: white;
   border: 3px solid #eee;
+  border-radius: 20px;
   text-align: center;
 }
 
 ul {
-  text-align: left;
   margin: auto;
+  text-align: left;
 }
 
 li {
-  text-align: left;
   margin: auto;
+  text-align: left;
 }
 
 h2:not(.share-social-title):not(.main-title) {
-  text-align: left;
   margin: auto;
+  text-align: left;
 }
 
 h3 {
-  text-align: left;
   margin: auto;
+  text-align: left;
 }
 
 h4 {
-  text-align: left;
   margin: auto;
+  text-align: left;
 }
 
 .content a:not(.share-social-link):not(.license-icons) {
-  border-bottom: 1px dotted #EB6113;
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
+  border-bottom: 1px dotted #eb6113;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
   transition-duration: 400ms;
   word-wrap: break-word;
 }
 .content a:hover {
-  color: #EB6113;
-  font-style: italic;
   border-bottom: 1px dotted black;
+  color: #eb6113;
+  font-style: italic;
 }
 .content a img:not(.share-social-icon) {
-  border-radius: 0px;
   background-color: white;
+  border-radius: 0;
 }
 
 .project-subtitle {
+  left: 60%;
   position: absolute;
   top: 45%;
-  left: 60%;
 }
 
 h1.main-title {
@@ -71,18 +71,18 @@ h1.main-title {
 
 .divider {
   border-bottom: 3px solid #ccc;
-  width: 80%;
   margin: auto;
+  width: 80%;
 }
 
 section.content {
-  text-align: left;
-  padding: 10%;
   margin-top: calc(200px - 15vw);
+  padding: 10%;
+  text-align: left;
 }
 section.content li {
-  list-style: circle;
   font-size: 120%;
+  list-style: circle;
   padding: 10px;
 }
 section.content p {
@@ -90,12 +90,12 @@ section.content p {
 }
 
 table img {
-  border-radius: 20px;
   border: 1px solid #ccc;
+  border-radius: 20px;
 }
 table a img {
-  border-radius: 5px;
   border: none;
+  border-radius: 5px;
 }
 table thead {
   background-color: #eee;
@@ -108,12 +108,12 @@ table tr:nth-child(even) {
   background-color: #eee;
 }
 table tbody tr {
-  text-align: center;
   display: table-row;
+  text-align: center;
 }
 table tbody tr td {
-  text-align: center;
   display: table-cell;
+  text-align: center;
   vertical-align: middle !important;
 }
 
@@ -123,35 +123,35 @@ table tbody tr td {
   }
 
   p > img {
-    width: 60%;
     margin-left: 20%;
+    width: 60%;
   }
 
   section.content {
-    width: calc(75ch + 20%);
     margin: auto;
+    width: calc(75ch + 20%);
   }
   section.content img {
-    width: 100%;
     margin: 0;
+    width: 100%;
   }
   section.content h1 {
     font-size: 1.5rem;
+    margin-bottom: 40px;
     margin-top: -50px;
     padding: 10px;
-    margin-bottom: 40px;
   }
   section.content h2 {
-    padding-bottom: 20px;
     font-size: 1.3em;
+    padding-bottom: 20px;
   }
   section.content ul {
     margin: 0;
     margin-left: 10px;
   }
   section.content ul li {
-    padding-top: 5px;
     padding-bottom: 5px;
+    padding-top: 5px;
   }
   section.content ul li::marker {
     color: #eb6113;
@@ -160,16 +160,16 @@ table tbody tr td {
   }
 
   section.main-title img {
-    width: 40%;
     display: block;
     margin: auto;
+    width: 40%;
   }
 
   div.spacer {
-    position: relative;
     display: block;
-    margin-top: 18%;
     height: 100px;
+    margin-top: 18%;
+    position: relative;
     width: 100%;
   }
 
@@ -189,8 +189,8 @@ table tbody tr td {
   }
 
   section.team .tile {
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
+    box-pack: start;
+    flex-pack: start;
     justify-content: flex-start;
   }
   section.team h2 {
@@ -199,17 +199,17 @@ table tbody tr td {
 }
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
   section.section.content {
-    width: calc(65ch);
-    padding: 40px;
-    margin: auto;
     font-size: 1.1em;
+    margin: auto;
+    padding: 40px;
+    width: calc(65ch);
   }
 
   section.content img {
-    width: 100%;
+    margin: 0;
     margin: 0;
     padding: 0;
-    margin: 0;
+    width: 100%;
     width: 100%;
   }
   section.content ul {
@@ -218,8 +218,8 @@ table tbody tr td {
   }
   section.content ul li {
     font-size: 1em;
-    padding-top: 5px;
     padding-bottom: 5px;
+    padding-top: 5px;
   }
   section.content ul li::marker {
     color: #eb6113;
@@ -228,13 +228,13 @@ table tbody tr td {
   }
   section.content h1 {
     font-size: 1.5rem;
+    margin-bottom: 40px;
     margin-top: -50px;
     padding: 10px;
-    margin-bottom: 40px;
   }
   section.content h2 {
-    padding-bottom: 20px;
     font-size: 1.3em;
+    padding-bottom: 20px;
   }
 
   section.services .tile p.title {
@@ -256,9 +256,9 @@ table tbody tr td {
   }
 
   section.main-title img {
-    width: 70%;
     display: block;
     margin: auto;
+    width: 70%;
   }
 
   section#about {
@@ -266,28 +266,28 @@ table tbody tr td {
   }
 
   div.spacer {
-    position: relative;
     display: block;
-    margin-top: 400px;
     height: 100px;
+    margin-top: 400px;
+    position: relative;
     width: 100%;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 800px) {
   .project-subtitle {
+    left: 55%;
     position: absolute;
     top: 45%;
-    left: 55%;
   }
 
   table thead tr th {
-    text-align: center;
-    display: block;
-    margin: 5px;
-    margin-top: -1px;
-    margin-bottom: 0px;
     border-bottom: 1px dashed #aaa !important;
     border-top: 1px dashed #aaa !important;
+    display: block;
+    margin: 5px;
+    margin-bottom: 0;
+    margin-top: -1px;
+    text-align: center;
   }
   table thead tr th:first-child {
     margin-top: 5px;
@@ -299,54 +299,54 @@ table tbody tr td {
     background-color: white;
   }
   table tbody tr td {
-    display: block;
-    margin: 5px;
     border-block-style: dashed !important;
     border-color: #aaa !important;
+    display: block;
+    margin: 5px;
   }
 
   h1.main-title {
+    font-size: 1.6em;
     position: relative;
     top: 15%;
-    font-size: 1.6em;
   }
 
   section.main-title img {
+    display: block;
+    display: block;
+    margin: auto;
+    margin: auto;
     width: 90%;
-    display: block;
-    margin: auto;
     width: 70%;
-    display: block;
-    margin: auto;
   }
 
   section.section.content {
-    width: calc(65ch);
-    padding: 40px;
     margin: auto;
+    padding: 40px;
+    width: calc(65ch);
   }
 
   section.content img {
-    width: 100%;
     margin: 0;
+    width: 100%;
   }
   section.content h1 {
     font-size: 1.5rem;
+    margin-bottom: 40px;
     margin-top: -50px;
     padding: 10px;
-    margin-bottom: 40px;
   }
   section.content h2 {
-    padding-bottom: 20px;
     font-size: 1.3em;
+    padding-bottom: 20px;
   }
   section.content ul {
     margin: 0;
     margin-left: 10px;
   }
   section.content ul li {
-    padding-top: 5px;
     padding-bottom: 5px;
+    padding-top: 5px;
   }
   section.content ul li::marker {
     color: #eb6113;
@@ -377,63 +377,63 @@ table tbody tr td {
   }
 
   div.spacer {
-    position: relative;
     display: block;
-    margin-top: 55%;
     height: 100px;
+    margin-top: 55%;
+    position: relative;
     width: 100%;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 600px) {
   .project-subtitle {
+    font-size: 1.6em;
     position: absolute;
     top: 40%;
-    font-size: 1.6em;
   }
 
   section.main-title {
-    padding: 0;
     font-size: 0.75em;
+    padding: 0;
   }
   section.main-title img {
+    display: block;
+    display: block;
+    margin: auto;
+    margin: auto;
     padding-top: 20px;
     width: 90%;
-    display: block;
-    margin: auto;
     width: 70%;
-    display: block;
-    margin: auto;
   }
 
   section.section.content {
-    padding: 30px;
     font-size: 0.95em;
     line-height: 1.7em;
-    width: 100%;
     margin: auto;
+    padding: 30px;
+    width: 100%;
   }
 
   section.content img {
-    width: 100%;
     margin: 0;
+    width: 100%;
   }
   section.content h1 {
     font-size: 1.5rem;
+    margin-bottom: 40px;
     margin-top: -50px;
     padding: 10px;
-    margin-bottom: 40px;
   }
   section.content h2 {
-    padding-bottom: 20px;
     font-size: 1.3em;
+    padding-bottom: 20px;
   }
   section.content ul {
     margin: 0;
     margin-left: 10px;
   }
   section.content ul li {
-    padding-top: 5px;
     padding-bottom: 5px;
+    padding-top: 5px;
   }
   section.content ul li::marker {
     color: #eb6113;
@@ -464,10 +464,10 @@ table tbody tr td {
   }
 
   div.spacer {
-    position: relative;
     display: block;
-    margin-top: 270px;
     height: 100px;
+    margin-top: 270px;
+    position: relative;
     width: 100%;
   }
 }
@@ -476,22 +476,22 @@ table tbody tr td {
     padding: 0;
   }
   section.main-title img {
-    width: 90%;
-    padding: 10px;
     display: block;
     margin: auto;
     margin-bottom: 10px;
+    padding: 10px;
+    width: 90%;
   }
   section.main-title h1 {
     top: 10%;
   }
 
   section.section.content {
-    padding: 20px;
     font-size: 0.9em;
     line-height: 1.6em;
-    width: 100%;
     margin: auto;
+    padding: 20px;
+    width: 100%;
   }
 
   section.content ul {
@@ -500,8 +500,8 @@ table tbody tr td {
   }
   section.content ul li {
     font-size: 1em;
-    padding-top: 5px;
     padding-bottom: 5px;
+    padding-top: 5px;
   }
   section.content ul li::marker {
     color: #eb6113;
@@ -509,26 +509,26 @@ table tbody tr td {
     font-weight: 900;
   }
   section.content img {
-    padding: 0;
     margin: 0;
+    padding: 0;
     width: 100%;
   }
   section.content h1 {
     font-size: 1.5rem;
+    margin-bottom: 40px;
     margin-top: -50px;
     padding: 10px;
-    margin-bottom: 40px;
   }
   section.content h2 {
-    padding-bottom: 20px;
     font-size: 1.3em;
+    padding-bottom: 20px;
   }
 
   div.spacer {
-    position: relative;
     display: block;
-    margin-top: 400px;
     height: 100px;
+    margin-top: 400px;
+    position: relative;
     width: 100%;
   }
 }

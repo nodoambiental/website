@@ -6,8 +6,8 @@
 */
 /* References */
 .references {
-  width: 90%;
   margin: auto;
+  width: 90%;
 }
 .references button.expandable_card {
   background: none;
@@ -18,9 +18,9 @@
 ol.bibliography {
   background-color: #eee;
   border-radius: 10px;
+  margin-left: 0;
   padding: 10px;
   padding-left: 30px;
-  margin-left: 0;
 }
 ol.bibliography li::marker {
   color: #eb6113;
@@ -33,15 +33,15 @@ ol.bibliography li span i {
   color: #eb6113;
   font-size: 0.9em;
   font-variant: small-caps;
-  -webkit-transition-duration: 1s;
-  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  transition-duration: 1s;
   transition-duration: 1s;
 }
 .citation:hover {
-  font-style: italic;
+  border-bottom: 1px dashed #999;
   color: #eb6113;
   font-size: 0.95em;
-  border-bottom: 1px dashed #999;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=references.css.map */

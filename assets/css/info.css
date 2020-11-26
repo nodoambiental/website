@@ -1,7 +1,7 @@
 /* Info */
 .info-section {
-  width: 90%;
   margin: auto;
+  width: 90%;
 }
 .info-section button.expandable_card {
   background: none;

@@ -6,31 +6,31 @@
 */
 /* License */
 @font-face {
-  font-family: "CC demo";
-  src: local("CC demo medium"), local("CCdemo-medium"), url("/assets/css/fonts/cc/CCdemo-medium.woff") format("woff"), url("/assets/css/fonts/cc/CCdemo-medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
   font-display: swap;
+  font-family: "CC demo";
+  font-style: normal;
+  font-weight: 500;
+  src: local("CC demo medium"), local("CCdemo-medium"), url("/assets/css/fonts/cc/CCdemo-medium.woff") format("woff"), url("/assets/css/fonts/cc/CCdemo-medium.woff2") format("woff2");
 }
 .license {
-  width: 90%;
   margin: auto;
+  width: 90%;
 }
 .license h3 {
-  padding-top: 20px;
-  font-family: "CC demo";
-  font-weight: 500;
-  font-style: normal;
-  text-align: center;
-  font-size: 3em;
-  margin-bottom: 10px;
   color: black;
+  font-family: "CC demo";
+  font-size: 3em;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
 }
 .license button.expandable_card {
   background: none;
   border: none;
-  width: 100%;
   margin-bottom: 15px;
+  width: 100%;
 }
 .license .content ul {
   margin-left: 80px;
@@ -39,15 +39,15 @@
   color: black;
   font-family: "CC demo";
   font-size: 1.2em;
-  width: 80%;
   text-align: center;
+  width: 80%;
 }
 .license div.content div > p a:not(.license-icons) {
   border: none;
   border-bottom: 1px dashed white;
   color: #fff;
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
   transition-duration: 400ms;
 }
 .license div.content div > p a:not(.license-icons):hover {
@@ -65,8 +65,8 @@
   margin: 10px;
 }
 .license div.content div p + ul li {
-  margin-left: 20%;
   border-left: 2px solid black;
+  margin-left: 20%;
 }
 .license div.content div p + ul li::marker {
   color: #fff;
@@ -80,24 +80,24 @@
 }
 
 .license-icons {
-  margin: auto;
-  display: block;
-  width: 250px;
-  margin-bottom: 20px;
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
   border: none;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  width: 250px;
 }
 .license-icons:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  border: none;
   background-color: rgba(235, 97, 19, 0.9);
+  border: none;
+  border-radius: 20px;
   padding: 10px;
   padding-bottom: 5px;
-  border-radius: 20px;
+  transform: scale(1.1);
+  transform: scale(1.1);
+  transform: scale(1.1);
 }
 .license-icons img {
   padding: 5px;

@@ -15,214 +15,214 @@ form {
 }
 
 label:not(.checkbox-label) {
-  padding: 10px;
   display: block;
-  text-align: left;
   margin: auto;
   margin-left: 10%;
+  padding: 10px;
+  text-align: left;
 }
-label:not(.checkbox-label):before {
+label:not(.checkbox-label)::before {
+  color: #cf4b00;
   content: ">>> ";
   font-weight: 100;
-  color: #cf4b00;
 }
 
 label[for=subscribe] {
-  padding: 20px;
   display: inline;
-  text-align: center;
   margin: auto;
+  padding: 20px;
+  text-align: center;
 }
-label[for=subscribe]:after {
+label[for=subscribe]::after {
   content: "";
 }
-label[for=subscribe]:before {
+label[for=subscribe]::before {
   content: "";
 }
 
 .checkbox-container {
-  margin-top: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .checkbox-label {
-  display: block;
-  position: relative;
-  margin: auto;
-  cursor: pointer;
-  font-size: 22px;
-  line-height: 24px;
-  width: 24px;
   clear: both;
+  cursor: pointer;
+  display: block;
+  font-size: 22px;
   left: 310px;
+  line-height: 24px;
+  margin: auto;
+  position: relative;
   top: 2px;
+  width: 24px;
 }
 .checkbox-label input {
-  position: absolute;
-  opacity: 0;
   cursor: pointer;
+  opacity: 0;
+  position: absolute;
 }
 .checkbox-label input:checked ~ .checkbox-custom {
   background-color: #cf4b00;
+  border: 2px solid #fff;
   border-radius: 5px;
-  -webkit-transform: translateX(-25px) translateY(-30px) scale(1);
-  -ms-transform: translateX(-25px) translateY(-30px) scale(1);
-  transform: translateX(-25px) translateY(-30px) scale(1);
-  opacity: 1;
-  border: 2px solid #FFFFFF;
   height: 40px;
+  opacity: 1;
+  transform: translateX(-25px) translateY(-30px) scale(1);
+  transform: translateX(-25px) translateY(-30px) scale(1);
+  transform: translateX(-25px) translateY(-30px) scale(1);
   width: 40px;
 }
 .checkbox-label input:checked ~ .checkbox-custom::after {
-  position: absolute;
-  content: "✔️";
-  left: 25px;
-  top: 25px;
-  height: 0px;
-  width: 0px;
-  -webkit-transform: scale(1) translateX(-5px) translateY(-5px);
-  -ms-transform: scale(1) translateX(-5px) translateY(-5px);
-  transform: scale(1) translateX(-5px) translateY(-5px);
-  opacity: 1;
-  left: 5px;
-  top: 5px;
-  width: 35px;
-  height: 35px;
+  background-color: #fff;
   border: solid #cf4b00;
   border-radius: 50%;
-  background-color: #FFF;
+  content: "✔️";
+  height: 0;
+  height: 35px;
+  left: 25px;
+  left: 5px;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  top: 5px;
+  transform: scale(1) translateX(-5px) translateY(-5px);
+  transform: scale(1) translateX(-5px) translateY(-5px);
+  transform: scale(1) translateX(-5px) translateY(-5px);
+  width: 0;
+  width: 35px;
 }
 .checkbox-label input:checked ~ .checkbox-custom::before {
-  left: -3px;
-  top: -3px;
-  width: 40px;
-  height: 40px;
   border-radius: 5px;
-  -webkit-transform: scale(3);
-  -ms-transform: scale(3);
-  transform: scale(3);
+  height: 40px;
+  left: -3px;
   opacity: 0;
-  z-index: 999;
+  top: -3px;
+  transform: scale(3);
+  transform: scale(3);
+  transform: scale(3);
   transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  width: 40px;
+  z-index: 999;
 }
 .checkbox-label .checkbox-custom {
+  background-color: #fff;
+  border: 2px solid #cf4b00;
+  border-radius: 50%;
+  height: 20px;
+  left: 0;
   position: absolute;
   top: 20px;
-  left: 0px;
-  height: 20px;
-  width: 20px;
-  background-color: #FFFFFF;
-  border-radius: 50%;
-  transition: all 0.3s ease-out;
-  -webkit-transform: translateX(-15px) translateY(-20px) scale(1);
-  -ms-transform: translateX(-15px) translateY(-20px) scale(1);
   transform: translateX(-15px) translateY(-20px) scale(1);
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  border: 2px solid #cf4b00;
+  transform: translateX(-15px) translateY(-20px) scale(1);
+  transform: translateX(-15px) translateY(-20px) scale(1);
+  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  width: 20px;
 }
 .checkbox-label .checkbox-custom::after {
-  position: absolute;
-  content: "";
-  left: 10px;
-  top: 10px;
-  height: 10px;
-  width: 10px;
-  border-radius: 5px;
   border: solid #cf4b00;
+  border-radius: 5px;
   border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(0deg) scale(0);
-  -ms-transform: rotate(0deg) scale(0);
-  transform: rotate(0deg) scale(0);
-  opacity: 1;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  line-height: 35px;
+  content: "";
   font-size: 20px;
+  height: 10px;
+  left: 10px;
+  line-height: 35px;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  transform: rotate(0deg) scale(0);
+  transform: rotate(0deg) scale(0);
+  transform: rotate(0deg) scale(0);
+  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  width: 10px;
 }
 .checkbox-label .checkbox-custom::before {
-  position: absolute;
-  content: "";
-  left: 10px;
-  top: 10px;
-  width: 0px;
-  height: 0px;
-  border-radius: 5px;
   border: 2px solid #cf4b00;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
+  border-radius: 5px;
+  content: "";
+  height: 0;
+  left: 10px;
+  position: absolute;
+  top: 10px;
   transform: scale(0);
+  transform: scale(0);
+  transform: scale(0);
+  width: 0;
 }
 
 input[type=button] {
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
+  background-color: #fff;
   border: 2px solid #ccc;
-  padding: 5px;
   border-radius: 5px;
-  background-color: #FFF;
   margin: auto;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
 }
 input[type=button]:hover {
-  padding: 10px;
   background-color: #cf4b00;
   color: #fff;
   cursor: pointer;
+  padding: 10px;
 }
 
 input[type=text] {
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
   border: 2px solid #ccc;
-  padding: 5px;
   border-radius: 5px;
   margin: auto;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
   width: 90%;
 }
 input[type=text]:focus {
-  padding: 10px;
   background-color: #cf4b00;
   color: #fff;
+  padding: 10px;
 }
 
 input[type=email] {
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
   border: 2px solid #ccc;
-  padding: 5px;
   border-radius: 5px;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
   width: 90%;
 }
 input[type=email]:focus {
-  padding: 10px;
   background-color: #cf4b00;
   color: #fff;
+  padding: 10px;
 }
 
 textarea {
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
   border: 2px solid #ccc;
-  padding: 5px;
   border-radius: 5px;
+  padding: 5px;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
+  transition-duration: 400ms;
   width: 90%;
 }
 textarea:focus {
-  padding: 10px;
   border: 3px solid #cf4b00;
+  padding: 10px;
 }
 
 .required-field {
@@ -243,25 +243,25 @@ textarea:focus {
   }
 
   label:not(.checkbox-label) {
-    padding: 10px;
     display: block;
-    text-align: left;
     margin: auto;
     margin-left: calc(0.5625 * 55vw);
+    padding: 10px;
+    text-align: left;
   }
 
   section.form p {
     margin: auto !important;
   }
   > section.form:first-child {
-    width: 66ch;
-    position: relative;
     margin-bottom: 30px;
+    position: relative;
+    width: 66ch;
   }
 
   #leadgen-form > .checkbox-container {
-    position: relative;
     left: -20px;
+    position: relative;
   }
 }
 @media only screen and (min-width: 1366px) and (max-width: 1600px) {
@@ -278,25 +278,25 @@ textarea:focus {
   }
 
   label:not(.checkbox-label) {
-    padding: 10px;
     display: block;
-    text-align: left;
     margin: auto;
     margin-left: calc(0.5625 * 50vw);
+    padding: 10px;
+    text-align: left;
   }
 
   section.form p {
     margin: auto !important;
   }
   > section.form:first-child {
-    width: 66ch;
-    position: relative;
     margin-bottom: 30px;
+    position: relative;
+    width: 66ch;
   }
 
   #leadgen-form > .checkbox-container {
-    position: relative;
     left: -25px;
+    position: relative;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
@@ -313,25 +313,25 @@ textarea:focus {
   }
 
   label:not(.checkbox-label) {
-    padding: 10px;
     display: block;
-    text-align: left;
     margin: auto;
     margin-left: calc(0.5625 * 30vw);
+    padding: 10px;
+    text-align: left;
   }
 
   section.form p {
     margin: auto !important;
   }
   > section.form:first-child {
-    width: 66ch;
-    position: relative;
     margin-bottom: 30px;
+    position: relative;
+    width: 66ch;
   }
 
   #leadgen-form > .checkbox-container {
-    position: relative;
     left: -25px;
+    position: relative;
   }
 }
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
@@ -340,10 +340,10 @@ textarea:focus {
   }
 
   div.spacer {
-    position: relative;
     display: block;
-    margin-top: 110px;
     height: calc(0.5625 * 45vw);
+    margin-top: 110px;
+    position: relative;
     width: 100%;
   }
 
@@ -360,25 +360,25 @@ textarea:focus {
   }
 
   label:not(.checkbox-label) {
-    padding: 10px;
     display: block;
-    text-align: left;
     margin: auto;
     margin-left: calc(0.5625 * 30vw);
+    padding: 10px;
+    text-align: left;
   }
 
   section.form p {
     margin: auto !important;
   }
   > section.form:first-child {
-    width: 66ch;
-    position: relative;
     margin-bottom: 30px;
+    position: relative;
+    width: 66ch;
   }
 
   #leadgen-form > .checkbox-container {
-    position: relative;
     left: -20px;
+    position: relative;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 800px) {
@@ -387,10 +387,10 @@ textarea:focus {
   }
 
   div.spacer {
-    position: relative;
     display: block;
-    margin-top: 110px;
     height: calc(0.5625 * 45vw);
+    margin-top: 110px;
+    position: relative;
     width: 100%;
   }
 
@@ -407,22 +407,22 @@ textarea:focus {
   }
 
   label:not(.checkbox-label) {
-    padding: 10px;
     display: block;
-    text-align: left;
     margin: auto;
     margin-left: 10%;
+    padding: 10px;
+    text-align: left;
   }
 
   > section.form:first-child {
-    width: 80%;
-    position: relative;
     margin-bottom: 30px;
+    position: relative;
+    width: 80%;
   }
 
   #leadgen-form > .checkbox-container {
-    position: relative;
     left: -30px;
+    position: relative;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 600px) {
@@ -432,10 +432,10 @@ textarea:focus {
   }
 
   div.spacer {
-    position: relative;
     display: block;
-    margin-top: 110px;
     height: calc(0.5625 * 45vw);
+    margin-top: 110px;
+    position: relative;
     width: 100%;
   }
 
@@ -452,39 +452,39 @@ textarea:focus {
   }
 
   label:not(.checkbox-label) {
-    padding: 10px;
     display: block;
-    text-align: left;
     margin: auto;
     margin-left: -4%;
+    padding: 10px;
+    text-align: left;
   }
 
   > section.form:first-child {
-    width: 90%;
-    position: relative;
     left: -30px;
     margin-bottom: 30px;
+    position: relative;
+    width: 90%;
   }
 
   #leadgen-form:first-child {
+    left: 0;
     position: relative;
-    left: 0px;
   }
   #leadgen-form > .checkbox-container {
     margin: auto;
-    width: 90%;
     margin-left: calc(10%);
+    width: 90%;
   }
   #leadgen-form > .checkbox-container > .checkbox-label {
-    position: relative;
     left: calc(30% + 15px);
+    position: relative;
     top: 45px;
   }
   #leadgen-form > .checkbox-container > div.input-title {
-    width: 75%;
-    text-align: center;
-    position: relative;
     left: 5%;
+    position: relative;
+    text-align: center;
+    width: 75%;
   }
   > #leadgen-form:nth-child(6) span.checkbox-custom {
     left: 20px;
@@ -510,10 +510,10 @@ textarea:focus {
   }
 
   div.spacer {
-    position: relative;
     display: block;
-    margin-top: 110px;
     height: 100px;
+    margin-top: 110px;
+    position: relative;
     width: 100%;
   }
 
@@ -530,22 +530,22 @@ textarea:focus {
   }
 
   label:not(.checkbox-label) {
-    padding: 10px;
     display: block;
-    text-align: left;
     margin: auto;
     margin-left: -4%;
+    padding: 10px;
+    text-align: left;
   }
 
   > section.form:first-child {
-    width: 100%;
-    position: relative;
     left: -30px;
+    position: relative;
+    width: 100%;
   }
 
   #leadgen-form:first-child {
+    left: 0;
     position: relative;
-    left: 0px;
   }
   > #leadgen-form:nth-child(6) span.checkbox-custom {
     left: 150px;
