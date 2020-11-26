@@ -1,0 +1,53 @@
+@use 'sass:math';
+@use 'sass:string';
+@use '../vendor/bourbon' as bourbon;
+@use 'variables' as *;
+
+@mixin transition-primary {
+  @include bourbon.prefixer(
+    transition-duration,
+    $transition-duration-primary,
+    ("ms", "moz", "webkit", "o")
+  );
+}
+@mixin transition-primary-short {
+  @include bourbon.prefixer(
+    transition-duration,
+    $transition-duration-short,
+    ("ms", "moz", "webkit", "o")
+  );
+}
+@mixin transition-primary-long {
+  @include bourbon.prefixer(
+    transition-duration,
+    $transition-duration-long,
+    ("ms", "moz", "webkit", "o")
+  );
+}
+@mixin transition-primary-flair {
+  @include bourbon.prefixer(
+    transition-duration,
+    $transition-duration-flair,
+    ("ms", "moz", "webkit", "o")
+  );
+}
+
+@mixin scale($axis, $value) {
+  $processed-value: string.unquote("scale#{$axis}(#{$value})");
+  @include bourbon.prefixer(transform, $processed-value, ("webkit", "ms"));
+}
+@mixin translate($axis, $value) {
+  $processed-value: string.unquote("translate#{$axis}(#{$value})");
+  @include bourbon.prefixer(transform, $processed-value, ("webkit", "ms"));
+}
+@function proportionalText($percentage) {
+  $stripped-percentage: bourbon.strip-unit($percentage);
+
+  $clamped-percentage: math.clamp(-100, $stripped-percentage, 10000);
+
+  $multiplier: 1 + ($clamped-percentage / 100);
+
+  $scaled-value: bourbon.modular-scale(1, 1em, $multiplier);
+
+  @return bourbon.strip-unit($scaled-value) * 1em;
+}

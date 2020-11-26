@@ -1,0 +1,80 @@
+@use '../vendor/bourbon';
+@use 'helpers';
+@use 'components/navbar' as *;
+@use 'components/accordion' as *;
+@use 'components/card' as *;
+@use 'components/hero' as *;
+@use 'variables' as *;
+
+%base_body {
+  @include bourbon.value-prefixer(
+    background,
+    repeating-linear-gradient(
+      135deg,
+      $light-primary,
+      $light-primary 2px,
+      $background-primary 2px,
+      $background-primary 10px
+    ),
+    ("o")
+  );
+  background-attachment: fixed;
+  font-family: "Sarabun", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+%base_expanded-element {
+  display: inherit;
+  height: inherit;
+  @include helpers.transition-primary;
+}
+
+%base_contracted-element {
+  display: none;
+  @include helpers.transition-primary;
+}
+
+%base_navbar {
+  @include bourbon.prefixer(
+    box-shadow,
+    1px 0 3px 1px $dark-primary,
+    ("webkit")
+  );
+  @include helpers.transition-primary;
+  @extend %base_navbar-item;
+  @extend %base_navbar-brand;
+  @extend %base_navbar-menu;
+  @extend %base_navbar-start;
+  @extend %base_navbar-end;
+}
+
+%base_accordion {
+  .accordion {
+    @extend %base_accordion-element;
+  }
+
+  .panel {
+    @extend %base_accordion-element_panel;
+    @extend %base_accordion-element_images;
+  }
+
+  .active {
+    @extend %base_accordion-element_active;
+  }
+}
+
+%base_card {
+  article {
+    @extend %base_card_body;
+
+    p {
+      @extend %base_card_text;
+    }
+  }
+}
+
+%base_hero {
+  @extend %base_hero_body;
+  @extend %base_hero_background-animation;
+  @extend %base_hero_text;
+}
