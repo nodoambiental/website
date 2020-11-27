@@ -10,12 +10,12 @@ updates:
     schedule:
       interval: "daily"
     commit-message: 
-      prefix: "(Prod)Bundler<<<DependaBot:"
-      prefix-development: "(Dev)Bundler<<<DependaBot:"
+      prefix: "(Prod)Bundler:"
+      prefix-development: "(Dev)Bundler:"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
     commit-message: 
-      prefix: "Node<<<DependaBot:"
+      prefix: "Node:"
     target-branch: "develop-dependencies"
