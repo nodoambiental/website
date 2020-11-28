@@ -1,0 +1,51 @@
+@use '../../../../vendor/bourbon' as bourbon;
+@use '../../../helpers';
+@use '../../../variables' as *;
+@media only screen and (max-width: $xs) {
+  .buttons {
+    display: inherit;
+  }
+  .navbar-start {
+    .navbar-item {
+      &:not(:last-child) {
+        &::after {
+          color: inherit;
+          content: "";
+          left: 0;
+          position: relative;
+          @include helpers.reset-transform(scale);
+        }
+        &:hover {
+          &::after {
+            @include helpers.reset-transform(scale, translate);
+          }
+        }
+      }
+    }
+    > &:first-child {
+      margin-top: 10px;
+    }
+  }
+  .navbar-end {
+    .navbar-item {
+      @include bourbon.padding(null 0);
+      a {
+        background-color: $background-primary;
+        color: $light-text-high-contrast;
+        font-size: 16px;
+        padding: 0;
+        @include helpers.transition-primary;
+      }
+      &:hover {
+        background-color: $accent-primary;
+        a {
+          background-color: $accent-primary;
+          color: $background-primary;
+          font-size: 1.2em;
+          padding-bottom: 10px;
+          padding-top: 10px;
+        }
+      }
+    }
+  }
+}

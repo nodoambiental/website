@@ -10247,7 +10247,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-weight: 500;
   src: local("CC demo medium"), local("CCdemo-medium"), url("/assets/css/fonts/cc/CCdemo-medium.woff") format("woff"), url("/assets/css/fonts/cc/CCdemo-medium.woff2") format("woff2");
 }
-.js .navbar a.navbar-item {
+.js body nav .navbar-menu .navbar-end .navbar-item, .js body nav .navbar-menu .navbar-start .navbar-item, .js body nav .navbar-brand .navbar-item {
   -ms-transition-duration: 400ms;
   -moz-transition-duration: 400ms;
   -webkit-transition-duration: 400ms;
@@ -10255,12 +10255,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   transition-duration: 400ms;
   padding: 5px;
 }
-.js .navbar a.navbar-item svg {
+.js body nav .navbar-menu .navbar-end .navbar-item > svg, .js body nav .navbar-menu .navbar-start .navbar-item > svg, .js body nav .navbar-brand .navbar-item > svg {
   fill: #252525;
   width: 1.2em;
 }
 
-.js .navbar .navbar-brand .navbar-item path {
+.js body nav .navbar-brand .navbar-item path {
   width: 48px;
   -ms-transition-duration: 400ms;
   -moz-transition-duration: 400ms;
@@ -10268,11 +10268,17 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   -o-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-.js .navbar .navbar-brand .navbar-item:hover path {
+.js body nav .navbar-brand .navbar-item:hover path {
   fill: #090;
 }
 
-.js .navbar .navbar-menu a.navbar-item:not(:last-child)::after {
+.js body nav .navbar-menu .navbar-start .navbar-item:hover:not(.buttons) {
+  background-color: #f2f2f2;
+  color: #eb6113;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.js body nav .navbar-menu .navbar-start .navbar-item:not(:last-child)::after {
   color: #eb6113;
   content: "|";
   left: 5px;
@@ -10281,54 +10287,100 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   -ms-transform: scaleY(2);
   transform: scaleY(2);
 }
-
-.js .navbar .navbar-start a.navbar-item:hover {
-  background-color: #f2f2f2;
-  color: #eb6113;
-  padding-right: 10px;
-  padding-left: 10px;
+.js body nav .navbar-menu .navbar-start .navbar-item:not(:last-child):hover::after {
+  -webkit-transform:  scaleY(2) translateX(7px);
+  -ms-transform:  scaleY(2) translateX(7px);
+  transform:  scaleY(2) translateX(7px);
 }
-.js .navbar .navbar-start a.navbar-item:hover::after {
-  position: relative;
-  -webkit-transform: scaleY(2);
-  -ms-transform: scaleY(2);
-  transform: scaleY(2);
-  -webkit-transform: translateX(7px);
-  -ms-transform: translateX(7px);
-  transform: translateX(7px);
-}
-.js .navbar .navbar-start:last-child {
-  padding-right: 10px;
-  padding-left: 10px;
-  -ms-transition-duration: 400ms;
-  -moz-transition-duration: 400ms;
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
-}
-.js .navbar .navbar-start:last-child:hover i {
-  -webkit-transform: scaleY(1.25);
-  -ms-transform: scaleY(1.25);
-  transform: scaleY(1.25);
+.js body nav .navbar-menu .navbar-start .navbar-item:last-child:hover svg {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.js .navbar .navbar-end .navbar-item {
-  padding: 5px;
+@media only screen and (max-width: 400px) {
+  .js body nav .navbar-menu .buttons {
+    display: inherit;
+  }
+  .js body nav .navbar-menu .navbar-start .navbar-item:not(:last-child)::after {
+    color: inherit;
+    content: "";
+    left: 0;
+    position: relative;
+    -webkit-transform:  scale(0);
+    -ms-transform:  scale(0);
+    transform:  scale(0);
+  }
+  .js body nav .navbar-menu .navbar-start .navbar-item:not(:last-child):hover::after {
+    -webkit-transform:  scale(0) translate(0);
+    -ms-transform:  scale(0) translate(0);
+    transform:  scale(0) translate(0);
+  }
+  > .js body nav .navbar-menu .navbar-start:first-child {
+    margin-top: 10px;
+  }
+  .js body nav .navbar-menu .navbar-end .navbar-item {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .js body nav .navbar-menu .navbar-end .navbar-item a {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 0;
+    -ms-transition-duration: 400ms;
+    -moz-transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+    -o-transition-duration: 400ms;
+    transition-duration: 400ms;
+  }
+  .js body nav .navbar-menu .navbar-end .navbar-item:hover {
+    background-color: #eb6113;
+  }
+  .js body nav .navbar-menu .navbar-end .navbar-item:hover a {
+    background-color: #eb6113;
+    color: #fff;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
 }
-.js .navbar .navbar-end .navbar-item a {
-  font-size: 16px;
-  padding: 5px;
-  -ms-transition-duration: 400ms;
-  -moz-transition-duration: 400ms;
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
-}
-.js .navbar .navbar-end .navbar-item a:hover {
-  background-color: #eb6113;
+@media only screen and (max-width: 1024px) {
+  .js body nav .navbar-menu .buttons {
+    display: inherit;
+  }
+  > .js body nav .navbar-menu .navbar-start:first-child {
+    margin-top: 20px;
+  }
+  .js body nav .navbar-menu .navbar-end .navbar-item {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .js body nav .navbar-menu .navbar-end .navbar-item a {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 0;
+    text-align: right;
+    -ms-transition-duration: 400ms;
+    -moz-transition-duration: 400ms;
+    -webkit-transition-duration: 400ms;
+    -o-transition-duration: 400ms;
+    transition-duration: 400ms;
+  }
+  .js body nav .navbar-menu .navbar-end .navbar-item:hover {
+    background-color: #eb6113;
+  }
+  .js body nav .navbar-menu .navbar-end .navbar-item:hover a {
+    background-color: #eb6113;
+    color: #fff;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
 }
 
-section#about .accordion-container .accordion, .js .accordion-container .accordion {
+#about .accordion-container .accordion, .js .accordion-container .accordion {
   background-color: #eee;
   border: 0;
   border-radius: 10px;
@@ -10346,7 +10398,7 @@ section#about .accordion-container .accordion, .js .accordion-container .accordi
   -o-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-section#about .accordion-container .accordion::after, .js .accordion-container .accordion::after {
+#about .accordion-container .accordion::after, .js .accordion-container .accordion::after {
   border-style: solid;
   height: 0;
   width: 0;
@@ -10355,15 +10407,17 @@ section#about .accordion-container .accordion::after, .js .accordion-container .
   content: "";
   margin-left: 5px;
   margin-top: 10px;
+  position: absolute;
+  right: 40px;
 }
-section#about .accordion-container .accordion:hover, .js .accordion-container .accordion:hover {
+#about .accordion-container .accordion:hover, .js .accordion-container .accordion:hover {
   background-color: #ccc;
 }
 
-section#about .accordion-container .active, .js .accordion-container .active {
+#about .accordion-container .active, .js .accordion-container .active {
   background-color: #ccc;
 }
-section#about .accordion-container .active::after, .js .accordion-container .active::after {
+#about .accordion-container .active::after, .js .accordion-container .active::after {
   border-style: solid;
   height: 0;
   width: 0;
@@ -10374,7 +10428,7 @@ section#about .accordion-container .active::after, .js .accordion-container .act
   margin-top: 5px;
 }
 
-section#about .accordion-container .panel, .js .accordion-container .panel {
+#about .accordion-container .panel, .js .accordion-container .panel {
   background-color: #fff;
   border: 3px solid #eee;
   border-radius: 20px;
@@ -10384,7 +10438,7 @@ section#about .accordion-container .panel, .js .accordion-container .panel {
   width: 80%;
 }
 
-section#about .accordion-container .panel .about-caption, .js .accordion-container .panel .about-caption {
+#about .accordion-container .panel .about-caption, .js .accordion-container .panel .about-caption {
   background-color: #ccc;
   border-radius: 20px;
   font-style: italic;
@@ -10395,7 +10449,7 @@ section#about .accordion-container .panel .about-caption, .js .accordion-contain
   padding-top: 5px;
   width: 50%;
 }
-section#about .accordion-container .panel .about-author, .js .accordion-container .panel .about-author {
+#about .accordion-container .panel .about-author, .js .accordion-container .panel .about-author {
   font-size: 90%;
   font-style: normal;
   margin: auto !important;
@@ -10403,15 +10457,15 @@ section#about .accordion-container .panel .about-author, .js .accordion-containe
   padding-bottom: 5px !important;
   text-align: center !important;
 }
-section#about .accordion-container .panel .about-image, .js .accordion-container .panel .about-image {
+#about .accordion-container .panel .about-image, .js .accordion-container .panel .about-image {
   padding: 25px;
 }
-section#about .accordion-container .panel .about-image img, .js .accordion-container .panel .about-image img {
+#about .accordion-container .panel .about-image img, .js .accordion-container .panel .about-image img {
   border: 1px solid #ccc;
   border-radius: 20px;
 }
 
-section#services .tile article, section#projects .tile article, section#team .tile article {
+#services .tile article, #projects .tile article, #team .tile article {
   border: 3px solid #ccc;
   border-radius: 20px;
   justify-content: center;
@@ -10422,27 +10476,27 @@ section#services .tile article, section#projects .tile article, section#team .ti
   -o-transition-duration: 2000ms;
   transition-duration: 2000ms;
 }
-section#services .tile article a, section#projects .tile article a, section#team .tile article a {
+#services .tile article a, #projects .tile article a, #team .tile article a {
   text-decoration: none !important;
 }
-section#services .tile article:hover, section#projects .tile article:hover, section#team .tile article:hover {
+#services .tile article:hover, #projects .tile article:hover, #team .tile article:hover {
   border: 10px solid #888;
   border-radius: 20px;
 }
-section#services .tile article .is-card figure, section#projects .tile article .is-card figure, section#team .tile article .is-card figure {
+#services .tile article .is-card figure, #projects .tile article .is-card figure, #team .tile article .is-card figure {
   font-size: proportionalText(0%);
   margin: 5%;
 }
-section#services .tile article .is-card figure img, section#projects .tile article .is-card figure img, section#team .tile article .is-card figure img {
+#services .tile article .is-card figure img, #projects .tile article .is-card figure img, #team .tile article .is-card figure img {
   border-radius: 20px;
 }
-section#services .tile article .is-card figure svg, section#projects .tile article .is-card figure svg, section#team .tile article .is-card figure svg {
+#services .tile article .is-card figure svg, #projects .tile article .is-card figure svg, #team .tile article .is-card figure svg {
   width: 2em;
 }
-section#services .tile article .is-card i, section#projects .tile article .is-card i, section#team .tile article .is-card i {
+#services .tile article .is-card i, #projects .tile article .is-card i, #team .tile article .is-card i {
   font-size: proportionalText(200%);
 }
-section#services .tile article .is-card .content, section#projects .tile article .is-card .content, section#team .tile article .is-card .content {
+#services .tile article .is-card .content, #projects .tile article .is-card .content, #team .tile article .is-card .content {
   margin-top: 10px;
   position: relative;
   right: 10px;
@@ -10450,7 +10504,7 @@ section#services .tile article .is-card .content, section#projects .tile article
   width: 100%;
 }
 
-section#services .tile article p .title, section#projects .tile article p .title, section#team .tile article p .title {
+#services .tile article p .title, #projects .tile article p .title, #team .tile article p .title {
   font-size: proportionalText(-10%);
   overflow-x: hidden;
   padding: 10px;
@@ -10462,7 +10516,7 @@ section#services .tile article p .title, section#projects .tile article p .title
   -o-transition-duration: 200ms;
   transition-duration: 200ms;
 }
-section#services .tile article p .subtitle, section#projects .tile article p .subtitle, section#team .tile article p .subtitle {
+#services .tile article p .subtitle, #projects .tile article p .subtitle, #team .tile article p .subtitle {
   font-size: 1em;
   padding: 10px;
   text-align: center;
@@ -10484,7 +10538,7 @@ section#services .tile article p .subtitle, section#projects .tile article p .su
     opacity: 1;
   }
 }
-section .main-title {
+.main-title {
   z-index: 99;
   background-image: -o-linear-gradient(45deg, #3c9, #3cc, #39c);
   background-image: linear-gradient(45deg, #3c9, #3cc, #39c);
@@ -10492,7 +10546,7 @@ section .main-title {
   -ms-animation: animations_main-title alternate infinite 2000ms;
   animation: animations_main-title alternate infinite 2000ms;
 }
-section .main-title::before {
+.main-title::before {
   content: "";
   display: block;
   height: 100%;
@@ -10514,7 +10568,7 @@ section .main-title::before {
   transition-duration: 400ms;
 }
 
-section .main-title {
+.main-title {
   color: #000;
   display: block;
   position: absolute;
@@ -10523,24 +10577,24 @@ section .main-title {
   box-shadow: 1px 0 3px 1px #333;
 }
 
-section .main-title h1 {
+.main-title h1 {
   font-size: 2.2em;
   padding: 30px;
   padding-top: 0;
   text-align: center;
 }
-section .main-title h2 {
+.main-title h2 {
   font-size: 1.3em;
   text-align: center;
   padding-right: 10%;
   padding-left: 10%;
 }
-section .main-title h2 .subtitle {
+.main-title h2 .subtitle {
   font-size: 100%;
   line-height: 90%;
 }
 
-body {
+.js body {
   background: -o-repeating-linear-gradient(135deg, #eee, #eee 2px, #fff 2px, #fff 10px);
   background: repeating-linear-gradient(135deg, #eee, #eee 2px, #fff 2px, #fff 10px);
   background-attachment: fixed;
@@ -10567,7 +10621,7 @@ body {
   transition-duration: 400ms;
 }
 
-.js .navbar {
+.js body nav {
   -webkit-box-shadow: 1px 0 3px 1px #333;
   box-shadow: 1px 0 3px 1px #333;
   -ms-transition-duration: 400ms;
@@ -10576,64 +10630,78 @@ body {
   -o-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-
 /* Lib */
 /* Fonts */
 /* Partials */
-h2 {
-  font-size: 120%;
+#services > div .is-ancestor figure {
+  fill: #333;
+  margin-top: 0;
+  width: 2.8em;
+}
+#services h2 {
+  padding: 0 20px 40px;
+}
+#projects > h2 {
+  padding: 30px;
+  padding-top: 0;
+}
+
+#team .section {
+  margin-bottom: 50px;
+  width: 95%;
+}
+#team figure {
   margin: auto;
+  margin-top: 0;
+}
+#team figure img {
+  border: 3px solid #ccc;
+}
+#team .media-left {
+  margin: auto 0;
+  width: 200px;
+}
+#team h2 .team-subtitle {
+  font-size: 0.9em;
+  line-height: 1.1em;
+  padding: 0;
   width: 100%;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+> #team > div .tile:nth-child(2) {
+  -webkit-transform: translateY(60px);
+  -ms-transform: translateY(60px);
+  transform: translateY(60px);
+}
+> #team > div .tile:nth-child(3) {
+  -webkit-transform: translateY(-80px);
+  -ms-transform: translateY(-80px);
+  transform: translateY(-80px);
+}
+> #team:nth-child(3) {
+  margin-top: 50px;
+}
+#team .is-card {
+  margin: auto;
+  padding: 0;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
+  transform: translateY(-50px);
 }
 
-div .tile a {
-  text-decoration: none !important;
-}
-div .tile article {
-  border: 3px solid #ccc;
-  -ms-transition-duration: 2000ms;
-  -moz-transition-duration: 2000ms;
-  -webkit-transition-duration: 2000ms;
-  -o-transition-duration: 2000ms;
-  transition-duration: 2000ms;
-}
-div .tile article:hover {
-  border: 10px solid #888;
-  border-radius: 20px;
-}
-div .tile article .tile {
-  box-pack: center;
-  flex-pack: center;
-  justify-content: center;
-  padding: 30px;
-}
-div .tile article .is-child img {
-  border-radius: 20px;
-}
-div .is-card figure {
-  font-size: proportionalText(0%);
-  margin: 5%;
-}
-div .is-card i {
-  font-size: proportionalText(200%);
-}
-div .share-social {
+.share-social {
   background-color: #565656;
   color: #fff;
   height: 120px;
   line-height: 140px;
 }
-div .share-social h2 {
+.share-social h2 {
   line-height: 1em;
   position: relative;
   top: 20px;
 }
-div .share-social img {
+.share-social img {
   height: 40px;
   margin: 5px;
   margin-bottom: 0;
@@ -10659,103 +10727,75 @@ footer .footer-social svg:hover {
   transform: scale(1.3);
 }
 
-section h1 {
-  font-size: 2em;
-  padding: 40px;
-  padding-top: 0;
-  text-align: center;
-}
-section .second {
-  display: block;
-  position: relative;
-  z-index: 100;
-}
-section .second-subtitle p {
-  margin: auto;
-  padding: 10px;
-  text-align: left;
-  width: 90%;
-}
-section#services > div .is-ancestor figure {
-  fill: #333;
-  margin-top: 0;
-  width: 2.8em;
-}
-section#services h2 {
-  padding: 0 20px 40px;
-}
-section#projects > h2 {
-  padding: 30px;
-  padding-top: 0;
-}
-section#team .section {
-  margin-bottom: 50px;
-  width: 95%;
-}
-section#team figure {
-  margin: auto;
-  margin-top: 0;
-}
-section#team figure img {
-  border: 3px solid #ccc;
-}
-section#team .media-left {
-  margin: auto 0;
-  width: 200px;
-}
-section#team h2 .team-subtitle {
-  font-size: 0.9em;
-  line-height: 1.1em;
-  padding: 0;
-  width: 100%;
-}
-> section#team > div .tile:nth-child(2) {
-  -webkit-transform: translateY(60px);
-  -ms-transform: translateY(60px);
-  transform: translateY(60px);
-}
-> section#team > div .tile:nth-child(3) {
-  -webkit-transform: translateY(-80px);
-  -ms-transform: translateY(-80px);
-  transform: translateY(-80px);
-}
-> section#team:nth-child(3) {
-  margin-top: 50px;
-}
-section#team .is-card {
-  margin: auto;
-  padding: 0;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50px);
-  -ms-transform: translateY(-50px);
-  transform: translateY(-50px);
-}
-
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 9999;
-}
-
-.navbar-burger {
-  height: 58px;
-  position: relative;
-}
-
 .title {
   color: #252525;
   word-break: normal;
 }
 
-.js a .hashtag {
+.js body .section h1 {
+  font-size: 2em;
+  padding: 40px;
+  padding-top: 0;
+  text-align: center;
+}
+.js body .section h2 {
+  font-size: 120%;
+  margin: auto;
+  width: 100%;
+}
+.js body .section .second {
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+.js body .section .second-subtitle p {
+  margin: auto;
+  padding: 10px;
+  text-align: left;
+  width: 90%;
+}
+.js body .section .hashtag {
   color: #cf4b00;
 }
-.js a .hashtag:hover {
+.js body .section .hashtag:hover {
   border-bottom: 1px dashed #888;
   color: #eb6113;
 }
-
+.js body .tile a {
+  color: inherit;
+  text-decoration: none !important;
+}
+.js body .tile article {
+  border: 3px solid #ccc;
+  -ms-transition-duration: 2000ms;
+  -moz-transition-duration: 2000ms;
+  -webkit-transition-duration: 2000ms;
+  -o-transition-duration: 2000ms;
+  transition-duration: 2000ms;
+}
+.js body .tile article:hover {
+  border: 10px solid #888;
+  border-radius: 20px;
+}
+.js body .tile article img {
+  border-radius: 20px;
+}
+.js body .tile article .is-card figure {
+  font-size: proportionalText(0%);
+  margin: 5%;
+}
+.js body .tile article .is-card i {
+  font-size: proportionalText(200%);
+}
+.js body nav {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.js body nav .navbar-burger {
+  height: 58px;
+  position: relative;
+}
 .no-js section .main-title::after {
   color: #fff;
   content: "Para una mejor experiencia por favor habilite JavaScript o actualice su navegador";
@@ -11629,34 +11669,6 @@ section#team .is-card {
     color: #000;
     margin-right: -70px;
   }
-  .js .navbar-end .navbar-item {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .js .navbar-end .navbar-item a {
-    background-color: #000;
-    color: #000;
-    font-size: 16px;
-    margin: auto;
-    padding: 0;
-    -ms-transition-duration: 400ms;
-    -moz-transition-duration: 400ms;
-    -webkit-transition-duration: 400ms;
-    -o-transition-duration: 400ms;
-    transition-duration: 400ms;
-  }
-  .js .navbar-end .navbar-item:hover {
-    background-color: #eb6113;
-  }
-  .js .navbar-end .navbar-item:hover a {
-    color: #fff;
-    font-size: 1.2em;
-    padding-bottom: 10px;
-    padding-top: 10px;
-  }
-  > .js .navbar-end:first-child {
-    margin-top: 10px;
-  }
   > .js .navbar-end:last-child a {
     color: #eb6113;
   }
@@ -11869,37 +11881,6 @@ section#team .is-card {
   .js .navbar-menu .navbar-start:last-child:hover::after {
     color: #000;
     margin-right: -70px;
-  }
-  .js .navbar-end .navbar-item {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .js .navbar-end .navbar-item a {
-    background-color: #000;
-    color: #000;
-    font-size: 16px;
-    margin: auto;
-    padding: 0;
-    -ms-transition-duration: 400ms;
-    -moz-transition-duration: 400ms;
-    -webkit-transition-duration: 400ms;
-    -o-transition-duration: 400ms;
-    transition-duration: 400ms;
-  }
-  .js .navbar-end .navbar-item:hover {
-    background-color: #eb6113;
-  }
-  .js .navbar-end .navbar-item:hover a {
-    color: #fff;
-    font-size: 1.2em;
-    padding-bottom: 10px;
-    padding-top: 10px;
-  }
-  > .js .navbar-end:first-child {
-    margin-top: 20px;
-  }
-  > .js .navbar-end:last-child a {
-    color: #eb6113;
   }
 }
 

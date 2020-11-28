@@ -27,7 +27,9 @@
         "scss/at-function-parentheses-space-before": "never",
         "scss/at-if-no-null": true,
         "scss/at-import-partial-extension": "never",
-        "scss/at-import-no-partial-leading-underscore": true,
+        "scss/at-import-no-partial-leading-underscore": [true, {
+            "ignore": ["/sass/vendor/**/*.*"]
+        }],
         "scss/at-mixin-argumentless-call-parentheses": "never",
         "scss/at-mixin-pattern": "^([a-z0-9-])+$",
         "scss/at-mixin-parentheses-space-before": "never",
@@ -62,12 +64,11 @@
         "scss/operator-no-newline-after": true,
         "scss/operator-no-newline-before": true,
         "scss/operator-no-unspaced": true,
-        "scss/partial-no-import": true,
+        "scss/partial-no-import": null,
         "scss/percent-placeholder-pattern": "^(([a-z0-9-]+)(_{1})*)+$",
         "scss/selector-nest-combinators": "always",
         "scss/selector-no-redundant-nesting-selector": true,
         "scss/selector-no-union-class-name": true,
-        "scss/no-duplicate-dollar-variables": true,
         "scss/no-duplicate-mixins": true,
         "scss/no-global-function-names": true
 	}
