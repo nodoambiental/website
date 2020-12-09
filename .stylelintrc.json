@@ -8,7 +8,12 @@
 		"stylelint-order",
         "stylelint-scss",
         "stylelint-prettier"
-	],
+    ],
+    "files": [    
+        "/sass/*.scss",
+        "/sass/partials/*.scss",
+        "'/sass/partials/**/*.scss'"
+    ],
 	"rules": {
 		"order/order": [
 			"custom-properties",
@@ -17,9 +22,7 @@
         "max-nesting-depth": 20,
         "selector-max-id": 1,
         "selector-max-compound-selectors": null,
-        "selector-no-qualifying-type": [true, {
-            "ignore": ["id"]
-        }],
+        "selector-no-qualifying-type": true,
         "at-rule-no-unknown": null,
         "scss/at-extend-no-missing-placeholder": true,
         "scss/at-function-named-arguments": "never",

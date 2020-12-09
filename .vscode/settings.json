@@ -1,13 +1,7 @@
 {
     "stylelint.enable": true,
     "stylelint.syntax": "scss",
-    "stylelint.configOverrides": {
-        "files": [    
-            "sass/*.scss",
-            "sass/partials/**/*.scss"
-        ]
-    },
     "editor.codeActionsOnSave": {
         "source.fixAll.stylelint": true 
-    }
+    },
 }

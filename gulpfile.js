@@ -98,9 +98,7 @@ async function ExecStyleLint() {
 async function WatchStyleLint() {
   watch(
     [
-      "sass/*.scss",
-      "sass/partials/*.scss",
-      "sass/partials/components/*.scss"
+      "/sass/**/*.*",
     ],
     {
       events: [
@@ -121,12 +119,12 @@ async function WatchStyleLint() {
   )
 };
 
-exports.watch = parallel(
+exports["watch"] = parallel(
   WatchSASS,
   WatchJekyll
 );
 
-exports["watch-plus-lint"] = parallel(
+exports["watch+lint"] = parallel(
   WatchSASS,
   WatchJekyll,
   WatchStyleLint
