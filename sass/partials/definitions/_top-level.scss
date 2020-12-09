@@ -1,0 +1,58 @@
+@use 'components';
+@use 'variables';
+@use '../util/helpers';
+@use 'section/global';
+
+%top-level-js {
+  body {
+    @extend %base_body;
+    .section {
+      @extend %section_global;
+    }
+    .tile {
+      a {
+        color: inherit;
+        text-decoration: none !important;
+      }
+      article {
+        border: $border-thickness-primary solid $light-secondary;
+        @include helpers.transition-primary-flair;
+        &:hover {
+          border: $border-thickness-focus solid $light-primary-highlight;
+          border-radius: $border-radius-primary;
+        }
+        img {
+          border-radius: $border-radius-primary;
+        }
+        .is-card {
+          figure {
+            font-size: proportionalText(0%);
+            margin: 5%;
+          }
+          i {
+            font-size: proportionalText(200%);
+          }
+        }
+      }
+    }
+    nav {
+      @extend %base_navbar;
+      position: sticky;
+      top: 0;
+      z-index: 9999; // ? Por que tan alto?
+      .navbar-burger {
+        height: 58px;
+        position: relative;
+      }
+    }
+  }
+  .contracted {
+    @extend %base_contracted-element;
+  }
+  .expanded {
+    @extend %base_expanded-element;
+  }
+  .accordion-container {
+    @extend %base_accordion;
+  }
+}

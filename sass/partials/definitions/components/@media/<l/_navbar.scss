@@ -1,29 +1,13 @@
-@use '../../../../vendor/bourbon' as bourbon;
-@use '../../../helpers';
+@use '../../../../../vendor/bourbon' as bourbon;
+@use '../../../../util/helpers';
 @use '../../../variables' as *;
-@media only screen and (max-width: $xs) {
+@media only screen and (max-width: $l) {
   .buttons {
     display: inherit;
   }
   .navbar-start {
-    .navbar-item {
-      &:not(:last-child) {
-        &::after {
-          color: inherit;
-          content: "";
-          left: 0;
-          position: relative;
-          @include helpers.reset-transform(scale);
-        }
-        &:hover {
-          &::after {
-            @include helpers.reset-transform(scale, translate);
-          }
-        }
-      }
-    }
     > &:first-child {
-      margin-top: 10px;
+      margin-top: 20px;
     }
   }
   .navbar-end {
@@ -34,6 +18,7 @@
         color: $light-text-high-contrast;
         font-size: 16px;
         padding: 0;
+        text-align: right;
         @include helpers.transition-primary;
       }
       &:hover {

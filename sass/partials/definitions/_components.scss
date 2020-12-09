@@ -1,5 +1,5 @@
-@use '../vendor/bourbon';
-@use 'helpers';
+@use '../../vendor/bourbon';
+@use '../util/helpers';
 @use 'components/navbar' as *;
 @use 'components/accordion' as *;
 @use 'components/card' as *;

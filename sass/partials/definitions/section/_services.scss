@@ -1,0 +1,21 @@
+@use '../../components';
+@use '../variables';
+@use '../../../vendor/bourbon';
+
+.services {
+  > div {
+    .is-ancestor {
+      figure {
+        fill: $dark-primary;
+        margin-top: 0;
+        width: 2.8em;
+      }
+    }
+  }
+  h2 {
+    @include bourbon.padding(0 20px 40px 20px);
+  }
+  .tile {
+    @extend %base_card;
+  }
+}

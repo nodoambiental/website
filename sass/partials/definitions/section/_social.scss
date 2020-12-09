@@ -1,0 +1,19 @@
+@use '../variables';
+
+.share-social {
+  background-color: $dark-secondary;
+  color: $background-primary;
+  height: 120px;
+  line-height: 140px;
+  h2 {
+    line-height: 1em;
+    position: relative;
+    top: 20px;
+  }
+  img {
+    height: 40px;
+    margin: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}

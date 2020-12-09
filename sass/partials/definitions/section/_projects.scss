@@ -1,0 +1,11 @@
+@use '../../components';
+
+.projects {
+  .tile {
+    @extend %base_card;
+  }
+  > h2 {
+    padding: 30px;
+    padding-top: 0;
+  }
+}

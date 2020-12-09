@@ -1,0 +1,22 @@
+@use '../variables';
+@use '../../../vendor/bourbon';
+
+footer {
+  .tile {
+    padding: 10px;
+  }
+  background-color: $dark-primary;
+  color: $background-primary;
+  @include bourbon.padding(60px null);
+  .footer-social {
+    svg {
+      fill: $light-primary;
+      padding: 5px;
+      width: 1.8em;
+      &:hover {
+        fill: $accent-primary;
+        transform: scale(1.3);
+      }
+    }
+  }
+}

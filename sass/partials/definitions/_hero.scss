@@ -1,0 +1,4 @@
+@use 'components';
+.hero {
+  @extend %base_hero;
+}

@@ -1,5 +1,5 @@
-@use '../../vendor/bourbon' as bourbon;
-@use '../helpers';
+@use '../../../vendor/bourbon' as bourbon;
+@use '../../util/helpers';
 @use '../variables' as *;
 %base_accordion-element {
   background-color: $light-primary;

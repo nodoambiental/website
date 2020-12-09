@@ -1,0 +1,53 @@
+@use '../../components';
+@use '../variables';
+@use '../../../vendor/bourbon';
+@use '../../util/helpers';
+
+.team {
+  .section {
+    margin-bottom: 50px;
+    width: 95%;
+  }
+  .tile {
+    @extend %base_card;
+  }
+  figure {
+    margin: auto;
+    margin-top: 0;
+    img {
+      border: $border-thickness-primary solid $light-secondary;
+    }
+  }
+  .media-left {
+    @include bourbon.margin(auto 0);
+    width: 200px;
+  }
+  h2 {
+    .team-subtitle {
+      font-size: 0.9em;
+      line-height: 1.1em;
+      padding: 0;
+      width: 100%;
+    }
+  }
+  > div {
+    .tile {
+      > &:nth-child(2) {
+        @include helpers.translate(Y, 60px);
+      }
+      > &:nth-child(3) {
+        @include helpers.translate(Y, -80px);
+      }
+    }
+  }
+  > &:nth-child(3) {
+    margin-top: 50px;
+  }
+  .is-card {
+    margin: auto;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    @include helpers.translate(Y, -50px);
+  }
+}

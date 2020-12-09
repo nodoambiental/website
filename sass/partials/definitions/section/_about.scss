@@ -1,0 +1,7 @@
+@use '../../components';
+
+.about {
+  .accordion-container {
+    @extend %base_accordion;
+  }
+}

@@ -1,0 +1,71 @@
+@use 'variables';
+@use '../util/helpers';
+
+section {
+  .main-title {
+    &::after {
+      color: $background-primary;
+      content: "Para una mejor experiencia por favor habilite JavaScript o actualice su navegador";
+      display: block;
+      font-size: 1.2em;
+      line-height: 2em;
+      text-align: center;
+    }
+  }
+}
+button {
+  .accordion {
+    background-color: $background-primary;
+    border: $border-thickness-primary solid $light-primary;
+    border-radius: $border-radius-primary;
+    display: block;
+    font-size: 1em;
+    padding: 10px;
+    width: 100%;
+  }
+}
+div {
+  // TODO Reemplazar por tarjeta no-js base, usando variables
+  .tile {
+    article {
+      background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgb(146, 238, 199)),
+        to(rgb(171, 222, 209))
+      );
+      background-image: linear-gradient(90deg, rgb(146, 238, 199), rgb(171, 222, 209));
+      &:hover {
+        @include helpers.transition-primary;
+        background-image: linear-gradient(45deg, rgb(214, 165, 240), rgb(230, 140, 247));
+        border: $border-thickness-focus solid $light-primary-highlight;
+      }
+    }
+  }
+  .navbar-menu {
+    is-active {
+      text-align: left;
+    }
+  }
+}
+.team {
+  div {
+    // TODO Reemplazar por tarjeta no-js base, usando variables
+    .tile {
+      article {
+        &:hover {
+          background-image: -webkit-gradient(
+            linear,
+            left top,
+            right top,
+            from(rgb(146, 238, 199)),
+            to(rgb(171, 222, 209))
+          );
+          background-image: linear-gradient(90deg, rgb(146, 238, 199), rgb(171, 222, 209));
+          border: $border-thickness-primary solid $light-primary;
+        }
+      }
+    }
+  }
+}

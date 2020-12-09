@@ -1,0 +1,35 @@
+@use '../variables';
+
+%section_global {
+  h1 {
+    font-size: 2em;
+    padding: 40px;
+    padding-top: 0;
+    text-align: center;
+  }
+  h2 {
+    font-size: 120%;
+    margin: auto;
+    width: 100%;
+  }
+  .second {
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+  .second-subtitle {
+    p {
+      margin: auto;
+      padding: 10px;
+      text-align: left;
+      width: 90%;
+    }
+  }
+  .hashtag {
+    color: $accent-primary-darkened;
+    &:hover {
+      border-bottom: 1px dashed $light-primary-highlight;
+      color: $accent-primary;
+    }
+  }
+}

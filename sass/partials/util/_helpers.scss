@@ -1,8 +1,8 @@
 @use 'sass:math';
 @use 'sass:string';
 @use 'sass:list';
-@use '../vendor/bourbon' as bourbon;
-@use 'variables' as *;
+@use '../../vendor/bourbon' as bourbon;
+@use '../definitions/variables' as *;
 
 @mixin transition-primary {
   @include bourbon.prefixer(
