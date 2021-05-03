@@ -1,7 +1,7 @@
-@use '../../util/helpers';
-@use '../variables' as *;
+@use '../../../util/helpers';
+@use '../../variables' as *;
 
-%base_card_body {
+@mixin body {
   border: $border-thickness-primary solid $light-secondary;
   border-radius: $border-radius-primary;
   justify-content: center;
@@ -44,7 +44,7 @@
     }
   }
 }
-%base_card_text {
+@mixin text {
   .title {
     font-size: proportionalText(-10%);
     overflow-x: hidden;

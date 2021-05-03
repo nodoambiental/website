@@ -1,8 +1,8 @@
-@use '../../../vendor/bourbon' as bourbon;
-@use '../../util/helpers';
-@use '../variables' as *;
+@use '../../../../vendor/bourbon';
+@use '../../../util/helpers';
+@use '../../variables' as *;
 
-%base_navbar-item {
+@mixin item {
   @include helpers.transition-primary;
   padding: 5px;
   > svg {
@@ -10,9 +10,9 @@
     width: 1.2em;
   }
 }
-%base_navbar-brand {
+@mixin brand {
   .navbar-item {
-    @extend %base_navbar-item;
+    @include item;
     path {
       width: 48px;
       @include helpers.transition-primary;
@@ -24,9 +24,9 @@
     }
   }
 }
-%base_navbar-start {
+@mixin start {
   .navbar-item {
-    @extend %base_navbar-item;
+    @include item;
     &:hover {
       &:not(.buttons) {
         background-color: $background-primary-highlight-soft;
@@ -57,18 +57,21 @@
     }
   }
 }
-%base_navbar-end {
+@mixin end {
   .navbar-item {
-    @extend %base_navbar-item;
+    @include item;
   }
 }
-%base_navbar-menu {
+%menu {
   .navbar-start {
-    @extend %base_navbar-start;
+    @include start;
   }
   .navbar-end {
-    @extend %base_navbar-end;
+    @include end;
   }
-  @import "./@media/<xs/navbar";
-  @import "./@media/<l/navbar";
+  @import "../@media/<xs/navbar";
+  @import "../@media/<l/navbar";
+}
+@mixin menu {
+  @extend %menu;
 }

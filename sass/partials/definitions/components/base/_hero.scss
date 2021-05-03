@@ -1,9 +1,9 @@
-@use '../../../vendor/bourbon' as bourbon;
-@use '../../util/helpers';
-@use '../variables' as *;
-@use '../../animations' as *;
+@use '../../../../vendor/bourbon';
+@use '../../../util/helpers';
+@use '../../variables' as *;
+@use '../../../animations' as *;
 
-%base_hero_background-animation {
+@mixin background-animation {
   z-index: 99;
   @include bourbon.value-prefixer(background-image, #{$main-title-gradient-a}, ("o"));
   @include bourbon.prefixer(
@@ -31,14 +31,14 @@
     @include helpers.transition-primary;
   }
 }
-%base_hero_body {
+@mixin body {
   color: $light-text-high-contrast;
   display: block;
   position: absolute;
   width: 100%;
   @include bourbon.prefixer(box-shadow, 1px 0 3px 1px $dark-primary, ("webkit"));
 }
-%base_hero_text {
+@mixin text {
   h1 {
     font-size: 2.2em;
     padding: 30px;

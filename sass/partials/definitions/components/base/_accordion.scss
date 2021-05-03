@@ -1,7 +1,7 @@
-@use '../../../vendor/bourbon' as bourbon;
-@use '../../util/helpers';
-@use '../variables' as *;
-%base_accordion-element {
+@use '../../../../vendor/bourbon';
+@use '../../../util/helpers';
+@use '../../variables' as *;
+@mixin element {
   background-color: $light-primary;
   border: 0;
   border-radius: $border-radius-secondary;
@@ -28,7 +28,7 @@
     background-color: $light-secondary;
   }
 }
-%base_accordion-element_active {
+@mixin element-active {
   background-color: $light-secondary;
 
   &::after {
@@ -38,7 +38,7 @@
     margin-top: 5px;
   }
 }
-%base_accordion-element_panel {
+@mixin element-panel {
   background-color: $background-primary;
   border: $border-thickness-primary solid $light-primary;
   border-radius: $border-radius-primary;
@@ -47,7 +47,7 @@
   overflow: hidden;
   width: 80%;
 }
-%base_accordion-element_images {
+@mixin element-images {
   .about-caption {
     background-color: $light-secondary;
     border-radius: $border-radius-primary;
