@@ -1,0 +1,22 @@
+{
+  "name": "nodoambiental-frontend-tooling",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "gulp": "^4.0.2",
+    "prettier": "^2.2.1"
+  }
+}
