@@ -1,4 +1,5 @@
-const { parallel, watch } = require("gulp");
+//const { parallel, watch } = require("gulp");
+const { series, watch } = require("gulp");
 const { spawn } = require("child_process");
 const chalk = require("chalk");
 const { stderr, stdout } = require("process");
