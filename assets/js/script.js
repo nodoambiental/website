@@ -5,7 +5,7 @@ let burger_menu = document.querySelector("a.navbar-burger");
 function toggleMenu() {
     document.querySelector(".burger").classList.toggle("is-active");
     document.querySelector(".navbar-menu").classList.toggle("is-active");
-};
+}
 
 burger_menu.addEventListener("click", toggleMenu, false);
 
@@ -70,7 +70,7 @@ function animateCard(element) {
         },
         offset: '100%'
     });
-};
+}
 
 for (element of document.querySelectorAll('.tile .is-child')) {
     if (String(element.classList).search("non-selectable") == -1) {
@@ -84,7 +84,7 @@ for (element of document.querySelectorAll('.tile .is-child')) {
         animateCard(element);
     }
 
-};
+}
 
 // Animations: Waypoints
 
@@ -98,7 +98,7 @@ let servicesWaypoint = new Waypoint({
                 targets: element,
                 translateX: -50
             });
-        };
+        }
         anime({
             targets: "section.services h1, section.services h2",
             translateX: 0,
@@ -116,7 +116,7 @@ for (element of document.querySelectorAll("section.services h1, section.services
         targets: element,
         translateX: -50
     });
-};
+}
 
 document.querySelector("section.main-title img").style.opacity = 0;
 document.querySelector("section.main-title img").style.transform = "translateY(50px)";

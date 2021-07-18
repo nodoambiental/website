@@ -12,7 +12,7 @@ function toggleCard(index) {
         expandable_content[index].classList.remove("contracted");
         expandable_content[index].classList.add("expanded");
     }
-};
+}
 
 for (let i = 0; i < expandable_cards.length; i++) {
     expandable_cards[i].addEventListener("click", function () {
