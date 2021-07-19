@@ -1,0 +1,42 @@
+version = 1
+
+exclude_patterns = [
+  ".vs",
+  "__sass",
+  "assets/css/fonts.scss",
+  "assets/css/fontawesome.scss",
+  "assets/css/brands.scss",
+  "assets/css/bulma.scss",
+  "assets/css/solid.scss",
+  "assets/icon",
+  "assets/images",
+  "assets/js/anime.min.js",
+  "assets/js/jquery-3.4.1.min.js",
+  "assets/js/jquery-waypoints.min.js",
+  "assets/js/lunr.js",
+  "assets/js/modernizr.js",
+  ".Rhistory",
+  "Gemfile.lock",
+  "package-lock.json",
+  "LICENSE"
+]
+
+[[analyzers]]
+name = "secrets"
+enabled = true
+
+[[analyzers]]
+name = "ruby"
+enabled = true
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+[[transformers]]
+name = "prettier"
+enabled = true
+
+[[transformers]]
+name = "rubocop"
+enabled = true
