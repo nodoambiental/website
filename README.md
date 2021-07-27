@@ -27,7 +27,11 @@ This way, the less technical members of our development group can manage the web
 
 ## Building the site
 
-You will need [`ruby`](https://www.ruby-lang.org/es/documentation/installation/) and [`bundler`](https://bundler.io/es/):
+You will need [`ruby`](https://www.ruby-lang.org/es/documentation/installation/) and [`bundler`](https://bundler.io/es/).
+
+The site won't compile on any kind of current ruby version, _only_ in `2.5.1p57`, and in line with that, some dependencies are quite broken, so please respect the present `Gemfile.lock`.
+
+### Build
 
 1. Clone this repo
 
@@ -47,13 +51,66 @@ You will need [`ruby`](https://www.ruby-lang.org/es/documentation/installation/)
     bundle exec jekyll build
     ```
 
-### Site structure
+### Ruby version management
 
-More info about the site structure can be found as a readme file at every relevant folder.
+For managing the ruby and gems versions you will need [rbenv](https://github.com/rbenv/rbenv), [rbenv-gemset](https://github.com/jf/rbenv-gemset), and [rbenv-bundler](https://github.com/carsomyr/rbenv-bundler).
 
-### Roadmap
+So if you don't have any rvm installed, you will need to:
 
-#### In no particular order.
+1. Install rbenv [according to your OS/distro](https://github.com/rbenv/rbenv#installation)
+
+2. Install rbenv-gemset
+
+    ```shell
+    git clone git://github.com/jf/rbenv-gemset.git $HOME/.rbenv/plugins/rbenv-gemset
+    ```
+
+3. Install rbenv-bundler
+
+    ```shell
+    git clone git://github.com/carsomyr/rbenv-bundler.git $HOME/.rbenv/plugins/bundler
+    ```
+
+4. Install the correct ruby version
+
+    ```shell
+    rbenv install 2.5.1
+    ```
+
+5. Create the correct gemset
+
+    ```shell
+    rbenv gemset create 2.5.1 website-version-1
+    ```
+
+6. Activate the needed ruby version
+
+    ```shell
+    rbenv global 2.5.1
+    ```
+
+7. `cd` into the repo root and install the correct bundler
+
+    ```shell
+    rbenv rehash
+    gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
+    ```
+
+    See [this](https://bundler.io/blog/2019/05/14/solutions-for-cant-find-gem-bundler-with-executable-bundle.html) about the weird bundle install command.
+
+8. Restore the system ruby version
+
+    ```shell
+    rbenv global system
+    ```
+
+Then you can proceed normally.
+
+Remember this commands **only work for Bash**, so use it or search how to correctly enable `rbenv` for your shell and modify the bundle installation command in step seven.
+
+## Roadmap
+
+In no particular order.
 
 <hr style="height:1px;background-color:#99339060;">
 
