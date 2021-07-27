@@ -1,7 +1,11 @@
 node_modules
+coverage
+vendor
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
 .vs
 _site
+**/*.Rhistory
+**/*.bak
+.bak/**
