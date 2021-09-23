@@ -1,11 +1,3 @@
 node_modules
 coverage
-vendor
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-.vs
-_site
-**/*.Rhistory
-**/*.bak
-.bak/**
+.data
