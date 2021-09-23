@@ -3,13 +3,13 @@
 
 <p style="text-align:center;">Visit us at <a href="https://nodoambiental.org">nodoambiental.org</a>.<br>(in Spanish)</p>
 
-[![Codacy Grade](https://app.codacy.com/project/badge/Grade/db929a95de9143a5a1a6df49f907030b)](https://www.codacy.com/gh/nodoambiental/website-version-1/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nodoambiental/website-version-1&amp;utm_campaign=Badge_Grade) [![DeepSource Issues](https://deepsource.io/gh/nodoambiental/website-version-1.svg/?label=active+issues&show_trend=true&token=M1h9O4ftajm72GxBp_rSBQ4h)](https://deepsource.io/gh/nodoambiental/website-version-1/?ref=repository-badge)
+[![Codacy Grade](https://app.codacy.com/project/badge/Grade/db929a95de9143a5a1a6df49f907030b)](https://www.codacy.com/gh/nodoambiental/website/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nodoambiental/website&amp;utm_campaign=Badge_Grade) [![DeepSource Issues](https://deepsource.io/gh/nodoambiental/website.svg/?label=active+issues&show_trend=true&token=M1h9O4ftajm72GxBp_rSBQ4h)](https://deepsource.io/gh/nodoambiental/website/?ref=repository-badge)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/nodoambiental/website-version-1) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/nodoambiental/website-version-1)
+![GitHub last commit](https://img.shields.io/github/last-commit/nodoambiental/website) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/nodoambiental/website)
 
 ![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade-score/nodoambiental.org?publish) ![Security Headers (Don't follow redirects)](https://img.shields.io/security-headers?ignoreRedirects&url=https%3A%2F%2Fnodoambiental.org) ![PingPong uptime (last 30 days)](https://img.shields.io/pingpong/uptime/sp_5730e230eff6469e9c49556f640835d6)
 
-![License](https://img.shields.io/github/license/nodoambiental/website-version-1) ![GitHub issues](https://img.shields.io/github/issues/nodoambiental/website-version-1)
+![License](https://img.shields.io/github/license/nodoambiental/website) ![GitHub issues](https://img.shields.io/github/issues/nodoambiental/website)
 
 <hr style="height:3px;background-color:#99339060;"><br>
 
@@ -36,7 +36,7 @@ The site won't compile on any kind of current ruby version, _only_ in `2.5.1p57`
 1. Clone this repo
 
     ```shell
-    git clone https://github.com/nodoambiental/website-version-1
+    git clone https://github.com/nodoambiental/website
     ```
 
 2. Install dependencies
@@ -80,7 +80,7 @@ So if you don't have any rvm installed, you will need to:
 5. Create the correct gemset
 
     ```shell
-    rbenv gemset create 2.5.1 website-version-1
+    rbenv gemset create 2.5.1 website
     ```
 
 6. Activate the needed ruby version
