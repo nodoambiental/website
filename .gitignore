@@ -5,6 +5,8 @@ vendor
 .jekyll-cache
 .jekyll-metadata
 .vs
+.data
+docs/code
 _site
 **/*.Rhistory
 **/*.bak
