@@ -1,0 +1,70 @@
+form {
+  margin: 40px;
+}
+
+ul li {
+  background-color: #fff;
+  border: 3px solid #eee;
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+}
+ul li a {
+  color: #cf4b00;
+  font-size: 2em;
+  font-variant: all-small-caps;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+ul li a:hover {
+  color: #ff5c00;
+  font-size: 2.2em;
+}
+
+input [type=submit] {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  transition-duration: 400ms;
+}
+input [type=submit]:hover {
+  background-color: #cf4b00;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#search-box {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  transition-duration: 400ms;
+}
+#search-box:hover {
+  background-color: #cf4b00;
+  color: #fff;
+  padding: 10px;
+  width: 50%;
+}
+#search-box:focus {
+  background-color: #cf4b00;
+  color: #fff;
+  padding: 10px;
+  width: 50%;
+}
+
+@media only screen and (min-width: 780px) {
+  .content {
+    padding: 10%;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 610px) {
+  .navbar-blog {
+    top: -7vw;
+  }
+}
+
+/*# sourceMappingURL=search.css.map */

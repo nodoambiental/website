@@ -1,0 +1,462 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilas Usadas</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="/assets/js/modernizr.min.js"></script>
+</head>
+
+
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+
+            <figure width="48" height="48" style="max-height:3rem">
+                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="56.69px" height="56.69px" viewbox="0 0 56.69 56.69">
+                    <path fill="#000000" d="M56.156,11.308c-0.559,0.229-1.141,0.342-1.734,0.414c-0.911,0.11-1.827,0.143-2.744,0.166
+                        c-1.832,0.046-3.668,0.045-5.479,0.396c-2.204,0.427-3.874,1.567-4.929,3.585c-0.609,1.165-0.887,2.388-0.966,3.65
+                        c-0.193-0.155-0.392-0.304-0.596-0.446c-0.008-0.193-0.025-0.387-0.066-0.582c-0.334-1.578-0.155-3.092,0.642-4.525
+                        c0.601-1.082,1.453-1.928,2.388-2.706c0.084-0.07,0.217-0.156,0.366-0.061c-0.412,0.883-1.141,1.591-1.349,2.595
+                        c0.661-0.477,1.301-0.943,2.027-1.288c1.652-0.785,3.417-1.006,5.212-1.104c0.7-0.038,0.715-0.065,0.521-0.729
+                        c-0.547-1.867-1.46-3.559-2.509-5.182c-0.386-0.597-0.789-1.183-1.209-1.755c-0.242-0.33-0.404-0.327-0.537,0.015
+                        c-0.507,1.298-1.464,2.26-2.378,3.253c-1.318,1.432-2.72,2.787-3.862,4.378c-1.544,2.149-1.823,4.397-0.907,6.749
+                        c-1.113-0.473-2.332-0.715-3.659-0.715c-1.702,0-3.238,0.332-4.606,0.994c-1.369,0.663-2.528,1.536-3.48,2.619
+                        c-0.951,1.083-1.686,2.345-2.203,3.783c-0.518,1.439-0.776,2.934-0.776,4.487c0,1.617,0.25,3.169,0.751,4.656
+                        c0.5,1.487,1.226,2.797,2.178,3.929c0.951,1.132,2.119,2.029,3.504,2.692c1.385,0.662,2.979,0.994,4.781,0.994
+                        c1.702,0,3.229-0.396,4.581-1.188c1.352-0.792,2.478-1.835,3.38-3.128l0.1,0.408v3.727h4.506V23.799
+                        c2.844-0.005,5.105-1.199,6.817-3.828c1.002-1.538,1.596-3.248,2.078-4.999c0.292-1.06,0.508-2.141,0.665-3.231
+                        C56.744,11.165,56.674,11.096,56.156,11.308z M41.299,32.464c-0.317,0.937-0.785,1.767-1.403,2.488
+                        c-0.618,0.722-1.372,1.29-2.259,1.705c-0.888,0.415-1.919,0.622-3.091,0.622c-1.141,0-2.148-0.215-3.02-0.645
+                        c-0.872-0.43-1.601-1.014-2.188-1.751c-0.587-0.737-1.039-1.574-1.356-2.511c-0.317-0.937-0.475-1.912-0.475-2.926
+                        c0-1.014,0.158-1.981,0.475-2.903c0.317-0.922,0.777-1.743,1.379-2.465c0.602-0.722,1.339-1.297,2.211-1.728
+                        c0.872-0.43,1.862-0.645,2.972-0.645c1.141,0,2.164,0.207,3.068,0.622c0.904,0.415,1.665,0.976,2.283,1.682
+                        c0.618,0.707,1.086,1.529,1.403,2.465c0.317,0.937,0.476,1.928,0.476,2.972C41.775,30.521,41.616,31.527,41.299,32.464z
+                        M47.884,15.4c-1.157,0.282-2.151,0.883-3.052,1.64c-1.447,1.217-2.322,2.73-2.529,4.586c-0.448-0.616-0.94-1.176-1.482-1.672
+                        c0.264-0.672,0.554-1.331,0.923-1.958c1.951-3.321,5.753-3.784,8.504-2.921C49.418,15.313,48.632,15.218,47.884,15.4z
+                        M24.666,38.05c-0.951-1.132-1.677-2.441-2.178-3.929c-0.501-1.487-0.751-3.039-0.751-4.656
+                        c0-1.552,0.258-3.047,0.776-4.487c0.517-1.438,1.252-2.7,2.203-3.783c0.057-0.065,0.122-0.122,0.18-0.185
+                        c-0.214-0.495-0.452-0.969-0.749-1.396c-0.644-0.925-1.512-1.661-2.602-2.206c-1.09-0.545-2.446-0.818-4.064-0.818
+                        c-1.256,0-2.446,0.232-3.569,0.694c-1.124,0.463-2.049,1.239-2.776,2.33h-0.099v-2.231h-6.94v24.338h6.94V30.365
+                        c0-0.726,0.025-1.528,0.074-2.404c0.049-0.875,0.206-1.693,0.471-2.454c0.264-0.76,0.677-1.396,1.239-1.909
+                        c0.561-0.512,1.355-0.768,2.379-0.768c0.991,0,1.743,0.215,2.255,0.644c0.512,0.43,0.875,0.966,1.09,1.611
+                        c0.214,0.644,0.339,1.363,0.372,2.156c0.033,0.793,0.05,1.554,0.05,2.28v12.199h6.939v-2.45
+                        C25.463,38.897,25.043,38.497,24.666,38.05z"></path>
+                    </svg>
+
+            </figure>
+        </a>
+
+        <a role="button" class="navbar-burger burger is-active" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu is-active">
+        <div class="navbar-start">
+
+            <a href="/#about" class="navbar-item">
+                ¿Qué es Nodo Ambiental?
+            </a>
+
+            <a href="/#services" class="navbar-item">
+                Servicios
+            </a>
+
+            <a href="/#team" class="navbar-item">
+                Equipo
+            </a>
+
+            <a href="/#projects" class="navbar-item">
+                Proyectos
+            </a>
+
+            <a href="/pages/documentation/main.html" class="navbar-item">
+                Documentación
+            </a>
+
+            <a href="/pages/portals/main.html" class="navbar-item">
+                Portales
+            </a>
+
+            <a href="/pages/blog/main.html" class="navbar-item">
+                InfoBlog
+            </a>
+
+            <a href="https://wiki.nodoambiental.org" class="navbar-item">
+                Wiki
+            </a>
+
+            <a href="/pages/surveys/main.html" class="navbar-item">
+                Encuestas
+            </a>
+
+            <a href="/search.html" class="navbar-item">
+                <img><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+            </a>
+        </div>
+        <div class="navbar-end">
+            
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a href="/contact.html" class="button is-primary">
+                        <strong>Contacto</strong>
+                    </a>
+                </div>
+            </div>
+            
+            
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a href="/leadgen/form.html" class="button is-primary">
+                        <strong>¡Me interesa!</strong>
+                    </a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</nav>
+
+    
+        
+            
+                <section class="section main-title">
+    <img src="/assets/images/logos/logo_navigation.svg">
+    <h2 class="main-title">Pilas Usadas</h2>
+</section>
+<div class="spacer"></div>
+            
+        
+    
+
+    <style type="text/css">
+    @import url("/assets/css/project.css");
+    @import url("/assets/css/infograph.css");
+</style>
+
+
+
+<section class="section info">
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <div class="tile is-child">
+                <a href="/assets/images/infograph/PilasUsadas.png">
+                    <figure class="infograph">
+                        <img src="/assets/images/infograph/PilasUsadas.png">
+                    </figure>
+                </a>
+            </div>
+            <div class="non-selectable tile is-child infograph-text">
+                <p>La mayoría de las pilas contienen contaminantes y deben ser desechadas en lugares especiales.
+Buscamos construir depósitos finales para pilas usadas y materiales contaminantes.
+</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="divider">
+
+<section class="section content">
+    <!--section-->
+<h3>Los NO de las pilas usadas</h3>
+<ul>
+<li>Almacenarlas en envases PET con agua, arena, aserrín, cemento o tierra.</li>
+<li>Tenerlas en un cajón, sueltas.</li>
+<li>Dejarlas en un aparato sin funcionar por períodos extensos de tiempo. Eso puede producir daños al aparato por derrames.</li>
+<li>Tenerlas sulfatadas o con un polvo blanco (hidróxido de potasio), muy tóxico.</li>
+<li>Quemarlas, pueden explotar. Además los vapores producidos son tóxicos.</li>
+<li>Enterrarlas.</li>
+<li>Tirarlas al inodoro.</li>
+<li>Dejarlas en lugares húmedos.</li>
+<li>Tirarlas a la basura común.</li>
+</ul>
+<h3>Los SI de las pilas usadas</h3>
+<ul>
+<li>Utilizar artefactos conectados a la red eléctrica (con enchufe). Si su uso es inevitable usar pilas recargables, así se reduce el volumen de desechos.</li>
+<li>Usar pilas recargables libres de cadmio (Cd) como ser las de níquel metal hídrico (NiMH).</li>
+<li>Si compras pilas desechables FIJATE que sean libres de mercurio (Hg).</li>
+<li>Para los aparatos que usas muy seguido conviene comprar pilas recargables.</li>
+<li>Tené en cuenta la calidad de la pila a elegir: evitar comprar pilas baratas, las de marca conocida tienen una mayor vida útil. Además las marcas reconocidas se atienen a convenios de reducción de mercurio.</li>
+</ul>
+<p>En Argentina no hay planta de reciclaje y no hay depósitos locales regularizados.</p>
+<p>Hay numerosos trabajos previos, por ejemplo, <a class="citation" href="#protomastro2007estudio">(Protomastro, 2007)</a>, sin embargo, aún necesitamos construir un sistema de manejo adecuado de residuos tóxicos.</p>
+<!-- References
+
+<a class="citation" href="#soto1996almacenamiento">(Soto et al., 1996)</a>
+<a class="citation" href="#Evequoz2000PrdidasEP">(Evequoz et al., 2000)</a>
+<a class="citation" href="#ochoa2001revision">(Ochoa, 2001)</a>
+<a class="citation" href="#riancho2002utilizacion">(Riancho Marı́a Rosa Sauri &amp; Borges, 2002)</a>
+<a class="citation" href="#cherni2003perspectiva">(Cherni, 2003)</a>
+<a class="citation" href="#acosta2005propuesta">(Acosta et al., 2005)</a>
+<a class="citation" href="#paez2006fotocatalisis">(Paez &amp; Taborda, 2006)</a>
+<a class="citation" href="#ruiz2006pilas">(Ruiz-Morales et al., 2006)</a>
+<a class="citation" href="#cuneo2009sistema">(Cuneo Marı́a Marta, 2009)</a>
+<a class="citation" href="#tun2009propuesta">(TUN POOL, 2009)</a>
+<a class="citation" href="#barragan2010desarrollo">(Barragán et al., 2010)</a>
+<a class="citation" href="#distribucion2011diagnostico">(DISTRIBUCIÓN, 2011)</a>
+<a class="citation" href="#urquiza2011estudio">(Urquiza Zumaeta, 2011)</a>
+<a class="citation" href="#marcillo2012desechos">(Marcillo Manzaba, 2012)</a>
+<a class="citation" href="#siguenza2013propuesta">(Sigüenza &amp; Andrés, 2013)</a>
+<a class="citation" href="#ibarra2016planeacion">(Ibarra Ramı́rez Ayleen, 2016)</a>
+<a class="citation" href="#perez2016proyecto">(Pérez Demarchi Agustı́n, 2016)</a>
+<a class="citation" href="#arnulfo2018estudio">(Arnulfo Reyes, 2018)</a>
+
+https://www.educacioninicial.com/c/004/710-proyecto-sos-pilas-para-educacion-inicial/
+http://www.energiaestrategica.com/una-propuesta-para-reciclar-pilas-alcalinas-y-cuidar-el-medio-ambiente/
+https://earth911.com/home-garden/the-ultimate-battery-guide/?utm_source=Pinterest&utm_medium=Social&utm_campaign=Pinterest
+https://www.unicen.edu.ar/content/pilas-y-bater%C3%AD-c%C3%B3mo-minimizar-el-impacto-ambiental
+https://www.inti.gob.ar/publicaciones
+
+Agregar enlaces faltantes a la bibliografia
+
+-->
+
+</section>
+
+
+<style type="text/css">
+    @import url("/assets/css/references.css");
+  </style>
+  
+<section id="references" class="references">
+    <button class="expandable_card">
+      <div class="is-card">
+        <div class="media project-accordion">
+          <div class="media-content project-accordion-name">
+            <p style="font-size: 1.3rem;" class="title is-12"><i class="project-accordion-icon fas fa-book"></i>Referencias</p>          
+            </div>
+          <div class="media-right">
+            <i class="expandable_card_button fas fa-caret-square-right"></i>
+          </div>
+        </div>
+        <div class="content contracted"><ol class="bibliography">
+<li><span id="protomastro2007estudio">Protomastro, G. F. (2007). Estudio sobre los circuitos formales e informales de gestión de Residuos de Aparatos Eléctricos y Electrónicos en Argentina. <i>E-Srap, Ecogestionar-Ambiental Del Sud AS: Buenos Aires</i>.</span></li>
+<li><span id="soto1996almacenamiento">Soto, F., Obaya, A., &amp; Guerrero, C. (1996). Almacenamiento y manipulación de los residuos peligrosos. <i>Journal of the Mexican Chemical Society</i>, <i>40</i>(5), 220–229.</span></li>
+<li><span id="Evequoz2000PrdidasEP">Evequoz, O., Sbarato, D., Koroch, A. R., Rivarola, E., Sbarato, V. M., Ortega, J. E., Salort, M. R., &amp; Campos, M. (2000). <i>Pérdidas evaporativas por almacenamiento y distribución de combustibles en estaciones de servicio. Análisis de su problemática y propuesta de marco regulatorio local: Córdoba, Argentina</i>.</span></li>
+<li><span id="ochoa2001revision">Ochoa, G. S. (2001). <i>Revisión y análisis de las experiencias de Argentina, Brasil, Colombia, Ecuador y México respecto de los cinco elementos claves para el manejo ambiental de pilas y baterı́as</i>. Mexico City: Centro Nacional de Investigación y Capacitación Ambiental.</span></li>
+<li><span id="riancho2002utilizacion">Riancho Marı́a Rosa Sauri, &amp; Borges, E. R. C. (2002). Utilización de la composta en procesos para la remoción de contaminantes. <i>Ingenierı́a</i>, <i>6</i>(3), 55–60.</span></li>
+<li><span id="cherni2003perspectiva">Cherni, J. A. (2003). Perspectiva conceptual y práctica de la modernización ecológica y la globalización. <i>Theomai</i>, <i>7</i>, 0.</span></li>
+<li><span id="acosta2005propuesta">Acosta, M., Aguilar, M., Aranda, A., Batista, T., Barrı́a C, Bustamante, J., Navarro, I., Pérez, C., Rodrı́guez J, Solis, Y., &amp; others. (2005). Propuesta de reciclado y de descarte de pilas y baterı́as usadas de teléfonos móviles y similares en Santiago de Veraguas. <i>IV MUESTRA DE PROYECTOS Y TRABAJOS TÉCNICOS (IV MPTT)</i>, 7.</span></li>
+<li><span id="paez2006fotocatalisis">Paez, C., &amp; Taborda, G. (2006). La fotocatálisis: Aspectos fundamentales para una buena remoción de contaminantes. <i>Revista Universidad De Caldas</i>, <i>7</i>, 71–88.</span></li>
+<li><span id="ruiz2006pilas">Ruiz-Morales, J. C., Peña-Martı́nez Juan, López, D. M., Coll, D. P., Coello, P. F. N., Pérez, B. B., Vázquez, J. C., &amp; Gómez-Romero, P. (2006). Pilas de combustible. <i>Anales De La Real Sociedad Española De Quı́mica</i>, <i>3</i>, 22–30.</span></li>
+<li><span id="cuneo2009sistema">Cuneo Marı́a Marta. (2009). <i>Sistema de disposición, recolección y tratamiento de pilas domiciliarias</i>.</span></li>
+<li><span id="tun2009propuesta">TUN POOL, V. I. C. T. O. R. A. L. F. O. N. S. O. (2009). <i>Propuesta para un programa de tratamiento de pilas domésticas en desuso</i>.</span></li>
+<li><span id="barragan2010desarrollo">Barragán, H., Pascual, A., Bourgeois, M. J., &amp; Ojea, O. A. (2010). <i>Desarrollo, Salud humana y amenazas ambientales</i>. Editorial de la Universidad Nacional de La Plata (EDULP).</span></li>
+<li><span id="distribucion2011diagnostico">DISTRIBUCIÓN, I. M. P. O. R. T. A. C. I. Ó. N. Y. (2011). <i>DIAGNÓSTICO PRODUCCIÓN, IMPORTACIÓN Y DISTRIBUCIÓN Y EL MANEJO DE LOS RESIDUOS DE PILAS</i>.</span></li>
+<li><span id="urquiza2011estudio">Urquiza Zumaeta, J. M. (2011). <i>Estudio e implicancias del manejo inadecuado de las baterı́as automotrices desechadas en el parque automotor de la ciudad de Iquitos</i>.</span></li>
+<li><span id="marcillo2012desechos">Marcillo Manzaba, M. M. (2012). <i>Los desechos de pilas y baterı́as y su influencia en la contaminación ambiental</i> [B.S. thesis]. UNIVERSIDAD TECNOLOGICA EQUINOCCIAL. FACULTAD: EDUCACIÓN A DISTANCIA.</span></li>
+<li><span id="siguenza2013propuesta">Sigüenza, L., &amp; Andrés, C. (2013). <i>Propuesta de un plan de gestión sobre la adecuada manipulación de los residuos contaminantes producidos en los talleres automotrices de la ciudad de Azogues</i> [B.S. thesis].</span></li>
+<li><span id="ibarra2016planeacion">Ibarra Ramı́rez Ayleen. (2016). <i>Planeación de un sistema de recolección de residuos domésticos</i> [PhD thesis]. INGE CUC.</span></li>
+<li><span id="perez2016proyecto">Pérez Demarchi Agustı́n. (2016). <i>Proyecto diseño depósitos de almacenamiento transitorio de residuos peligrosos generados por la Universidad Nacional de Córdoba</i> [B.S. thesis]. Universidad Nacional de Córdoba Facultad de Ciencias Exactas, Fı́sicas y ….</span></li>
+<li><span id="arnulfo2018estudio">Arnulfo Reyes, H. (2018). <i>Estudio y manejo de pilas domesticas agotadas por la población de la facultad de planeación urbana y regional de la UAEMEX</i>.</span></li>
+</ol></div>
+      </div>
+    
+  </button></section>
+  
+
+
+<style type="text/css">
+  @import url("/assets/css/license.css");
+</style>
+
+<section class="license">
+  <button class="expandable_card">
+    <div class="is-card">
+      <div class="media project-accordion">
+        <div class="media-content project-accordion-name">
+          <p style="font-size: 1.3rem" class="title is-12">
+            <i class="project-accordion-icon fab fa-creative-commons"></i>Licencia
+          </p>
+        </div>
+        <div class="media-right">
+          <i class="expandable_card_button fas fa-caret-square-right"></i>
+        </div>
+      </div>
+      <div class="content contracted">
+        <div style="margin-top: 1em; background-color: #888; border-radius: 20px;">
+          <h3>Licencia</h3>
+          <a class="license-icons" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width: 0" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+            <img alt="Atribución" style="border-width: 0" src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+            <img alt="No Comercial" style="border-width: 0" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"></a>
+          <p>
+            Esta obra está bajo una
+            <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0
+              Internacional.</a>
+          </p>
+          <p>Usted es libre de:</p>
+          <ul>
+            <li>
+              <p>Copiar y redistribuir el material en cualquier medio o formato</p>
+            </li>
+            <li>
+              <p>Remezclar, transformar y crear a partir del material</p>
+            </li>
+          </ul>
+        </div>        
+      </div>
+    </div>
+  
+  
+</button></section>
+
+
+
+  <style type="text/css">
+    @import url("/assets/css/info.css");
+  </style>
+  
+  <section class="info-section">
+    <button class="expandable_card">
+      <div class="is-card">
+        <div class="media project-accordion">
+          <div class="media-content project-accordion-name">
+            <p style="font-size: 1.3rem;" class="title is-12"><i class="project-accordion-icon fas fa-info-circle"></i>Info</p>
+          </div>
+          <div class="media-right">
+            <i class="expandable_card_button fas fa-caret-square-right"></i>
+          </div>
+        </div>
+        <div class="content contracted">
+          <div style="background-color: #eee; border-radius: 20px; margin-top: 1em; padding: 1.5em;">
+            
+<h5>Cita este documento</h5>
+<p>Fundación Nodo Ambiental (2020) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de <a href="https://nodoambiental.org/contaminaci%C3%B3n/2019/09/17/pilas.html">https://nodoambiental.org/contaminación/2019/09/17/pilas.html</a></p>
+<h5>Vinculación Nodo Ambiental</h5>
+<ul>
+<li>Proyecto Pilas Usadas, <a href="https://nodoambiental.org">Nodo Ambiental</a>
+</li>
+</ul>
+<h5>Autores</h5>
+<p>Ágata Ordano, Laura González, Cecilia Ordano, Facundo Bernacki, Renzo Bernacki, Mariano Ordano</p>
+
+          </div>
+        </div>
+      </div>
+    
+  </button></section>
+
+
+<script src="/assets/js/cards.js"></script>
+
+    
+
+
+<div class="share-social">
+    <h2 class="share-social-title">
+        Comparte esta pagina:
+    </h2>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <div class="non-selectable tile is-child">
+                <a class="share-social-link" href="whatsapp://send?text=&lt;&lt;http://localhost:4000/contaminaci%C3%B3n/2019/09/17/pilas.html&gt;&gt;" data-action="share/whatsapp/share">
+                    <img class="share-social-icon" src="/assets/images/social/whatsapp.svg" alt="Whatsapp">
+                </a>
+
+                <a class="share-social-link" href="https://telegram.me/share/url?url=&lt;http://localhost:4000/contaminaci%C3%B3n/2019/09/17/pilas.html&gt;&amp;text=&lt;Mira+esta+publicaci%C3%B3n+de+Nodo+Ambiental%3A&gt;">
+                    <img class="share-social-icon" src="/assets/images/social/telegram.svg" alt="Telegram">
+                </a>
+
+                <a class="share-social-link" href="http://www.facebook.com/sharer.php?u=http://localhost:4000/contaminaci%C3%B3n/2019/09/17/pilas.html" target="_blank">
+                    <img class="share-social-icon" src="/assets/images/social/facebook.svg" alt="Facebook">
+                </a>
+                
+                <a class="share-social-link" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/contaminaci%C3%B3n/2019/09/17/pilas.html" target="_blank">
+                    <img class="share-social-icon" src="/assets/images/social/linkedin.svg" alt="LinkedIn">
+                </a>
+                
+                <a class="share-social-link" href="http://reddit.com/submit?url=http://localhost:4000/contaminaci%C3%B3n/2019/09/17/pilas.html&amp;title=Mira%20esta%20publicaci%C3%B3n%20de%20Nodo%20Ambiental:" target="_blank">
+                    <img class="share-social-icon" src="/assets/images/social/reddit.svg" alt="Reddit">
+                </a>
+                
+                <a class="share-social-link" href="http://www.tumblr.com/share/link?url=http://localhost:4000/contaminaci%C3%B3n/2019/09/17/pilas.html&amp;title=Mira%20esta%20publicaci%C3%B3n%20de%20Nodo%20Ambiental:" target="_blank">
+                    <img class="share-social-icon" src="/assets/images/social/tumblr.svg" alt="Tumblr">
+                </a>
+                 
+                <a class="share-social-link" href="https://twitter.com/share?url=http://localhost:4000/contaminaci%C3%B3n/2019/09/17/pilas.html&amp;text=&amp;hashtags=NodoAmbiental" target="_blank">
+                    <img class="share-social-icon" src="/assets/images/social/twitter.svg" alt="Twitter">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            
+            <div class="non-selectable tile is-child">
+                Fundación Nodo Ambiental 2020
+                
+                    <br>
+                    
+                        
+                        <a class="footer-social" href="https://www.facebook.com/fnodoambiental/">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg>
+                        </a>
+                    
+                        
+                        <a class="footer-social" href="https://instagram.com/nodonexo">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                        </a>
+                    
+                        
+                        <a class="footer-social" href="https://twitter.com/AmbientalNodo">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"></path></svg>
+                        </a>
+                    
+                        
+                        <a class="footer-social" href="https://github.com/nodoambiental">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z"></path></svg>
+                        </a>
+                    
+                        
+                        <a class="footer-social" href="https://www.linkedin.com/in/fundaci%C3%B3n-nodo-ambiental-60a0641a5/">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+                        </a>
+                    
+                
+            </div>
+            
+            <div class="non-selectable tile is-child">
+                Para ponerse en contacto con nosotros escríbanos a contacto@nodoambiental.org
+                
+            </div>
+            
+        </div>
+    </div>
+    <h6>
+        Última actualización del contenido: 05/11/2020
+    </h6>
+</footer>
+</body>
+<script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/jquery.waypoints.min.js"></script>
+<script src="/assets/js/anime.min.js"></script>
+<script src="/assets/js/script.js"></script>
+</html>

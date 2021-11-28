@@ -1,0 +1,146 @@
+.info {
+  background-color: #eee;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: -60px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  width: 80%;
+}
+
+.infograph img {
+  border-radius: 20px;
+  box-shadow: 0 0 0 0.5em #eee;
+  width: 100%;
+}
+
+.infograph-text p {
+  margin-top: 25%;
+  padding: 10%;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .info {
+    background: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-top: -300px;
+    width: 100%;
+  }
+
+  .infograph img {
+    box-shadow: none;
+  }
+
+  .infograph-text p {
+    background-color: #eee;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .info {
+    background: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-top: -170px;
+    width: 100%;
+  }
+
+  .infograph-text p {
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow: 0 0 0 0.5em #eee;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .info {
+    background-color: #eee;
+    border-radius: 20px;
+    margin-bottom: 0;
+    margin-top: -150px;
+    width: 90%;
+  }
+
+  .infograph img {
+    box-shadow: none;
+  }
+
+  .infograph-text p {
+    background: none;
+    border-radius: 20px;
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+  }
+
+  hr .divider {
+    border: 0;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+  .info {
+    background-color: #eee;
+    border-radius: 20px;
+    margin-bottom: 0;
+    margin-top: calc(-1.776 * 10vw + 75px);
+    width: 70ch;
+  }
+
+  .infograph img {
+    box-shadow: none;
+  }
+
+  .infograph-text p {
+    background: none;
+    border-radius: 20px;
+    margin-top: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+
+  hr .divider {
+    border: 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .info {
+    background-color: #eee;
+    border-radius: 20px;
+    margin-bottom: 0;
+    margin-top: calc(-0.5625 * 10vw + 130px);
+    width: 100ch;
+  }
+  .info .tile .is-ancestor {
+    margin: 0;
+  }
+  .info .tile .is-child {
+    width: 500px;
+  }
+
+  .infograph img {
+    box-shadow: none;
+  }
+
+  .infograph-text p {
+    background: none;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 90%;
+  }
+
+  hr .divider {
+    border: 0;
+  }
+}
+
+/*# sourceMappingURL=infograph.css.map */

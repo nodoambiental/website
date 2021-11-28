@@ -10,32 +10,34 @@ export const i18n_Assets = (original: string): string => {
     return original;
 };
 
+const CCIconPath = {
+    by: "/img/icons/CC/by.svg",
+    cc: "/img/icons/CC/cc.svg",
+    "nc-eu": "/img/icons/CC/nc-eu.svg",
+    "nc-jp": "/img/icons/CC/nc-jp.svg",
+    nc: "/img/icons/CC/nc.svg",
+    nd: "/img/icons/CC/nd.svg",
+    pd: "/img/icons/CC/pd.svg",
+    remix: "/img/icons/CC/remix.svg",
+    sa: "/img/icons/CC/sa.svg",
+    sampling: "/img/icons/CC/sampling.svg",
+    "sampling-plus": "/img/icons/CC/sampling.plus.svg",
+    share: "/img/icons/CC/share.svg",
+    zero: "/img/icons/CC/zero.svg",
+};
+
 export const path: Types.PathStrings = {
     vector: {
         logo: {
             edu: {
                 square_large: i18n_Assets(
-                    "/static/img/logos/logo_square_edu_large.svg"
+                    "/img/logos/logo_square_edu_large.svg"
                 ),
             },
         },
         image: {},
     },
     icon: {
-        CC: {
-            by: "/static/img/icons/CC/by.svg",
-            cc: "/static/img/icons/CC/cc.svg",
-            "nc-eu": "/static/img/icons/CC/nc-eu.svg",
-            "nc-jp": "/static/img/icons/CC/nc-jp.svg",
-            nc: "/static/img/icons/CC/nc.svg",
-            nd: "/static/img/icons/CC/nd.svg",
-            pd: "/static/img/icons/CC/pd.svg",
-            remix: "/static/img/icons/CC/remix.svg",
-            sa: "/static/img/icons/CC/sa.svg",
-            sampling: "/static/img/icons/CC/sampling.svg",
-            "sampling-plus": "/static/img/icons/CC/sampling.plus.svg",
-            share: "/static/img/icons/CC/share.svg",
-            zero: "/static/img/icons/CC/zero.svg",
-        },
+        CC: CCIconPath,
     },
 };

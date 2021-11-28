@@ -3,9 +3,9 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "@workshop/util": ["src/util"],
-            "@workshop/components": ["src/components"],
-            "@workshop/styles": ["src/css/modules"]
+            "@src/util": ["src/util"],
+            "@src/components": ["src/components"],
+            "@src/styles": ["src/css/modules"]
         }
     }
 }

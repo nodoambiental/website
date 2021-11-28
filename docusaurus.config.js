@@ -1,21 +1,22 @@
-/* eslint-disable no-undef */
-/* eslint-disable @typescript-eslint/no-var-requires */
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-// With JSDoc @type annotations, IDEs can provide config autocompletion
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
-    title: "Centro Educativo",
-    tagline: "Formación Institucional",
-    url: "https://edu.nodoambiental.org",
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+    title: "Fundación Nodo Ambiental",
+    tagline: "Personería Jurídica 2/2020 D.P.J.",
+    url: "https://nodoambiental.org",
     baseUrl: "/",
     i18n: { defaultLocale: "es", locales: ["en", "es"] },
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
-    favicon: "img/favicon.ico",
+    favicon: "img/logos/favicon.svg",
     organizationName: "nodoambiental", // Usually your GitHub org/user name.
-    projectName: "workshop", // Usually your repo name.
+    projectName: "website", // Usually your repo name.
+
     plugins: [
         "@docusaurus/plugin-ideal-image",
         [
@@ -30,7 +31,7 @@ module.exports = {
                     "typedoc-umlclass",
                 ],
                 entryPoints: ["./src"],
-                name: "NA Edu",
+                name: "Nodo Ambiental",
                 gitRemote: "origin",
                 includeVersion: true,
                 excludeExternals: true,
@@ -76,7 +77,7 @@ module.exports = {
 
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-        {
+        ({
             navbar: {
                 title: "EH Edu",
                 logo: {
@@ -150,7 +151,7 @@ module.exports = {
                         position: "left",
                     },
                     {
-                        href: "https://github.com/nodoambiental/workshop",
+                        href: "https://github.com/nodoambiental/website",
                         label: "GitHub",
                         position: "right",
                     },
@@ -188,5 +189,7 @@ module.exports = {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
             },
-        },
+        }),
 };
+
+module.exports = config;

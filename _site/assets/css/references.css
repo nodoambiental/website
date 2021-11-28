@@ -1,0 +1,38 @@
+.references {
+  margin: auto;
+  width: 90%;
+}
+.references button .expandable_card {
+  background: none;
+  border: 0;
+  width: 100%;
+}
+
+ol .bibliography {
+  background-color: #eee;
+  border-radius: 10px;
+  margin-left: 0;
+  padding: 10px;
+  padding-left: 30px;
+}
+ol .bibliography li::marker {
+  color: #eb6113;
+}
+ol .bibliography li span i {
+  font-size: 1em;
+}
+
+.citation {
+  color: #eb6113;
+  font-size: 0.9em;
+  font-variant: small-caps;
+  transition-duration: 1s;
+}
+.citation:hover {
+  border-bottom: 1px dashed #999;
+  color: #eb6113;
+  font-size: 0.95em;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=references.css.map */

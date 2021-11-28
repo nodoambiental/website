@@ -1,8 +1,8 @@
-declare module "@workshop/components" {
-    class License {
+declare module "@src/components" {
+    interface License {
         licenseFooter: JSX.Element;
     }
-    class Home {
-        introComponent: JSX.Element;
+    interface Home {
+        features: JSX.Element;
     }
 }

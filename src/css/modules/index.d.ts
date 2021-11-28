@@ -7,8 +7,8 @@ declare module "*!css-module" {
     export default content;
 }
 
-declare module "@workshop/styles" {
-    export class Module {
+declare module "@src/styles" {
+    export interface Module {
         readonly home: CSSModule;
         readonly index: CSSModule;
     }

@@ -1,0 +1,58 @@
+section .services .tile article {
+  padding: 10px;
+}
+section .services .tile .is-child {
+  margin: 10px !important;
+}
+
+.navbar-blog {
+  background-color: #fff;
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  position: relative;
+  top: -2.5vw;
+}
+.navbar-blog a {
+  margin: auto;
+}
+.navbar-blog a:hover {
+  font-size: 1.2em;
+}
+
+.category-name {
+  color: #000;
+  font-size: 1.5em;
+  font-variant: small-caps;
+  text-align: left;
+}
+
+.tag-name {
+  color: #000;
+  font-size: 2em;
+  font-variant: small-caps;
+  text-align: left;
+}
+.tag-name::before {
+  color: #eb6113;
+  content: "#";
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 780px) {
+  .content {
+    padding: 10%;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 610px) {
+  .navbar-blog {
+    top: -7vw;
+  }
+}
+@media only screen and (max-width: 780px) {
+  section .services .tile article {
+    padding: 5vw;
+  }
+}
+
+/*# sourceMappingURL=blog.css.map */

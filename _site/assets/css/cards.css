@@ -1,0 +1,33 @@
+button .expandable_card {
+  background-color: #ccc;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.project-accordion {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.project-accordion-name {
+  display: inline-block;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+}
+
+div .is-card i .project-accordion-icon {
+  color: #666;
+  font-size: 1em;
+  margin-right: 10px;
+  position: relative;
+  top: 0;
+}
+
+/*# sourceMappingURL=cards.css.map */
