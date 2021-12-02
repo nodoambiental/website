@@ -1,7 +1,67 @@
 {
   "title": {
-    "message": "Fundación Nodo Ambiental",
+    "message": "NA Edu",
     "description": "The title in the navbar"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Start!": {
+    "message": "Comenzar!",
+    "description": "Navbar item with label Start!"
+  },
+  "item.label.Courses": {
+    "message": "Cursos",
+    "description": "Navbar item with label Courses"
+  },
+  "item.label.More": {
+    "message": "Más",
+    "description": "Navbar item with label More"
+  },
+  "item.label.Foundations": {
+    "message": "Fundamentos",
+    "description": "Navbar item with label Foundations"
+  },
+  "item.label.Common": {
+    "message": "Generales",
+    "description": "Navbar item with label Common"
+  },
+  "item.label.Editorial": {
+    "message": "Editorial",
+    "description": "Navbar item with label Editorial"
+  },
+  "item.label.Administration": {
+    "message": "Administración",
+    "description": "Navbar item with label Administration"
+  },
+  "item.label.IT": {
+    "message": "IT",
+    "description": "Navbar item with label IT"
+  },
+  "item.label.PR": {
+    "message": "Relaciones Públicas",
+    "description": "Navbar item with label PR"
+  },
+  "item.label.Email Us About This": {
+    "message": "Escríbenos acerca de esto",
+    "description": "Navbar item with label Email Us About This"
+  },
+  "item.label.EH Edu Blog": {
+    "message": "NA Edu Blog",
+    "description": "Navbar item with label EH Edu Blog"
+  },
+  "item.label.About EH Edu": {
+    "message": "Acerca de NA Edu",
+    "description": "Navbar item with label About EH Edu"
+  },
+  "item.label.Environmental Hub Blog": {
+    "message": "Nodo Ambiental Blog",
+    "description": "Navbar item with label Environmental Hub Blog"
+  },
+  "item.label.About Environmental Hub": {
+    "message": "Acerca de Nodo Ambiental",
+    "description": "Navbar item with label About Environmental Hub"
   },
   "item.label.Servicios": {
     "message": "Servicios",
