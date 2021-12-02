@@ -5,7 +5,8 @@
         "paths": {
             "@src/util": ["src/util"],
             "@src/components": ["src/components"],
-            "@src/styles": ["src/css/modules"]
+            "@src/styles": ["src/css/modules"],
+            "@src/config": ["config"]
         }
     }
 }
