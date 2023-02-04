@@ -1,0 +1,81 @@
+/* General Styling */
+
+form {
+  margin: 40px;
+}
+
+ul li {
+  background-color: #fff;
+  border: 3px solid #eee;
+  border-radius: 20px;
+}
+
+ul li a {
+  text-align: center;
+  padding: 5px;
+  position: relative;
+  font-size: 2em;
+  color: #cf4b00;
+  font-variant: all-small-caps;
+}
+
+ul li a:hover {
+  color: #ff5c00;
+  font-size: 2.2em;
+}
+
+ul li {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+input[type="submit"] {
+  transition-duration: 400ms;
+  border: 2px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+input[type="submit"]:hover {
+  padding: 10px;
+  background-color: #cf4b00;
+  color: #fff;
+  cursor: pointer;
+}
+
+#search-box {
+  transition-duration: 400ms;
+  border: 2px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#search-box:hover {
+  padding: 10px;
+  width: 50%;
+  background-color: #cf4b00;
+  color: #fff;
+}
+
+#search-box:focus {
+  padding: 10px;
+  width: 50%;
+  background-color: #cf4b00;
+  color: #fff;
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 780px) {
+  .content {
+    padding: 10%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 610px) {
+  .navbar-blog {
+    top: -7vw;
+  }
+}
