@@ -24,12 +24,27 @@
                             <div class="media">
                                 <div class="media-left">
                                     <figure class="team">
-                                        <img src="/assets/images/team/{{person.name}}.png" />
+                                        {% assign photo_path = "/assets/images/team/%%%.png" | replace: "%%%", person.name %}
+                                        {% assign photo = site.static_files | where: "path", photo_path %}
+                                        {% if {{photo.size}} == 1 %}
+                                            <img src="{{ photo_path }}" /> 
+                                        {% else %}
+                                            <img src="/assets/images/team/default.png" />
+                                        {% endif %}
                                     </figure>
                                 </div>
                             </div>
                             <p class="title is-12">{{person.name}}</p>
-                            <h2 class="team-subtitle">{{ person.description }}</h2>
+                            {% if {{person.role}} %}
+                                <p class='subtitle is-12'>
+                                    {{person.role}}
+                                </p> 
+                            {% endif %}
+                            {% if {{person.role}} %}
+                                <h2 class="team-subtitle">
+                                    {{ person.description }}
+                                </h2>
+                            {% endif %}
                         </div>
                     </article>
                 </div>

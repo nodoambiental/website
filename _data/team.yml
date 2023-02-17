@@ -4,33 +4,81 @@
 
 - name: Mariano Ordano
   description: Biólogo, Doctor en Ciencias en Ecología y Manejo de Recursos Naturales
+  role: Presidente
 
-- name: Facundo Bernacki
-  description: Licenciado en Ciencias Biológicas
+- name: Nélida Sueldo
+  description: Contadora Pública Nacional
+  role: Secretaria
 
 - name: Carmen Reguilón
   description: Licenciada y Doctora en Ciencias Biológicas
+  role: Tesorera
 
-- name: Laura González
-  description: Licenciada en Antropología Social
-
-- name: Cecilia Ordano
-  description: Licenciada en Historia, Especialista en Recursos Humanos
-
-- name: Renzo Bernacki
-  description: Licenciado en Ciencias Biológicas
+- name: Julián Sorroza
+  description: Ingeniero Industrial
+  role: Director Ejecutivo
 
 - name: Ágata Ordano
   description: Diseñadora, desarrolladora e investigadora independiente
+  role: Desarrolladora
 
-- name: Analía Benavidez
-  description: Licenciada y Doctora en Ciencias Biológicas
+- name: Laura González
+  description: Licenciada en Antropología Social
+  role: Editora Principal
 
-- name: Leonardo Scarpa
-  description: Licenciado en Biodiversidad
+- name: Cecilia Ordano
+  description: Licenciada en Historia, Especialista en Recursos Humanos
+  role: Relaciones Públicas
 
 - name: Mariana Valoy
   description: Licenciada en Ciencias Biológicas
+  role: Programa de Voluntariado
+
+- name: Analía Benavidez
+  description: Licenciada y Doctora en Ciencias Biológicas
+  role: Gestora de Proyectos
 
 - name: Ana Merino
   description: Ingeniera agrónoma
+  role: Asesora
+
+- name: Osvaldo Olmos
+  description: Ingeniero Químico
+  role: Asesor
+
+- name: Ignacio Piccinini
+  description: Ingeniero Químico
+  role: Asesor
+
+- name: Leonardo Scarpa
+  description: Licenciado en Biodiversidad
+  role: Asesor
+
+- name: Christian Walker
+  description: Estudiante de Biodiversidad
+  role: Asesor
+
+- name: Alicia Yapur
+  description: Licenciada en Ciencias Biológicas
+  role: Asesor
+
+- name: Claudia Cisneros
+  role: Voluntaria
+
+- name: Hernán Giangrasso
+  role: Voluntario
+
+- name: Federico Heredia
+  role: Voluntario
+
+- name: Eric Lazarte Monteros
+  role: Voluntario
+
+- name: Daniela Loto
+  role: Voluntaria
+
+- name: Emilia Constanza Pérez
+  role: Voluntaria
+
+- name: Fernanda Villagrán
+  role: Voluntaria
