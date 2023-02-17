@@ -3,7 +3,7 @@ layout: home
 title: Inicio
 date: 2019/nov/10
 
-about_text: Quiénes somos
+about_text: Somos gente interesada en ayudar a que nuestro entorno ambiental y humano sea saludable y sustentable.
 
 services_text: Nuestros servicios buscan promover la preservaci&oacute;n del ambiente, el desarrollo sostenible y el bienestar social
 
