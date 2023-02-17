@@ -505,8 +505,8 @@ footer {
   div.spacer {
     position: relative;
     display: block;
-    margin-top: 18%;
-    height: 100px;
+    margin-top: 5vw;
+    height: 20vw;
     width: 100%;
   }
 
@@ -571,8 +571,8 @@ footer {
   div.spacer {
     position: relative;
     display: block;
-    margin-top: 35%;
-    height: 100px;
+    margin-top: 20vw;
+    height: 200px;
     width: 100%;
   }
 }
