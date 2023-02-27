@@ -4,81 +4,86 @@
 
 - name: Mariano Ordano
   description: Biólogo, Doctor en Ciencias en Ecología y Manejo de Recursos Naturales
-  role: Presidente
+  role: Presidente ad honorem
 
 - name: Nélida Sueldo
   description: Contadora Pública Nacional
-  role: Secretaria
+  role: Secretaria ad honorem
 
 - name: Carmen Reguilón
-  description: Licenciada y Doctora en Ciencias Biológicas
-  role: Tesorera
+  description: Doctora en Ciencias Biológicas
+  role: Tesorera ad honorem
 
 - name: Julián Sorroza
   description: Ingeniero Industrial
-  role: Director Ejecutivo
+  role: Director Ejecutivo ad honorem
 
 - name: Ágata Ordano
-  description: Diseñadora, desarrolladora e investigadora independiente
-  role: Desarrolladora
+  description: Desarrolladora de Software
+  role: Desarrolladora ad honorem
 
 - name: Laura González
   description: Licenciada en Antropología Social
-  role: Editora Principal
+  role: Editora ad honorem
 
 - name: Cecilia Ordano
   description: Licenciada en Historia, Especialista en Recursos Humanos
-  role: Relaciones Públicas
+  role: Gestora de Relaciones ad honorem
 
 - name: Mariana Valoy
-  description: Licenciada en Ciencias Biológicas
-  role: Programa de Voluntariado
+  description: Doctora en Ciencias Biológicas
+  role: Coordinadora de Voluntariado ad honorem
 
 - name: Analía Benavidez
-  description: Licenciada y Doctora en Ciencias Biológicas
-  role: Gestora de Proyectos
+  description: Doctora en Ciencias Biológicas
+  role: Gestora de Proyectos ad honorem
 
 - name: Ana Merino
   description: Ingeniera agrónoma
-  role: Asesora
+  role: Asesora ad honorem
 
 - name: Osvaldo Olmos
   description: Ingeniero Químico
-  role: Asesor
+  role: Asesor ad honorem
 
 - name: Ignacio Piccinini
   description: Ingeniero Químico
-  role: Asesor
+  role: Asesor ad honorem
 
 - name: Leonardo Scarpa
   description: Licenciado en Biodiversidad
-  role: Asesor
+  role: Asesor ad honorem
 
 - name: Christian Walker
   description: Estudiante de Biodiversidad
-  role: Asesor
+  role: Asesor ad honorem
 
 - name: Alicia Yapur
-  description: Licenciada en Ciencias Biológicas
-  role: Asesor
+  role: Asesora ad honorem
+
+- name: Claudia Fernández
+  role: Asesora ad honorem
+
+- name: Angeles Díaz
+  role: Voluntaria ad honorem
 
 - name: Claudia Cisneros
-  role: Voluntaria
-
-- name: Hernán Giangrasso
-  role: Voluntario
-
-- name: Federico Heredia
-  role: Voluntario
-
-- name: Eric Lazarte Monteros
-  role: Voluntario
+  role: Voluntaria ad honorem
 
 - name: Daniela Loto
-  role: Voluntaria
+  role: Voluntaria ad honorem
 
 - name: Emilia Constanza Pérez
-  role: Voluntaria
+  role: Voluntaria ad honorem
+
+- name: Eric Lazarte Monteros
+  role: Voluntario ad honorem
+
+- name: Federico Heredia
+  role: Voluntario ad honorem
 
 - name: Fernanda Villagrán
-  role: Voluntaria
+  role: Voluntaria ad honorem
+
+- name: Hernán Giangrasso
+  role: Voluntario ad honorem
