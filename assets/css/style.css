@@ -108,9 +108,20 @@ h2.main-title {
   padding-right: 10%;
 }
 
-.section.main-title h2.subtitle {
-  font-size: 100%;
-  line-height: 90%;
+.section.main-title h3.subtitle {
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.section.main-title p.subtitle {
+  font-size: 0.8em;
+  margin-bottom: 7px;
+  color: #222;
+}
+
+.section.main-title div {
+  margin-block: 25px;
 }
 
 /*Alternating gradient and shadow */
