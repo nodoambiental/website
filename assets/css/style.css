@@ -312,10 +312,6 @@ section.services .tile p.title {
   animation-duration: 200ms;
 }
 
-section.services .tile p.title:hover {
-  font-size: 1.8em;
-}
-
 section.services .tile p.subtitle {
   font-size: 1em;
   text-align: center;

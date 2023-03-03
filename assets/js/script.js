@@ -48,7 +48,7 @@ function animateCard(element) {
         element.style.transitionDuration = '100ms';
         anime({
             targets: element,
-            scale: 1.05
+            scale: 1
         });
     }, function () {
         anime({
