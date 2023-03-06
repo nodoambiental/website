@@ -11,7 +11,7 @@
   role: Secretaria ad honorem
 
 - name: Carmen Reguilón
-  description: Doctora en Ciencias Biológicas
+  description: Licenciada y Doctora en Ciencias Biológicas
   role: Tesorera ad honorem
 
 - name: Julián Sorroza
@@ -19,7 +19,7 @@
   role: Director Ejecutivo ad honorem
 
 - name: Ágata Ordano
-  description: Desarrolladora de Software
+  description: Desarrolladora de Software, Técnica Mecánica Electricista
   role: Desarrolladora ad honorem
 
 - name: Laura González
@@ -31,19 +31,19 @@
   role: Gestora de Relaciones ad honorem
 
 - name: Mariana Valoy
-  description: Doctora en Ciencias Biológicas
+  description: Licenciada y Doctora en Ciencias Biológicas
   role: Coordinadora de Voluntariado ad honorem
 
 - name: Analía Benavidez
-  description: Doctora en Ciencias Biológicas
+  description: Licenciada y Doctora en Ciencias Biológicas
   role: Gestora de Proyectos ad honorem
 
 - name: Ana Merino
-  description: Ingeniera agrónoma
+  description: Ingeniera Agrónoma
   role: Asesora ad honorem
 
 - name: Osvaldo Olmos
-  description: Ingeniero Químico
+  description: Licenciado en Ciencias Químicas
   role: Asesor ad honorem
 
 - name: Ignacio Piccinini
@@ -59,31 +59,41 @@
   role: Asesor ad honorem
 
 - name: Alicia Yapur
+  description: Licenciada en Ciencias Biológicas
   role: Asesora ad honorem
 
 - name: Claudia Fernández
+  description: Licenciada en Gestión Universitaria
   role: Asesora ad honorem
 
-- name: Angeles Díaz
+- name: María de los Ángeles Díaz
+  description: Profesora de Historia
   role: Voluntaria
 
 - name: Claudia Cisneros
+  description: Estudiante de Ciencias Biológicas
   role: Voluntaria
 
 - name: Daniela Loto
+  description: Profesora de Historia
   role: Voluntaria
 
 - name: Emilia Constanza Pérez
+  description: Licenciada en Ciencias Biológicas, Magister en Entomología
   role: Voluntaria
 
 - name: Eric Lazarte Monteros
+  description: Ingeniero Mecánico
   role: Voluntario
 
 - name: Federico Heredia
+  description: Estudiante de Ciencias Biológicas
   role: Voluntario
 
 - name: Fernanda Villagrán
+  description: Licenciada en Ciencias Biológicas
   role: Voluntaria
 
 - name: Hernán Giangrasso
+  description: Licenciado en Gestión Ambiental
   role: Voluntario
