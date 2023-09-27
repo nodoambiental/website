@@ -13,12 +13,12 @@
 - name: Carmen Reguilón
   description: Licenciada y Doctora en Ciencias Biológicas
   role: Tesorera ad honorem
-
-- name: Julián Sorroza
-  description: Ingeniero Industrial
-  role: Director Ejecutivo ad honorem
-
-- name: Ágata Ordano
+  
+  name: Andrea Mujica
+  description: Profesora
+  role: Coordinación, voluntaria
+ 
+  name: Ágata Ordano
   description: Desarrolladora de Software, Técnica Mecánica Electricista
   role: Desarrolladora ad honorem
 
@@ -37,6 +37,10 @@
 - name: Analía Benavidez
   description: Licenciada y Doctora en Ciencias Biológicas
   role: Gestora de Proyectos ad honorem
+  
+  name: Julián Sorroza
+  description: Ingeniero Industrial
+  role: Asesor ad honorem
 
 - name: Ana Merino
   description: Ingeniera Agrónoma
@@ -97,3 +101,13 @@
 - name: Hernán Giangrasso
   description: Licenciado en Gestión Ambiental
   role: Voluntario
+  
+  name: Miguel Armoa
+  description: Fotógrafo
+  role: Voluntario
+  
+  name: Nicolás Sosa
+  description: Ingeniero Químico
+  role: Voluntario
+  
+  
