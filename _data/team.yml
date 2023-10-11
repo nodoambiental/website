@@ -4,71 +4,71 @@
 
 - name: Mariano Ordano
   description: Biólogo, Doctor en Ciencias en Ecología y Manejo de Recursos Naturales
-  role: Presidente ad honorem
+  role: Presidente
 
 - name: Nélida Sueldo
   description: Contadora Pública Nacional
-  role: Secretaria ad honorem
+  role: Secretaria, Vinculación
 
 - name: Carmen Reguilón
   description: Licenciada y Doctora en Ciencias Biológicas
-  role: Tesorera ad honorem
+  role: Tesorera
+  
+  name: Mariana Valoy
+  description: Licenciada y Doctora en Ciencias Biológicas
+  role: Vocal, Programa de Voluntariado, Desarrollo Humano
+  
+  name: Analía Benavidez
+  description: Licenciada y Doctora en Ciencias Biológicas
+  role: Vocal, Coordinadora de Proyectos, Comunicaciones
   
   name: Andrea Mujica
-  description: Profesora
-  role: Coordinación, voluntaria
+  description: Profesora de Educación Física
+  role: Directora Ejecutiva
  
   name: Ágata Ordano
   description: Desarrolladora de Software, Técnica Mecánica Electricista
-  role: Desarrolladora ad honorem
+  role: Desarrolladora
 
 - name: Laura González
   description: Licenciada en Antropología Social
-  role: Editora ad honorem
+  role: Editora, Comunicaciones
 
 - name: Cecilia Ordano
   description: Licenciada en Historia, Especialista en Recursos Humanos
-  role: Gestora de Relaciones ad honorem
+  role: Vinculación, Desarrollo Humano
 
-- name: Mariana Valoy
-  description: Licenciada y Doctora en Ciencias Biológicas
-  role: Coordinadora de Voluntariado ad honorem
-
-- name: Analía Benavidez
-  description: Licenciada y Doctora en Ciencias Biológicas
-  role: Gestora de Proyectos ad honorem
-  
-  name: Julián Sorroza
+- name: Julián Sorroza
   description: Ingeniero Industrial
-  role: Asesor ad honorem
+  role: Asesor
 
 - name: Ana Merino
   description: Ingeniera Agrónoma
-  role: Asesora ad honorem
+  role: Asesora
 
 - name: Osvaldo Olmos
   description: Licenciado en Ciencias Químicas
-  role: Asesor ad honorem
+  role: Asesor
 
 - name: Ignacio Piccinini
   description: Ingeniero Químico
-  role: Asesor ad honorem
+  role: Asesor
 
 - name: Leonardo Scarpa
   description: Licenciado en Biodiversidad
-  role: Asesor ad honorem
+  role: Asesor
 
 - name: Christian Walker
   description: Estudiante de Biodiversidad
-  role: Asesor ad honorem
+  role: Asesor
 
 - name: Alicia Yapur
   description: Licenciada en Ciencias Biológicas
-  role: Asesora ad honorem
+  role: Asesora
 
 - name: Claudia Fernández
   description: Licenciada en Gestión Universitaria
-  role: Asesora ad honorem
+  role: Asesora
 
 - name: María de los Ángeles Díaz
   description: Profesora de Historia
@@ -109,5 +109,9 @@
   name: Nicolás Sosa
   description: Ingeniero Químico
   role: Voluntario
+  
+  name: Griselda Podazza
+  description: Licenciada y Doctora en Ciencias Biológicas
+  role: Voluntaria
   
   
