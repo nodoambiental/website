@@ -13,20 +13,20 @@
 - name: Carmen Reguilón
   description: Licenciada y Doctora en Ciencias Biológicas
   role: Tesorera
-  
-  name: Mariana Valoy
+
+- name: Mariana Valoy
   description: Licenciada y Doctora en Ciencias Biológicas
   role: Vocal, Programa de Voluntariado, Desarrollo Humano
-  
-  name: Analía Benavidez
+
+- name: Analía Benavidez
   description: Licenciada y Doctora en Ciencias Biológicas
   role: Vocal, Coordinadora de Proyectos, Comunicaciones
-  
-  name: Andrea Mujica
+
+- name: Andrea Mujica
   description: Profesora de Educación Física
   role: Directora Ejecutiva
- 
-  name: Ágata Ordano
+
+- name: Ágata Ordano
   description: Desarrolladora de Software, Técnica Mecánica Electricista
   role: Desarrolladora
 
@@ -101,17 +101,15 @@
 - name: Hernán Giangrasso
   description: Licenciado en Gestión Ambiental
   role: Voluntario
-  
-  name: Miguel Armoa
+
+- name: Miguel Armoa
   description: Fotógrafo
   role: Voluntario
-  
-  name: Nicolás Sosa
+
+- name: Nicolás Sosa
   description: Ingeniero Químico
   role: Voluntario
-  
-  name: Griselda Podazza
+
+- name: Griselda Podazza
   description: Licenciada y Doctora en Ciencias Biológicas
   role: Voluntaria
-  
-  

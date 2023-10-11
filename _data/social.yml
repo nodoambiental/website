@@ -4,23 +4,20 @@
 #  Para agregar o quitar elementos simplemente agregar o quitar entradas.
 #  El link debe figurar con la ruta completa; de la forma "https://www.ejemplo.com"
 
+- element:
+      - icon: instagram
+      - link: https://instagram.com/nodonexo
 
 - element:
-    - icon: instagram
-    - link: https://instagram.com/nodonexo
- 
- - element:
-    - icon: facebook-square
-    - link: https://www.facebook.com/fnodoambiental/
-   
-- element:
-    - icon: github-square
-    - link: https://github.com/nodoambiental
+      - icon: facebook-square
+      - link: https://www.facebook.com/fnodoambiental/
 
+- element:
+      - icon: github-square
+      - link: https://github.com/nodoambiental
 #- element:
 #   - icon: twitter-square
 #   - link: https://twitter.com/AmbientalNodo
-
 
 #- element:
 #  - icon: linkedin
