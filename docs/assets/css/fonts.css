@@ -1,6 +1,8 @@
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins Italic"), local("Poppins-Italic"),
+  src:
+    local("Poppins Italic"),
+    local("Poppins-Italic"),
     url("./fonts/poppins/Poppins-Italic.woff2") format("woff2"),
     url("./fonts/poppins/Poppins-Italic.woff") format("woff");
   font-weight: normal;
@@ -9,7 +11,9 @@
 
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"),
+  src:
+    local("Poppins Bold Italic"),
+    local("Poppins-BoldItalic"),
     url("./fonts/poppins/Poppins-BoldItalic.woff2") format("woff2"),
     url("./fonts/poppins/Poppins-BoldItalic.woff") format("woff");
   font-weight: bold;
@@ -18,7 +22,9 @@
 
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins Regular"), local("Poppins-Regular"),
+  src:
+    local("Poppins Regular"),
+    local("Poppins-Regular"),
     url("./fonts/poppins/Poppins-Regular.woff2") format("woff2"),
     url("./fonts/poppins/Poppins-Regular.woff") format("woff");
   font-weight: normal;
@@ -27,7 +33,9 @@
 
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins Bold"), local("Poppins-Bold"),
+  src:
+    local("Poppins Bold"),
+    local("Poppins-Bold"),
     url("./fonts/poppins/Poppins-Bold.woff2") format("woff2"),
     url("./fonts/poppins/Poppins-Bold.woff") format("woff");
   font-weight: bold;
