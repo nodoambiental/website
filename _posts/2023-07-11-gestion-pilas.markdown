@@ -31,10 +31,7 @@ No se incluye a las pilas o baterías industriales, de electrónicos, automóvil
 <!--section-->
 # Pilas y baterías ¿Qué son?
 
-
 ##### Este infoblog fue basado en
-
-+ {% citespacename %}
 
 ##### y los enlaces
 
@@ -55,7 +52,7 @@ Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas. Yerba Buena,
 
 ##### Vinculación Nodo Ambiental
 
-- Contención de la contaminación, Promoción de la salud, <a href="https://nodoambiental.org">Nodo Ambiental</a>
++ Contención de la contaminación, Promoción de la salud, <a href="https://nodoambiental.org">Nodo Ambiental</a>
 
 ### Licencia
 
