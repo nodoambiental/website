@@ -17,16 +17,16 @@ categories: contaminación
 
 ![cardspilas](/assets/images/post/2cards.png)
 
-Teniendo en cuenta las dudas e inquietudes sobre las pilas usadas que se presentan hoy en nuestra sociedad, es que tomamos la iniciativa y asumimos el desafío de entregar información que permita conocer cómo se encuentra hoy la situación respecto a su tratamiento en el país, si existen lugares dónde dejarlas, las formas de identificarlas y distinguirlas, y mucho más.
-Esperamos, por sobre todo, que la información sea útil y práctica, y que sirva como base para el conocimiento y la toma de decisiones eficaz, para un problema que presenta características complejas y particulares según el lugar en donde cada uno resida.
+_Teniendo en cuenta las dudas e inquietudes sobre las pilas usadas que se presentan en nuestra sociedad, es que tomamos la iniciativa y asumimos el desafío de intentar entregarles información que les permita conocer cómo se encuentra hoy la situación respecto a su tratamiento en el país, si existen lugares dónde dejarlas, las formas de identificarlas y distinguirlas, y mucho más.  _
+_Esperamos, por sobre todo, que la información les sea útil y práctica, y que sirva como base para el conocimiento y la toma de decisiones eficaz, para un problema que presenta características complejas y particulares según el lugar en donde cada uno resida._ 
 
-<h3 style="font-size:2em; margin-top: -20px;">Aquí se abordarán únicamente aspectos referidos a las pilas de uso doméstico</h3>  
+<h3 style="font-size:2em; margin-top: -20px;">Aquí se abordarán únicamente aspectos referidos a las pilas de uso doméstico (*)</h3>  
 
 No se incluye a las pilas o baterías industriales, de electrónicos, automóviles, energía solar, etc.
 
 ![variaspilas](/assets/images/post/3pilas.png)
 
-**Pila o batería Portátil de Uso Doméstico**: Es todo dispositivo portátil de almacenamiento de energía asociado al uso normal que pertenece al universo de pilas identificadas por las normas ANSI (o IEC, dependiendo el caso), como **AA, AAA, AAAA, C, D, N, 9V** o **botón** y que por su peso y tamaño pueden ser transportadas en la mano por el usuario final.
+**(*) Pila o batería Portátil de Uso Doméstico**: Es todo dispositivo portátil de almacenamiento de energía asociado al uso normal que pertenece al universo de pilas identificadas por las normas ANSI (o IEC, dependiendo el caso), como **AA, AAA, AAAA, C, D, N, 9V** o **botón** y que por su peso y tamaño pueden ser transportadas en la mano por el usuario final.
 
 <!--section-->
 # Pilas y baterías ¿Qué son?
@@ -105,10 +105,39 @@ COMPARÁ PILAS Y BATERÍAS
 
 ![comparapilas](/assets/images/post/15comparapilas.png)  
 
-| Compará Pilas | Cilíndricas | Botón |
-|----------|----------|----------|
-| <a>[drive1](https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing "VER")<button>    | <a>[drive2](https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing "VER)<button>   | <a>[drive3](https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing "VER")<button>   |
+| Compará Pilas | Cilíndricas | Botón |  
+|----------|----------|----------|  
+| <a>[drive1](https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing "VER")<button>    | <a>[drive2](https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing "VER)<button>   | <a>[drive3](https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing "VER")<button>   |  
 
+<!--section-->  
+
+Efectos sobre la salud y el ambiente de algunos componentes de las pilas
+
+
+Las pilas agotadas constituyen un muy bajo porcentaje de la composición de los residuos sólidos urbanos (RSU) (*), pero son la corriente con mayor aporte de compuestos con características de peligrosidad. 
+(*) Ej. En la Ciudad de Buenos Aires la composición de Residuos Peligrosos que constituyen los RSU fluctúa en el orden del 0,70%, fracción que incluye las pilas y baterías - Ref: Evolución de la calidad de los RSU (1972-2005) CABA - IISFIUBA-CEAMSE
+
+Existe una extensa diversidad y varían de acuerdo a sus compuestos activos, forma, tamaño, voltaje, capacidad y duración.
+Según sus componentes las pilas y baterías presentan un riesgo ambiental potencial desde su fabricación, uso y tratamiento como residuo. El grado de toxicidad es diferente de acuerdo a cada tipo.  
+Los ácidos, álcalis, sales y metales pesados como el mercurio, cadmio, níquel, litio, cinc, manganeso y plomo, hacen que resulten riesgosas para la salud y el ambiente, en general, frente a una inadecuada gestión de las mismas.  
+
+El cadmio, plomo y mercurio son tóxicos aún en concentraciones bajas y tienen tendencia a acumularse en los seres vivos. 
+No obstante su peligrosidad, la relevancia e incidencia de estos últimos, ha disminuido considerablemente, producto de medidas especiales tomadas en muchos países, tales como la reglamentación del contenido máximo para determinadas pilas y baterías. 
+
+En el caso de quemarse en condiciones inadecuadas, las pilas liberan gases no deseados y tóxicos que generan una alta contaminación atmosférica. 
+
+Si bien aquellas de buena calidad son bastante resistentes, al ser desechadas corren el riesgo de perder la cobertura protectora de metal por corrosión interna a través de la acción química de sus propios compuestos o externa de las carcasas por la acción climática y propia de la degradación de los residuos. 
+
+Cuando se produce el derrame del electrolito contenido en las pilas, éste arrastra a los metales pesados que la conforman. Estos metales pueden lixiviar (**) a través del suelo y fluir por cursos de agua y acuíferos, contaminando el recurso natural y afectando la salud de los seres vivos. 
+(**) Desplazamiento de sustancias solubles o dispersables (ej. sales, metales, etc.)
+
+Por otra parte, la obtención de las materias primas para la fabricación de las pilas y las baterías implica el consumo de recursos naturales no renovables y de alto costo económico.
+
+Finalmente, vale mencionar que, los efectos negativos que impactan directamente sobre la salud humana son los principales motivos que generan la necesidad de una adecuada gestión ambiental de las pilas y baterías.  
+
+![metales](/assets/images/post/21metales.png)  
+
+![metalesatencion](/assets/images/post/22metalesatencion.png)  
 
 ##### Este infoblog fue basado en
 
