@@ -1,5 +1,5 @@
 ---
-title: "Gestión de Pilas y Baterías 1.0"
+title: "Gestión de Pilas y Baterías"
 date: 2023-07-11 12:00:00 -0300
 img_text: 
 layout: project
@@ -11,13 +11,13 @@ categories: contaminación
 
 <!--section-->
 
-<h2 style="font-size:3em; margin-top: -20px;">Gestión de Pilas y Baterías 1.0</h2>  
+<h2 style="font-size:3em; margin-top: -20px;">Gestión de Pilas y Baterías</h2>  
 
 <h3 style="font-size:2em; margin-top: -20px;">Panorama integral con eje en la Argentina</h3>  
 
 ![cardspilas](/assets/images/post/2cards.png)
 
-Teniendo en cuenta las inquietudes y necesidades sobre las pilas usadas que se presentan hoy en nuestra sociedad, es que tomamos la iniciativa y asumimos el desafío de entregar información que permita conocer cómo se encuentra hoy la situación respecto a su tratamiento en el país, si existen lugares dónde dejarlas, las formas de identificarlas y distinguirlas, y mucho más.
+Teniendo en cuenta las dudas e inquietudes sobre las pilas usadas que se presentan hoy en nuestra sociedad, es que tomamos la iniciativa y asumimos el desafío de entregar información que permita conocer cómo se encuentra hoy la situación respecto a su tratamiento en el país, si existen lugares dónde dejarlas, las formas de identificarlas y distinguirlas, y mucho más.
 Esperamos, por sobre todo, que la información sea útil y práctica, y que sirva como base para el conocimiento y la toma de decisiones eficaz, para un problema que presenta características complejas y particulares según el lugar en donde cada uno resida.
 
 <h3 style="font-size:2em; margin-top: -20px;">Aquí se abordarán únicamente aspectos referidos a las pilas de uso doméstico</h3>  
@@ -48,12 +48,15 @@ La mayor diferencia entre los **distintos sistemas de pilas** son los elementos 
 
 ![queson3](/assets/images/post/6compsflujo.png)
 
-<a>[video1](https://www.youtube.com/watch?v=RqF1ikcFwDE "Video1")<button> <a>[video2](https://www.youtube.com/watch?v=RqF1ikcFwDE "Video2")<button>  
+<a>[video1](https://www.youtube.com/watch?v=RqF1ikcFwDE "Video1")<button>   <a>[video2](https://www.youtube.com/watch?v=RqF1ikcFwDE "Video2")<button>  
 
 Los _tres componentes principales_ que participan en la reacción química son:
 
 1. El **ánodo** o electrodo negativo, que _se oxida_ durante la reacción electroquímica.  
-2. El **cátodo** o electrodo positivo, que _se reduce_ durante la reacción electroquímica. Las reacciones implican la _transferencia de electrones_ del elemento que se _oxida_ al elemento que se _reduce_.  
+2. El **cátodo** o electrodo positivo, que _se reduce_ durante la reacción electroquímica.  
+
+Las reacciones implican la _transferencia de electrones_ del elemento que se _oxida_ al elemento que se _reduce_.  
+
 3. El **electrolito**, es el conductor iónico, que _proporciona el medio para la transferencia de carga_ en forma de iones (*átomos con carga eléctrica*) dentro de la celda, entre el ánodo y el cátodo. El electrolito es típicamente un líquido, tal como agua u otros disolventes, con sales disueltas, ácidos o álcalis.
 Si bien “la mayoría de los electrolitos son *soluciones acuosas*, existen excepciones”.  
 
@@ -100,14 +103,11 @@ Por lo tanto, se desarrolló la siguiente **“guía visual para facilitar su id
 
 COMPARÁ PILAS Y BATERÍAS  
 
+![comparapilas](/assets/images/post/15comparapilas.png)  
 
-[![pilacilindro](/assets/images/post/12pilacilindro.png)](https://nodoambiental.org/contaminación/2023/11/11/pilascilindro.html)  
-
-
-![pilaboton](/assets/images/post/13pilaboton.png)  
-
-
-![pilaprisma](/assets/images/post/14pilaprisma.png)  
+| Compará Pilas | Cilíndricas | Botón |
+|----------|----------|----------|
+| <a>[drive1](https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing "VER")<button>    | <a>[drive2](https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing "VER)<button>   | <a>[drive3](https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing "VER")<button>   |
 
 
 ##### Este infoblog fue basado en
@@ -118,11 +118,12 @@ COMPARÁ PILAS Y BATERÍAS
 + <https://waste-management-world.com/a/in-depth-lithium-battery-recycling-the-clean-energy-clean-up>
 
 ##### Créditos
-
-HG, LG, AO, SI, MO, PV, MV, grupo pilas
-AO, desarrollo web
-LG, gestión editorial
-LG, JS, LS, revisiones
+Hernán Giangrasso  
+HG, LG, AO, SI, MO, PV, MV, 
+AO, desarrollo web  
+LG, gestión editorial  
+LG, JS, LS, revisiones  
+períodos grupo pilas proyecto Pilas Usadas, 2019-2020, 2020-2022, 2022-2023  
 
 ##### Agradecimientos
 
