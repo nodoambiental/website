@@ -106,8 +106,8 @@ Por lo tanto, se desarrolló la siguiente **“guía visual para facilitar su id
 
 ![comparapilas](/assets/images/post/15comparapilas.png)  
 
-| Compará Pilas | Cilíndricas | Botón |  
-|----------|----------|----------|  
+|     | Compará Pilas | Cilíndricas | Botón |     | 
+|----------|----------|----------|----------|----------| 
 |<a class="button is-link is-light" href="https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing">Ver</a> | <a class="button is-link is-light" href="https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing">Ver</a>|<a class="button is-link is-light" href="https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing">Ver</a> |
 
 <!--section-->  
@@ -142,13 +142,8 @@ Finalmente, vale mencionar que, los efectos negativos que impactan directamente 
 
 ![metalesatencion](/assets/images/post/22metalesatencion.png)  
 
-> botones de enlaces
+<a class="button is-link is-light" href="https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing">Metales</a>
 
-***
-
-### ATENCIÓN
-
-Los efectos de la exposición a cualquier sustancia peligrosa dependen de la dosis, la duración, la manera en que usted fue expuesto, así como de sus características y hábitos personales, y de  si hay o no otras sustancias químicas presentes.  
 
 ***
 
