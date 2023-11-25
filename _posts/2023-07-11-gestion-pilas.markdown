@@ -106,9 +106,8 @@ Por lo tanto, se desarrolló la siguiente **“guía visual para facilitar su id
 
 ![comparapilas](/assets/images/post/15comparapilas.png)  
 
-|     | Compará Pilas | Cilíndricas | Botón |     | 
-|----------|----------|----------|----------|----------| 
-|<a class="button is-link is-light" href="https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing">Ver</a> | <a class="button is-link is-light" href="https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing">Ver</a>|<a class="button is-link is-light" href="https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing">Ver</a> |
+|     | <a class="button is-link is-light" href="https://docs.google.com/presentation/d/1StYbsMLJTqlxMNFRgfMdCmno5FmwlbEC5OR4Z88J_VQ/edit?usp=drive_link">Cilíndricas</a>|<a class="button is-link is-light" href="https://docs.google.com/presentation/d/1StYbsMLJTqlxMNFRgfMdCmno5FmwlbEC5OR4Z88J_VQ/edit?usp=sharing">Botón</a> |     |
+|----------|----------|----------|----------| 
 
 <!--section-->  
 
