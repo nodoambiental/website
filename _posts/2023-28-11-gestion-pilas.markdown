@@ -1,6 +1,6 @@
 ---
 title: "Gestión de Pilas y Baterías"
-date: 2023-28-11 12:00:00 -0300
+date: 2023-11-28 12:00:00 -0300
 img_text: 
 layout: project
 tags: transición sustentable
@@ -107,7 +107,7 @@ Por lo tanto, se desarrolló la siguiente **“guía visual para facilitar su id
 ![comparapilas](/assets/images/post/15comparapilas.png)  
 
 |     | <a class="button is-link is-light" href="https://docs.google.com/presentation/d/1StYbsMLJTqlxMNFRgfMdCmno5FmwlbEC5OR4Z88J_VQ/edit?usp=drive_link">Cilíndricas</a>|<a class="button is-link is-light" href="https://docs.google.com/presentation/d/1StYbsMLJTqlxMNFRgfMdCmno5FmwlbEC5OR4Z88J_VQ/edit?usp=sharing">Botón</a> |     |
-|----------|----------|----------|----------| 
+|----------|----------|----------|----------|
 
 <!--section-->  
 
@@ -142,7 +142,6 @@ Finalmente, vale mencionar que, los efectos negativos que impactan directamente 
 ![metalesatencion](/assets/images/post/22metalesatencion.png)  
 
 <a class="button is-link is-light" href="https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing">Metales</a>
-
 
 ***
 
