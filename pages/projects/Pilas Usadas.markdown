@@ -6,6 +6,8 @@ icon: battery-quarter
 
 # Pilas Usadas
 
+Nueva fase en construcción.
+
 La CONTENCIÓN DE LA CONTAMINACIÓN es uno de los 3 ejes principales de acción y dirección de Fundación Nodo Ambiental. El proyecto "Pilas Usadas" es central para trabajar este problema social y ambiental. Resulta prioritario cuidar el suelo y el agua, por la salud humana y ambiental. Por ello, en el camino de la transición tecnológica hacia la sostenibilidad, necesitamos contener la contaminación. Mediante una serie de proyectos encadenados, Fundación Nodo Ambiental pretende abordar una problemática poco atendida, aquí presentamos el proyecto
 
 ## Estrategias de gestión y tratamiento de pilas y baterías en desuso
@@ -13,7 +15,7 @@ La CONTENCIÓN DE LA CONTAMINACIÓN es uno de los 3 ejes principales de acción 
 ### ¿Por qué manejar desechos contaminantes
 
 - Las pilas son útiles en muchas situaciones. Sin embargo, su fabricación implica el uso de materiales contaminantes.
-- De manera invisible, estos materiales contaminantes terminan en la tierra y el agua, cuando no son tratados adecuadamente. Impactan negativamente en la salud ambiental y humana.
+- De manera casi invisible, los materiales contaminantes terminan en la tierra y el agua, cuando no son tratados adecuadamente. Impactan negativamente en la salud ambiental y humana.
 - La mayoría de las pilas tienen compuestos que contaminan el suelo, el agua y los alimentos, y deben ser desechadas y depositadas en lugares especiales.
 - El manejo de desechos y la búsqueda de alternativas son vitales para reducir la contaminación ambiental y mejorar el bienestar social.
 
