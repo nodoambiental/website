@@ -1,13 +1,13 @@
 ---
 title: "Gestión de Pilas y Baterías"
-date: 2023-11-28 12:00:00 -0300
+date: 2023-11-30 12:00:00 -0300
 img_text: 
 layout: project
 tags: transición sustentable
 categories: contaminación
 ---
 
-![solpilas](/assets/images/post/1sol.png)
+![solpilas](/assets/images/post/01sol.png)
 
 <!--section-->
 
@@ -15,16 +15,17 @@ categories: contaminación
 
 ## Panorama integral con eje en la Argentina
 
-![cardspilas](/assets/images/post/2cards.png)
+![cardspilas](/assets/images/post/01cards.png)
 
-_Teniendo en cuenta las dudas e inquietudes sobre las pilas usadas que se presentan en nuestra sociedad, es que tomamos la iniciativa y asumimos el desafío de intentar entregarles información que les permita conocer cómo se encuentra hoy la situación respecto a su tratamiento en el país, si existen lugares dónde dejarlas, las formas de identificarlas y distinguirlas, y mucho más._
+_Teniendo en cuenta las dudas e inquietudes sobre las pilas usadas que se presentan en nuestra sociedad, es que tomamos la iniciativa y asumimos el desafío de entregar información que permita conocer cómo se encuentra hoy la situación respecto a su tratamiento en el país, si existen lugares dónde dejarlas, las formas de identificarlas y distinguirlas, y mucho más._  
+
 _Esperamos, por sobre todo, que la información les sea útil y práctica, y que sirva como base para el conocimiento y la toma de decisiones eficaz, para un problema que presenta características complejas y particulares según el lugar en donde cada uno resida._
 
 ### Aquí se abordarán únicamente aspectos referidos a las pilas de uso doméstico (*)  
 
 No se incluye a las pilas o baterías industriales, de electrónicos, automóviles, energía solar, etc.
 
-![variaspilas](/assets/images/post/3pilas.png)
+![variaspilas](/assets/images/post/01pilas.png)
 
 _**(*) Pila o batería Portátil de Uso Doméstico**: Es todo dispositivo portátil de almacenamiento de energía asociado al uso normal que pertenece al universo de pilas identificadas por las normas ANSI (o IEC, dependiendo el caso), como **AA, AAA, AAAA, C, D, N, 9V** o **botón** y que por su peso y tamaño pueden ser transportadas en la mano por el usuario final._
 
@@ -35,21 +36,21 @@ Las pilas y baterías son **fuentes de energía portátil** que transforman la _
 
 Los componentes básicos consisten en **dos electrodos** (**ánodo** y **cátodo**), un **electrolito**, **separadores** y **carcasa externa**.
 
-![queson1](/assets/images/post/4comps.png)
+![queson1](/assets/images/post/02comps.png)
 
 Física y electrónicamente, los electrodos están _aislados_ en la celda para impedir un cortocircuito interno, pero están _rodeados por el electrolito_.
 
-![queson2](/assets/images/post/5compsvertical.png)
+![queson2](/assets/images/post/02compsvertical.png)
 
 Los separadores suelen estar compuestos de diferentes tipos de polímeros, papel y cartón (Bernardes et al., 2004).
 Las carcasas externas se producen con finas capas de acero, plástico y cartón (Bernardes et al., 2004).
 
 La mayor diferencia entre los **distintos sistemas de pilas** son los elementos usados para los _electrodos y electrolitos_, que _determinan las características específicas de cada sistema_ (Bernardes et al., 2004).
 
-![queson3](/assets/images/post/6compsflujo.png)
+![queson3](/assets/images/post/02compsflujo.png)
 
-<a class="button is-link is-light" href="https://www.youtube.com/watch?v=RqF1ikcFwDE">Video 1</a>
-<a class="button is-link is-light mx-2" href="https://www.youtube.com/watch?v=RqF1ikcFwDE">Video 2</a>
+<a class="button is-link is-light" href="https://www.youtube.com/watch?v=RqF1ikcFwDE">Video 1</a>  
+
 
 Los _tres componentes principales_ que participan en la reacción química son:
 
@@ -75,17 +76,16 @@ Existe la costumbre de denominar a las pilas recargables o acumuladores como “
 
 - Clasificación por forma y tamaño  
 
-![claspilas1](/assets/images/post/7claspilas.png)  
+![claspilas1](/assets/images/post/03clasificacion.png)  
 
 - Clasificación por tipo y composición  
 
-![claspilas2](/assets/images/post/8claspilas.png)  
+![claspilas2](/assets/images/post/03clasificacion2.png)  
 
-![claspilas3](/assets/images/post/9claspilas.png)  
 
 ## Formas de distinguirlas
 
-![claspilas4](/assets/images/post/10claspilas.png)  
+![claspilas4](/assets/images/post/04formas.png)  
 
 Se sugiere observar la pila junto con el _gráfico_ y la _tabla de clasificación_ de arriba.
 
@@ -96,7 +96,7 @@ Se sugiere observar la pila junto con el _gráfico_ y la _tabla de clasificació
 No siempre es fácil para el consumidor determinar qué tipo de pila tiene en su poder.
 Por lo tanto, se desarrolló la siguiente **“guía visual para facilitar su identificación”**.
 
-![claspilas5](/assets/images/post/11modelospilas.png)
+![claspilas5](/assets/images/post/05modelos.png)
 
 <!--section-->  
 
@@ -104,10 +104,13 @@ Por lo tanto, se desarrolló la siguiente **“guía visual para facilitar su id
 
 ### COMPARÁ PILAS Y BATERÍAS
 
-![comparapilas](/assets/images/post/15comparapilas.png)  
+![comparapilas](/assets/images/post/06comparapilas.png)  
 
-|     | <a class="button is-link is-light" href="https://docs.google.com/presentation/d/1StYbsMLJTqlxMNFRgfMdCmno5FmwlbEC5OR4Z88J_VQ/edit?usp=drive_link">Cilíndricas</a>|<a class="button is-link is-light" href="https://docs.google.com/presentation/d/1StYbsMLJTqlxMNFRgfMdCmno5FmwlbEC5OR4Z88J_VQ/edit?usp=sharing">Botón</a> |     |
-|----------|----------|----------|----------|
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminacion/2023/29/11/pilacilindro.html">Cilíndricas</a>  
+
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminacion/2023/28/11/pilaboton.html">Botón</a>  
+
+
 
 <!--section-->  
 

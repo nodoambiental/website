@@ -1,17 +1,21 @@
 ---
-title: "Gestión de Pilas y Baterías"
-date: 2023-07-11 12:00:00 -0300
+title: "Compara Pilas Botón"
+date: 2023-28-11 12:00:00 -0300
 img_text: 
 layout: project
 tags: transición sustentable
 categories: contaminación
 ---
 
-![solpilas](/assets/images/post/1sol.png)
+![pilaboton](/assets/images/post/06pilaboton.png)
 
 <!--section-->
 
-# Gestión de Pilas y Baterías
+# Pilas Botón
+
+![comppb](/assets/images/post/06comparapilaboton.png)
+
+
 
 
 ### Enlaces de Referencia  
