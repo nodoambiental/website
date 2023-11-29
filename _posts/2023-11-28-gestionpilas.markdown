@@ -196,15 +196,25 @@ Se presentan ordenadas según relevancia y beneficio o aceptabilidad (+ / - )
 
 ***
 
-
-
-***
-
 ### Matriz Legal
+
+![matriz](/assets/images/post/14matriz.png) 
+
+##### Vigente al año 2022
+
+<a class="button is-link is-light" href="https://docs.google.com/spreadsheets/d/1kFr_r9hwtHfCh2Tilq1tk41eyh1DxQAU/edit?usp=sharing&ouid=113412982289860829132&rtpof=true&sd=true">Acceso</a>  
 
 ***
 
 ### ¿Qué clase de residuo son las pilas usadas?
+
+![regu](/assets/images/post/16regu.png) 
+
+***
+
+![regu2](/assets/images/post/16regu2.png) 
+
+***
 
 Las pilas (primarias y secundarias) de _**uso domiciliario**_ pueden ser clasificadas como _**residuos especiales de generación universal o residuos sujetos a manejo especial**_ ya que, además de devenir del consumo masivo, requieren de una gestión ambientalmente adecuada y diferenciada de otros residuos, debido a sus potenciales características de peligrosidad.  
 
@@ -218,24 +228,83 @@ El grado de toxicidad es diferente de acuerdo a cada tipo de pila. Según sus co
 
 ### ¿Cómo se gestionan en la práctica?  
 
+![ejcaba](/assets/images/post/16ejcaba.png) 
+
 ***
 
 ### Proyectos de reciclado en etapa de investigación existentes en Argentina  
+
+Laboratorio UPL (Unidad PlaPiMu-Laseisic)
+
+![plapimu](/assets/images/post/17plapimu.png) 
+
+Dependiente de la Facultad de Ciencias Exactas de la **Universidad Nacional de La Plata (UNLP)** y de la **Comisión de Investigaciones Científicas (CIC)** de la **Provincia de Buenos Aires**.
+
+**Ubicación**: Gonnet, La Plata – Provincia de Buenos Aires.
+
+**Líder del proyecto**: Horacio Thomas (Dr. en Química).
+
+**Objetivo**: recuperar los metales de las pilas usadas. Para ello, utilizan el método hidrometalúrgico, pero con el uso de bacterias para la obtención del ácido sulfúrico, necesario para extraer los metales de las pilas. (bio-hidrometalurgia)
+Recuperan Cinc (Zn), Manganeso (Mn) y chatarra de hierro.
+
+**Comienzo del proyecto**: 2012
+
+**Grado de avance del proyecto (2022)**: 
+La planta tiene una capacidad de tratamiento de 80 kg de pilas por mes, equivalente al consumo de unos 8000 habitantes.
+Es importante aclarar que se trata de una planta experimental y que, por lo tanto, _no recibe pilas en desuso_ y _no está abierta al público_. 
+
+<a class="button is-link is-light" href="https://www.exactas.unlp.edu.ar/articulo/2014/12/11/plapimu_laseisic">PLAPIMU-LASEISIC</a>  
 
 ***
 
 ### Preguntas Frecuentes  
 
+![pf1](/assets/images/post/18pf1.png)
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/21/pregunta1.html">Respuesta</a>  
+
+
+![pf2](/assets/images/post/18pf2.png)
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/20/pregunta2.html">Respuesta</a>  
+
+![pf3](/assets/images/post/18pf3.png)
+
+El símbolo del contenedor de basura tachado recuerda que dicho producto debe llevarse a puntos de recolección diferenciados al final de su vida útil. No debés tirar estos productos junto con los demás desechos domésticos. Estos deberían ser reciclados. 
+
+![pf4](/assets/images/post/18pf4.png)
+
+Según el Instituto Nacional de Tecnología Industrial (INTI), para la implementación de cualquier programa de recolección diferenciada de pilas y baterías es recomendable revisar los requerimientos y exigencias de cada una de las etapas de la gestión a nivel local y nacional, no involucrando como áreas de acopio a colegios, clubes o instituciones donde concurren niños o poblaciones vulnerables
+
+![pf5](/assets/images/post/18pf5.png)
+
+Podés averiguar directamente en tu MUNICIPIO o DEPARTAMENTO. 
+La competencia sobre la gestión de los residuos generados en los hogares corresponde a la jurisdicción local (autoridad municipal o departamental) y, por lo tanto, es allí a donde se debe consultar para mayor información sobre la existencia de programas para la gestión de pilas y baterías.
+
+![pf6](/assets/images/post/18pf6.png)
+
+Las pilas usadas pueden conservar una pequeña carga residual.
+Como la capacidad eléctrica se mantiene y estas pueden entrar en contacto con otros metales, esto podría provocar distorsiones, fugas, sobrecalentamiento, o una explosión de las mismas. Por lo tanto, es recomendable asegurarse de cubrir los polos positivo (+) y negativo (-) con cinta adhesiva o algún otro aislante antes de descartarlas. 
+
+#### Medidas y precauciones:
+
+![pf6a](/assets/images/post/18pf6a.png)
+
 ***
 
 ### Jurisdicciones con municipios que informan que gestionan y tratan pilas usadas en Argentina
 
+![bap](/assets/images/post/19bap.png)
+
+![bap](/assets/images/post/19caba.png)
+
+![bap](/assets/images/post/19cba.png)
+
+![bap](/assets/images/post/19mza.png)
+
 ***
+
 _**Si tenés información que en tu provincia o municipio/departamento existe un plan de recolección y gestión de pilas de uso doméstico usadas y no aparece aquí, podés escribir a la Fundación Nodo Ambiental y será evaluada para su incorporación a la base de datos.**_
-***
 
 ***
-
 
 ### Créditos  
 
@@ -245,8 +314,8 @@ _**Si tenés información que en tu provincia o municipio/departamento existe un
 - Desarrollo Web: Ágata Ordano, Mariano Ordano
 - Editorial: Laura González
 - Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano
-- Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando y Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental, Períodos 2019-2020, 2020-2022, 2022-2023
-
+- Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando
+- Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental, Períodos 2019-2020, 2020-2022, 2022-2023
 
 ### Agradecimientos  
 
