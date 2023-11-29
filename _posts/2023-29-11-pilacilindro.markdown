@@ -1,6 +1,6 @@
 ---
 title: "Compara Pilas Cilíndricas"
-date: 2023-29-11 12:00:00 -0300
+date: 2023-11-29 12:00:00 -0300
 img_text: 
 layout: project
 tags: transición sustentable

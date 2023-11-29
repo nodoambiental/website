@@ -1,6 +1,6 @@
 ---
 title: "Compara Pilas Botón"
-date: 2023-28-11 12:00:00 -0300
+date: 2023-11-28 12:00:00 -0300
 img_text: 
 layout: project
 tags: transición sustentable
