@@ -1,20 +1,41 @@
 ---
-title: "Compara Pilas Botón"
-date: 2023-11-26 12:00:00 -0300
+title: "Tratamientos"
+date: 2023-11-24 12:00:00 -0300
 img_text: 
 layout: project
-tags: transición sustentable
+tags: gestión
 categories: contaminación
 ---
 
-![pilaboton](/assets/images/post/06pilaboton.png)
+![sol](/assets/images/post/01sol.png)
 
 <!--section-->
 
-# Pilas Botón
+# Pre-tratamiento
 
-![comppb](/assets/images/post/06comparapilaboton.png)
+![pre](/assets/images/post/08pre.png)
 
+<!--section-->
+
+# Tratamientos
+
+![t1](/assets/images/post/08piro.png)
+
+<!--section-->
+
+![t2](/assets/images/post/08hidro.png)
+
+<!--section-->
+
+![t3](/assets/images/post/08destilacion.png)
+
+<!--section-->
+
+![t4](/assets/images/post/08combi.png)
+
+<!--section-->
+
+![t5](/assets/images/post/08seguridad.png)
 
 
 

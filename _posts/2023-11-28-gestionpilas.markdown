@@ -106,9 +106,9 @@ Por lo tanto, se desarrolló la siguiente **“guía visual para facilitar su id
 
 ![comparapilas](/assets/images/post/06comparapilas.png)  
 
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminacion/2023/29/11/pilacilindro.html">Cilíndricas</a>  
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminacion/2023/11/27/pilacilindro.html">Cilíndricas</a>  
 
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminacion/2023/28/11/pilaboton.html">Botón</a>  
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminacion/2023/11/26/pilaboton.html">Botón</a>  
 
 
 
@@ -140,21 +140,29 @@ Por otra parte, la obtención de las materias primas para la fabricación de las
 
 Finalmente, vale mencionar que, los efectos negativos que impactan directamente sobre la salud humana son los _**principales motivos que generan la necesidad de una adecuada gestión ambiental de las pilas y baterías**_.  
 
-![metales](/assets/images/post/21metales.png)  
+![metales](/assets/images/post/07metales.png)  
 
-![metalesatencion](/assets/images/post/22metalesatencion.png)  
+![metalesatencion](/assets/images/post/07metalesatencion.png)  
 
-<a class="button is-link is-light" href="https://docs.google.com/document/d/19gSvhjZ_xcbocrw7rgooecc3-O9S3JPD__icZH-i6cE/edit?usp=sharing">Metales</a>
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/25/materiales.html">Materiales en Pilas</a>  
 
 ***
 
 ### Tipos de tratamiento más habituales existentes en el mundo para pilas y baterías usadas
 
-***
+![tiposttmto](/assets/images/post/08tratamientos.png) 
+
+
+![tipos2](/assets/images/post/08ttmtos.png) 
+
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/24/tratamientos.html">Tratamientos</a>  
+
 
 ### Países que cuentan con capacidad industrial para el reciclado y tratamiento de pilas y baterías usadas. Ejemplos.
 
 ![Argentina](/assets/images/post/30Argentina.png)  
+
+![arg10](/assets/images/post/10argentina.png)  
 
 ***
 
@@ -162,9 +170,33 @@ Finalmente, vale mencionar que, los efectos negativos que impactan directamente 
 
 Se presentan ordenadas según relevancia y beneficio o aceptabilidad (+ / - )
 
+
+![baraja1](/assets/images/post/11baraja.png) 
+
+![baraja2](/assets/images/post/11baraja2.png) 
+
+![baraja3](/assets/images/post/12baraja.png) 
+
 ***
 
-#### ¿Qué sucede en los hechos en Argentina?
+### ¿Qué sucede en los hechos en Argentina?
+
+![hechos](/assets/images/post/12hechos.png) 
+
+
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/23/notasargentina.html">Notas</a>  
+
+***
+
+### Diferencias en gestión
+
+![dif](/assets/images/post/14diferencias.png) 
+
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/22/diferencias.html">Mirá</a>  
+
+***
+
+
 
 ***
 
@@ -204,9 +236,6 @@ _**Si tenés información que en tu provincia o municipio/departamento existe un
 
 ***
 
-### Referencias 
-
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/10/01/referencias.html">Referencias</a>  
 
 ### Créditos  
 
@@ -232,3 +261,5 @@ _**Si tenés información que en tu provincia o municipio/departamento existe un
 
 Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html>
 
+
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a>  

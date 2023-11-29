@@ -1,22 +1,32 @@
 ---
-title: "Compara Pilas Botón"
-date: 2023-11-26 12:00:00 -0300
+title: "Notas"
+date: 2023-11-23 12:00:00 -0300
 img_text: 
 layout: project
-tags: transición sustentable
+tags: prensa
 categories: contaminación
 ---
 
-![pilaboton](/assets/images/post/06pilaboton.png)
+![sol](/assets/images/post/01sol.png)
 
 <!--section-->
 
-# Pilas Botón
-
-![comppb](/assets/images/post/06comparapilaboton.png)
+# Ejemplos de prensa sobre casos en Argentina
 
 
+<!--section-->
 
+![nota1](/assets/images/post/12nota1.png)
+
+<!--section-->
+
+![nota2](/assets/images/post/12nota2.png)
+
+<!--section-->
+
+![nota3](/assets/images/post/12nota3.png)
+
+¡Si tienes otros ejemplos que compartir agradecemos tu contribución por  la información!
 
 ### Créditos  
 

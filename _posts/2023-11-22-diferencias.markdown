@@ -1,21 +1,32 @@
 ---
-title: "Compara Pilas Botón"
-date: 2023-11-26 12:00:00 -0300
+title: "Diferencias en Gestión"
+date: 2023-11-22 12:00:00 -0300
 img_text: 
 layout: project
-tags: transición sustentable
+tags: gestión
 categories: contaminación
 ---
 
-![pilaboton](/assets/images/post/06pilaboton.png)
+![diferencias](/assets/images/post/14diferencias.png)
 
 <!--section-->
 
-# Pilas Botón
+# Diferencias en gestión del tratamiento del residuo pilas
 
-![comppb](/assets/images/post/06comparapilaboton.png)
+![dif1](/assets/images/post/14dif1.png)
+
+## Gráfico de Relleno Sanitario
+
+![dif2](/assets/images/post/14dif2.png)
+
+## Imágenes de Relleno Sanitario
+
+![ceamse](/assets/images/post/14ceamse.png)
 
 
+## Gráfico de Relleno de Seguridad
+
+![relleno2](/assets/images/post/14relleno2.png)
 
 
 ### Créditos  

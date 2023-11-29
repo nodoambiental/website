@@ -1,6 +1,6 @@
 ---
 title: "Referencias"
-date: 2023-10-01 12:00:00 -0300
+date: 2023-11-01 12:00:00 -0300
 img_text: 
 layout: project
 tags: referencias
@@ -835,10 +835,6 @@ Mendoza
 
 19- FUENTES IMG - Jurisdicciones - gestión y tratamiento.pptx
 
-### Referencias  
-
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/10/01/referencias.html">Referencias</a>  
-
 
 ### Créditos  
 
@@ -867,4 +863,7 @@ Los materiales son compartidos con fines educativos.
 ### Cita  
 
 Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html>
+
+
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a>  
 
