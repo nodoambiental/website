@@ -1,6 +1,6 @@
 ---
 title: "Gestión de Pilas y Baterías"
-date: 2023-11-30 12:00:00 -0300
+date: 2023-11-28 12:00:00 -0300
 img_text: 
 layout: project
 tags: transición sustentable
@@ -204,35 +204,31 @@ _**Si tenés información que en tu provincia o municipio/departamento existe un
 
 ***
 
-### Enlaces de Referencia  
+### Referencias 
 
-- enlace
-- enlace
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/10/01/referencias.html">Referencias</a>  
 
 ### Créditos  
 
-- Hernán Giangrasso, Búsqueda, Síntesis, Compilación y Redacción original  
-- MV, MO, Programa de Voluntariado, Taller Búsqueda y Síntesis de Información  
-- AO, Desarrollo Web  
-- LG, Gestión Editorial  
-- LG, JS, LS, MO, AO, Revisiones  
-- CO, AB, JGS, DS y Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental, Períodos 2019-2020, 2020-2022, 2022-2023, Interconsultas
+- Elaboración General: Hernán Giangrasso
+- Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso
+- Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano
+- Desarrollo Web: Ágata Ordano, Mariano Ordano
+- Editorial: Laura González
+- Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano
+- Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando y Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental, Períodos 2019-2020, 2020-2022, 2022-2023
+
 
 ### Agradecimientos  
 
-- DC, CIAT, Tafí Viejo, Tucumán, Argentina
-- INTI
+- Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina
+
+<a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a>  
+
+<a class="button is-link is-light" href="https://raci.org.ar/">RACI</a> 
+
 
 ### Cita  
 
-Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/contaminación/2023/11/07/gestionpilas.html>
+Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html>
 
-### Licencia  
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
-
-Usted es libre de:
-
-- Compartir — copiar y redistribuir el material en cualquier medio o formato
-
-- Adaptar — remezclar, transformar y crear a partir del material
