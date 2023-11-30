@@ -1,5 +1,5 @@
 ---
-title: "Gestión de Pilas y Baterías"
+title: "Gestión de Pilas y Baterías: Archivo Principal"
 date: 2023-11-28 12:00:00 -0300
 img_text: 
 layout: project
@@ -106,9 +106,9 @@ Por lo tanto, se desarrolló la siguiente **“guía visual para facilitar su id
 
 ![comparapilas](/assets/images/post/06comparapilas.png)  
 
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminacion/2023/11/27/pilacilindro.html">Cilíndricas</a>  
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/27/pilacilindro.html">Cilíndricas</a>  
 
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminacion/2023/11/26/pilaboton.html">Botón</a>  
+<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/26/pilaboton.html">Botón</a>  
 
 
 
@@ -259,46 +259,49 @@ Es importante aclarar que se trata de una planta experimental y que, por lo tant
 
 ### Preguntas Frecuentes  
 
-![pf1](/assets/images/post/18pf1.png)
+![pf1](/assets/images/post/18pf1.png)  
+
 <a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/21/pregunta1.html">Respuesta</a>  
 
+![pf2](/assets/images/post/18pf2.png)  
 
-![pf2](/assets/images/post/18pf2.png)
 <a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/20/pregunta2.html">Respuesta</a>  
 
-![pf3](/assets/images/post/18pf3.png)
+![pf3](/assets/images/post/18pf3.png)  
 
 El símbolo del contenedor de basura tachado recuerda que dicho producto debe llevarse a puntos de recolección diferenciados al final de su vida útil. No debés tirar estos productos junto con los demás desechos domésticos. Estos deberían ser reciclados. 
 
-![pf4](/assets/images/post/18pf4.png)
+![pf4](/assets/images/post/18pf4.png)  
 
 Según el Instituto Nacional de Tecnología Industrial (INTI), para la implementación de cualquier programa de recolección diferenciada de pilas y baterías es recomendable revisar los requerimientos y exigencias de cada una de las etapas de la gestión a nivel local y nacional, no involucrando como áreas de acopio a colegios, clubes o instituciones donde concurren niños o poblaciones vulnerables
 
-![pf5](/assets/images/post/18pf5.png)
+![pf5](/assets/images/post/18pf5.png)  
 
-Podés averiguar directamente en tu MUNICIPIO o DEPARTAMENTO. 
+Podés averiguar directamente en tu MUNICIPIO o DEPARTAMENTO.  
+
 La competencia sobre la gestión de los residuos generados en los hogares corresponde a la jurisdicción local (autoridad municipal o departamental) y, por lo tanto, es allí a donde se debe consultar para mayor información sobre la existencia de programas para la gestión de pilas y baterías.
 
-![pf6](/assets/images/post/18pf6.png)
+![pf6](/assets/images/post/18pf6.png)  
 
-Las pilas usadas pueden conservar una pequeña carga residual.
-Como la capacidad eléctrica se mantiene y estas pueden entrar en contacto con otros metales, esto podría provocar distorsiones, fugas, sobrecalentamiento, o una explosión de las mismas. Por lo tanto, es recomendable asegurarse de cubrir los polos positivo (+) y negativo (-) con cinta adhesiva o algún otro aislante antes de descartarlas. 
+Las pilas usadas pueden conservar una pequeña carga residual.  
+
+Como la capacidad eléctrica se mantiene y estas pueden entrar en contacto con otros metales, esto podría provocar distorsiones, fugas, sobrecalentamiento, o una explosión de las mismas. Por lo tanto, es recomendable asegurarse de cubrir los polos positivo (+) y negativo (-) con cinta adhesiva o algún otro aislante antes de descartarlas.  
 
 #### Medidas y precauciones:
 
-![pf6a](/assets/images/post/18pf6a.png)
+![pf6a](/assets/images/post/18pf6a.png)  
 
 ***
 
 ### Jurisdicciones con municipios que informan que gestionan y tratan pilas usadas en Argentina
 
-![bap](/assets/images/post/19bap.png)
+![bap](/assets/images/post/19bap.png)  
 
-![bap](/assets/images/post/19caba.png)
+![bap](/assets/images/post/19caba.png)  
 
-![bap](/assets/images/post/19cba.png)
+![bap](/assets/images/post/19cba.png)  
 
-![bap](/assets/images/post/19mza.png)
+![bap](/assets/images/post/19mza.png)  
 
 ***
 
@@ -314,8 +317,8 @@ _**Si tenés información que en tu provincia o municipio/departamento existe un
 - Desarrollo Web: Ágata Ordano, Mariano Ordano
 - Editorial: Laura González
 - Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano
-- Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando
-- Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental, Períodos 2019-2020, 2020-2022, 2022-2023
+- Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando
+- Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental
 
 ### Agradecimientos  
 

@@ -24,7 +24,8 @@ categories: contaminación
 - Desarrollo Web y GitHub: Ágata Ordano, Mariano Ordano
 - Editorial: Laura González
 - Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano
-- Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando y Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental, Períodos 2019-2020, 2020-2022, 2022-2023
+- Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando
+- Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental
 
 ### Agradecimientos  
 
