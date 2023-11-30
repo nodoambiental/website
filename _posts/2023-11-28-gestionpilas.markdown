@@ -1,5 +1,5 @@
 ---
-title: "Gestión de Pilas y Baterías: Archivo Principal"
+title: "Infoblog Gestion de Pilas Usadas 1.0"
 date: 2023-11-28 12:00:00 -0300
 img_text: 
 layout: project
@@ -11,7 +11,7 @@ categories: contaminación
 
 <!--section-->
 
-# Gestión de Pilas y Baterías
+# Infoblog Gestion de Pilas Usadas 1.0
 
 ## Panorama integral con eje en la Argentina
 
@@ -51,7 +51,6 @@ La mayor diferencia entre los **distintos sistemas de pilas** son los elementos 
 
 <a class="button is-link is-light" href="https://www.youtube.com/watch?v=RqF1ikcFwDE">Video 1</a>  
 
-
 Los _tres componentes principales_ que participan en la reacción química son:
 
 1. El **ánodo** o electrodo negativo, que _se oxida_ durante la reacción electroquímica.  
@@ -82,7 +81,6 @@ Existe la costumbre de denominar a las pilas recargables o acumuladores como “
 
 ![claspilas2](/assets/images/post/03clasificacion2.png)  
 
-
 ## Formas de distinguirlas
 
 ![claspilas4](/assets/images/post/04formas.png)  
@@ -106,11 +104,9 @@ Por lo tanto, se desarrolló la siguiente **“guía visual para facilitar su id
 
 ![comparapilas](/assets/images/post/06comparapilas.png)  
 
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/27/pilacilindro.html">Cilíndricas</a>  
+<a class="button is-link is-light" href="{% post_url 2023-11-27-pilacilindro %}">Cilíndricas</a>  
 
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/26/pilaboton.html">Botón</a>  
-
-
+<a class="button is-link is-light" href="{% post_url 2023-11-26-pilaboton %}">Botón</a>  
 
 <!--section-->  
 
@@ -144,19 +140,17 @@ Finalmente, vale mencionar que, los efectos negativos que impactan directamente 
 
 ![metalesatencion](/assets/images/post/07metalesatencion.png)  
 
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/25/materiales.html">Materiales en Pilas</a>  
+<a class="button is-link is-light" href="{% post_url 2023-11-25-materiales %}">Materiales en Pilas</a>  
 
 ***
 
 ### Tipos de tratamiento más habituales existentes en el mundo para pilas y baterías usadas
 
-![tiposttmto](/assets/images/post/08tratamientos.png) 
+![tiposttmto](/assets/images/post/08tratamientos.png)
 
+![tipos2](/assets/images/post/08ttmtos.png)
 
-![tipos2](/assets/images/post/08ttmtos.png) 
-
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/24/tratamientos.html">Tratamientos</a>  
-
+<a class="button is-link is-light" href="{% post_url 2023-11-24-tratamientos %}">Tratamientos</a>  
 
 ### Países que cuentan con capacidad industrial para el reciclado y tratamiento de pilas y baterías usadas. Ejemplos.
 
@@ -170,35 +164,33 @@ Finalmente, vale mencionar que, los efectos negativos que impactan directamente 
 
 Se presentan ordenadas según relevancia y beneficio o aceptabilidad (+ / - )
 
+![baraja1](/assets/images/post/11baraja.png)
 
-![baraja1](/assets/images/post/11baraja.png) 
+![baraja2](/assets/images/post/11baraja2.png)
 
-![baraja2](/assets/images/post/11baraja2.png) 
-
-![baraja3](/assets/images/post/12baraja.png) 
+![baraja3](/assets/images/post/12baraja.png)
 
 ***
 
 ### ¿Qué sucede en los hechos en Argentina?
 
-![hechos](/assets/images/post/12hechos.png) 
+![hechos](/assets/images/post/12hechos.png)
 
-
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/23/notasargentina.html">Notas</a>  
+<a class="button is-link is-light" href="{% post_url 2023-11-23-notas %}">Notas</a>  
 
 ***
 
 ### Diferencias en gestión
 
-![dif](/assets/images/post/14diferencias.png) 
+![dif](/assets/images/post/14diferencias.png)
 
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/22/diferencias.html">Mirá</a>  
+<a class="button is-link is-light" href="{% post_url 2023-11-22-diferencias %}">Mirá</a>  
 
 ***
 
 ### Matriz Legal
 
-![matriz](/assets/images/post/14matriz.png) 
+![matriz](/assets/images/post/14matriz.png)
 
 ##### Vigente al año 2022
 
@@ -208,11 +200,11 @@ Se presentan ordenadas según relevancia y beneficio o aceptabilidad (+ / - )
 
 ### ¿Qué clase de residuo son las pilas usadas?
 
-![regu](/assets/images/post/16regu.png) 
+![regu](/assets/images/post/16regu.png)
 
 ***
 
-![regu2](/assets/images/post/16regu2.png) 
+![regu2](/assets/images/post/16regu2.png)
 
 ***
 
@@ -228,7 +220,7 @@ El grado de toxicidad es diferente de acuerdo a cada tipo de pila. Según sus co
 
 ### ¿Cómo se gestionan en la práctica?  
 
-![ejcaba](/assets/images/post/16ejcaba.png) 
+![ejcaba](/assets/images/post/16ejcaba.png)
 
 ***
 
@@ -236,7 +228,7 @@ El grado de toxicidad es diferente de acuerdo a cada tipo de pila. Según sus co
 
 Laboratorio UPL (Unidad PlaPiMu-Laseisic)
 
-![plapimu](/assets/images/post/17plapimu.png) 
+![plapimu](/assets/images/post/17plapimu.png)
 
 Dependiente de la Facultad de Ciencias Exactas de la **Universidad Nacional de La Plata (UNLP)** y de la **Comisión de Investigaciones Científicas (CIC)** de la **Provincia de Buenos Aires**.
 
@@ -249,9 +241,9 @@ Recuperan Cinc (Zn), Manganeso (Mn) y chatarra de hierro.
 
 **Comienzo del proyecto**: 2012
 
-**Grado de avance del proyecto (2022)**: 
+**Grado de avance del proyecto (2022)**:
 La planta tiene una capacidad de tratamiento de 80 kg de pilas por mes, equivalente al consumo de unos 8000 habitantes.
-Es importante aclarar que se trata de una planta experimental y que, por lo tanto, _no recibe pilas en desuso_ y _no está abierta al público_. 
+Es importante aclarar que se trata de una planta experimental y que, por lo tanto, _no recibe pilas en desuso_ y _no está abierta al público_.
 
 <a class="button is-link is-light" href="https://www.exactas.unlp.edu.ar/articulo/2014/12/11/plapimu_laseisic">PLAPIMU-LASEISIC</a>  
 
@@ -261,15 +253,15 @@ Es importante aclarar que se trata de una planta experimental y que, por lo tant
 
 ![pf1](/assets/images/post/18pf1.png)  
 
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/21/pregunta1.html">Respuesta</a>  
+<a class="button is-link is-light" href="{% post_url 2023-11-21-pregunta1 %}">Respuesta</a>  
 
 ![pf2](/assets/images/post/18pf2.png)  
 
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/20/pregunta2.html">Respuesta</a>  
+<a class="button is-link is-light" href="{% post_url 2023-11-20-pregunta2 %}">Respuesta</a>  
 
 ![pf3](/assets/images/post/18pf3.png)  
 
-El símbolo del contenedor de basura tachado recuerda que dicho producto debe llevarse a puntos de recolección diferenciados al final de su vida útil. No debés tirar estos productos junto con los demás desechos domésticos. Estos deberían ser reciclados. 
+El símbolo del contenedor de basura tachado recuerda que dicho producto debe llevarse a puntos de recolección diferenciados al final de su vida útil. No debés tirar estos productos junto con los demás desechos domésticos. Estos deberían ser reciclados.
 
 ![pf4](/assets/images/post/18pf4.png)  
 
@@ -326,12 +318,10 @@ _**Si tenés información que en tu provincia o municipio/departamento existe un
 
 <a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a>  
 
-<a class="button is-link is-light" href="https://raci.org.ar/">RACI</a> 
-
+<a class="button is-link is-light" href="https://raci.org.ar/">RACI</a>
 
 ### Cita  
 
 Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html>
 
-
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a>  
+<a class="button is-link is-light" href="{% post_url 2023-11-01-referencias %}">Referencias</a>  
