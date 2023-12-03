@@ -1,5 +1,10 @@
 /* General Styling */
 
+body {
+  background: #f5f5f5;
+  background-blend-mode: lighten !important;
+}
+
 p,
 ul,
 li,
@@ -13,7 +18,7 @@ h4 {
 p > img {
   border-radius: 20px;
   background-color: white;
-  border: 3px solid #eee;
+  border: 2px solid #eee;
   text-align: center;
 }
 
@@ -39,9 +44,10 @@ a img :not(.share-social-icon) {
   left: 60%;
 }
 
-h1.main-title {
-  position: relative;
-  top: 10%;
+h2.main-title {
+  display: block !important;
+  margin: auto !important;
+  text-align: center !important;
 }
 
 .divider {
@@ -118,6 +124,12 @@ table tbody tr td {
   vertical-align: middle !important;
 }
 
+p > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Media Queries */
 
 @media only screen and (min-width: 1024px) {
@@ -135,9 +147,15 @@ table tbody tr td {
   }
 
   p > img {
+    max-width: 60%;
+  }
+
+  /*
+  p > img {
     width: 60%;
     margin-left: 20%;
   }
+  */
 }
 
 @media only screen and (min-width: 780px) {
@@ -146,9 +164,14 @@ table tbody tr td {
   }
 
   p > img {
+    max-width: 70%;
+  }
+  /*
+  p > img {
     width: 70%;
     margin-left: 15%;
   }
+  */
 }
 
 @media only screen and (max-width: 720px) {
@@ -197,10 +220,12 @@ table tbody tr td {
     left: 40%;
   }
 
-  h1.main-title {
-    position: relative;
+  .main-title {
     top: 15%;
     font-size: 1.6em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .infograph {
@@ -208,9 +233,15 @@ table tbody tr td {
   }
 
   p > img {
+    max-width: 80%;
+  }
+
+  /*
+  p > img {
     width: 80%;
     margin-left: 10%;
   }
+  */
 }
 
 @media only screen and (max-width: 330px) {
@@ -224,12 +255,15 @@ table tbody tr td {
     font-size: 1.6em;
   }
 
-  h1.main-title {
+  .main-title {
     font-size: 2em;
     margin-left: -10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  h1.main-title i {
+  .main-title i {
     display: none;
   }
 
@@ -238,7 +272,13 @@ table tbody tr td {
   }
 
   p > img {
+    max-width: 95%;
+  }
+
+  /*
+  p > img {
     width: 90%;
     margin-left: 5%;
   }
+  */
 }
