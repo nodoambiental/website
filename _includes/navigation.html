@@ -37,19 +37,14 @@
                 Documentación
             </a>
 
-            <a href="/pages/portals/main.html" class="navbar-item">
-                Portales
-            </a>
-
-            <a href="/pages/blog/main.html" class="navbar-item"> InfoBlog Pilas </a>
+            <a href="/pilas/main.html" class="navbar-item"> InfoBlog Pilas </a>
             
-            <a href="/pages/surveys/main.html" class="navbar-item">
-                Encuestas
-            </a>
-
+            {% comment %}
             <a href="/search.html" class="navbar-item">
                 <i class="fas fa-search"></i>
-            </a>
+            </a> 
+            {% endcomment %}
+
         </div>
         {% if {{page.path}} == "contact.markdown" or {{page.path}} ==
         "contactsuccess.markdown" %} {% else %}

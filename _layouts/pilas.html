@@ -1,0 +1,36 @@
+---
+layout: default
+title: InfoBlog
+---
+<style type="text/css">
+    @import url("/assets/css/pilas.css");
+</style>
+
+<section class="section services">
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12 is-parent">
+            {% for el in site.pilaspage %}
+            <article class="tile is-child post-{{forloop.index}}">
+                <a href="{{el.url}}">
+                    <div class="is-card">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure>
+                                    <i class="fas fa-{{ el.icon }}"></i>
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-12">{{ el.title }}</p>
+                                <p class="subtitle is-6">{{ el.teaser }}</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            {{ el.description }}
+                        </div>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>
