@@ -1,68 +1,58 @@
 {% assign text = site.data.footer %}
 {% assign social = site.data.social %}
 
-<div class="share-social">
-    <h2 class="share-social-title">
-        Comparte esta pagina:
-    </h2>
-    <div class="tile is-ancestor">
-        <div class="tile is-parent">
-            <div class="non-selectable tile is-child">
-                <a class="share-social-link" href="whatsapp://send?text=<<{{Mira+esta+publicación+de+Nodo+Ambiental%3A+ | append: page.url | absolute_url}}>>" data-action="share/whatsapp/share">
-                    <img class="share-social-icon" src="/assets/images/social/whatsapp.svg" alt="Whatsapp" />
-                </a>
+<footer class="footer p-10 bg-base-200 text-base-content">
+    <aside>
+        <img class="w-10"
+        src="/assets/images/logos/square.svg"
+    />
+    {% for element in text %}
+    <p class="max-w-md">
+        {{element.content}}
+    </p>
+    {% endfor %}
+    </aside> 
+    <nav>
+      <header class="footer-title">Comparte esta página</header> 
+      <div class="flex-row">
+        <a class="link link-hover px-1" href="whatsapp://send?text=<<{{Mira+esta+publicación+de+Nodo+Ambiental%3A+ | append: page.url | absolute_url}}>>" data-action="share/whatsapp/share">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
 
-                <a class="share-social-link" href="https://telegram.me/share/url?url=<{{ page.url | absolute_url }}>&text=<Mira+esta+publicación+de+Nodo+Ambiental%3A>" >
-                    <img class="share-social-icon" src="/assets/images/social/telegram.svg" alt="Telegram" />
-                </a>
+        <a class="link link-hover px-1" href="https://telegram.me/share/url?url=<{{ page.url | absolute_url }}>&text=<Mira+esta+publicación+de+Nodo+Ambiental%3A>" >
+            <i class="fa-brands fa-telegram"></i>
+        </a>
 
-                <a class="share-social-link" href="http://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank">
-                    <img class="share-social-icon" src="/assets/images/social/facebook.svg" alt="Facebook" />
-                </a>
-                
-                <a class="share-social-link"  href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url | absolute_url }}" target="_blank">
-                    <img class="share-social-icon" src="/assets/images/social/linkedin.svg" alt="LinkedIn" />
-                </a>
-                
-                <a class="share-social-link" href="http://reddit.com/submit?url={{ page.url | absolute_url }}&amp;title=Mira esta publicación de Nodo Ambiental:" target="_blank">
-                    <img class="share-social-icon" src="/assets/images/social/reddit.svg" alt="Reddit" />
-                </a>
-                
-                <a class="share-social-link" href="http://www.tumblr.com/share/link?url={{ page.url | absolute_url }}&amp;title=Mira esta publicación de Nodo Ambiental:" target="_blank">
-                    <img class="share-social-icon" src="/assets/images/social/tumblr.svg" alt="Tumblr" />
-                </a>
-                 
-                <a class="share-social-link" href="https://twitter.com/share?url={{ page.url | absolute_url }}&amp;text={{Mira+esta+publicación+de+Nodo+Ambiental%3A}}&amp;hashtags=NodoAmbiental" target="_blank">
-                    <img class="share-social-icon" src="/assets/images/social/twitter.svg" alt="Twitter" />
-                </a>
-            </div>
-        </div>
+        <a class="link link-hover px-1" href="http://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a class="link link-hover px-1"  href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url | absolute_url }}" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a class="link link-hover px-1" href="http://reddit.com/submit?url={{ page.url | absolute_url }}&amp;title=Mira esta publicación de Nodo Ambiental:" target="_blank">
+            <i class="fa-brands fa-reddit-alien"></i>
+        </a>
+
+        <a class="link link-hover px-1" href="http://www.tumblr.com/share/link?url={{ page.url | absolute_url }}&amp;title=Mira esta publicación de Nodo Ambiental:" target="_blank">
+            <i class="fa-brands fa-tumblr"></i>
+        </a>
+            
+        <a class="link link-hover px-1" href="https://twitter.com/share?url={{ page.url | absolute_url }}&amp;text={{Mira+esta+publicación+de+Nodo+Ambiental%3A}}&amp;hashtags=NodoAmbiental" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+    </nav> 
+    <nav>
+      <header class="footer-title">Sociales</header> 
+      <div class="flex-row">
+      {% for item in social %}
+          <a href="{{item.element[1].link}}"><i class="fa-brands fa-{{item.element[0].icon}} px-1"></i></a>
+      {% endfor %}
     </div>
-</div>
-
-<footer>
-    <div class="tile is-ancestor">
-        <div class="tile is-parent">
-            {% for element in text %}
-            <div class="non-selectable tile is-child">
-                {{element.content}}
-                {% if forloop.index0 == 0 %}
-                    <br />
-                    {% for item in social %}
-                        <a href="{{item.element[1].link}}"><i class="fab fa-{{item.element[0].icon}} footer-social"></i></a>
-                    {% endfor %}
-                {% endif %}
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    <h6>
-        Última actualización del contenido: {{ page.last_modified_at | date: "%d/%m/%Y" }}
-    </h6>
-</footer>
-</body>
-<script src="/assets/js/jquery-3.4.1.min.js"></script>
-<script src="/assets/js/jquery.waypoints.min.js"></script>
-<script src="/assets/js/anime.min.js"></script>
-<script src="/assets/js/script.js"></script>
-</html>
+    </nav> 
+  </footer>
+  <footer class="footer p-2 pb-10 bg-base-200 text-base-content">
+    <p class="text-center text-sm mx-auto">Última actualización del contenido: {{ page.last_modified_at | date: "%d/%m/%Y" }}</p>
+  </footer>
