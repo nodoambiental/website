@@ -44,6 +44,7 @@ plugins:
   - jekyll-minifier
   - jekyll-last-modified-at
   - jekyll-postcss-v2
+  - jekyll/webpack
 
 postcss:
   cache: false

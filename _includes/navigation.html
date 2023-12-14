@@ -1,62 +1,171 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+<div class="navbar bg-base-100">
+    <div class="navbar-start">
+    <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li>
+                <a href="/#about" class="navbar-item">
+                    ¿Qué es Nodo Ambiental?
+                </a>
+            </li>
+            <li>
+                <a href="/#services" class="navbar-item"> Servicios </a>
+            </li>
+            <li>
+                <a href="/#team" class="navbar-item"> Equipo </a>
+            </li>
+            <li>
+                <a href="/#projects" class="navbar-item"> Proyectos </a>
+            </li>
+            <li>
+                <a href="/pages/documentation/main.html" class="navbar-item">
+                    Documentación
+                </a>
+            </li>
+            <li>
+                <a href="/pilas/main.html" class="navbar-item"> InfoBlog Pilas </a>
+            </li>
+            {% comment %}
+            <li>
+                <a href="/search.html" class="navbar-item">
+                    <i class="fas fa-search"></i>
+                </a> 
+            </li>
+            {% endcomment %}
+        </ul>
+    </div>
+    
+    <div class="dropdown">    
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <i class="fa-solid fa-swatchbook me-1"></i>
+        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="light" value="light" data-set-theme="light" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="dark" value="dark" data-set-theme="dark" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="cupcake" value="cupcake" data-set-theme="cupcake" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="bumblebee" value="bumblebee" data-set-theme="bumblebee" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="emerald" value="emerald" data-set-theme="emerald" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="corporate" value="corporate" data-set-theme="corporate" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="synthwave" value="synthwave" data-set-theme="synthwave" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="retro" value="retro" data-set-theme="retro" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="cyberpunk" value="cyberpunk" data-set-theme="cyberpunk" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="valentine" value="valentine" data-set-theme="valentine" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="halloween" value="halloween" data-set-theme="halloween" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="garden" value="garden" data-set-theme="garden" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="forest" value="forest" data-set-theme="forest" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="aqua" value="aqua" data-set-theme="aqua" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="lofi" value="lofi" data-set-theme="lofi" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="pastel" value="pastel" data-set-theme="pastel" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="fantasy" value="fantasy" data-set-theme="fantasy" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="wireframe" value="wireframe" data-set-theme="wireframe" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="black" value="black" data-set-theme="black" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="luxury" value="luxury" data-set-theme="luxury" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="dracula" value="dracula" data-set-theme="dracula" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="cmyk" value="cmyk" data-set-theme="cmyk" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="autumn" value="autumn" data-set-theme="autumn" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="business" value="business" data-set-theme="business" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="acid" value="acid" data-set-theme="acid" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="lemonade" value="lemonade" data-set-theme="lemonade" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="night" value="night" data-set-theme="night" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="coffee" value="coffee" data-set-theme="coffee" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="winter" value="winter" data-set-theme="winter" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="dim" value="dim" data-set-theme="dim" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="nord" value="nord" data-set-theme="nord" data-act-class="ACTIVECLASS"/></li>
+            <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="sunset" value="sunset" data-set-theme="sunset" data-act-class="ACTIVECLASS"/></li>
+        </ul>
+    </div>
+    <div class="hidden lg:flex">
+        <a class="btn btn-ghost" href="/">
             <img
                 src="/assets/images/logos/logo_navigation.svg"
-                width="128"
-                height="48"
-                style="max-height: 3rem"
             />
         </a>
-
-        <a
-            role="button"
-            class="navbar-burger burger is-active"
-            aria-label="menu"
-            aria-expanded="false"
-        >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-        </a>
     </div>
-
-    <div class="navbar-menu is-active">
-        <div class="navbar-start">
-            <a href="/#about" class="navbar-item">
-                &iquest;Qu&eacute; es Nodo Ambiental?
-            </a>
-
-            <a href="/#services" class="navbar-item"> Servicios </a>
-
-            <a href="/#team" class="navbar-item"> Equipo </a>
-
-            <a href="/#projects" class="navbar-item"> Proyectos </a>
-
-            <a href="/pages/documentation/main.html" class="navbar-item">
-                Documentación
-            </a>
-
-            <a href="/pilas/main.html" class="navbar-item"> InfoBlog Pilas </a>
-            
+    </div>
+    <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal menu-sm px-1">
+            <li>
+                <a href="/#about" class="navbar-item">
+                    &iquest;Qu&eacute; es Nodo Ambiental?
+                </a>
+            </li>
+            <li>
+                <a href="/#services" class="navbar-item"> Servicios </a>
+            </li>
+            <li>
+                <a href="/#team" class="navbar-item"> Equipo </a>
+            </li>
+            <li>
+                <a href="/#projects" class="navbar-item"> Proyectos </a>
+            </li>
+            <li>
+                <a href="/pages/documentation/main.html" class="navbar-item">
+                    Documentación
+                </a>
+            </li>
+            <li>
+                <a href="/pilas/main.html" class="navbar-item"> InfoBlog Pilas </a>
+            </li>
             {% comment %}
-            <a href="/search.html" class="navbar-item">
-                <i class="fas fa-search"></i>
-            </a> 
+            <li>
+                <a href="/search.html" class="navbar-item">
+                    <i class="fas fa-search"></i>
+                </a> 
+            </li>
             {% endcomment %}
-
-        </div>
-        {% if {{page.path}} == "contact.markdown" or {{page.path}} ==
-        "contactsuccess.markdown" %} {% else %}
-        <div class="navbar-end">
-            <div class="navbar-item">
-                <div class="buttons">
-                    <a href="/contact.html" class="button is-primary">
-                        <strong>Quiero ser parte</strong>
-                    </a>
-                </div>
+        </ul>
+    </div>
+    <div class="navbar-end">
+    <div class="hidden lg:flex">
+        <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-sm m-1 flex flex-nowrap items-center">
+                <i class="fa-solid fa-swatchbook me-1"></i> Tema
+              <svg width="12px" height="12px" class="h-2 w-2 fill-current opacity-60 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path></svg>
             </div>
-        </div>
+            <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52">
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="light" value="light" data-set-theme="light" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="dark" value="dark" data-set-theme="dark" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="cupcake" value="cupcake" data-set-theme="cupcake" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="bumblebee" value="bumblebee" data-set-theme="bumblebee" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="emerald" value="emerald" data-set-theme="emerald" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="corporate" value="corporate" data-set-theme="corporate" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="synthwave" value="synthwave" data-set-theme="synthwave" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="retro" value="retro" data-set-theme="retro" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="cyberpunk" value="cyberpunk" data-set-theme="cyberpunk" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="valentine" value="valentine" data-set-theme="valentine" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="halloween" value="halloween" data-set-theme="halloween" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="garden" value="garden" data-set-theme="garden" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="forest" value="forest" data-set-theme="forest" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="aqua" value="aqua" data-set-theme="aqua" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="lofi" value="lofi" data-set-theme="lofi" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="pastel" value="pastel" data-set-theme="pastel" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="fantasy" value="fantasy" data-set-theme="fantasy" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="wireframe" value="wireframe" data-set-theme="wireframe" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="black" value="black" data-set-theme="black" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="luxury" value="luxury" data-set-theme="luxury" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="dracula" value="dracula" data-set-theme="dracula" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="cmyk" value="cmyk" data-set-theme="cmyk" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="autumn" value="autumn" data-set-theme="autumn" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="business" value="business" data-set-theme="business" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="acid" value="acid" data-set-theme="acid" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="lemonade" value="lemonade" data-set-theme="lemonade" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="night" value="night" data-set-theme="night" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="coffee" value="coffee" data-set-theme="coffee" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="winter" value="winter" data-set-theme="winter" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="dim" value="dim" data-set-theme="dim" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="nord" value="nord" data-set-theme="nord" data-act-class="ACTIVECLASS"/></li>
+                <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="sunset" value="sunset" data-set-theme="sunset" data-act-class="ACTIVECLASS"/></li>
+            </ul>
+          </div>
+    </div>
+        {% if {{page.path}} == "contact.markdown" or {{page.path}} ==
+        "contactsuccess.markdown" %} 
+        {% else %}
+        <a href="/contact.html" class="btn btn-sm btn-primary ms-1">
+            Quiero ser parte
+        </a>
         {% endif %}
     </div>
-</nav>
+</div>

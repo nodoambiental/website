@@ -88,6 +88,9 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jekyll-webpack (0.2.7)
+      jekyll
+      listen
     json (2.7.1)
     json-minify (0.0.3)
       json (> 0)
@@ -153,6 +156,7 @@ DEPENDENCIES
   jekyll-postcss-v2
   jekyll-scholar
   jekyll-sitemap
+  jekyll-webpack (~> 0.2.7)
   liquid_reading_time
   minima
   tzinfo (~> 1.2)
