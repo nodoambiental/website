@@ -1,10 +1,11 @@
 {% assign banner = site.data.banner-home %}
 <section class="hero bg-accent">
   <div class="hero-content flex-col lg:flex-row max-w-7xl lg:min-w-[75%] xl:min-w-[50%] my-10 lg:gap-x-10">
-      <img class="max-w-sm lg:max-w-[40%] flex-initial" src="/assets/images/logos/logo_navigation.svg">
+      <img class="hidden lg:block max-w-sm lg:max-w-[40%] flex-initial" src="/assets/images/logos/stacked.png">
+      <img class="block lg:hidden max-w-sm flex-initial" src="/assets/images/logos/black.png">
       <div class="text-center lg:text-left">
         {% for element in banner.titles %}
-          <h2 class="text-4xl font-bold w-100 mb-10 lg:mb-0">{{element}}</h2> 
+          <h2 class="hidden lg:block text-4xl font-bold w-100 lg:mb-0">{{element}}</h2> 
         {% endfor %}
         <div class="py-3">
         {% for element in banner.subtitle %}
