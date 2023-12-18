@@ -1,32 +1,27 @@
 {% assign about = site.data.about %}
-<section id="about" class="section second-subtitle">
-    <br /> 
-    <br /> 
-    <br /> 
+<section id="about" class="section my-10">
+    <h2 class="mx-auto text-2xl text-center mb-10">Acerca de Nosotros</h2>   
     {% for element in about %}
-    <button class="accordion">{{element.name}}</button>
-    <div class="panel">
+    <div class="collapse collapse-arrow bg-base-200 mb-2">
+        <input type="radio" name="my-accordion-2" /> 
+        <div class="collapse-title text-xl font-medium">
+            {{element.name}}
+        </div>
+        <div class="collapse-content"> 
         {% for item in element.content %}
-            {% if {{item.data}} contains "+image" %}
-                <div class="about-image">
-                    <img src="{{item.data | remove: '+image '}}"/>
+            {% if {{item.card}} %}
+                <div class="card card-compact w-96 bg-base-100 shadow-xl mx-auto my-5">
+                    <figure><img src="{{ item.card.image }}" alt="Imagen de {{ item.card.caption }}" /></figure>   
+                    <div class="card-body"> 
+                        <h2 class="card-title">{{ item.card.caption }}</h2>   
+                        <p>{{ item.card.author }}</p>
+                    </div>
                 </div>
             {% else %}
-                {% if {{item.data}} contains "+caption" %}
-                    <h3 class="about-caption">
-                        {% if {{item.data}} contains "+author" %}
-                            {{ item.data | remove: '+caption ' | replace: " +author ","<p class='about-author'>" }}
-                            </p>
-                        {% else %}
-                            {{item.data | remove: '+caption '}}
-                        {% endif %}
-                    </h3>
-                {% else %}
-                    <p>{{item.data}}</p>
-                {% endif %}
+                <p class="prose text-justify mx-auto my-4">{{item}}</p>
             {% endif %}
         {% endfor %}
+        </div>
     </div>
-    <br />
     {% endfor %}
 </section>
