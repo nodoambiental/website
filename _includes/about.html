@@ -10,7 +10,7 @@
         <div class="collapse-content"> 
         {% for item in element.content %}
             {% if {{item.card}} %}
-                <div class="card card-compact w-96 bg-base-100 shadow-xl mx-auto my-5">
+                <div class="card card-compact w-96 bg-base-100 shadow-xl mx-auto my-6">
                     <figure><img src="{{ item.card.image }}" alt="Imagen de {{ item.card.caption }}" /></figure>   
                     <div class="card-body"> 
                         <h2 class="card-title">{{ item.card.caption }}</h2>   
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             {% else %}
-                <p class="prose text-justify mx-auto my-4">{{item}}</p>
+                <p class="prose text-left mx-auto my-4">{{item}}</p>
             {% endif %}
         {% endfor %}
         </div>
