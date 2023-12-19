@@ -12,10 +12,10 @@
 - name: Nuestra Misión
   content:
     - Desarrollar redes y sistemas de cooperación entre Organizaciones de la Sociedad Civil (ONG), organizaciones públicas y privadas, escuelas, profesionales y empresas, para la difusión, desarrollo y ejecución de proyectos para el desarrollo sustentable, la seguridad e inocuidad alimentaria, la preservación del ambiente, y el bienestar social.
-    - card:
-        image: /assets/images/about/cabaceci.jpg
-        caption: CABA
-        author: Cecilia Ordano
+    #- card:
+    #    image: /assets/images/about/cabaceci.jpg
+    #    caption: CABA
+    #    author: Cecilia Ordano
 
 - name: Nuestra Visión
   content:
@@ -26,7 +26,7 @@
     - La conjunción de mecanismos de articulación, desarrollo humano y tecnológico, herramientas de cooperación entre organizaciones, espacios educativos, artísticos y multimedios, ayudan a encontrar soluciones prácticas en entornos donde el tiempo es limitado.
     - La verificación de la información difundida es clave para establecer bases sólidas para la realización y alcance de metas de desarrollo sustentable y bienestar social.
     - El desarrollo de nodos o sistemas de cooperación y articulación es una herramienta sólida para ayudar a que los proyectos de educación ambiental, conservación de la naturaleza y salud alimentaria y ambiental, logren sus metas. Entre ellas, la reducción del impacto humano sobre el ambiente en que vivimos y convivimos.
-    - card:
-        image: /assets/images/about/lospizarro.jpg
-        caption: Dique Los Pizarro
-        author: Mariano Ordano
+    #- card:
+    #    image: /assets/images/about/lospizarro.jpg
+    #    caption: Dique Los Pizarro
+    #    author: Mariano Ordano
