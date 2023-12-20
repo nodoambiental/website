@@ -1,34 +1,17 @@
 {% assign services = site.data.services %}
-<section id="services" class="section services">
-    <h1>Nuestros servicios</h1>
-    <h2>{{ page.services_text }}</h2>
-    <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12">
-            <div class="tile">
-                <div class="tile is-parent is-vertical">
-                    {% for service in services %}
-                    <article class="tile is-child services-{{forloop.index}}">
-                        <a href="./pages/services/{{service.name}}.html">
-                            <div class="is-card">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <figure>
-                                            <i class="fas fa-{{ service.icon }}"></i>
-                                        </figure>
-                                    </div>
-                                    <div class="media-content">
-                                        <p class="title is-12">{{ service.name }}</p>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    {{ service.content }}
-                                </div>
-                            </div>
-                        </a>
-                    </article>
-                    {% endfor %}
-                </div>
+<section id="services" class="section my-10 sm:mx-20 md:mx-auto lg:mx-20">
+    <h2 class="mx-auto text-2xl text-center mb-4">Nuestros Servicios</h2>
+    <h3 class="mx-auto text-xl text-center mb-10">{{ page.services_text }}</h3>
+        {% for service in services %}
+        <div class="card lg:mx-auto md:card-side bg-base-100 shadow-xl my-6">
+            <figure><img class="md:max-h-96 lg:max-h-80" src="https://images.pexels.com/photos/5946810/pexels-photo-5946810.jpeg" alt="Album"/></figure>
+            <div class="card-body md:max-lg:p-8 md:max-lg:pb-4 md:max-lg:pe-4">
+              <h2 class="card-title mb-2"><i class="fas fa-{{ service.icon }}"></i> {{ service.name }}</h2>
+              <p class="prose leading-snug">{{ service.content }}</p>
+              <div class="card-actions justify-center md:justify-end ">
+                <a href="./pages/services/{{service.name}}.html" class="btn btn-primary max-md:btn-wide mt-5  md:mt-0">Ver más</a>
+              </div>
             </div>
-        </div>
-    </div>
+          </div>
+        {% endfor %}
 </section>
