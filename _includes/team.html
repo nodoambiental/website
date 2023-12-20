@@ -6,7 +6,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
     {% for person in team %}
         <div class="card bg-base-300 shadow-xl">
-            <figure class="aspect-square md:p-10">
+            <figure class="aspect-square md:px-8">
                 {% assign photo_path = "/assets/images/team/%%%.png" | replace: "%%%", person.name %}
                 {% assign photo = site.static_files | where: "path", photo_path %}
                 {% if {{photo.size}} == 1 %}
@@ -15,7 +15,7 @@
                     <img src="/assets/images/team/default.png" />
                 {% endif %}
             </figure>
-            <div class="card-body">
+            <div class="card-body md:pt-0">
                 <h2 class="card-title text-center">{{person.name}}</h2>
                 {% if {{person.role}} %}
                 <p class="italic">
