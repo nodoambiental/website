@@ -1,37 +1,29 @@
 {% assign projects = site.data.projects %}
-<section id="projects" class="section projects">
-    <h1>Nuestros proyectos</h1>
-    <h2>{{ page.projects_text }}</h2>
-    <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12 is-parent">
-            {% for project in projects %}
-            <article class="tile is-child projects-{{forloop.index}}">
-                <a href="./pages/projects/{{project.name}}.html">
-                    <div class="is-card">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure>
-                                    <i class="fas fa-{{ project.icon }}"></i>
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-12">{{ project.name }}</p>
-                                <p class="subtitle is-6">{{ project.teaser }}</p>
-                            </div>
-                        </div>
-                        <div class="content">
-                            {{ project.description }}
-                            <br />
-                            <h2 style="text-align:left;" class="is-6">Objetivos</h2>
-                            {% for element in project.target %}
-                            <hr />
-                            {{element.content}}
-                            {% endfor %}
-                        </div>
+<section id="projects" class="section my-10 sm:mx-20 md:mx-auto lg:mx-20">
+    <h2 class="mx-auto text-2xl text-center mb-4">Nuestros Proyectos</h2>
+    <h3 class="mx-auto text-xl text-center mb-10">{{ page.projects_text }}</h3>
+    {% for project in projects %}
+        <div class="card lg:mx-auto md:card-side bg-base-100 shadow-xl my-6">
+            <div class="card-body md:max-lg:p-8 md:max-lg:pb-4 md:max-lg:pe-4">
+                <h2 class="card-title mb-4 text-xl">
+                    <i class="text-accent opacity-75 fas fa-{{ project.icon }} me-1"></i>
+                    {{ project.name }}
+                </h2>
+                <div class="mx-auto">
+                    <p class="prose leading-snug mb-3">{{ project.description }}</p>
+                    <h3 class="card-subtitle mb-2">Objetivos</h3>
+                    <div class="mx-2 m-1 ms-5">
+                        <ul class="list-disc">
+                        {% for element in project.target %}
+                        <li><p class="prose leading-snug my-2">{{element.content}}</p></li>
+                        {% endfor %}
+                        </ul>
                     </div>
-                </a>
-            </article>
-            {% endfor %}
-        </div>
-    </div>
+                </div>
+              <div class="card-actions justify-center md:justify-end ">
+                <a href="./pages/projects/{{project.name}}.html" class="btn btn-primary max-md:btn-wide mt-5  md:mt-0">Ver más</a>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
 </section>
