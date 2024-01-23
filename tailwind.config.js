@@ -9,11 +9,13 @@ module.exports = {
       './*.markdown',
       './*.html',
     ],
-  theme: {
-      theme: {
-        extend: {},
+  theme: {    
+    extends: {
+      screens: {
+        'xs': '420px', // min-width
       },
-    },
+    }
+  },
   plugins: [require("@tailwindcss/typography"),require("daisyui")],
   daisyui: {
     themes: [
