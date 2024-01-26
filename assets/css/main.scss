@@ -1,0 +1,127 @@
+---
+---
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font Awesome Regular */
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/dist/fonts/fa-regular-400.ttf") format("truetype");
+}
+
+/* Font Awesome Solid */
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/dist/fonts/fa-solid-900.ttf") format("truetype");
+}
+
+/* Font Awesome Brands */
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/dist/fonts/fa-brands-400.ttf") format("truetype");
+}
+
+@layer utilities {
+  /* From https://github.com/tailwindlabs/tailwindcss/issues/162#issuecomment-1167334425 
+    
+    Because yes there is no text shadow unbelievable
+    */
+
+  .text-shadow-xs {
+    text-shadow: 2px 1px oklch(var(--bc));
+  }
+
+  .text-shadow {
+    text-shadow: 3px 3px oklch(var(--bc));
+  }
+  .text-shadow-primary-xs {
+    text-shadow: 2px 1px oklch(var(--pc));
+  }
+
+  .text-shadow-primary {
+    text-shadow: 3px 3px oklch(var(--pc));
+  }
+
+  .text-shadow-none {
+    text-shadow: none;
+  }
+
+  .first-letter\:text-shadow-xs::first-letter {
+    text-shadow: 1px 1px 0 var(--tw-shadow-color), -1px 1px 0 var(--tw-shadow-color),
+      1px -1px 0 var(--tw-shadow-color), -1px -1px 0 var(--tw-shadow-color);
+  }
+
+  .first-letter\:text-shadow::first-letter {
+    text-shadow: 2px 2px 0 var(--tw-shadow-color), -2px 2px 0 var(--tw-shadow-color),
+      2px -2px 0 var(--tw-shadow-color), -2px -2px 0 var(--tw-shadow-color);
+  } 
+
+  .first-letter\:text-shadow-none::first-letter {
+    text-shadow: none;
+  }
+  .before\:font-icon::before {
+    @apply font-icon;
+  }
+}
+
+@layer utilities {
+  #template-project {
+    & {
+      @apply my-20 mx-auto md:container;
+    }
+
+    & h2 {
+      @apply text-3xl text-center md:text-left my-16 font-bold max-w-full md:max-w-fit mx-6 md:mx-auto;
+    }
+    & h3 {
+      @apply text-2xl text-center md:text-left my-10 max-w-full md:max-w-fit mx-6 md:mx-auto before:content-["\f52e"] before:ml-0.5 before:text-accent before:font-icon before:font-bold before:pe-2;
+    }
+    & h4 {
+      @apply text-xl text-left my-8 max-w-full md:max-w-fit mx-6 md:mx-auto leading-snug before:content-["\f56b"] before:ml-0.5 before:text-accent before:font-icon before:font-bold before:pe-2;
+    }
+    & h5 {
+      @apply font-bold text-left my-8 max-w-full md:max-w-fit mx-6 md:mx-auto leading-snug before:content-["\f4d8"] before:ml-0.5 before:text-accent before:font-icon before:font-bold before:pe-2;
+    }
+    & h6 {
+      @apply text-left my-8 max-w-full md:max-w-fit mx-6 md:mx-auto leading-snug before:content-["\e599"] before:ml-0.5 before:text-accent before:font-icon before:font-bold before:pe-2;
+    }
+  
+    & ul,
+    & ol,
+    & p {
+      @apply prose text-left mx-auto md:px-0 sm:px-4 px-6 font-serif;
+    }
+    & h2 + p:not(:has(> img)) {
+      @apply prose text-left mx-auto md:px-0 sm:px-4 px-6 first-line:uppercase first-line:tracking-widest
+        first-letter:text-7xl first-letter:font-bold
+        first-letter:mr-3 first-letter:float-left font-serif first-letter:text-shadow-primary first-letter:text-primary;
+    }
+    & h3 + p:not(:has(> img)) {
+      @apply prose text-left mx-auto md:px-0 sm:px-4 px-6 
+        first-letter:text-3xl first-letter:font-bold
+        first-letter:mr-1 first-letter:float-left font-serif;
+    }
+  
+    & hr {
+      @apply mx-auto my-4 min-w-48 w-3/6 max-w-screen-md;
+    }
+  
+    img,
+    figure {
+      @apply rounded-lg;
+    }
+  
+    cc-license {
+      @apply rounded-none;
+    }
+
+  }
+}

@@ -6,7 +6,7 @@
     {% if {{page.path}} contains "index.markdown" %}
 	{% include banner-home.html %}
     {% else %}
-        {% if {{page.path}} contains "projects" %}
+        {% if {{page.path}} contains "projects" or {{page.path}} contains "pilaspage"   %}
 	    {% include banner-projects.html %}
         {% else %}
             {% if {{page.path}} contains "search.markdown" %}
