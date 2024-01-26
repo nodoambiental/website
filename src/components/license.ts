@@ -50,7 +50,7 @@ export class CCLicense extends AdoptedLitElement {
 
         const ccbutton = html`<cc-license-button version="${this.version}" type="${this.type}" class="mx-auto my-6"></cc-license-button>`;
 
-        const cclink = html`<a rel="license" href="https://creativecommons.org/licenses/${this.type}/${this.version}/deed.es_ES">Licencia de Creative Commons ${this.typeName()} ${this.version} Internacional.</a>`;
+        const cclink = html`<a class="link link-primary" rel="license" href="https://creativecommons.org/licenses/${this.type}/${this.version}/deed.es_ES">Licencia de Creative Commons ${this.typeName()} ${this.version} Internacional.</a>`;
 
         const cctext = html` <p>Esta obra está bajo una ${cclink} <p>`;
 
