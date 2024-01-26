@@ -7,6 +7,7 @@ module.exports = {
       './_pilas/*.markdown',
       './_pilaspage/*.markdown',
       './*.markdown',
+      './pages/**/*.markdown',
       './*.html',
     ],
   theme: {    
