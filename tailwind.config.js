@@ -8,13 +8,16 @@ module.exports = {
       './_pilaspage/*.markdown',
       './*.markdown',
       './pages/**/*.markdown',
-      './*.html',
+      './*.html',    
     ],
   theme: {    
-    extends: {
+    extend: {
       screens: {
         'xs': '420px', // min-width
       },
+      fontFamily: {
+        "icon": ['"Font Awesome 6 Free"']
+      }
     }
   },
   plugins: [require("@tailwindcss/typography"),require("daisyui")],
