@@ -94,17 +94,15 @@
       @apply text-left my-8 max-w-full md:max-w-fit mx-6 md:mx-auto leading-snug before:content-["\e599"] before:ml-0.5 before:text-accent before:font-icon before:font-bold before:pe-2;
     }
   
-    & ul,
-    & ol,
-    & p {
+    & :is(ul,ol,p) {
       @apply prose text-left mx-auto md:px-0 sm:px-4 px-6 font-serif;
     }
-    & h2 + p:not(:has(> img)) {
+    & > h2 + p:not(:has(> img)) {
       @apply prose text-left mx-auto md:px-0 sm:px-4 px-6 first-line:uppercase first-line:tracking-widest
         first-letter:text-7xl first-letter:font-bold
         first-letter:mr-3 first-letter:float-left font-serif first-letter:text-shadow-primary first-letter:text-primary;
     }
-    & h3 + p:not(:has(> img)) {
+    & > h3 + p:not(:has(> img)) {
       @apply prose text-left mx-auto md:px-0 sm:px-4 px-6 
         first-letter:text-3xl first-letter:font-bold
         first-letter:mr-1 first-letter:float-left font-serif;
