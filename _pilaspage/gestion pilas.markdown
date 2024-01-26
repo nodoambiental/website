@@ -8,8 +8,6 @@ icon: battery-quarter
 
 <!--section-->
 
-# Infoblog Gestion de Pilas Usadas 1.0
-
 ## Panorama integral con eje en la Argentina
 
 ![cardspilas](/assets/images/post/01cards.png)
@@ -322,3 +320,5 @@ _**Si tenés información que en tu provincia o municipio/departamento existe un
 Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html>
 
 <a class="button is-link is-light" href="{% post_url 2023-11-01-referencias %}">Referencias</a>  
+
+<cc-license type="by-nc"></cc-license>

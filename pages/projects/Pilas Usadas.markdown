@@ -4,8 +4,6 @@ title: Pilas Usadas
 icon: battery-quarter
 ---
 
-# Pilas Usadas
-
 :construction:
 
 La CONTENCIÓN DE LA CONTAMINACIÓN es uno de los 3 ejes principales de acción y dirección de Fundación Nodo Ambiental. El proyecto "Pilas Usadas" es central para trabajar este problema social y ambiental. Resulta prioritario cuidar el suelo y el agua, por la salud humana y ambiental.  
@@ -38,7 +36,9 @@ No obstante, existen conceptos a considerar y potencialmente factibles de incorp
 Mediante la implementación de este proyecto se espera favorecer la contención de la contaminación. En una etapa más avanzada, se prevé desarrollar las bases para la elaboración de leyes y políticas públicas que incorporen sistemas de economía circular y fuentes de energía limpia.
 
 ### Objetivos
+
 :construction:
+
 #### Objetivo General
 
 Favorecer la contención de la contaminación, contribuyendo al desarrollo de una gestión ambientalmente adecuada de pilas y baterías portátiles en desuso, con la finalidad de reducir el impacto de contaminantes en la salud humana y ambiental.
@@ -50,18 +50,23 @@ Favorecer la contención de la contaminación, contribuyendo al desarrollo de un
     3. Evaluar procedimientos de tratamiento de pilas y baterías en desuso.
 
 ### Desarrollo
+
 :construction:
 
 #### Localización
+
 :construction:
 
 ### Integrantes, jerarquía y rol
+
 :construction:
 
 ### Metas
+
 :construction:
 
 ### Diseño y Flujo de Trabajo
+
 :construction:
 
 ### Palabras clave - etiquetas
@@ -74,21 +79,13 @@ Favorecer la contención de la contaminación, contribuyendo al desarrollo de un
 
 Fundación Nodo Ambiental (2023) Infoblog Pilas Usadas. Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/contaminación/2023/11/30/pilas.html>
 
-
 ##### Desarrollo Web
+
 :construction:
 Ágata Ordano, Mariano Ordano, Laura González
 
 ##### Créditos
+
 :construction:
 
-
-### Licencia
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES">Licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.</a>
-
-Usted es libre de:
-
-+ Compartir — copiar y redistribuir el material en cualquier medio o formato
-
-+ Adaptar — remezclar, transformar y crear a partir del material
+<cc-license type="by-nc"></cc-license>

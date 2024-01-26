@@ -4,9 +4,6 @@ layout: pilaspage
 icon: heart
 ---
 
-
-# Docs de ejemplo
-
 ## Posts
 
 Cargar los posts como archivos `.markdown` en la carpeta `_pilaspage`.

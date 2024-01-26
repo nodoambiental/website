@@ -4,8 +4,6 @@ title: Salud, Seguridad e Inocuidad Alimentaria
 icon: medkit
 ---
 
-# Salud, Seguridad e Inocuidad Alimentaria
-
 ## ¿Por qué evitar el uso de venenos?
 
 - Los venenos se fabrican, en general, para controlar plagas u organismos que reducen la producción agrícola.
@@ -56,7 +54,5 @@ Nodo Ambiental (2020) Proyecto Salud Alimentaria. Tucumán, Argentina. Recuperad
 ##### Autores
 
 Laura González, Mariano Ordano, Carmen Reguilón, Renzo Bernacki, Ágata Ordano, Analía Benavidez, Facundo Bernacki, Cecilia Ordano
-
-### Licencia
 
 <cc-license type="by-nc"></cc-license>
