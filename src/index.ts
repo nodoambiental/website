@@ -4,3 +4,5 @@ import { themeChange } from 'theme-change'
 //import '@fortawesome/fontawesome-free/js/fontawesome.js'
 import '@fortawesome/fontawesome-free/js/all.js'
 themeChange();
+
+import './components/license';
