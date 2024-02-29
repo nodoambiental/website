@@ -1,439 +1,439 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://nodoambiental.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nodoambiental.org/" rel="alternate" type="text/html" /><updated>2023-12-11T20:01:16-03:00</updated><id>https://nodoambiental.org/feed.xml</id><title type="html">Nodo Ambiental</title><subtitle>Descripcion Breve de Nodo Ambiental</subtitle><entry><title type="html">Infoblog Gestion de Pilas Usadas 1.0</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html" rel="alternate" type="text/html" title="Infoblog Gestion de Pilas Usadas 1.0" /><published>2023-11-28T12:00:00-03:00</published><updated>2023-11-30T20:49:44-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html">&lt;p&gt;&lt;img src=&quot;/assets/images/post/01sol.png&quot; alt=&quot;solpilas&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;h1&gt;Infoblog Gestion de Pilas Usadas 1.0&lt;/h1&gt;
-&lt;h2&gt;Panorama integral con eje en la Argentina&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/01cards.png&quot; alt=&quot;cardspilas&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Teniendo en cuenta las dudas e inquietudes sobre las pilas usadas que se presentan en nuestra sociedad, es que tomamos la iniciativa y asumimos el desafío de entregar información que permita conocer cómo se encuentra hoy la situación respecto a su tratamiento en el país, si existen lugares dónde dejarlas, las formas de identificarlas y distinguirlas, y mucho más.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Esperamos, por sobre todo, que la información les sea útil y práctica, y que sirva como base para el conocimiento y la toma de decisiones eficaz, para un problema que presenta características complejas y particulares según el lugar en donde cada uno resida.&lt;/em&gt;&lt;/p&gt;
-&lt;h3&gt;Aquí se abordarán únicamente aspectos referidos a las pilas de uso doméstico (*)&lt;/h3&gt;
-&lt;p&gt;No se incluye a las pilas o baterías industriales, de electrónicos, automóviles, energía solar, etc.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/01pilas.png&quot; alt=&quot;variaspilas&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;(*) Pila o batería Portátil de Uso Doméstico&lt;/strong&gt;: Es todo dispositivo portátil de almacenamiento de energía asociado al uso normal que pertenece al universo de pilas identificadas por las normas ANSI (o IEC, dependiendo el caso), como &lt;strong&gt;AA, AAA, AAAA, C, D, N, 9V&lt;/strong&gt; o &lt;strong&gt;botón&lt;/strong&gt; y que por su peso y tamaño pueden ser transportadas en la mano por el usuario final.&lt;/em&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;h2&gt;Pilas y baterías ¿Qué son?&lt;/h2&gt;
-&lt;p&gt;Las pilas y baterías son &lt;strong&gt;fuentes de energía portátil&lt;/strong&gt; que transforman la &lt;em&gt;energía química&lt;/em&gt; en &lt;em&gt;energía eléctrica&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Los componentes básicos consisten en &lt;strong&gt;dos electrodos&lt;/strong&gt; (&lt;strong&gt;ánodo&lt;/strong&gt; y &lt;strong&gt;cátodo&lt;/strong&gt;), un &lt;strong&gt;electrolito&lt;/strong&gt;, &lt;strong&gt;separadores&lt;/strong&gt; y &lt;strong&gt;carcasa externa&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/02comps.png&quot; alt=&quot;queson1&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Física y electrónicamente, los electrodos están &lt;em&gt;aislados&lt;/em&gt; en la celda para impedir un cortocircuito interno, pero están &lt;em&gt;rodeados por el electrolito&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/02compsvertical.png&quot; alt=&quot;queson2&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Los separadores suelen estar compuestos de diferentes tipos de polímeros, papel y cartón (Bernardes et al., 2004).
-Las carcasas externas se producen con finas capas de acero, plástico y cartón (Bernardes et al., 2004).&lt;/p&gt;
-&lt;p&gt;La mayor diferencia entre los &lt;strong&gt;distintos sistemas de pilas&lt;/strong&gt; son los elementos usados para los &lt;em&gt;electrodos y electrolitos&lt;/em&gt;, que &lt;em&gt;determinan las características específicas de cada sistema&lt;/em&gt; (Bernardes et al., 2004).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/02compsflujo.png&quot; alt=&quot;queson3&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.youtube.com/watch?v=RqF1ikcFwDE&quot;&gt;Video 1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Los &lt;em&gt;tres componentes principales&lt;/em&gt; que participan en la reacción química son:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;El &lt;strong&gt;ánodo&lt;/strong&gt; o electrodo negativo, que &lt;em&gt;se oxida&lt;/em&gt; durante la reacción electroquímica.&lt;/li&gt;
-&lt;li&gt;El &lt;strong&gt;cátodo&lt;/strong&gt; o electrodo positivo, que &lt;em&gt;se reduce&lt;/em&gt; durante la reacción electroquímica.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Las reacciones implican la &lt;em&gt;transferencia de electrones&lt;/em&gt; del elemento que se &lt;em&gt;oxida&lt;/em&gt; al elemento que se &lt;em&gt;reduce&lt;/em&gt;.&lt;/p&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;El &lt;strong&gt;electrolito&lt;/strong&gt;, es el conductor iónico, que &lt;em&gt;proporciona el medio para la transferencia de carga&lt;/em&gt; en forma de iones (&lt;em&gt;átomos con carga eléctrica&lt;/em&gt;) dentro de la celda, entre el ánodo y el cátodo. El electrolito es típicamente un líquido, tal como agua u otros disolventes, con sales disueltas, ácidos o álcalis.
-Si bien “la mayoría de los electrolitos son &lt;em&gt;soluciones acuosas&lt;/em&gt;, existen excepciones”.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;En cuanto a la clasificación, hay &lt;em&gt;2 grandes grupos de pilas y baterías&lt;/em&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Primarias&lt;/strong&gt; o no recargables&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Secundarias&lt;/strong&gt; o recargables o acumuladores&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Existe la costumbre de denominar a las pilas recargables o acumuladores como “baterías” y al resto “pilas”. Sin embargo, si nos remitimos al inicio del estudio de la electricidad, se denominaba pila cuando se juntaban varios elementos o celdas, uno encima de otro, o sea “apilados”, y batería cuando las celdas estaban adosadas lateralmente.
-&lt;strong&gt;Surge así que la denominación de pilas o baterías serviría para cualquier tipo, sean primarias o secundarias&lt;/strong&gt;.&lt;/p&gt;
-&lt;!--section--&gt;  
-&lt;h2&gt;Clasificación&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Clasificación por forma y tamaño&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/03clasificacion.png&quot; alt=&quot;claspilas1&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Clasificación por tipo y composición&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/03clasificacion2.png&quot; alt=&quot;claspilas2&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;Formas de distinguirlas&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/04formas.png&quot; alt=&quot;claspilas4&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Se sugiere observar la pila junto con el &lt;em&gt;gráfico&lt;/em&gt; y la &lt;em&gt;tabla de clasificación&lt;/em&gt; de arriba.&lt;/p&gt;
-&lt;!--section--&gt;  
-&lt;h2&gt;Modelos de pilas que podemos encontrar en comercios de la Argentina (2022)&lt;/h2&gt;
-&lt;p&gt;No siempre es fácil para el consumidor determinar qué tipo de pila tiene en su poder.
-Por lo tanto, se desarrolló la siguiente &lt;strong&gt;“guía visual para facilitar su identificación”&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/05modelos.png&quot; alt=&quot;claspilas5&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;  
-&lt;h2&gt;¿Cómo son las pilas por dentro?&lt;/h2&gt;
-&lt;h3&gt;COMPARÁ PILAS Y BATERÍAS&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/06comparapilas.png&quot; alt=&quot;comparapilas&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;/contaminaci%C3%B3n/2023/11/27/pilacilindro.html&quot;&gt;Cilíndricas&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;/contaminaci%C3%B3n/2023/11/26/pilaboton.html&quot;&gt;Botón&lt;/a&gt;&lt;/p&gt;
-&lt;!--section--&gt;  
-&lt;h3&gt;Efectos sobre la salud y el ambiente de algunos componentes de las pilas&lt;/h3&gt;
-&lt;p&gt;Las pilas agotadas constituyen un muy bajo porcentaje de la composición de los residuos sólidos urbanos (RSU) (*), pero son la corriente con mayor aporte de compuestos con características de peligrosidad.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;(*) Ej. En la Ciudad de Buenos Aires la composición de Residuos Peligrosos que constituyen los RSU fluctúa en el orden del 0,70%, fracción que incluye las pilas y baterías - Ref: Evolución de la calidad de los RSU (1972-2005) CABA - IISFIUBA-CEAMSE&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Existe una extensa diversidad y varían de acuerdo a sus compuestos activos, forma, tamaño, voltaje, capacidad y duración.
-&lt;em&gt;Según sus componentes&lt;/em&gt; las pilas y baterías presentan un riesgo ambiental &lt;em&gt;potencial&lt;/em&gt; desde su &lt;em&gt;&lt;strong&gt;fabricación, uso y tratamiento&lt;/strong&gt;&lt;/em&gt; como residuo. El grado de toxicidad es diferente de acuerdo a cada tipo.&lt;/p&gt;
-&lt;p&gt;Los ácidos, álcalis, sales y metales pesados como el mercurio, cadmio, níquel, litio, cinc, manganeso y plomo, hacen que resulten riesgosas para la salud y el ambiente, en general, frente a una inadecuada gestión de las mismas.&lt;/p&gt;
-&lt;p&gt;El cadmio, plomo y mercurio son tóxicos aún en concentraciones bajas y tienen tendencia a acumularse en los seres vivos.
-No obstante su peligrosidad, la relevancia e incidencia de estos últimos, ha disminuido considerablemente, producto de medidas especiales tomadas en muchos países, tales como la reglamentación del contenido máximo para determinadas pilas y baterías.&lt;/p&gt;
-&lt;p&gt;En el caso de &lt;em&gt;&lt;strong&gt;quemarse en condiciones inadecuadas&lt;/strong&gt;&lt;/em&gt;, las pilas liberan gases no deseados y tóxicos que generan una alta contaminación atmosférica.&lt;/p&gt;
-&lt;p&gt;Si bien aquellas de buena calidad son bastante resistentes, &lt;em&gt;&lt;strong&gt;al ser desechadas&lt;/strong&gt;&lt;/em&gt; corren el riesgo de perder la cobertura protectora de metal por corrosión interna a través de la acción química de sus propios compuestos o externa de las carcasas por la acción climática y propia de la degradación de los residuos.&lt;/p&gt;
-&lt;p&gt;Cuando se produce el derrame del electrolito contenido en las pilas, éste arrastra a los metales pesados que la conforman. Estos metales pueden &lt;em&gt;lixiviar (**)&lt;/em&gt; a través del suelo y fluir por cursos de agua y acuíferos, contaminando el recurso natural y afectando la salud de los seres vivos.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;(**) Desplazamiento de sustancias solubles o dispersables (ej. sales, metales, etc.)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Por otra parte, la obtención de las materias primas para la fabricación de las pilas y las baterías implica el consumo de recursos naturales no renovables y de alto costo económico.&lt;/p&gt;
-&lt;p&gt;Finalmente, vale mencionar que, los efectos negativos que impactan directamente sobre la salud humana son los &lt;em&gt;&lt;strong&gt;principales motivos que generan la necesidad de una adecuada gestión ambiental de las pilas y baterías&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/07metales.png&quot; alt=&quot;metales&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/07metalesatencion.png&quot; alt=&quot;metalesatencion&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;/contaminaci%C3%B3n/2023/11/25/materiales.html&quot;&gt;Materiales en Pilas&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Tipos de tratamiento más habituales existentes en el mundo para pilas y baterías usadas&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/08tratamientos.png&quot; alt=&quot;tiposttmto&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/08ttmtos.png&quot; alt=&quot;tipos2&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;/contaminaci%C3%B3n/2023/11/24/tratamientos.html&quot;&gt;Tratamientos&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Países que cuentan con capacidad industrial para el reciclado y tratamiento de pilas y baterías usadas. Ejemplos.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/30Argentina.png&quot; alt=&quot;Argentina&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/10argentina.png&quot; alt=&quot;arg10&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Abanico o baraja de opciones que existen al momento de elegir pilas y baterías o un sustituto.&lt;/h3&gt;
-&lt;p&gt;Se presentan ordenadas según relevancia y beneficio o aceptabilidad (+ / - )&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/11baraja.png&quot; alt=&quot;baraja1&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/11baraja2.png&quot; alt=&quot;baraja2&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/12baraja.png&quot; alt=&quot;baraja3&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;¿Qué sucede en los hechos en Argentina?&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/12hechos.png&quot; alt=&quot;hechos&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;/contaminaci%C3%B3n/2023/11/23/notas.html&quot;&gt;Notas&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Diferencias en gestión&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/14diferencias.png&quot; alt=&quot;dif&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;/contaminaci%C3%B3n/2023/11/22/diferencias.html&quot;&gt;Mirá&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Matriz Legal&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/14matriz.png&quot; alt=&quot;matriz&quot; /&gt;&lt;/p&gt;
-&lt;h5&gt;Vigente al año 2022&lt;/h5&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://docs.google.com/spreadsheets/d/1kFr_r9hwtHfCh2Tilq1tk41eyh1DxQAU/edit?usp=sharing&amp;ouid=113412982289860829132&amp;rtpof=true&amp;sd=true&quot;&gt;Acceso&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;¿Qué clase de residuo son las pilas usadas?&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/16regu.png&quot; alt=&quot;regu&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/16regu2.png&quot; alt=&quot;regu2&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Las pilas (primarias y secundarias) de &lt;em&gt;&lt;strong&gt;uso domiciliario&lt;/strong&gt;&lt;/em&gt; pueden ser clasificadas como &lt;em&gt;&lt;strong&gt;residuos especiales de generación universal o residuos sujetos a manejo especial&lt;/strong&gt;&lt;/em&gt; ya que, además de devenir del consumo masivo, requieren de una gestión ambientalmente adecuada y diferenciada de otros residuos, debido a sus potenciales características de peligrosidad.&lt;/p&gt;
-&lt;p&gt;Podemos decir, que se encuentran en una &lt;strong&gt;zona gris&lt;/strong&gt; entre el concepto de residuo peligroso y residuo domiciliario.&lt;/p&gt;
-&lt;p&gt;La peligrosidad de los tóxicos que contienen las pilas y baterías ha generado que se tomen medidas especiales en muchos países, tales como: la reglamentación del contenido máximo de metales pesados (mercurio, plomo y cadmio) admitidos en pilas y baterías del tipo carbón-cinc y alcalinas; la implementación de sistemas de recolección diferenciada y posterior tratamiento para evitar que se desechen las pilas con los residuos domiciliarios.&lt;/p&gt;
-&lt;p&gt;El grado de toxicidad es diferente de acuerdo a cada tipo de pila. Según sus componentes las pilas y baterías presentan un riesgo ambiental potencial desde su fabricación, uso y tratamiento como residuo.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;¿Cómo se gestionan en la práctica?&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/16ejcaba.png&quot; alt=&quot;ejcaba&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Proyectos de reciclado en etapa de investigación existentes en Argentina&lt;/h3&gt;
-&lt;p&gt;Laboratorio UPL (Unidad PlaPiMu-Laseisic)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/17plapimu.png&quot; alt=&quot;plapimu&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Dependiente de la Facultad de Ciencias Exactas de la &lt;strong&gt;Universidad Nacional de La Plata (UNLP)&lt;/strong&gt; y de la &lt;strong&gt;Comisión de Investigaciones Científicas (CIC)&lt;/strong&gt; de la &lt;strong&gt;Provincia de Buenos Aires&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ubicación&lt;/strong&gt;: Gonnet, La Plata – Provincia de Buenos Aires.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Líder del proyecto&lt;/strong&gt;: Horacio Thomas (Dr. en Química).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Objetivo&lt;/strong&gt;: recuperar los metales de las pilas usadas. Para ello, utilizan el método hidrometalúrgico, pero con el uso de bacterias para la obtención del ácido sulfúrico, necesario para extraer los metales de las pilas. (bio-hidrometalurgia)
-Recuperan Cinc (Zn), Manganeso (Mn) y chatarra de hierro.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Comienzo del proyecto&lt;/strong&gt;: 2012&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Grado de avance del proyecto (2022)&lt;/strong&gt;:
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://nodoambiental.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nodoambiental.org/" rel="alternate" type="text/html" /><updated>2024-02-29T18:20:35-03:00</updated><id>https://nodoambiental.org/feed.xml</id><title type="html">Nodo Ambiental</title><subtitle>Descripcion Breve de Nodo Ambiental</subtitle><entry><title type="html">Infoblog Gestion de Pilas Usadas 1.0</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html" rel="alternate" type="text/html" title="Infoblog Gestion de Pilas Usadas 1.0" /><published>2023-11-28T12:00:00-03:00</published><updated>2023-11-30T20:49:44-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html"><![CDATA[<p><img src="/assets/images/post/01sol.png" alt="solpilas" /></p>
+<!--section-->
+<h1>Infoblog Gestion de Pilas Usadas 1.0</h1>
+<h2>Panorama integral con eje en la Argentina</h2>
+<p><img src="/assets/images/post/01cards.png" alt="cardspilas" /></p>
+<p><em>Teniendo en cuenta las dudas e inquietudes sobre las pilas usadas que se presentan en nuestra sociedad, es que tomamos la iniciativa y asumimos el desafío de entregar información que permita conocer cómo se encuentra hoy la situación respecto a su tratamiento en el país, si existen lugares dónde dejarlas, las formas de identificarlas y distinguirlas, y mucho más.</em></p>
+<p><em>Esperamos, por sobre todo, que la información les sea útil y práctica, y que sirva como base para el conocimiento y la toma de decisiones eficaz, para un problema que presenta características complejas y particulares según el lugar en donde cada uno resida.</em></p>
+<h3>Aquí se abordarán únicamente aspectos referidos a las pilas de uso doméstico (*)</h3>
+<p>No se incluye a las pilas o baterías industriales, de electrónicos, automóviles, energía solar, etc.</p>
+<p><img src="/assets/images/post/01pilas.png" alt="variaspilas" /></p>
+<p><em><strong>(*) Pila o batería Portátil de Uso Doméstico</strong>: Es todo dispositivo portátil de almacenamiento de energía asociado al uso normal que pertenece al universo de pilas identificadas por las normas ANSI (o IEC, dependiendo el caso), como <strong>AA, AAA, AAAA, C, D, N, 9V</strong> o <strong>botón</strong> y que por su peso y tamaño pueden ser transportadas en la mano por el usuario final.</em></p>
+<!--section-->
+<h2>Pilas y baterías ¿Qué son?</h2>
+<p>Las pilas y baterías son <strong>fuentes de energía portátil</strong> que transforman la <em>energía química</em> en <em>energía eléctrica</em>.</p>
+<p>Los componentes básicos consisten en <strong>dos electrodos</strong> (<strong>ánodo</strong> y <strong>cátodo</strong>), un <strong>electrolito</strong>, <strong>separadores</strong> y <strong>carcasa externa</strong>.</p>
+<p><img src="/assets/images/post/02comps.png" alt="queson1" /></p>
+<p>Física y electrónicamente, los electrodos están <em>aislados</em> en la celda para impedir un cortocircuito interno, pero están <em>rodeados por el electrolito</em>.</p>
+<p><img src="/assets/images/post/02compsvertical.png" alt="queson2" /></p>
+<p>Los separadores suelen estar compuestos de diferentes tipos de polímeros, papel y cartón (Bernardes et al., 2004).
+Las carcasas externas se producen con finas capas de acero, plástico y cartón (Bernardes et al., 2004).</p>
+<p>La mayor diferencia entre los <strong>distintos sistemas de pilas</strong> son los elementos usados para los <em>electrodos y electrolitos</em>, que <em>determinan las características específicas de cada sistema</em> (Bernardes et al., 2004).</p>
+<p><img src="/assets/images/post/02compsflujo.png" alt="queson3" /></p>
+<p><a class="button is-link is-light" href="https://www.youtube.com/watch?v=RqF1ikcFwDE">Video 1</a></p>
+<p>Los <em>tres componentes principales</em> que participan en la reacción química son:</p>
+<ol>
+<li>El <strong>ánodo</strong> o electrodo negativo, que <em>se oxida</em> durante la reacción electroquímica.</li>
+<li>El <strong>cátodo</strong> o electrodo positivo, que <em>se reduce</em> durante la reacción electroquímica.</li>
+</ol>
+<p>Las reacciones implican la <em>transferencia de electrones</em> del elemento que se <em>oxida</em> al elemento que se <em>reduce</em>.</p>
+<ol start="3">
+<li>El <strong>electrolito</strong>, es el conductor iónico, que <em>proporciona el medio para la transferencia de carga</em> en forma de iones (<em>átomos con carga eléctrica</em>) dentro de la celda, entre el ánodo y el cátodo. El electrolito es típicamente un líquido, tal como agua u otros disolventes, con sales disueltas, ácidos o álcalis.
+Si bien “la mayoría de los electrolitos son <em>soluciones acuosas</em>, existen excepciones”.</li>
+</ol>
+<p>En cuanto a la clasificación, hay <em>2 grandes grupos de pilas y baterías</em>:</p>
+<ul>
+<li><strong>Primarias</strong> o no recargables</li>
+<li><strong>Secundarias</strong> o recargables o acumuladores</li>
+</ul>
+<p>Existe la costumbre de denominar a las pilas recargables o acumuladores como “baterías” y al resto “pilas”. Sin embargo, si nos remitimos al inicio del estudio de la electricidad, se denominaba pila cuando se juntaban varios elementos o celdas, uno encima de otro, o sea “apilados”, y batería cuando las celdas estaban adosadas lateralmente.
+<strong>Surge así que la denominación de pilas o baterías serviría para cualquier tipo, sean primarias o secundarias</strong>.</p>
+<!--section-->  
+<h2>Clasificación</h2>
+<ul>
+<li>Clasificación por forma y tamaño</li>
+</ul>
+<p><img src="/assets/images/post/03clasificacion.png" alt="claspilas1" /></p>
+<ul>
+<li>Clasificación por tipo y composición</li>
+</ul>
+<p><img src="/assets/images/post/03clasificacion2.png" alt="claspilas2" /></p>
+<h2>Formas de distinguirlas</h2>
+<p><img src="/assets/images/post/04formas.png" alt="claspilas4" /></p>
+<p>Se sugiere observar la pila junto con el <em>gráfico</em> y la <em>tabla de clasificación</em> de arriba.</p>
+<!--section-->  
+<h2>Modelos de pilas que podemos encontrar en comercios de la Argentina (2022)</h2>
+<p>No siempre es fácil para el consumidor determinar qué tipo de pila tiene en su poder.
+Por lo tanto, se desarrolló la siguiente <strong>“guía visual para facilitar su identificación”</strong>.</p>
+<p><img src="/assets/images/post/05modelos.png" alt="claspilas5" /></p>
+<!--section-->  
+<h2>¿Cómo son las pilas por dentro?</h2>
+<h3>COMPARÁ PILAS Y BATERÍAS</h3>
+<p><img src="/assets/images/post/06comparapilas.png" alt="comparapilas" /></p>
+<p><a class="button is-link is-light" href="/contaminaci%C3%B3n/2023/11/27/pilacilindro.html">Cilíndricas</a></p>
+<p><a class="button is-link is-light" href="/contaminaci%C3%B3n/2023/11/26/pilaboton.html">Botón</a></p>
+<!--section-->  
+<h3>Efectos sobre la salud y el ambiente de algunos componentes de las pilas</h3>
+<p>Las pilas agotadas constituyen un muy bajo porcentaje de la composición de los residuos sólidos urbanos (RSU) (*), pero son la corriente con mayor aporte de compuestos con características de peligrosidad.</p>
+<p><em>(*) Ej. En la Ciudad de Buenos Aires la composición de Residuos Peligrosos que constituyen los RSU fluctúa en el orden del 0,70%, fracción que incluye las pilas y baterías - Ref: Evolución de la calidad de los RSU (1972-2005) CABA - IISFIUBA-CEAMSE</em></p>
+<p>Existe una extensa diversidad y varían de acuerdo a sus compuestos activos, forma, tamaño, voltaje, capacidad y duración.
+<em>Según sus componentes</em> las pilas y baterías presentan un riesgo ambiental <em>potencial</em> desde su <em><strong>fabricación, uso y tratamiento</strong></em> como residuo. El grado de toxicidad es diferente de acuerdo a cada tipo.</p>
+<p>Los ácidos, álcalis, sales y metales pesados como el mercurio, cadmio, níquel, litio, cinc, manganeso y plomo, hacen que resulten riesgosas para la salud y el ambiente, en general, frente a una inadecuada gestión de las mismas.</p>
+<p>El cadmio, plomo y mercurio son tóxicos aún en concentraciones bajas y tienen tendencia a acumularse en los seres vivos.
+No obstante su peligrosidad, la relevancia e incidencia de estos últimos, ha disminuido considerablemente, producto de medidas especiales tomadas en muchos países, tales como la reglamentación del contenido máximo para determinadas pilas y baterías.</p>
+<p>En el caso de <em><strong>quemarse en condiciones inadecuadas</strong></em>, las pilas liberan gases no deseados y tóxicos que generan una alta contaminación atmosférica.</p>
+<p>Si bien aquellas de buena calidad son bastante resistentes, <em><strong>al ser desechadas</strong></em> corren el riesgo de perder la cobertura protectora de metal por corrosión interna a través de la acción química de sus propios compuestos o externa de las carcasas por la acción climática y propia de la degradación de los residuos.</p>
+<p>Cuando se produce el derrame del electrolito contenido en las pilas, éste arrastra a los metales pesados que la conforman. Estos metales pueden <em>lixiviar (**)</em> a través del suelo y fluir por cursos de agua y acuíferos, contaminando el recurso natural y afectando la salud de los seres vivos.</p>
+<p><em>(**) Desplazamiento de sustancias solubles o dispersables (ej. sales, metales, etc.)</em></p>
+<p>Por otra parte, la obtención de las materias primas para la fabricación de las pilas y las baterías implica el consumo de recursos naturales no renovables y de alto costo económico.</p>
+<p>Finalmente, vale mencionar que, los efectos negativos que impactan directamente sobre la salud humana son los <em><strong>principales motivos que generan la necesidad de una adecuada gestión ambiental de las pilas y baterías</strong></em>.</p>
+<p><img src="/assets/images/post/07metales.png" alt="metales" /></p>
+<p><img src="/assets/images/post/07metalesatencion.png" alt="metalesatencion" /></p>
+<p><a class="button is-link is-light" href="/contaminaci%C3%B3n/2023/11/25/materiales.html">Materiales en Pilas</a></p>
+<hr />
+<h3>Tipos de tratamiento más habituales existentes en el mundo para pilas y baterías usadas</h3>
+<p><img src="/assets/images/post/08tratamientos.png" alt="tiposttmto" /></p>
+<p><img src="/assets/images/post/08ttmtos.png" alt="tipos2" /></p>
+<p><a class="button is-link is-light" href="/contaminaci%C3%B3n/2023/11/24/tratamientos.html">Tratamientos</a></p>
+<h3>Países que cuentan con capacidad industrial para el reciclado y tratamiento de pilas y baterías usadas. Ejemplos.</h3>
+<p><img src="/assets/images/post/30Argentina.png" alt="Argentina" /></p>
+<p><img src="/assets/images/post/10argentina.png" alt="arg10" /></p>
+<hr />
+<h3>Abanico o baraja de opciones que existen al momento de elegir pilas y baterías o un sustituto.</h3>
+<p>Se presentan ordenadas según relevancia y beneficio o aceptabilidad (+ / - )</p>
+<p><img src="/assets/images/post/11baraja.png" alt="baraja1" /></p>
+<p><img src="/assets/images/post/11baraja2.png" alt="baraja2" /></p>
+<p><img src="/assets/images/post/12baraja.png" alt="baraja3" /></p>
+<hr />
+<h3>¿Qué sucede en los hechos en Argentina?</h3>
+<p><img src="/assets/images/post/12hechos.png" alt="hechos" /></p>
+<p><a class="button is-link is-light" href="/contaminaci%C3%B3n/2023/11/23/notas.html">Notas</a></p>
+<hr />
+<h3>Diferencias en gestión</h3>
+<p><img src="/assets/images/post/14diferencias.png" alt="dif" /></p>
+<p><a class="button is-link is-light" href="/contaminaci%C3%B3n/2023/11/22/diferencias.html">Mirá</a></p>
+<hr />
+<h3>Matriz Legal</h3>
+<p><img src="/assets/images/post/14matriz.png" alt="matriz" /></p>
+<h5>Vigente al año 2022</h5>
+<p><a class="button is-link is-light" href="https://docs.google.com/spreadsheets/d/1kFr_r9hwtHfCh2Tilq1tk41eyh1DxQAU/edit?usp=sharing&ouid=113412982289860829132&rtpof=true&sd=true">Acceso</a></p>
+<hr />
+<h3>¿Qué clase de residuo son las pilas usadas?</h3>
+<p><img src="/assets/images/post/16regu.png" alt="regu" /></p>
+<hr />
+<p><img src="/assets/images/post/16regu2.png" alt="regu2" /></p>
+<hr />
+<p>Las pilas (primarias y secundarias) de <em><strong>uso domiciliario</strong></em> pueden ser clasificadas como <em><strong>residuos especiales de generación universal o residuos sujetos a manejo especial</strong></em> ya que, además de devenir del consumo masivo, requieren de una gestión ambientalmente adecuada y diferenciada de otros residuos, debido a sus potenciales características de peligrosidad.</p>
+<p>Podemos decir, que se encuentran en una <strong>zona gris</strong> entre el concepto de residuo peligroso y residuo domiciliario.</p>
+<p>La peligrosidad de los tóxicos que contienen las pilas y baterías ha generado que se tomen medidas especiales en muchos países, tales como: la reglamentación del contenido máximo de metales pesados (mercurio, plomo y cadmio) admitidos en pilas y baterías del tipo carbón-cinc y alcalinas; la implementación de sistemas de recolección diferenciada y posterior tratamiento para evitar que se desechen las pilas con los residuos domiciliarios.</p>
+<p>El grado de toxicidad es diferente de acuerdo a cada tipo de pila. Según sus componentes las pilas y baterías presentan un riesgo ambiental potencial desde su fabricación, uso y tratamiento como residuo.</p>
+<hr />
+<h3>¿Cómo se gestionan en la práctica?</h3>
+<p><img src="/assets/images/post/16ejcaba.png" alt="ejcaba" /></p>
+<hr />
+<h3>Proyectos de reciclado en etapa de investigación existentes en Argentina</h3>
+<p>Laboratorio UPL (Unidad PlaPiMu-Laseisic)</p>
+<p><img src="/assets/images/post/17plapimu.png" alt="plapimu" /></p>
+<p>Dependiente de la Facultad de Ciencias Exactas de la <strong>Universidad Nacional de La Plata (UNLP)</strong> y de la <strong>Comisión de Investigaciones Científicas (CIC)</strong> de la <strong>Provincia de Buenos Aires</strong>.</p>
+<p><strong>Ubicación</strong>: Gonnet, La Plata – Provincia de Buenos Aires.</p>
+<p><strong>Líder del proyecto</strong>: Horacio Thomas (Dr. en Química).</p>
+<p><strong>Objetivo</strong>: recuperar los metales de las pilas usadas. Para ello, utilizan el método hidrometalúrgico, pero con el uso de bacterias para la obtención del ácido sulfúrico, necesario para extraer los metales de las pilas. (bio-hidrometalurgia)
+Recuperan Cinc (Zn), Manganeso (Mn) y chatarra de hierro.</p>
+<p><strong>Comienzo del proyecto</strong>: 2012</p>
+<p><strong>Grado de avance del proyecto (2022)</strong>:
 La planta tiene una capacidad de tratamiento de 80 kg de pilas por mes, equivalente al consumo de unos 8000 habitantes.
-Es importante aclarar que se trata de una planta experimental y que, por lo tanto, &lt;em&gt;no recibe pilas en desuso&lt;/em&gt; y &lt;em&gt;no está abierta al público&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.exactas.unlp.edu.ar/articulo/2014/12/11/plapimu_laseisic&quot;&gt;PLAPIMU-LASEISIC&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Preguntas Frecuentes&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf1.png&quot; alt=&quot;pf1&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;/contaminaci%C3%B3n/2023/11/21/pregunta1.html&quot;&gt;Respuesta&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf2.png&quot; alt=&quot;pf2&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;/contaminaci%C3%B3n/2023/11/20/pregunta2.html&quot;&gt;Respuesta&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf3.png&quot; alt=&quot;pf3&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;El símbolo del contenedor de basura tachado recuerda que dicho producto debe llevarse a puntos de recolección diferenciados al final de su vida útil. No debés tirar estos productos junto con los demás desechos domésticos. Estos deberían ser reciclados.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf4.png&quot; alt=&quot;pf4&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Según el Instituto Nacional de Tecnología Industrial (INTI), para la implementación de cualquier programa de recolección diferenciada de pilas y baterías es recomendable revisar los requerimientos y exigencias de cada una de las etapas de la gestión a nivel local y nacional, no involucrando como áreas de acopio a colegios, clubes o instituciones donde concurren niños o poblaciones vulnerables&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf5.png&quot; alt=&quot;pf5&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Podés averiguar directamente en tu MUNICIPIO o DEPARTAMENTO.&lt;/p&gt;
-&lt;p&gt;La competencia sobre la gestión de los residuos generados en los hogares corresponde a la jurisdicción local (autoridad municipal o departamental) y, por lo tanto, es allí a donde se debe consultar para mayor información sobre la existencia de programas para la gestión de pilas y baterías.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf6.png&quot; alt=&quot;pf6&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Las pilas usadas pueden conservar una pequeña carga residual.&lt;/p&gt;
-&lt;p&gt;Como la capacidad eléctrica se mantiene y estas pueden entrar en contacto con otros metales, esto podría provocar distorsiones, fugas, sobrecalentamiento, o una explosión de las mismas. Por lo tanto, es recomendable asegurarse de cubrir los polos positivo (+) y negativo (-) con cinta adhesiva o algún otro aislante antes de descartarlas.&lt;/p&gt;
-&lt;h4&gt;Medidas y precauciones:&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf6a.png&quot; alt=&quot;pf6a&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Jurisdicciones con municipios que informan que gestionan y tratan pilas usadas en Argentina&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/19bap.png&quot; alt=&quot;bap&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/19caba.png&quot; alt=&quot;bap&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/19cba.png&quot; alt=&quot;bap&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/19mza.png&quot; alt=&quot;bap&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Si tenés información que en tu provincia o municipio/departamento existe un plan de recolección y gestión de pilas de uso doméstico usadas y no aparece aquí, podés escribir a la Fundación Nodo Ambiental y será evaluada para su incorporación a la base de datos.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;Créditos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Elaboración General: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Desarrollo Web: Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Editorial: Laura González&lt;/li&gt;
-&lt;li&gt;Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando&lt;/li&gt;
-&lt;li&gt;Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Agradecimientos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.trust.org/trustlaw/&quot;&gt;TrustLaw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://raci.org.ar/&quot;&gt;RACI&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Cita&lt;/h3&gt;
-&lt;p&gt;Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de &lt;a href=&quot;https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html&quot;&gt;https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;/contaminaci%C3%B3n/2023/11/01/referencias.html&quot;&gt;Referencias&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="contaminación" /><category term="transición" /><category term="sustentable" /><summary type="html"></summary></entry><entry><title type="html">Compara Pilas Cilíndricas</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/27/pilacilindro.html" rel="alternate" type="text/html" title="Compara Pilas Cilíndricas" /><published>2023-11-27T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/27/pilacilindro</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/27/pilacilindro.html">&lt;p&gt;&lt;img src=&quot;/assets/images/post/06pilacilindro.png&quot; alt=&quot;pilacilindro&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;h1&gt;Pilas Cilíndricas&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/06comparapilacilindro.png&quot; alt=&quot;comppc&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;Créditos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Elaboración General: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Desarrollo Web y GitHub: Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Editorial: Laura González&lt;/li&gt;
-&lt;li&gt;Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando&lt;/li&gt;
-&lt;li&gt;Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Agradecimientos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.trust.org/trustlaw/&quot;&gt;TrustLaw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://raci.org.ar/&quot;&gt;RACI&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Cita&lt;/h3&gt;
-&lt;p&gt;Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de &lt;a href=&quot;https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html&quot;&gt;https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://nodoambiental.org/contaminación/2023/11/01/referencias.html&quot;&gt;Referencias&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="contaminación" /><category term="pilas" /><summary type="html"></summary></entry><entry><title type="html">Compara Pilas Botón</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/26/pilaboton.html" rel="alternate" type="text/html" title="Compara Pilas Botón" /><published>2023-11-26T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/26/pilaboton</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/26/pilaboton.html">&lt;p&gt;&lt;img src=&quot;/assets/images/post/06pilaboton.png&quot; alt=&quot;pilaboton&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;h1&gt;Pilas Botón&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/06comparapilaboton.png&quot; alt=&quot;comppb&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;Créditos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Elaboración General: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Desarrollo Web: Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Editorial: Laura González&lt;/li&gt;
-&lt;li&gt;Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando&lt;/li&gt;
-&lt;li&gt;Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Agradecimientos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.trust.org/trustlaw/&quot;&gt;TrustLaw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://raci.org.ar/&quot;&gt;RACI&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Cita&lt;/h3&gt;
-&lt;p&gt;Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de &lt;a href=&quot;https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html&quot;&gt;https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://nodoambiental.org/contaminación/2023/11/01/referencias.html&quot;&gt;Referencias&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="contaminación" /><category term="transición" /><category term="sustentable" /><summary type="html"></summary></entry><entry><title type="html">Materiales en Pilas</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/25/materiales.html" rel="alternate" type="text/html" title="Materiales en Pilas" /><published>2023-11-25T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/25/materiales</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/25/materiales.html">&lt;p&gt;&lt;img src=&quot;/assets/images/post/01sol.png&quot; alt=&quot;sol&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;h1&gt;Metales presentes en los electrodos&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;:construction:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/07metales.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;Créditos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Elaboración General: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Desarrollo Web: Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Editorial: Laura González&lt;/li&gt;
-&lt;li&gt;Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando&lt;/li&gt;
-&lt;li&gt;Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Agradecimientos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.trust.org/trustlaw/&quot;&gt;TrustLaw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://raci.org.ar/&quot;&gt;RACI&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Cita&lt;/h3&gt;
-&lt;p&gt;Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de &lt;a href=&quot;https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html&quot;&gt;https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://nodoambiental.org/contaminación/2023/11/01/referencias.html&quot;&gt;Referencias&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="contaminación" /><category term="metales" /><summary type="html"></summary></entry><entry><title type="html">Tratamientos</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/24/tratamientos.html" rel="alternate" type="text/html" title="Tratamientos" /><published>2023-11-24T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/24/tratamientos</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/24/tratamientos.html">&lt;p&gt;&lt;img src=&quot;/assets/images/post/01sol.png&quot; alt=&quot;sol&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;h1&gt;Pre-tratamiento&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/08pre.png&quot; alt=&quot;pre&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;h1&gt;Tratamientos&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/08piro.png&quot; alt=&quot;t1&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/08hidro.png&quot; alt=&quot;t2&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/08destilacion.png&quot; alt=&quot;t3&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/08combi.png&quot; alt=&quot;t4&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/08seguridad.png&quot; alt=&quot;t5&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;Créditos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Elaboración General: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Desarrollo Web: Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Editorial: Laura González&lt;/li&gt;
-&lt;li&gt;Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando&lt;/li&gt;
-&lt;li&gt;Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Agradecimientos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.trust.org/trustlaw/&quot;&gt;TrustLaw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://raci.org.ar/&quot;&gt;RACI&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Cita&lt;/h3&gt;
-&lt;p&gt;Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de &lt;a href=&quot;https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html&quot;&gt;https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://nodoambiental.org/contaminación/2023/11/01/referencias.html&quot;&gt;Referencias&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="contaminación" /><category term="gestión" /><summary type="html"></summary></entry><entry><title type="html">Notas</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/23/notas.html" rel="alternate" type="text/html" title="Notas" /><published>2023-11-23T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/23/notas</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/23/notas.html">&lt;p&gt;&lt;img src=&quot;/assets/images/post/01sol.png&quot; alt=&quot;sol&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;h1&gt;Ejemplos de prensa sobre casos en Argentina&lt;/h1&gt;
-&lt;!--section--&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/12nota1.png&quot; alt=&quot;nota1&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/12nota2.png&quot; alt=&quot;nota2&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/12nota3.png&quot; alt=&quot;nota3&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;¡Si tienes otros ejemplos que compartir agradecemos tu contribución por  la información!&lt;/p&gt;
-&lt;h3&gt;Créditos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Elaboración General: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Desarrollo Web: Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Editorial: Laura González&lt;/li&gt;
-&lt;li&gt;Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando&lt;/li&gt;
-&lt;li&gt;Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Agradecimientos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.trust.org/trustlaw/&quot;&gt;TrustLaw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://raci.org.ar/&quot;&gt;RACI&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Cita&lt;/h3&gt;
-&lt;p&gt;Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de &lt;a href=&quot;https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html&quot;&gt;https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://nodoambiental.org/contaminación/2023/11/01/referencias.html&quot;&gt;Referencias&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="contaminación" /><category term="prensa" /><summary type="html"></summary></entry><entry><title type="html">Diferencias en Gestión</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/22/diferencias.html" rel="alternate" type="text/html" title="Diferencias en Gestión" /><published>2023-11-22T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/22/diferencias</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/22/diferencias.html">&lt;p&gt;&lt;img src=&quot;/assets/images/post/14diferencias.png&quot; alt=&quot;diferencias&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;h1&gt;Diferencias en gestión del tratamiento del residuo pilas&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/14dif1.png&quot; alt=&quot;dif1&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;Gráfico de Relleno Sanitario&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/14dif2.png&quot; alt=&quot;dif2&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;Imágenes de Relleno Sanitario&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/14ceamse.png&quot; alt=&quot;ceamse&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;Gráfico de Relleno de Seguridad&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/14relleno2.png&quot; alt=&quot;relleno2&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;Créditos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Elaboración General: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Desarrollo Web: Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Editorial: Laura González&lt;/li&gt;
-&lt;li&gt;Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando&lt;/li&gt;
-&lt;li&gt;Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Agradecimientos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.trust.org/trustlaw/&quot;&gt;TrustLaw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://raci.org.ar/&quot;&gt;RACI&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Cita&lt;/h3&gt;
-&lt;p&gt;Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de &lt;a href=&quot;https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html&quot;&gt;https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://nodoambiental.org/contaminación/2023/11/01/referencias.html&quot;&gt;Referencias&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="contaminación" /><category term="gestión" /><summary type="html"></summary></entry><entry><title type="html">Tengo Pilas en Casa: 1</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/21/pregunta1.html" rel="alternate" type="text/html" title="Tengo Pilas en Casa: 1" /><published>2023-11-21T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/21/pregunta1</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/21/pregunta1.html">&lt;p&gt;&lt;img src=&quot;/assets/images/post/01sol.png&quot; alt=&quot;sol01&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf1.png&quot; alt=&quot;pf1&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf1a.png&quot; alt=&quot;pf1a&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf1b.png&quot; alt=&quot;pf1b&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf1c.png&quot; alt=&quot;pf1c&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf1d.png&quot; alt=&quot;pf1d&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf1e.png&quot; alt=&quot;pf1e&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;Créditos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Elaboración General: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Desarrollo Web: Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Editorial: Laura González&lt;/li&gt;
-&lt;li&gt;Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando&lt;/li&gt;
-&lt;li&gt;Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Agradecimientos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.trust.org/trustlaw/&quot;&gt;TrustLaw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://raci.org.ar/&quot;&gt;RACI&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Cita&lt;/h3&gt;
-&lt;p&gt;Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de &lt;a href=&quot;https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html&quot;&gt;https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://nodoambiental.org/contaminación/2023/11/01/referencias.html&quot;&gt;Referencias&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="contaminación" /><category term="gestión" /><summary type="html"></summary></entry><entry><title type="html">Tengo Pilas en Casa: 2</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/20/pregunta2.html" rel="alternate" type="text/html" title="Tengo Pilas en Casa: 2" /><published>2023-11-20T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/20/pregunta2</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/20/pregunta2.html">&lt;p&gt;&lt;img src=&quot;/assets/images/post/01sol.png&quot; alt=&quot;sol01&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf2.png&quot; alt=&quot;pf2&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/post/18pf2a.png&quot; alt=&quot;pf2a&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://nodoambiental.org/contaminación/2023/11/21/pregunta1.html&quot;&gt;Ver&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Créditos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Elaboración General: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Desarrollo Web: Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Editorial: Laura González&lt;/li&gt;
-&lt;li&gt;Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando&lt;/li&gt;
-&lt;li&gt;Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Agradecimientos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.trust.org/trustlaw/&quot;&gt;TrustLaw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://raci.org.ar/&quot;&gt;RACI&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Cita&lt;/h3&gt;
-&lt;p&gt;Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de &lt;a href=&quot;https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html&quot;&gt;https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://nodoambiental.org/contaminación/2023/11/01/referencias.html&quot;&gt;Referencias&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="contaminación" /><category term="gestión" /><summary type="html"></summary></entry><entry><title type="html">Referencias</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/01/referencias.html" rel="alternate" type="text/html" title="Referencias" /><published>2023-11-01T12:00:00-03:00</published><updated>2023-12-02T19:39:19-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/01/referencias</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/01/referencias.html">&lt;p&gt;&lt;img src=&quot;/assets/images/post/01sol.png&quot; alt=&quot;ref&quot; /&gt;&lt;/p&gt;
-&lt;!--section--&gt;
-&lt;h1&gt;Referencias&lt;/h1&gt;
-&lt;h2&gt;RESUMEN DE LAS FUENTES&lt;/h2&gt;
-&lt;h3&gt;GESTIÓN DE PILAS Y BATERÍAS&lt;/h3&gt;
-&lt;p&gt;Accurec &lt;a href=&quot;https://accurec.de/&quot;&gt;https://accurec.de/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Alpiba &lt;a href=&quot;https://www.alpiba.org/&quot;&gt;https://www.alpiba.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;APRA (2018) - Informe Técnico Proyecto de Ley de Pilas en Desuso - informe_pilas_web.pdf &lt;a href=&quot;https://www.buenosaires.gob.ar/sites/gcaba/files/informe_pilas_web.pdf&quot;&gt;https://www.buenosaires.gob.ar/sites/gcaba/files/informe_pilas_web.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Battery Reference Book 3E - T.R.Crompton (Third edition) Ed. Newnes (2000) – &lt;a href=&quot;https://www.academia.edu/4936403/Battery_Reference_Book_3E&quot;&gt;https://www.academia.edu/4936403/Battery_Reference_Book_3E&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Centro Coordinador del Convenio de Basilea para América Latina y el Caribe (2005) - Guía para la Gestión Integral de Residuos Peligrosos. Fichas Temáticas &amp;lt;www.cempre.org.uy/docs/biblioteca/guia_para_la_gestion_integral_residuos/gestion_respel02-fichas_tematicas.pdf&amp;gt;&lt;/p&gt;
-&lt;p&gt;Duracell &lt;a href=&quot;https://www.duracell.com/&quot;&gt;https://www.duracell.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Energizer - &lt;a href=&quot;https://data.energizer.com/&quot;&gt;https://data.energizer.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Google Patents&lt;/p&gt;
-&lt;p&gt;Handbook of Batteries – Ed. Mc Graw Hill – Tercera Edición - &lt;a href=&quot;https://www.academia.edu/38511540/HANDBOOK_OF_BATTERIES_Third_Edition&quot;&gt;https://www.academia.edu/38511540/HANDBOOK_OF_BATTERIES_Third_Edition&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;INTI (2016) - Gestión de pilas y baterías eléctricas en Argentina - pilasybaterias2016.pdf -  &lt;a href=&quot;https://www.inti.gob.ar/publicaciones/descargac/20&quot;&gt;https://www.inti.gob.ar/publicaciones/descargac/20&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;INTI (2022) – Guía de gestión integral PILAS y BATERIAS EN DESUSO - &lt;a href=&quot;https://www.inti.gob.ar/assets/uploads/files/ambiente/Guia-de-gestion-integral-PILAS-y-BATERIAS-EN-DESUSO.pdf&quot;&gt;https://www.inti.gob.ar/assets/uploads/files/ambiente/Guia-de-gestion-integral-PILAS-y-BATERIAS-EN-DESUSO.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Min. Ambiente - &lt;a href=&quot;https://www.argentina.gob.ar/ambiente/control/productos-quimicos/metales-pesados/pilas-y-baterias&quot;&gt;https://www.argentina.gob.ar/ambiente/control/productos-quimicos/metales-pesados/pilas-y-baterias&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;OPDS (2021) - Dossier Experiencias - 038+OJS+Dossier+Experiencias_opt.pdf - &lt;a href=&quot;https://ojs.opds.gba.gov.ar/index.php/aed/article/download/16/67&quot;&gt;https://ojs.opds.gba.gov.ar/index.php/aed/article/download/16/67&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;PGA RIPPILA - Plan de Gestión Integral de Pilas (Rippila) - Anexo II (2019) &lt;a href=&quot;https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-DIS-MAYEPGC-DGPOLEA-49-19-ANX.pdf&quot;&gt;https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-DIS-MAYEPGC-DGPOLEA-49-19-ANX.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Fuentes específicas de textos, videos e imágenes:&lt;/h3&gt;
-&lt;p&gt;En construcción.&lt;/p&gt;
-&lt;h3&gt;Créditos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Elaboración General: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso&lt;/li&gt;
-&lt;li&gt;Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Desarrollo Web: Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Editorial: Laura González&lt;/li&gt;
-&lt;li&gt;Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano&lt;/li&gt;
-&lt;li&gt;Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando&lt;/li&gt;
-&lt;li&gt;Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Agradecimientos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://www.trust.org/trustlaw/&quot;&gt;TrustLaw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://raci.org.ar/&quot;&gt;RACI&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Nota&lt;/h3&gt;
-&lt;p&gt;Mayores detalles de referencias a las fuentes son actualizadas en cada nueva versión del Infoblog.&lt;br /&gt;
-Los materiales son compartidos con fines educativos.&lt;/p&gt;
-&lt;h3&gt;Cita&lt;/h3&gt;
-&lt;p&gt;Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de &lt;a href=&quot;https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html&quot;&gt;https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;button is-link is-light&quot; href=&quot;https://nodoambiental.org/contaminación/2023/11/01/referencias.html&quot;&gt;Referencias&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="contaminación" /><category term="referencias" /><summary type="html"></summary></entry></feed>
+Es importante aclarar que se trata de una planta experimental y que, por lo tanto, <em>no recibe pilas en desuso</em> y <em>no está abierta al público</em>.</p>
+<p><a class="button is-link is-light" href="https://www.exactas.unlp.edu.ar/articulo/2014/12/11/plapimu_laseisic">PLAPIMU-LASEISIC</a></p>
+<hr />
+<h3>Preguntas Frecuentes</h3>
+<p><img src="/assets/images/post/18pf1.png" alt="pf1" /></p>
+<p><a class="button is-link is-light" href="/contaminaci%C3%B3n/2023/11/21/pregunta1.html">Respuesta</a></p>
+<p><img src="/assets/images/post/18pf2.png" alt="pf2" /></p>
+<p><a class="button is-link is-light" href="/contaminaci%C3%B3n/2023/11/20/pregunta2.html">Respuesta</a></p>
+<p><img src="/assets/images/post/18pf3.png" alt="pf3" /></p>
+<p>El símbolo del contenedor de basura tachado recuerda que dicho producto debe llevarse a puntos de recolección diferenciados al final de su vida útil. No debés tirar estos productos junto con los demás desechos domésticos. Estos deberían ser reciclados.</p>
+<p><img src="/assets/images/post/18pf4.png" alt="pf4" /></p>
+<p>Según el Instituto Nacional de Tecnología Industrial (INTI), para la implementación de cualquier programa de recolección diferenciada de pilas y baterías es recomendable revisar los requerimientos y exigencias de cada una de las etapas de la gestión a nivel local y nacional, no involucrando como áreas de acopio a colegios, clubes o instituciones donde concurren niños o poblaciones vulnerables</p>
+<p><img src="/assets/images/post/18pf5.png" alt="pf5" /></p>
+<p>Podés averiguar directamente en tu MUNICIPIO o DEPARTAMENTO.</p>
+<p>La competencia sobre la gestión de los residuos generados en los hogares corresponde a la jurisdicción local (autoridad municipal o departamental) y, por lo tanto, es allí a donde se debe consultar para mayor información sobre la existencia de programas para la gestión de pilas y baterías.</p>
+<p><img src="/assets/images/post/18pf6.png" alt="pf6" /></p>
+<p>Las pilas usadas pueden conservar una pequeña carga residual.</p>
+<p>Como la capacidad eléctrica se mantiene y estas pueden entrar en contacto con otros metales, esto podría provocar distorsiones, fugas, sobrecalentamiento, o una explosión de las mismas. Por lo tanto, es recomendable asegurarse de cubrir los polos positivo (+) y negativo (-) con cinta adhesiva o algún otro aislante antes de descartarlas.</p>
+<h4>Medidas y precauciones:</h4>
+<p><img src="/assets/images/post/18pf6a.png" alt="pf6a" /></p>
+<hr />
+<h3>Jurisdicciones con municipios que informan que gestionan y tratan pilas usadas en Argentina</h3>
+<p><img src="/assets/images/post/19bap.png" alt="bap" /></p>
+<p><img src="/assets/images/post/19caba.png" alt="bap" /></p>
+<p><img src="/assets/images/post/19cba.png" alt="bap" /></p>
+<p><img src="/assets/images/post/19mza.png" alt="bap" /></p>
+<hr />
+<p><em><strong>Si tenés información que en tu provincia o municipio/departamento existe un plan de recolección y gestión de pilas de uso doméstico usadas y no aparece aquí, podés escribir a la Fundación Nodo Ambiental y será evaluada para su incorporación a la base de datos.</strong></em></p>
+<hr />
+<h3>Créditos</h3>
+<ul>
+<li>Elaboración General: Hernán Giangrasso</li>
+<li>Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso</li>
+<li>Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano</li>
+<li>Desarrollo Web: Ágata Ordano, Mariano Ordano</li>
+<li>Editorial: Laura González</li>
+<li>Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano</li>
+<li>Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando</li>
+<li>Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental</li>
+</ul>
+<h3>Agradecimientos</h3>
+<ul>
+<li>Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina</li>
+</ul>
+<p><a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a></p>
+<p><a class="button is-link is-light" href="https://raci.org.ar/">RACI</a></p>
+<h3>Cita</h3>
+<p>Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <a href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html">https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html</a></p>
+<p><a class="button is-link is-light" href="/contaminaci%C3%B3n/2023/11/01/referencias.html">Referencias</a></p>]]></content><author><name></name></author><category term="contaminación" /><category term="transición" /><category term="sustentable" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Compara Pilas Cilíndricas</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/27/pilacilindro.html" rel="alternate" type="text/html" title="Compara Pilas Cilíndricas" /><published>2023-11-27T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/27/pilacilindro</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/27/pilacilindro.html"><![CDATA[<p><img src="/assets/images/post/06pilacilindro.png" alt="pilacilindro" /></p>
+<!--section-->
+<h1>Pilas Cilíndricas</h1>
+<p><img src="/assets/images/post/06comparapilacilindro.png" alt="comppc" /></p>
+<h3>Créditos</h3>
+<ul>
+<li>Elaboración General: Hernán Giangrasso</li>
+<li>Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso</li>
+<li>Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano</li>
+<li>Desarrollo Web y GitHub: Ágata Ordano, Mariano Ordano</li>
+<li>Editorial: Laura González</li>
+<li>Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano</li>
+<li>Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando</li>
+<li>Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental</li>
+</ul>
+<h3>Agradecimientos</h3>
+<ul>
+<li>Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina</li>
+</ul>
+<p><a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a></p>
+<p><a class="button is-link is-light" href="https://raci.org.ar/">RACI</a></p>
+<h3>Cita</h3>
+<p>Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <a href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html">https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html</a></p>
+<p><a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a></p>]]></content><author><name></name></author><category term="contaminación" /><category term="pilas" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Compara Pilas Botón</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/26/pilaboton.html" rel="alternate" type="text/html" title="Compara Pilas Botón" /><published>2023-11-26T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/26/pilaboton</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/26/pilaboton.html"><![CDATA[<p><img src="/assets/images/post/06pilaboton.png" alt="pilaboton" /></p>
+<!--section-->
+<h1>Pilas Botón</h1>
+<p><img src="/assets/images/post/06comparapilaboton.png" alt="comppb" /></p>
+<h3>Créditos</h3>
+<ul>
+<li>Elaboración General: Hernán Giangrasso</li>
+<li>Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso</li>
+<li>Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano</li>
+<li>Desarrollo Web: Ágata Ordano, Mariano Ordano</li>
+<li>Editorial: Laura González</li>
+<li>Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano</li>
+<li>Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando</li>
+<li>Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental</li>
+</ul>
+<h3>Agradecimientos</h3>
+<ul>
+<li>Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina</li>
+</ul>
+<p><a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a></p>
+<p><a class="button is-link is-light" href="https://raci.org.ar/">RACI</a></p>
+<h3>Cita</h3>
+<p>Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <a href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html">https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html</a></p>
+<p><a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a></p>]]></content><author><name></name></author><category term="contaminación" /><category term="transición" /><category term="sustentable" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Materiales en Pilas</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/25/materiales.html" rel="alternate" type="text/html" title="Materiales en Pilas" /><published>2023-11-25T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/25/materiales</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/25/materiales.html"><![CDATA[<p><img src="/assets/images/post/01sol.png" alt="sol" /></p>
+<!--section-->
+<h1>Metales presentes en los electrodos</h1>
+<p><code>:construction:</code></p>
+<p><img src="/assets/images/post/07metales.png" alt="" /></p>
+<h3>Créditos</h3>
+<ul>
+<li>Elaboración General: Hernán Giangrasso</li>
+<li>Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso</li>
+<li>Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano</li>
+<li>Desarrollo Web: Ágata Ordano, Mariano Ordano</li>
+<li>Editorial: Laura González</li>
+<li>Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano</li>
+<li>Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando</li>
+<li>Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental</li>
+</ul>
+<h3>Agradecimientos</h3>
+<ul>
+<li>Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina</li>
+</ul>
+<p><a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a></p>
+<p><a class="button is-link is-light" href="https://raci.org.ar/">RACI</a></p>
+<h3>Cita</h3>
+<p>Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <a href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html">https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html</a></p>
+<p><a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a></p>]]></content><author><name></name></author><category term="contaminación" /><category term="metales" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Tratamientos</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/24/tratamientos.html" rel="alternate" type="text/html" title="Tratamientos" /><published>2023-11-24T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/24/tratamientos</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/24/tratamientos.html"><![CDATA[<p><img src="/assets/images/post/01sol.png" alt="sol" /></p>
+<!--section-->
+<h1>Pre-tratamiento</h1>
+<p><img src="/assets/images/post/08pre.png" alt="pre" /></p>
+<!--section-->
+<h1>Tratamientos</h1>
+<p><img src="/assets/images/post/08piro.png" alt="t1" /></p>
+<!--section-->
+<p><img src="/assets/images/post/08hidro.png" alt="t2" /></p>
+<!--section-->
+<p><img src="/assets/images/post/08destilacion.png" alt="t3" /></p>
+<!--section-->
+<p><img src="/assets/images/post/08combi.png" alt="t4" /></p>
+<!--section-->
+<p><img src="/assets/images/post/08seguridad.png" alt="t5" /></p>
+<h3>Créditos</h3>
+<ul>
+<li>Elaboración General: Hernán Giangrasso</li>
+<li>Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso</li>
+<li>Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano</li>
+<li>Desarrollo Web: Ágata Ordano, Mariano Ordano</li>
+<li>Editorial: Laura González</li>
+<li>Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano</li>
+<li>Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando</li>
+<li>Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental</li>
+</ul>
+<h3>Agradecimientos</h3>
+<ul>
+<li>Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina</li>
+</ul>
+<p><a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a></p>
+<p><a class="button is-link is-light" href="https://raci.org.ar/">RACI</a></p>
+<h3>Cita</h3>
+<p>Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <a href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html">https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html</a></p>
+<p><a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a></p>]]></content><author><name></name></author><category term="contaminación" /><category term="gestión" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Notas</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/23/notas.html" rel="alternate" type="text/html" title="Notas" /><published>2023-11-23T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/23/notas</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/23/notas.html"><![CDATA[<p><img src="/assets/images/post/01sol.png" alt="sol" /></p>
+<!--section-->
+<h1>Ejemplos de prensa sobre casos en Argentina</h1>
+<!--section-->
+<p><img src="/assets/images/post/12nota1.png" alt="nota1" /></p>
+<!--section-->
+<p><img src="/assets/images/post/12nota2.png" alt="nota2" /></p>
+<!--section-->
+<p><img src="/assets/images/post/12nota3.png" alt="nota3" /></p>
+<p>¡Si tienes otros ejemplos que compartir agradecemos tu contribución por  la información!</p>
+<h3>Créditos</h3>
+<ul>
+<li>Elaboración General: Hernán Giangrasso</li>
+<li>Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso</li>
+<li>Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano</li>
+<li>Desarrollo Web: Ágata Ordano, Mariano Ordano</li>
+<li>Editorial: Laura González</li>
+<li>Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano</li>
+<li>Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando</li>
+<li>Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental</li>
+</ul>
+<h3>Agradecimientos</h3>
+<ul>
+<li>Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina</li>
+</ul>
+<p><a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a></p>
+<p><a class="button is-link is-light" href="https://raci.org.ar/">RACI</a></p>
+<h3>Cita</h3>
+<p>Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <a href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html">https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html</a></p>
+<p><a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a></p>]]></content><author><name></name></author><category term="contaminación" /><category term="prensa" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Diferencias en Gestión</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/22/diferencias.html" rel="alternate" type="text/html" title="Diferencias en Gestión" /><published>2023-11-22T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/22/diferencias</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/22/diferencias.html"><![CDATA[<p><img src="/assets/images/post/14diferencias.png" alt="diferencias" /></p>
+<!--section-->
+<h1>Diferencias en gestión del tratamiento del residuo pilas</h1>
+<p><img src="/assets/images/post/14dif1.png" alt="dif1" /></p>
+<h2>Gráfico de Relleno Sanitario</h2>
+<p><img src="/assets/images/post/14dif2.png" alt="dif2" /></p>
+<h2>Imágenes de Relleno Sanitario</h2>
+<p><img src="/assets/images/post/14ceamse.png" alt="ceamse" /></p>
+<h2>Gráfico de Relleno de Seguridad</h2>
+<p><img src="/assets/images/post/14relleno2.png" alt="relleno2" /></p>
+<h3>Créditos</h3>
+<ul>
+<li>Elaboración General: Hernán Giangrasso</li>
+<li>Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso</li>
+<li>Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano</li>
+<li>Desarrollo Web: Ágata Ordano, Mariano Ordano</li>
+<li>Editorial: Laura González</li>
+<li>Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano</li>
+<li>Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando</li>
+<li>Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental</li>
+</ul>
+<h3>Agradecimientos</h3>
+<ul>
+<li>Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina</li>
+</ul>
+<p><a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a></p>
+<p><a class="button is-link is-light" href="https://raci.org.ar/">RACI</a></p>
+<h3>Cita</h3>
+<p>Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <a href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html">https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html</a></p>
+<p><a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a></p>]]></content><author><name></name></author><category term="contaminación" /><category term="gestión" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Tengo Pilas en Casa: 1</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/21/pregunta1.html" rel="alternate" type="text/html" title="Tengo Pilas en Casa: 1" /><published>2023-11-21T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/21/pregunta1</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/21/pregunta1.html"><![CDATA[<p><img src="/assets/images/post/01sol.png" alt="sol01" /></p>
+<!--section-->
+<p><img src="/assets/images/post/18pf1.png" alt="pf1" /></p>
+<p><img src="/assets/images/post/18pf1a.png" alt="pf1a" /></p>
+<p><img src="/assets/images/post/18pf1b.png" alt="pf1b" /></p>
+<p><img src="/assets/images/post/18pf1c.png" alt="pf1c" /></p>
+<p><img src="/assets/images/post/18pf1d.png" alt="pf1d" /></p>
+<p><img src="/assets/images/post/18pf1e.png" alt="pf1e" /></p>
+<h3>Créditos</h3>
+<ul>
+<li>Elaboración General: Hernán Giangrasso</li>
+<li>Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso</li>
+<li>Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano</li>
+<li>Desarrollo Web: Ágata Ordano, Mariano Ordano</li>
+<li>Editorial: Laura González</li>
+<li>Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano</li>
+<li>Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando</li>
+<li>Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental</li>
+</ul>
+<h3>Agradecimientos</h3>
+<ul>
+<li>Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina</li>
+</ul>
+<p><a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a></p>
+<p><a class="button is-link is-light" href="https://raci.org.ar/">RACI</a></p>
+<h3>Cita</h3>
+<p>Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <a href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html">https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html</a></p>
+<p><a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a></p>]]></content><author><name></name></author><category term="contaminación" /><category term="gestión" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Tengo Pilas en Casa: 2</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/20/pregunta2.html" rel="alternate" type="text/html" title="Tengo Pilas en Casa: 2" /><published>2023-11-20T12:00:00-03:00</published><updated>2023-11-29T22:24:04-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/20/pregunta2</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/20/pregunta2.html"><![CDATA[<p><img src="/assets/images/post/01sol.png" alt="sol01" /></p>
+<!--section-->
+<p><img src="/assets/images/post/18pf2.png" alt="pf2" /></p>
+<p><img src="/assets/images/post/18pf2a.png" alt="pf2a" /></p>
+<p><a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/21/pregunta1.html">Ver</a></p>
+<h3>Créditos</h3>
+<ul>
+<li>Elaboración General: Hernán Giangrasso</li>
+<li>Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso</li>
+<li>Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano</li>
+<li>Desarrollo Web: Ágata Ordano, Mariano Ordano</li>
+<li>Editorial: Laura González</li>
+<li>Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano</li>
+<li>Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando</li>
+<li>Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental</li>
+</ul>
+<h3>Agradecimientos</h3>
+<ul>
+<li>Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina</li>
+</ul>
+<p><a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a></p>
+<p><a class="button is-link is-light" href="https://raci.org.ar/">RACI</a></p>
+<h3>Cita</h3>
+<p>Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <a href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html">https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html</a></p>
+<p><a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a></p>]]></content><author><name></name></author><category term="contaminación" /><category term="gestión" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Referencias</title><link href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/01/referencias.html" rel="alternate" type="text/html" title="Referencias" /><published>2023-11-01T12:00:00-03:00</published><updated>2023-12-02T19:39:19-03:00</updated><id>https://nodoambiental.org/contaminaci%C3%B3n/2023/11/01/referencias</id><content type="html" xml:base="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/01/referencias.html"><![CDATA[<p><img src="/assets/images/post/01sol.png" alt="ref" /></p>
+<!--section-->
+<h1>Referencias</h1>
+<h2>RESUMEN DE LAS FUENTES</h2>
+<h3>GESTIÓN DE PILAS Y BATERÍAS</h3>
+<p>Accurec <a href="https://accurec.de/">https://accurec.de/</a></p>
+<p>Alpiba <a href="https://www.alpiba.org/">https://www.alpiba.org/</a></p>
+<p>APRA (2018) - Informe Técnico Proyecto de Ley de Pilas en Desuso - informe_pilas_web.pdf <a href="https://www.buenosaires.gob.ar/sites/gcaba/files/informe_pilas_web.pdf">https://www.buenosaires.gob.ar/sites/gcaba/files/informe_pilas_web.pdf</a></p>
+<p>Battery Reference Book 3E - T.R.Crompton (Third edition) Ed. Newnes (2000) – <a href="https://www.academia.edu/4936403/Battery_Reference_Book_3E">https://www.academia.edu/4936403/Battery_Reference_Book_3E</a></p>
+<p>Centro Coordinador del Convenio de Basilea para América Latina y el Caribe (2005) - Guía para la Gestión Integral de Residuos Peligrosos. Fichas Temáticas &lt;www.cempre.org.uy/docs/biblioteca/guia_para_la_gestion_integral_residuos/gestion_respel02-fichas_tematicas.pdf&gt;</p>
+<p>Duracell <a href="https://www.duracell.com/">https://www.duracell.com/</a></p>
+<p>Energizer - <a href="https://data.energizer.com/">https://data.energizer.com/</a></p>
+<p>Google Patents</p>
+<p>Handbook of Batteries – Ed. Mc Graw Hill – Tercera Edición - <a href="https://www.academia.edu/38511540/HANDBOOK_OF_BATTERIES_Third_Edition">https://www.academia.edu/38511540/HANDBOOK_OF_BATTERIES_Third_Edition</a></p>
+<p>INTI (2016) - Gestión de pilas y baterías eléctricas en Argentina - pilasybaterias2016.pdf -  <a href="https://www.inti.gob.ar/publicaciones/descargac/20">https://www.inti.gob.ar/publicaciones/descargac/20</a></p>
+<p>INTI (2022) – Guía de gestión integral PILAS y BATERIAS EN DESUSO - <a href="https://www.inti.gob.ar/assets/uploads/files/ambiente/Guia-de-gestion-integral-PILAS-y-BATERIAS-EN-DESUSO.pdf">https://www.inti.gob.ar/assets/uploads/files/ambiente/Guia-de-gestion-integral-PILAS-y-BATERIAS-EN-DESUSO.pdf</a></p>
+<p>Min. Ambiente - <a href="https://www.argentina.gob.ar/ambiente/control/productos-quimicos/metales-pesados/pilas-y-baterias">https://www.argentina.gob.ar/ambiente/control/productos-quimicos/metales-pesados/pilas-y-baterias</a>)</p>
+<p>OPDS (2021) - Dossier Experiencias - 038+OJS+Dossier+Experiencias_opt.pdf - <a href="https://ojs.opds.gba.gov.ar/index.php/aed/article/download/16/67">https://ojs.opds.gba.gov.ar/index.php/aed/article/download/16/67</a></p>
+<p>PGA RIPPILA - Plan de Gestión Integral de Pilas (Rippila) - Anexo II (2019) <a href="https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-DIS-MAYEPGC-DGPOLEA-49-19-ANX.pdf">https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-DIS-MAYEPGC-DGPOLEA-49-19-ANX.pdf</a></p>
+<h3>Fuentes específicas de textos, videos e imágenes:</h3>
+<p>En construcción.</p>
+<h3>Créditos</h3>
+<ul>
+<li>Elaboración General: Hernán Giangrasso</li>
+<li>Búsqueda, Síntesis, Compilación y Redacción Original: Hernán Giangrasso</li>
+<li>Programa de Voluntariado, Taller Búsqueda y Síntesis de Información: Mariana Valoy, Mariano Ordano</li>
+<li>Desarrollo Web: Ágata Ordano, Mariano Ordano</li>
+<li>Editorial: Laura González</li>
+<li>Revisiones: Hernán Giangrasso, Laura González, Julián Sorroza, Leonardo Scarpa, Ágata Ordano, Mariano Ordano</li>
+<li>Interconsultas: Cecilia Ordano, Analía Benavidez, Julieta García Serra, Facundo Bernacki, Renzo Bernacki, Osvaldo Olmos, Ignacio Piccinini, Nicolás Sosa, Julieta Moreno, Lucas Orlando</li>
+<li>Grupo Proyecto Pilas Usadas Fundación Nodo Ambiental</li>
+</ul>
+<h3>Agradecimientos</h3>
+<ul>
+<li>Daniel Castillo, CIAT, Tafí Viejo, Tucumán, Argentina</li>
+</ul>
+<p><a class="button is-link is-light" href="https://www.trust.org/trustlaw/">TrustLaw</a></p>
+<p><a class="button is-link is-light" href="https://raci.org.ar/">RACI</a></p>
+<h3>Nota</h3>
+<p>Mayores detalles de referencias a las fuentes son actualizadas en cada nueva versión del Infoblog.<br />
+Los materiales son compartidos con fines educativos.</p>
+<h3>Cita</h3>
+<p>Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <a href="https://nodoambiental.org/contaminaci%C3%B3n/2023/11/28/gestionpilas.html">https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html</a></p>
+<p><a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a></p>]]></content><author><name></name></author><category term="contaminación" /><category term="referencias" /><summary type="html"><![CDATA[]]></summary></entry></feed>

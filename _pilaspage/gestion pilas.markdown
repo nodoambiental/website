@@ -151,6 +151,8 @@ Finalmente, vale mencionar que, los efectos negativos que impactan directamente 
 
 ### Países que cuentan con capacidad industrial para el reciclado y tratamiento de pilas y baterías usadas. Ejemplos.
 
+![paises10](/assets/images/post/10paises.png)  
+
 ![Argentina](/assets/images/post/30Argentina.png)  
 
 ![arg10](/assets/images/post/10argentina.png)  
