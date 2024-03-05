@@ -13,42 +13,7 @@ categories: contaminación
 
 # Referencias
 
-## RESUMEN DE LAS FUENTES
-
-### GESTIÓN DE PILAS Y BATERÍAS
-
-Accurec <https://accurec.de/>  
-
-Alpiba <https://www.alpiba.org/>  
-
-APRA (2018) - Informe Técnico Proyecto de Ley de Pilas en Desuso - informe_pilas_web.pdf <https://www.buenosaires.gob.ar/sites/gcaba/files/informe_pilas_web.pdf>  
-
-Battery Reference Book 3E - T.R.Crompton (Third edition) Ed. Newnes (2000) – <https://www.academia.edu/4936403/Battery_Reference_Book_3E>  
-
-Centro Coordinador del Convenio de Basilea para América Latina y el Caribe (2005) - Guía para la Gestión Integral de Residuos Peligrosos. Fichas Temáticas <www.cempre.org.uy/docs/biblioteca/guia_para_la_gestion_integral_residuos/gestion_respel02-fichas_tematicas.pdf>  
-
-Duracell <https://www.duracell.com/>  
-
-Energizer - <https://data.energizer.com/>  
-
-Google Patents  
-
-Handbook of Batteries – Ed. Mc Graw Hill – Tercera Edición - <https://www.academia.edu/38511540/HANDBOOK_OF_BATTERIES_Third_Edition>  
-
-INTI (2016) - Gestión de pilas y baterías eléctricas en Argentina - pilasybaterias2016.pdf -  <https://www.inti.gob.ar/publicaciones/descargac/20> 
-
-INTI (2022) – Guía de gestión integral PILAS y BATERIAS EN DESUSO - <https://www.inti.gob.ar/assets/uploads/files/ambiente/Guia-de-gestion-integral-PILAS-y-BATERIAS-EN-DESUSO.pdf>  
-
-Min. Ambiente - <https://www.argentina.gob.ar/ambiente/control/productos-quimicos/metales-pesados/pilas-y-baterias>)  
-
-OPDS (2021) - Dossier Experiencias - 038+OJS+Dossier+Experiencias_opt.pdf - <https://ojs.opds.gba.gov.ar/index.php/aed/article/download/16/67>  
-
-PGA RIPPILA - Plan de Gestión Integral de Pilas (Rippila) - Anexo II (2019) <https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-DIS-MAYEPGC-DGPOLEA-49-19-ANX.pdf>  
-
-### Fuentes específicas de textos, videos e imágenes:
-
-En construcción.  
-
+<a class="button is-link is-light" href="https://docs.google.com/document/d/1Sg9al1_yUTzAoWIBBpEIIr0lWaPgjuID/edit?usp=sharing&ouid=103078799716657418370&rtpof=true&sd=true">Ver Referencias</a>  
 
 ### Créditos  
 
