@@ -42,5 +42,3 @@ Los materiales son compartidos con fines educativos.
 ### Cita  
 
 Fundación Nodo Ambiental (2023) Infoblog Gestión de Pilas Usadas 1.0. Yerba Buena, Tucumán, Argentina. Recuperado de <https://nodoambiental.org/contaminación/2023/11/28/gestionpilas.html>
-
-<a class="button is-link is-light" href="https://nodoambiental.org/contaminación/2023/11/01/referencias.html">Referencias</a>  

@@ -1,5 +1,5 @@
 ---
-title: "Infoblog Gestion de Pilas Usadas 1.0"
+title: "Infoblog Gestión de Pilas Usadas 1.0"
 layout: pilaspage
 icon: battery-quarter
 ---
@@ -8,7 +8,7 @@ icon: battery-quarter
 
 <!--section-->
 
-# Infoblog Gestion de Pilas Usadas 1.0
+# Infoblog Gestión de Pilas Usadas 1.0
 
 ## Panorama integral con eje en la Argentina
 

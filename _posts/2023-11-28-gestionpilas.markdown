@@ -1,5 +1,5 @@
 ---
-title: "Infoblog Gestion de Pilas Usadas 1.0"
+title: "Infoblog Gestión de Pilas Usadas 1.0"
 date: 2023-11-28 12:00:00 -0300
 img_text: 
 layout: project
@@ -11,7 +11,7 @@ categories: contaminación
 
 <!--section-->
 
-# Infoblog Gestion de Pilas Usadas 1.0
+# Infoblog Gestión de Pilas Usadas 1.0
 
 ## Panorama integral con eje en la Argentina
 
