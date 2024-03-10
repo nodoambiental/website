@@ -171,14 +171,6 @@ Se presentan ordenadas según relevancia y beneficio o aceptabilidad (+ / - )
 
 ***
 
-### ¿Qué sucede en los hechos en Argentina?
-
-![hechos](/assets/images/post/12hechos.png)
-
-<a class="button is-link is-light" href="{% post_url 2023-11-23-notas %}">Notas</a>  
-
-***
-
 ### Diferencias en gestión
 
 ![dif](/assets/images/post/14diferencias.png)
