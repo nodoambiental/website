@@ -140,8 +140,6 @@ Finalmente, vale mencionar que, los efectos negativos que impactan directamente 
 
 ![metalesatencion](/assets/images/post/07metalesatencion.png)  
 
-<a class="button is-link is-light" href="{% post_url 2023-11-25-materiales %}">Materiales en Pilas</a>  
-
 ***
 
 ### Tipos de tratamiento más habituales existentes en el mundo para pilas y baterías usadas

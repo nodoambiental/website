@@ -46,7 +46,7 @@ La mayor diferencia entre los **distintos sistemas de pilas** son los elementos 
 
 ![queson3](/assets/images/post/02compsflujo.png)
 
-<a class="button is-link is-light" href="https://www.youtube.com/watch?v=RqF1ikcFwDE">Video 1</a>  
+<a class="button is-link is-light" href="https://www.youtube.com/watch?v=RqF1ikcFwDE">Video</a>  
 
 Los _tres componentes principales_ que participan en la reacción química son:
 
@@ -137,8 +137,6 @@ Finalmente, vale mencionar que, los efectos negativos que impactan directamente 
 
 ![metalesatencion](/assets/images/post/07metalesatencion.png)  
 
-<a class="button is-link is-light" href="{% post_url 2023-11-25-materiales %}">Materiales en Pilas</a>  
-
 ***
 
 ### Tipos de tratamiento más habituales existentes en el mundo para pilas y baterías usadas
@@ -159,7 +157,7 @@ Finalmente, vale mencionar que, los efectos negativos que impactan directamente 
 
 ***
 
-### Abanico o baraja de opciones que existen al momento de elegir pilas y baterías o un sustituto.
+### Abanico o baraja de _opciones_ que existen al momento de elegir pilas y baterías o un sustituto.
 
 Se presentan ordenadas según relevancia y beneficio o aceptabilidad (+ / - )
 
