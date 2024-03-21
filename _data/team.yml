@@ -4,54 +4,112 @@
 
 - name: Mariano Ordano
   description: Biólogo, Doctor en Ciencias en Ecología y Manejo de Recursos Naturales
+  role: Presidente
 
-- name: Facundo Bernacki
-  description: Licenciado en Ciencias Biológicas
+- name: Nélida Sueldo
+  description: Contadora Pública Nacional
+  role: Secretaria, Vinculación
 
 - name: Carmen Reguilón
   description: Licenciada y Doctora en Ciencias Biológicas
+  role: Tesorera
 
-- name: Claudia Fernández
-  description: Técnica en Gestión Universitaria
-
-- name: Alicia Yapur
-  description: Licenciada en Ciencias Biológicas
-
-- name: Laura González
-  description: Licenciada en Antropología Social
-
-- name: Cecilia Ordano
-  description: Licenciada en Historia, Especialista en Recursos Humanos
-
-- name: Renzo Bernacki 
-  description: Licenciado en Ciencias Biológicas
-
-- name: Ágata Ordano
-  description: Diseñadora, desarrolladora e investigadora independiente
+- name: Mariana Valoy
+  description: Licenciada y Doctora en Ciencias Biológicas
+  role: Vocal, Programa de Voluntariado, Desarrollo Humano
 
 - name: Analía Benavidez
   description: Licenciada y Doctora en Ciencias Biológicas
+  role: Vocal, Coordinadora de Proyectos, Comunicaciones
+
+- name: Andrea Mujica
+  description: Profesora de Educación Física
+  role: Directora Ejecutiva
+
+- name: Ágata Ordano
+  description: Desarrolladora de Software, Técnica Mecánica Electricista
+  role: Desarrolladora
+
+- name: Laura González
+  description: Licenciada en Antropología Social
+  role: Editora, Comunicaciones
+
+- name: Cecilia Ordano
+  description: Licenciada en Historia, Especialista en Recursos Humanos
+  role: Vinculación, Desarrollo Humano
+
+- name: Julián Sorroza
+  description: Ingeniero Industrial
+  role: Asesor
+
+- name: Ana Merino
+  description: Ingeniera Agrónoma
+  role: Asesora
+
+- name: Osvaldo Olmos
+  description: Licenciado en Ciencias Químicas
+  role: Asesor
+
+- name: Ignacio Piccinini
+  description: Ingeniero Químico
+  role: Asesor
 
 - name: Leonardo Scarpa
   description: Licenciado en Biodiversidad
+  role: Asesor
 
-- name: Enzo Giraudo
-  description: Ingeniero electrónico & gerente de proyectos
-
-- name: Julieta García Serra
-  description: Licenciada en Ciencias Ambientales
-
-- name: Mariana Valoy
-  description: Licenciada en Ciencias Biológicas
-
-- name: Ana Merino
-  description: Ingeniera agrónoma
-
-- name: Claudia Fernández
-  description: Técnica en Gestión Universitaria
+- name: Christian Walker
+  description: Estudiante de Biodiversidad
+  role: Asesor
 
 - name: Alicia Yapur
   description: Licenciada en Ciencias Biológicas
+  role: Asesora
 
-- name: Marcela Margagliotti
-  description: Estudiante de Biología
+- name: Claudia Fernández
+  description: Licenciada en Gestión Universitaria
+  role: Asesora
+
+- name: María de los Ángeles Díaz
+  description: Profesora de Historia
+  role: Voluntaria
+
+- name: Claudia Cisneros
+  description: Estudiante de Ciencias Biológicas
+  role: Voluntaria
+
+- name: Daniela Loto
+  description: Profesora de Historia
+  role: Voluntaria
+
+- name: Emilia Constanza Pérez
+  description: Licenciada en Ciencias Biológicas, Magister en Entomología
+  role: Voluntaria
+
+- name: Eric Lazarte Monteros
+  description: Ingeniero Mecánico
+  role: Voluntario
+
+- name: Federico Heredia
+  description: Estudiante de Ciencias Biológicas
+  role: Voluntario
+
+- name: Fernanda Villagrán
+  description: Licenciada en Ciencias Biológicas
+  role: Voluntaria
+
+- name: Hernán Giangrasso
+  description: Licenciado en Gestión Ambiental
+  role: Voluntario
+
+- name: Miguel Armoa
+  description: Fotógrafo
+  role: Voluntario
+
+- name: Nicolás Sosa
+  description: Ingeniero Químico
+  role: Voluntario
+
+- name: Griselda Podazza
+  description: Licenciada y Doctora en Ciencias Biológicas
+  role: Voluntaria

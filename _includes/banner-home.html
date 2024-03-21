@@ -1,12 +1,18 @@
 {% assign banner = site.data.banner-home %}
 <section class="section main-title">
     <img src="/assets/images/logos/logo_navigation.svg">
-    {% for element in banner %}
-      {% if forloop.index0 == 1 %}
-        <h2 class="subtitle">{{element.data}}</h2>
-      {% else %}
-        <h2>{{element.data}}</h2>
-      {% endif %}
+    {% for element in banner.titles %}
+      <h2>{{element}}</h2> 
     {% endfor %}
+    <div>
+    {% for element in banner.subtitle %}
+      <h3 class="subtitle">{{element}}</h3>
+    {% endfor %}
+    </div>
+    <div>
+    {% for element in banner.extra %}
+      <p class="subtitle">{{element}}</p>
+    {% endfor %}
+    </div>
 </section>
 <div class="spacer"></div>

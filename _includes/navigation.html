@@ -1,18 +1,4 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-menu is-active">
-        <div
-            style="
-                background-color: darkorange;
-                color: black;
-                text-align: center;
-            "
-            class="navbar-start"
-        >
-            Estamos en mantenimiento!
-        </div>
-    </div>
-</nav>
-<nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="/">
             <img
@@ -51,23 +37,14 @@
                 Documentación
             </a>
 
-            <a href="/pages/portals/main.html" class="navbar-item">
-                Portales
-            </a>
-
-            <a href="/pages/blog/main.html" class="navbar-item"> InfoBlog </a>
-
-            <a href="https://wiki.nodoambiental.org" class="navbar-item">
-                Wiki
-            </a>
-
-            <a href="/pages/surveys/main.html" class="navbar-item">
-                Encuestas
-            </a>
-
+            <a href="/pilas/main.html" class="navbar-item"> InfoBlog Pilas </a>
+            
+            {% comment %}
             <a href="/search.html" class="navbar-item">
                 <i class="fas fa-search"></i>
-            </a>
+            </a> 
+            {% endcomment %}
+
         </div>
         {% if {{page.path}} == "contact.markdown" or {{page.path}} ==
         "contactsuccess.markdown" %} {% else %}

@@ -28,10 +28,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nodoambiental.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: twitter
-github_username:  github
+github_username: github
 
 commonmark:
-  options: ["SMART","FOOTNOTES","VALIDATE_UTF8","UNSAFE"]
+  options: ["SMART", "FOOTNOTES", "VALIDATE_UTF8", "UNSAFE"]
   extensions: ["strikethrough", "autolink", "table", "tasklist"]
 
 # Build settings
@@ -53,8 +53,8 @@ jekyll-archives:
     category: category-archive
     tag: tag-archive
   permalinks:
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+    tag: "/tag/:name/"
+    category: "/category/:name/"
 
 tag_page_layout: tag_page
 tag_page_dir: tag
@@ -63,10 +63,17 @@ sass:
   style: compressed
 
 collections:
-    surveys:
-      output: true
-    projects:
-      placeholder: true
+  surveys:
+    output: true
+  projects:
+    placeholder: true
+  pilas:
+    output: true
+    permalink: /pilas/:name
+  pilaspage:
+    output: true
+    permalink: /pilas/post/:name
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
